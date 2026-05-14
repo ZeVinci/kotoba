@@ -1,0 +1,24 @@
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <rect x="0" y="0" width="512" height="512" rx="80" fill="#111111"/>
+  <rect x="18" y="18" width="476" height="476" rx="68" fill="none" stroke="#c9a84c" stroke-width="3" opacity="0.5"/>
+  <text
+    x="256"
+    y="355"
+    text-anchor="middle"
+    font-family="serif"
+    font-size="280"
+    font-weight="700"
+    fill="#c9a84c"
+  >学</text>
+  <text
+    x="256"
+    y="450"
+    text-anchor="middle"
+    font-family="sans-serif"
+    font-size="40"
+    font-weight="400"
+    fill="#c9a84c"
+    letter-spacing="6"
+    opacity="0.75"
+  >VOCA JAP</text>
+</svg>

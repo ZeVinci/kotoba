@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+  <title>まるごと — Vocabulaire</title>
+  <link rel="manifest" href="manifest.json">
+  <meta name="theme-color" content="#1a1a2e">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@400;700&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+
+  <!-- ===== ACCUEIL ===== -->
+  <div id="home-screen" class="screen active">
+    <div class="home-bg" aria-hidden="true">
+      <div class="kanji-deco">語</div>
+    </div>
+    <div class="home-content">
+      <div class="home-title">
+        <span class="home-jp">まるごと</span>
+        <span class="home-sub">Vocabulaire japonais</span>
+      </div>
+      <div class="home-stats" id="home-stats"></div>
+      <div class="home-actions">
+        <button class="btn-home" data-action="goto-learn">
+          <span class="btn-icon">覚</span>
+          <span class="btn-label">Apprendre</span>
+        </button>
+        <button class="btn-home accent" data-action="goto-revise-setup">
+          <span class="btn-icon">試</span>
+          <span class="btn-label">Réviser</span>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ===== APPRENDRE ===== -->
+  <div id="learn-screen" class="screen">
+    <div class="top-bar">
+      <button class="back-btn" data-action="goto-home">←</button>
+      <h2 class="top-title">Apprendre</h2>
+      <button class="icon-btn" id="filter-toggle-btn" aria-label="Filtres">⚙</button>
+    </div>
+
+    <div class="filter-panel" id="learn-filter-panel" style="display:none">
+      <div class="filter-row">
+        <label class="filter-label">Topic
+          <select id="learn-f-topic"><option value="">Tous</option></select>
+        </label>
+        <label class="filter-label">Section
+          <select id="learn-f-section"><option value="">Toutes</option></select>
+        </label>
+        <label class="filter-label">Niveau
+          <select id="learn-f-niveau"><option value="">Tous</option></select>
+        </label>
+      </div>
+      <div class="hide-row">
+        <span class="hide-label">Colonnes masquées :</span>
+        <label class="cb-label"><input type="checkbox" id="hide-kanji"> 漢字</label>
+        <label class="cb-label"><input type="checkbox" id="hide-hira"> Simple</label>
+        <label class="cb-label"><input type="checkbox" id="hide-fr"> Français</label>
+      </div>
+      <div class="filter-count" id="learn-count"></div>
+    </div>
+
+    <div class="learn-table-wrap">
+      <table class="learn-table">
+        <thead>
+          <tr>
+            <th id="th-kanji">漢字</th>
+            <th id="th-hira">ひらがな</th>
+            <th id="th-fr">Français</th>
+          </tr>
+        </thead>
+        <tbody id="learn-tbody"></tbody>
+      </table>
+    </div>
+  </div>
+
+  <!-- ===== RÉVISION SETUP ===== -->
+  <div id="revise-setup-screen" class="screen">
+    <div class="top-bar">
+      <button class="back-btn" data-action="goto-home">←</button>
+      <h2 class="top-title">Réviser</h2>
+      <div></div>
+    </div>
+
+    <div class="setup-body">
+      <div class="setup-section">
+        <div class="setup-section-title">Filtrer les mots</div>
+        <div class="filter-row">
+          <label class="filter-label">Topic
+            <select id="rev-f-topic"><option value="">Tous</option></select>
+          </label>
+          <label class="filter-label">Section
+            <select id="rev-f-section"><option value="">Toutes</option></select>
+          </label>
+          <label class="filter-label">Niveau
+            <select id="rev-f-niveau"><option value="">Tous</option></select>
+          </label>
+        </div>
+        <div class="setup-count" id="rev-count"></div>
+      </div>
+
+      <div class="setup-section">
+        <div class="setup-section-title">Mode de révision</div>
+        <div class="mode-cards">
+          <label class="mode-card">
+            <input type="radio" name="rev-mode" value="k-fr" checked>
+            <div class="mode-card-inner">
+              <div class="mode-seq"><span class="tag kanji">漢</span><span class="arr">→</span><span class="tag both">漢+ひ+FR</span></div>
+              <div class="mode-desc">Kanji seul, puis tout apparaît</div>
+            </div>
+          </label>
+          <label class="mode-card">
+            <input type="radio" name="rev-mode" value="jp-fr">
+            <div class="mode-card-inner">
+              <div class="mode-seq"><span class="tag both">漢+ひ</span><span class="arr">→</span><span class="tag fr">FR</span></div>
+              <div class="mode-desc">Les deux japonais, puis le français</div>
+            </div>
+          </label>
+          <label class="mode-card">
+            <input type="radio" name="rev-mode" value="fr-jp">
+            <div class="mode-card-inner">
+              <div class="mode-seq"><span class="tag fr">FR</span><span class="arr">→</span><span class="tag both">漢+ひ</span></div>
+              <div class="mode-desc">Français, puis les deux japonais</div>
+            </div>
+          </label>
+        </div>
+      </div>
+
+      <button class="btn-start" data-action="start-revise">Commencer →</button>
+    </div>
+  </div>
+
+  <!-- ===== RÉVISION JEU ===== -->
+  <div id="revise-game-screen" class="screen">
+    <div class="top-bar game-bar">
+      <button class="back-btn danger" data-action="stop-revise">✕</button>
+      <div class="score-display">
+        <span class="score-good" id="score-good">0</span>
+        <span class="score-sep"> / </span>
+        <span class="score-total" id="score-total">0</span>
+      </div>
+      <div class="pct-badge" id="pct-badge">—</div>
+    </div>
+
+    <div class="game-area" id="card" role="button" tabindex="0">
+      <div class="card-inner" id="card-inner">
+        <div class="card-block prompt-block" id="prompt-block">
+          <div class="card-jp kanji-size" id="prompt-k"></div>
+          <div class="card-jp hira-size" id="prompt-h"></div>
+          <div class="card-fr" id="prompt-fr"></div>
+        </div>
+        <div class="card-divider" id="card-divider" style="display:none"></div>
+        <div class="card-block answer-block" id="answer-block" style="display:none">
+          <div class="card-jp kanji-size" id="answer-k"></div>
+          <div class="card-jp hira-size" id="answer-h"></div>
+          <div class="card-fr" id="answer-fr"></div>
+        </div>
+        <div class="tap-hint" id="tap-hint">Toucher pour révéler</div>
+      </div>
+    </div>
+
+    <div class="answer-zone" id="answer-zone" style="display:none">
+      <button class="ans-btn wrong" data-action="mark-wrong">✕  Raté</button>
+      <button class="ans-btn right" data-action="mark-right">✓  Réussi</button>
+    </div>
+  </div>
+
+  <script src="vocab2.js"></script>
+  <script src="app2.js"></script>
+</body>
+</html>
