@@ -279,6 +279,7 @@ html, body {
   min-width: 48px; min-height: 2.4em;
   transition: background var(--trans);
 }
+.cell-hidden * { color: transparent !important; }
 .cell-hidden:active { background: rgba(226,185,111,0.15); }
 .cell-revealed {
   background: rgba(226,185,111,0.07);
