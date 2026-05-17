@@ -1,7 +1,7 @@
 {
-  "name": "まるごと Vocabulaire",
-  "short_name": "Marugoto",
-  "description": "Réviser le vocabulaire japonais Marugoto",
+  "name": "Kotoba",
+  "short_name": "Kotoba",
+  "description": "Réviser le vocabulaire japonais",
   "start_url": ".",
   "display": "standalone",
   "background_color": "#1a1a2e",
