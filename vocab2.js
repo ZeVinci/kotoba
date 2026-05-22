@@ -1,4 +1,2013 @@
+// Généré automatiquement par update_vocab.py — ne pas modifier manuellement
 const VOCAB = [
+  {
+    "k": "知り合う",
+    "h": "しりあう",
+    "fr": "faire connaissance",
+    "topic": "T1",
+    "section": "準備",
+    "niveau": "B1"
+  },
+  {
+    "k": "機会",
+    "h": "きかい",
+    "fr": "opportunité / occasion",
+    "topic": "T1",
+    "section": "準備",
+    "niveau": "B1"
+  },
+  {
+    "k": "話しかける",
+    "h": "はなしかける",
+    "fr": "s'adresser à",
+    "topic": "T1",
+    "section": "準備",
+    "niveau": "B1"
+  },
+  {
+    "k": "場面",
+    "h": "ばめん",
+    "fr": "scène / situation",
+    "topic": "T1",
+    "section": "準備",
+    "niveau": "B1"
+  },
+  {
+    "k": "空いている",
+    "h": "あいている",
+    "fr": "vide",
+    "topic": "T1",
+    "section": "準備",
+    "niveau": "B1"
+  },
+  {
+    "k": "興味を持つ",
+    "h": "きょうみをもつ",
+    "fr": "avoir un centre d'intérêt",
+    "topic": "T1",
+    "section": "準備",
+    "niveau": "B1"
+  },
+  {
+    "k": "ヨガ",
+    "h": "ヨガ",
+    "fr": "yoga",
+    "topic": "T1",
+    "section": "準備",
+    "niveau": "B1"
+  },
+  {
+    "k": "スポーツクラブ",
+    "h": "スポーツクラブ",
+    "fr": "club de sports",
+    "topic": "T1",
+    "section": "準備",
+    "niveau": "B1"
+  },
+  {
+    "k": "休日",
+    "h": "きゅうじつ",
+    "fr": "jour férié / jour de repos",
+    "topic": "T1",
+    "section": "準備",
+    "niveau": "B1"
+  },
+  {
+    "k": "ルーブル",
+    "h": "ルーブル",
+    "fr": "Le Louvre",
+    "topic": "T1",
+    "section": "準備",
+    "niveau": "B1"
+  },
+  {
+    "k": "エルミタージュ",
+    "h": "エルミタージュ",
+    "fr": "l'Ermitage",
+    "topic": "T1",
+    "section": "準備",
+    "niveau": "B1"
+  },
+  {
+    "k": "将来",
+    "h": "しょうらい",
+    "fr": "(le) futur",
+    "topic": "T1",
+    "section": "準備",
+    "niveau": "B1"
+  },
+  {
+    "k": "夢",
+    "h": "ゆめ",
+    "fr": "rêve",
+    "topic": "T1",
+    "section": "準備",
+    "niveau": "B1"
+  },
+  {
+    "k": "定年退職する",
+    "h": "ていねんたいしょくする",
+    "fr": "prendre sa retraite",
+    "topic": "T1",
+    "section": "準備",
+    "niveau": "B1"
+  },
+  {
+    "k": "はまっている",
+    "h": "はまっている",
+    "fr": "être fan de / adorer",
+    "topic": "T1",
+    "section": "準備",
+    "niveau": "B1"
+  },
+  {
+    "k": "シチュー",
+    "h": "シチュー",
+    "fr": "stew (ragoût)",
+    "topic": "T1",
+    "section": "準備",
+    "niveau": "B1"
+  },
+  {
+    "k": "ネット",
+    "h": "ネット",
+    "fr": "Internet",
+    "topic": "T1",
+    "section": "準備",
+    "niveau": "B1"
+  },
+  {
+    "k": "美術館めぐり",
+    "h": "びじゅつかんめぐり",
+    "fr": "visiter des musées",
+    "topic": "T1",
+    "section": "準備",
+    "niveau": "B1"
+  },
+  {
+    "k": "ごろごろする",
+    "h": "ごろごろする",
+    "fr": "se prélasser",
+    "topic": "T1",
+    "section": "準備",
+    "niveau": "B1"
+  },
+  {
+    "k": "語学",
+    "h": "ごがく",
+    "fr": "les langues étrangères",
+    "topic": "T1",
+    "section": "準備",
+    "niveau": "B1"
+  },
+  {
+    "k": "希望",
+    "h": "きぼう",
+    "fr": "espoir / désir / souhait",
+    "topic": "T1",
+    "section": "準備",
+    "niveau": "B1"
+  },
+  {
+    "k": "交流会",
+    "h": "こうりゅうかい",
+    "fr": "rencontre (interculturelle)",
+    "topic": "T1",
+    "section": "準備",
+    "niveau": "B1"
+  },
+  {
+    "k": "沖縄",
+    "h": "おきなわ",
+    "fr": "Okinawa",
+    "topic": "T1",
+    "section": "準備",
+    "niveau": "B1"
+  },
+  {
+    "k": "いて座",
+    "h": "いてざ",
+    "fr": "sagittaire",
+    "topic": "T1",
+    "section": "準備",
+    "niveau": "B1"
+  },
+  {
+    "k": "B型",
+    "h": "ビーがた",
+    "fr": "groupe sanguin B",
+    "topic": "T1",
+    "section": "準備",
+    "niveau": "B1"
+  },
+  {
+    "k": "職業",
+    "h": "しょくぎょう",
+    "fr": "profession",
+    "topic": "T1",
+    "section": "準備",
+    "niveau": "B1"
+  },
+  {
+    "k": "出身",
+    "h": "しゅっしん",
+    "fr": "ville / région d'origine",
+    "topic": "T1",
+    "section": "準備",
+    "niveau": "B1"
+  },
+  {
+    "k": "ニックネーム",
+    "h": "ニックネーム",
+    "fr": "surnom",
+    "topic": "T1",
+    "section": "準備",
+    "niveau": "B1"
+  },
+  {
+    "k": "性格",
+    "h": "せいかく",
+    "fr": "caractère",
+    "topic": "T1",
+    "section": "準備",
+    "niveau": "B1"
+  },
+  {
+    "k": "星座",
+    "h": "せいざ",
+    "fr": "signe astrologique",
+    "topic": "T1",
+    "section": "準備",
+    "niveau": "B1"
+  },
+  {
+    "k": "血液型",
+    "h": "けつえきがた",
+    "fr": "groupe sanguin",
+    "topic": "T1",
+    "section": "準備",
+    "niveau": "B1"
+  },
+  {
+    "k": "交流する",
+    "h": "こうりゅうする",
+    "fr": "rencontrer (des étrangers)",
+    "topic": "T1",
+    "section": "PART1",
+    "niveau": "B1"
+  },
+  {
+    "k": "おしゃべりサークル",
+    "h": "おしゃべりサークル",
+    "fr": "club de conversation",
+    "topic": "T1",
+    "section": "PART1",
+    "niveau": "B1"
+  },
+  {
+    "k": "参加者",
+    "h": "さんかしゃ",
+    "fr": "participant",
+    "topic": "T1",
+    "section": "PART1",
+    "niveau": "B1"
+  },
+  {
+    "k": "自己紹介",
+    "h": "じこしょうかい",
+    "fr": "présentation de soi-même",
+    "topic": "T1",
+    "section": "PART1",
+    "niveau": "B1"
+  },
+  {
+    "k": "職業",
+    "h": "しょくぎょう",
+    "fr": "profession",
+    "topic": "T1",
+    "section": "PART1",
+    "niveau": "B1"
+  },
+  {
+    "k": "順番に",
+    "h": "じゅんばんに",
+    "fr": "l'un après l'autre",
+    "topic": "T1",
+    "section": "PART1",
+    "niveau": "B1"
+  },
+  {
+    "k": "興味を持つ",
+    "h": "きょうみをもつ",
+    "fr": "avoir un centre d'intérêt",
+    "topic": "T1",
+    "section": "PART1",
+    "niveau": "B1"
+  },
+  {
+    "k": "希望",
+    "h": "きぼう",
+    "fr": "espoir / désir / souhait",
+    "topic": "T1",
+    "section": "PART1",
+    "niveau": "B1"
+  },
+  {
+    "k": "抱負",
+    "h": "ほうふ",
+    "fr": "projets / espoirs",
+    "topic": "T1",
+    "section": "PART1",
+    "niveau": "B1"
+  },
+  {
+    "k": "描く",
+    "h": "かく",
+    "fr": "dessiner",
+    "topic": "T1",
+    "section": "PART1",
+    "niveau": "B1"
+  },
+  {
+    "k": "スケッチ",
+    "h": "スケッチ",
+    "fr": "croquis",
+    "topic": "T1",
+    "section": "PART1",
+    "niveau": "B1"
+  },
+  {
+    "k": "世話をする",
+    "h": "せわをする",
+    "fr": "s'occuper de",
+    "topic": "T1",
+    "section": "PART1",
+    "niveau": "B1"
+  },
+  {
+    "k": "社交的な",
+    "h": "しゃこうてきな",
+    "fr": "sociable",
+    "topic": "T1",
+    "section": "PART1",
+    "niveau": "B1"
+  },
+  {
+    "k": "広告代理店",
+    "h": "こうこくだいりてん",
+    "fr": "agence de publicité",
+    "topic": "T1",
+    "section": "PART1",
+    "niveau": "B1"
+  },
+  {
+    "k": "性格",
+    "h": "せいかく",
+    "fr": "caractère",
+    "topic": "T1",
+    "section": "PART1",
+    "niveau": "B1"
+  },
+  {
+    "k": "勤める",
+    "h": "つとめる",
+    "fr": "travailler (pour une entreprise)",
+    "topic": "T1",
+    "section": "PART1",
+    "niveau": "B1"
+  },
+  {
+    "k": "定年退職する",
+    "h": "ていねんたいしょくする",
+    "fr": "prendre sa retraite",
+    "topic": "T1",
+    "section": "PART1",
+    "niveau": "B1"
+  },
+  {
+    "k": "週末",
+    "h": "しゅうまつ",
+    "fr": "week-end",
+    "topic": "T1",
+    "section": "PART1",
+    "niveau": "B1"
+  },
+  {
+    "k": "たいてい",
+    "h": "たいてい",
+    "fr": "en général / dans l'ensemble",
+    "topic": "T1",
+    "section": "PART1",
+    "niveau": "B1"
+  },
+  {
+    "k": "語学学校",
+    "h": "ごがくがっこう",
+    "fr": "école de langue",
+    "topic": "T1",
+    "section": "PART1",
+    "niveau": "B1"
+  },
+  {
+    "k": "専業主婦",
+    "h": "せんぎょうしゅふ",
+    "fr": "femme au foyer",
+    "topic": "T1",
+    "section": "PART1",
+    "niveau": "B1"
+  },
+  {
+    "k": "アマチュアオーケストラ",
+    "h": "アマチュアオーケストラ",
+    "fr": "orchestre amateur",
+    "topic": "T1",
+    "section": "PART1",
+    "niveau": "B1"
+  },
+  {
+    "k": "～に向いている",
+    "h": "～にむいている",
+    "fr": "être fait pour〜",
+    "topic": "T1",
+    "section": "PART1",
+    "niveau": "B1"
+  },
+  {
+    "k": "わりと",
+    "h": "わりと",
+    "fr": "plutôt",
+    "topic": "T1",
+    "section": "PART1",
+    "niveau": "B1"
+  },
+  {
+    "k": "緊張する",
+    "h": "きんちょうする",
+    "fr": "avoir le trac",
+    "topic": "T1",
+    "section": "PART1",
+    "niveau": "B1"
+  },
+  {
+    "k": "健康",
+    "h": "けんこう",
+    "fr": "santé",
+    "topic": "T1",
+    "section": "PART1",
+    "niveau": "B1"
+  },
+  {
+    "k": "留学中",
+    "h": "りゅうがくちゅう",
+    "fr": "être en échange étudiant",
+    "topic": "T1",
+    "section": "PART1",
+    "niveau": "B1"
+  },
+  {
+    "k": "～の関係で",
+    "h": "～のかんけいで",
+    "fr": "à cause de〜",
+    "topic": "T1",
+    "section": "PART1",
+    "niveau": "B1"
+  },
+  {
+    "k": "赴任する",
+    "h": "ふにんする",
+    "fr": "être muté",
+    "topic": "T1",
+    "section": "PART1",
+    "niveau": "B1"
+  },
+  {
+    "k": "インター",
+    "h": "インター",
+    "fr": "école internationale",
+    "topic": "T1",
+    "section": "PART1",
+    "niveau": "B1"
+  },
+  {
+    "k": "プリント",
+    "h": "プリント",
+    "fr": "polycopié / document (de cours)",
+    "topic": "T1",
+    "section": "PART1",
+    "niveau": "B1"
+  },
+  {
+    "k": "苦労する",
+    "h": "くろうする",
+    "fr": "trouver (qqch) difficile",
+    "topic": "T1",
+    "section": "PART1",
+    "niveau": "B1"
+  },
+  {
+    "k": "定年後",
+    "h": "ていねんご",
+    "fr": "à la retraite",
+    "topic": "T1",
+    "section": "PART1",
+    "niveau": "B1"
+  },
+  {
+    "k": "海外",
+    "h": "かいがい",
+    "fr": "à l'étranger",
+    "topic": "T1",
+    "section": "PART1",
+    "niveau": "B1"
+  },
+  {
+    "k": "ゆっくりする",
+    "h": "ゆっくりする",
+    "fr": "mener une vie tranquille",
+    "topic": "T1",
+    "section": "PART1",
+    "niveau": "B1"
+  },
+  {
+    "k": "現在",
+    "h": "げんざい",
+    "fr": "actuellement",
+    "topic": "T1",
+    "section": "PART1",
+    "niveau": "B1"
+  },
+  {
+    "k": "二人暮らし",
+    "h": "ふたりぐらし",
+    "fr": "vie à deux",
+    "topic": "T1",
+    "section": "PART1",
+    "niveau": "B1"
+  },
+  {
+    "k": "食事会",
+    "h": "しょくじかい",
+    "fr": "repas (festif)",
+    "topic": "T1",
+    "section": "PART1",
+    "niveau": "B1"
+  },
+  {
+    "k": "集まり",
+    "h": "あつまり",
+    "fr": "réunion (non professionnelle)",
+    "topic": "T1",
+    "section": "PART1",
+    "niveau": "B1"
+  },
+  {
+    "k": "今回",
+    "h": "こんかい",
+    "fr": "cette fois-ci",
+    "topic": "T1",
+    "section": "PART1",
+    "niveau": "B1"
+  },
+  {
+    "k": "参加する",
+    "h": "さんかする",
+    "fr": "participer",
+    "topic": "T1",
+    "section": "PART1",
+    "niveau": "B1"
+  },
+  {
+    "k": "コマーシャル",
+    "h": "コマーシャル",
+    "fr": "publicité",
+    "topic": "T1",
+    "section": "PART1",
+    "niveau": "B1"
+  },
+  {
+    "k": "話しかける",
+    "h": "はなしかける",
+    "fr": "s'adresser à",
+    "topic": "T1",
+    "section": "PART2",
+    "niveau": "B1"
+  },
+  {
+    "k": "シドニー",
+    "h": "シドニー",
+    "fr": "Sydney",
+    "topic": "T1",
+    "section": "PART2",
+    "niveau": "B1"
+  },
+  {
+    "k": "スポーツクラブ",
+    "h": "スポーツクラブ",
+    "fr": "club de sports",
+    "topic": "T1",
+    "section": "PART2",
+    "niveau": "B1"
+  },
+  {
+    "k": "オーストラリア",
+    "h": "オーストラリア",
+    "fr": "Australie",
+    "topic": "T1",
+    "section": "PART2",
+    "niveau": "B1"
+  },
+  {
+    "k": "日本文化センター",
+    "h": "にほんぶんかセンター",
+    "fr": "centre culturel japonais",
+    "topic": "T1",
+    "section": "PART2",
+    "niveau": "B1"
+  },
+  {
+    "k": "主婦",
+    "h": "しゅふ",
+    "fr": "femme au foyer",
+    "topic": "T1",
+    "section": "PART2",
+    "niveau": "B1"
+  },
+  {
+    "k": "携帯",
+    "h": "けいたい",
+    "fr": "téléphone portable",
+    "topic": "T1",
+    "section": "PART2",
+    "niveau": "B1"
+  },
+  {
+    "k": "びっくり",
+    "h": "びっくり",
+    "fr": "surpris",
+    "topic": "T1",
+    "section": "PART2",
+    "niveau": "B1"
+  },
+  {
+    "k": "ヨガクラス",
+    "h": "ヨガクラス",
+    "fr": "cours de yoga",
+    "topic": "T1",
+    "section": "PART2",
+    "niveau": "B1"
+  },
+  {
+    "k": "お宅",
+    "h": "おたく",
+    "fr": "chez vous (chez toi)",
+    "topic": "T1",
+    "section": "PART2",
+    "niveau": "B1"
+  },
+  {
+    "k": "マンション",
+    "h": "マンション",
+    "fr": "appartement / immeuble (de standing)",
+    "topic": "T1",
+    "section": "PART2",
+    "niveau": "B1"
+  },
+  {
+    "k": "転勤",
+    "h": "てんきん",
+    "fr": "changer de travail",
+    "topic": "T1",
+    "section": "PART2",
+    "niveau": "B1"
+  },
+  {
+    "k": "興味がある",
+    "h": "きょうみがある",
+    "fr": "être intéressé",
+    "topic": "T1",
+    "section": "PART2",
+    "niveau": "B1"
+  },
+  {
+    "k": "週に",
+    "h": "しゅうに",
+    "fr": "par semaine",
+    "topic": "T1",
+    "section": "PART2",
+    "niveau": "B1"
+  },
+  {
+    "k": "和太鼓",
+    "h": "わだいこ",
+    "fr": "tambour japonais",
+    "topic": "T1",
+    "section": "PART2",
+    "niveau": "B1"
+  },
+  {
+    "k": "話し相手",
+    "h": "はなしあいて",
+    "fr": "personne à qui parler",
+    "topic": "T1",
+    "section": "PART2",
+    "niveau": "B1"
+  },
+  {
+    "k": "チャンス",
+    "h": "チャンス",
+    "fr": "occasion / chance",
+    "topic": "T1",
+    "section": "PART2",
+    "niveau": "B1"
+  },
+  {
+    "k": "メールアドレス",
+    "h": "メールアドレス",
+    "fr": "adresse électronique",
+    "topic": "T1",
+    "section": "PART2",
+    "niveau": "B1"
+  },
+  {
+    "k": "ジム",
+    "h": "ジム",
+    "fr": "gymnase / club de gym",
+    "topic": "T1",
+    "section": "PART2",
+    "niveau": "B1"
+  },
+  {
+    "k": "参加する",
+    "h": "さんかする",
+    "fr": "participer",
+    "topic": "T1",
+    "section": "PART2",
+    "niveau": "B1"
+  },
+  {
+    "k": "クッキー",
+    "h": "クッキー",
+    "fr": "biscuit",
+    "topic": "T1",
+    "section": "PART2",
+    "niveau": "B1"
+  },
+  {
+    "k": "サウナ",
+    "h": "サウナ",
+    "fr": "sauna",
+    "topic": "T1",
+    "section": "PART2",
+    "niveau": "B1"
+  },
+  {
+    "k": "シャンプー",
+    "h": "シャンプー",
+    "fr": "shampooing",
+    "topic": "T1",
+    "section": "PART2",
+    "niveau": "B1"
+  },
+  {
+    "k": "サンプル",
+    "h": "サンプル",
+    "fr": "échantillon",
+    "topic": "T1",
+    "section": "PART2",
+    "niveau": "B1"
+  },
+  {
+    "k": "きっかけ",
+    "h": "きっかけ",
+    "fr": "occasion / déclencheur",
+    "topic": "T1",
+    "section": "PART2",
+    "niveau": "B1"
+  },
+  {
+    "k": "誘う",
+    "h": "さそう",
+    "fr": "inviter",
+    "topic": "T1",
+    "section": "PART2",
+    "niveau": "B1"
+  },
+  {
+    "k": "以前",
+    "h": "いぜん",
+    "fr": "avant",
+    "topic": "T1",
+    "section": "PART2",
+    "niveau": "B1"
+  },
+  {
+    "k": "さしつかえなければ",
+    "h": "さしつかえなければ",
+    "fr": "si ça ne vous (te) dérange pas",
+    "topic": "T1",
+    "section": "PART2",
+    "niveau": "B1"
+  },
+  {
+    "k": "交換する",
+    "h": "こうかんする",
+    "fr": "échanger",
+    "topic": "T1",
+    "section": "PART2",
+    "niveau": "B1"
+  },
+  {
+    "k": "情報",
+    "h": "じょうほう",
+    "fr": "information",
+    "topic": "T1",
+    "section": "PART2",
+    "niveau": "B1"
+  },
+  {
+    "k": "別れ",
+    "h": "わかれ",
+    "fr": "se quitter",
+    "topic": "T1",
+    "section": "PART2",
+    "niveau": "B1"
+  },
+  {
+    "k": "くわしく",
+    "h": "くわしく",
+    "fr": "détaillé(e)",
+    "topic": "T1",
+    "section": "PART2",
+    "niveau": "B1"
+  },
+  {
+    "k": "観光地",
+    "h": "かんこうち",
+    "fr": "site touristique",
+    "topic": "T1",
+    "section": "PART2",
+    "niveau": "B1"
+  },
+  {
+    "k": "ガイドブック",
+    "h": "ガイドブック",
+    "fr": "guide de voyage (livre)",
+    "topic": "T1",
+    "section": "PART2",
+    "niveau": "B1"
+  },
+  {
+    "k": "長距離",
+    "h": "ちょうきょり",
+    "fr": "à longue distance",
+    "topic": "T1",
+    "section": "PART2",
+    "niveau": "B1"
+  },
+  {
+    "k": "向かい",
+    "h": "むかい",
+    "fr": "en face",
+    "topic": "T1",
+    "section": "PART2",
+    "niveau": "B1"
+  },
+  {
+    "k": "おしゃべりする",
+    "h": "おしゃべりする",
+    "fr": "discuter",
+    "topic": "T1",
+    "section": "PART2",
+    "niveau": "B1"
+  },
+  {
+    "k": "国際交流基金",
+    "h": "こくさいこうりゅうききん",
+    "fr": "Fondation du Japon",
+    "topic": "T1",
+    "section": "PART2",
+    "niveau": "B1"
+  },
+  {
+    "k": "センター",
+    "h": "センター",
+    "fr": "centre (ex : centre culturel)",
+    "topic": "T1",
+    "section": "PART2",
+    "niveau": "B1"
+  },
+  {
+    "k": "ほとんど～ない",
+    "h": "ほとんど～ない",
+    "fr": "pratiquement～ pas",
+    "topic": "T1",
+    "section": "PART2",
+    "niveau": "B1"
+  },
+  {
+    "k": "おしゃべりする",
+    "h": "おしゃべりする",
+    "fr": "discuter",
+    "topic": "T1",
+    "section": "PART3",
+    "niveau": "B1"
+  },
+  {
+    "k": "交流会",
+    "h": "こうりゅうかい",
+    "fr": "rencontre (interculturelle)",
+    "topic": "T1",
+    "section": "PART3",
+    "niveau": "B1"
+  },
+  {
+    "k": "参加する",
+    "h": "さんかする",
+    "fr": "participer",
+    "topic": "T1",
+    "section": "PART3",
+    "niveau": "B1"
+  },
+  {
+    "k": "おしゃべりサークル",
+    "h": "おしゃべりサークル",
+    "fr": "club de conversation",
+    "topic": "T1",
+    "section": "PART3",
+    "niveau": "B1"
+  },
+  {
+    "k": "自己紹介",
+    "h": "じこしょうかい",
+    "fr": "présentation de soi-même",
+    "topic": "T1",
+    "section": "PART3",
+    "niveau": "B1"
+  },
+  {
+    "k": "司会",
+    "h": "しかい",
+    "fr": "animateur (d'une réunion)",
+    "topic": "T1",
+    "section": "PART3",
+    "niveau": "B1"
+  },
+  {
+    "k": "きっかけ",
+    "h": "きっかけ",
+    "fr": "prétexte / cause directe",
+    "topic": "T1",
+    "section": "PART3",
+    "niveau": "B1"
+  },
+  {
+    "k": "希望",
+    "h": "きぼう",
+    "fr": "espoir / désir / souhait",
+    "topic": "T1",
+    "section": "PART3",
+    "niveau": "B1"
+  },
+  {
+    "k": "抱負",
+    "h": "ほうふ",
+    "fr": "projets / espoirs",
+    "topic": "T1",
+    "section": "PART3",
+    "niveau": "B1"
+  },
+  {
+    "k": "経験",
+    "h": "けいけん",
+    "fr": "expérience",
+    "topic": "T1",
+    "section": "PART3",
+    "niveau": "B1"
+  },
+  {
+    "k": "自己PR",
+    "h": "じこピーアール",
+    "fr": "auto promotion",
+    "topic": "T1",
+    "section": "PART3",
+    "niveau": "B1"
+  },
+  {
+    "k": "日系企業",
+    "h": "にっけいきぎょう",
+    "fr": "entreprise japonaise",
+    "topic": "T1",
+    "section": "PART3",
+    "niveau": "B1"
+  },
+  {
+    "k": "輸出関係",
+    "h": "ゆしゅつかんけい",
+    "fr": "lié(e) à l'exportation",
+    "topic": "T1",
+    "section": "PART3",
+    "niveau": "B1"
+  },
+  {
+    "k": "スタッフ",
+    "h": "スタッフ",
+    "fr": "personnel / équipe",
+    "topic": "T1",
+    "section": "PART3",
+    "niveau": "B1"
+  },
+  {
+    "k": "食べ歩き",
+    "h": "たべあるき",
+    "fr": "tourisme gastronomique",
+    "topic": "T1",
+    "section": "PART3",
+    "niveau": "B1"
+  },
+  {
+    "k": "おしゃべり",
+    "h": "おしゃべり",
+    "fr": "discussion",
+    "topic": "T1",
+    "section": "PART3",
+    "niveau": "B1"
+  },
+  {
+    "k": "どんどん",
+    "h": "どんどん",
+    "fr": "de plus en plus",
+    "topic": "T1",
+    "section": "PART3",
+    "niveau": "B1"
+  },
+  {
+    "k": "話しかける",
+    "h": "はなしかける",
+    "fr": "parler à",
+    "topic": "T1",
+    "section": "PART3",
+    "niveau": "B1"
+  },
+  {
+    "k": "～のおかげで",
+    "h": "～のおかげで",
+    "fr": "grâce à〜",
+    "topic": "T1",
+    "section": "PART3",
+    "niveau": "B1"
+  },
+  {
+    "k": "～つもりで",
+    "h": "～つもりで",
+    "fr": "comme si～",
+    "topic": "T1",
+    "section": "PART3",
+    "niveau": "B1"
+  },
+  {
+    "k": "気軽に",
+    "h": "きがるに",
+    "fr": "sans manières",
+    "topic": "T1",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "フォローする",
+    "h": "フォローする",
+    "fr": "être un follower",
+    "topic": "T1",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "Twitter",
+    "h": "ツイッター",
+    "fr": "Twitter",
+    "topic": "T1",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "SNS",
+    "h": "エスエヌエス",
+    "fr": "réseaux sociaux",
+    "topic": "T1",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "利用する",
+    "h": "りようする",
+    "fr": "utiliser",
+    "topic": "T1",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "プロフィール",
+    "h": "プロフィール",
+    "fr": "profil",
+    "topic": "T1",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "注目する",
+    "h": "ちゅうもくする",
+    "fr": "prêter attention à",
+    "topic": "T1",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "職業",
+    "h": "しょくぎょう",
+    "fr": "profession",
+    "topic": "T1",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "おすすめユーザー",
+    "h": "おすすめユーザー",
+    "fr": "utilisateurs recommandés",
+    "topic": "T1",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "海外生活",
+    "h": "かいがいせいかつ",
+    "fr": "vie à l'étranger",
+    "topic": "T1",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "～年目",
+    "h": "～ねんめ",
+    "fr": "〜année (1ère année, 2e année, etc.)",
+    "topic": "T1",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "主婦",
+    "h": "しゅふ",
+    "fr": "femme au foyer",
+    "topic": "T1",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "ロンドン",
+    "h": "ロンドン",
+    "fr": "Londres",
+    "topic": "T1",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "～在住",
+    "h": "～ざいじゅう",
+    "fr": "résidant à〜",
+    "topic": "T1",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "～歳",
+    "h": "～さい",
+    "fr": "〜ans (âge)",
+    "topic": "T1",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "娘",
+    "h": "むすめ",
+    "fr": "fille",
+    "topic": "T1",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "ヨーロッパ",
+    "h": "ヨーロッパ",
+    "fr": "Europe",
+    "topic": "T1",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "日常",
+    "h": "にちじょう",
+    "fr": "quotidien / quotidiennement",
+    "topic": "T1",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "つぶやく",
+    "h": "つぶやく",
+    "fr": "tweet",
+    "topic": "T1",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "関心",
+    "h": "かんしん",
+    "fr": "intérêt",
+    "topic": "T1",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "日本語力",
+    "h": "にほんごりょく",
+    "fr": "niveau de japonais",
+    "topic": "T1",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "維持",
+    "h": "いじ",
+    "fr": "maintien",
+    "topic": "T1",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "最近",
+    "h": "さいきん",
+    "fr": "ces derniers temps",
+    "topic": "T1",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "お気に入り",
+    "h": "おきにいり",
+    "fr": "préféré / ce que je préfère",
+    "topic": "T1",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "ズンバ",
+    "h": "ズンバ",
+    "fr": "Zumba",
+    "topic": "T1",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "美術館めぐり",
+    "h": "びじゅつかんめぐり",
+    "fr": "visiter des musées",
+    "topic": "T1",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "知り合う",
+    "h": "しりあう",
+    "fr": "faire la connaissance",
+    "topic": "T1",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "某～",
+    "h": "ぼう～",
+    "fr": "un(e) certain(e)〜",
+    "topic": "T1",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "私立大学",
+    "h": "しりつだいがく",
+    "fr": "université privée",
+    "topic": "T1",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "働く",
+    "h": "はたらく",
+    "fr": "travailler",
+    "topic": "T1",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "教師",
+    "h": "きょうし",
+    "fr": "enseignant",
+    "topic": "T1",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "専門",
+    "h": "せんもん",
+    "fr": "spécialité",
+    "topic": "T1",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "音声教育",
+    "h": "おんせいきょういく",
+    "fr": "enseignement de la prononciation",
+    "topic": "T1",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "著書",
+    "h": "ちょしょ",
+    "fr": "œuvre (livre)",
+    "topic": "T1",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "学ぶ",
+    "h": "まなぶ",
+    "fr": "étudier",
+    "topic": "T1",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "現在",
+    "h": "げんざい",
+    "fr": "actuellement",
+    "topic": "T1",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "ベトナム語",
+    "h": "ベトナムご",
+    "fr": "vietnamien",
+    "topic": "T1",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "学習中",
+    "h": "がくしゅうちゅう",
+    "fr": "en train d'étudier",
+    "topic": "T1",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "内容",
+    "h": "ないよう",
+    "fr": "contenu",
+    "topic": "T1",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "仕事",
+    "h": "しごと",
+    "fr": "travail",
+    "topic": "T1",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "～関係",
+    "h": "～かんけい",
+    "fr": "lié à〜",
+    "topic": "T1",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "～中心",
+    "h": "～ちゅうしん",
+    "fr": "centré sur〜 / principalement",
+    "topic": "T1",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "作曲家",
+    "h": "さっきょくか",
+    "fr": "compositeur",
+    "topic": "T1",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "ラフマニノフ",
+    "h": "ラフマニノフ",
+    "fr": "Rachmaninov",
+    "topic": "T1",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "将来",
+    "h": "しょうらい",
+    "fr": "avenir",
+    "topic": "T1",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "夢",
+    "h": "ゆめ",
+    "fr": "rêve",
+    "topic": "T1",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "島",
+    "h": "しま",
+    "fr": "île",
+    "topic": "T1",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "移住する",
+    "h": "いじゅうする",
+    "fr": "migrer",
+    "topic": "T1",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "のんびり",
+    "h": "のんびり",
+    "fr": "au calme / sans stress",
+    "topic": "T1",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "暮らす",
+    "h": "くらす",
+    "fr": "vivre / habiter",
+    "topic": "T1",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "温泉",
+    "h": "おんせん",
+    "fr": "source d'eau chaude",
+    "topic": "T1",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "日本酒",
+    "h": "にほんしゅ",
+    "fr": "saké (vin de riz)",
+    "topic": "T1",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "声楽",
+    "h": "せいがく",
+    "fr": "chant",
+    "topic": "T1",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "旅",
+    "h": "たび",
+    "fr": "voyage",
+    "topic": "T1",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "愛する",
+    "h": "あいする",
+    "fr": "aimer",
+    "topic": "T1",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "サラリーマン",
+    "h": "サラリーマン",
+    "fr": "employé d'entreprise",
+    "topic": "T1",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "てんびん座",
+    "h": "てんびんざ",
+    "fr": "balance (zodiaque)",
+    "topic": "T1",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "O型",
+    "h": "オーがた",
+    "fr": "groupe sanguin O",
+    "topic": "T1",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "ハマり中",
+    "h": "ハマりちゅう",
+    "fr": "être passionné de / par",
+    "topic": "T1",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "週末",
+    "h": "しゅうまつ",
+    "fr": "week-end",
+    "topic": "T1",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "地元",
+    "h": "じもと",
+    "fr": "local",
+    "topic": "T1",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "ボランティア教室",
+    "h": "ボランティアきょうしつ",
+    "fr": "cours donnés bénévolement",
+    "topic": "T1",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "交流する",
+    "h": "こうりゅうする",
+    "fr": "avoir des échanges",
+    "topic": "T1",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "楽しみ",
+    "h": "たのしみ",
+    "fr": "se réjouir à l'avance de〜",
+    "topic": "T1",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "飼う",
+    "h": "かう",
+    "fr": "élever (un animal)",
+    "topic": "T1",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "映画",
+    "h": "えいが",
+    "fr": "film",
+    "topic": "T1",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "カナダ",
+    "h": "カナダ",
+    "fr": "Canada",
+    "topic": "T1",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "勉強する",
+    "h": "べんきょうする",
+    "fr": "étudier",
+    "topic": "T1",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "大学院生",
+    "h": "だいがくいんせい",
+    "fr": "étudiant en master ou doctorat",
+    "topic": "T1",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "シンガポール",
+    "h": "シンガポール",
+    "fr": "Singapour",
+    "topic": "T1",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "～出身",
+    "h": "～しゅっしん",
+    "fr": "originaire de〜",
+    "topic": "T1",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "トロント",
+    "h": "トロント",
+    "fr": "Toronto",
+    "topic": "T1",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "アカウント",
+    "h": "アカウント",
+    "fr": "compte (informatique)",
+    "topic": "T1",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "大目に見る",
+    "h": "おおめにみる",
+    "fr": "être indulgent",
+    "topic": "T1",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "方",
+    "h": "かた",
+    "fr": "(une) personne",
+    "topic": "T1",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "世界",
+    "h": "せかい",
+    "fr": "monde",
+    "topic": "T1",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "情報交換する",
+    "h": "じょうほうこうかんする",
+    "fr": "échanger des informations",
+    "topic": "T1",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "自己紹介",
+    "h": "じこしょうかい",
+    "fr": "présentation de soi-même",
+    "topic": "T1",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "興味",
+    "h": "きょうみ",
+    "fr": "intérêt",
+    "topic": "T1",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "希望",
+    "h": "きぼう",
+    "fr": "espoir / désir / souhait",
+    "topic": "T1",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "抱負",
+    "h": "ほうふ",
+    "fr": "projets / espoirs",
+    "topic": "T1",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "テキスト",
+    "h": "テキスト",
+    "fr": "texte",
+    "topic": "T1",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "マスターする",
+    "h": "マスターする",
+    "fr": "maîtriser",
+    "topic": "T1",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "交流",
+    "h": "こうりゅう",
+    "fr": "échanges (ici : entre les pays)",
+    "topic": "T1",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "役立つ",
+    "h": "やくだつ",
+    "fr": "utile",
+    "topic": "T1",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "留学する",
+    "h": "りゅうがくする",
+    "fr": "étudier à l'étranger",
+    "topic": "T1",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "ファッション",
+    "h": "ファッション",
+    "fr": "mode",
+    "topic": "T1",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "～に関する",
+    "h": "～にかんする",
+    "fr": "concernant〜",
+    "topic": "T1",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "プロフィール",
+    "h": "プロフィール",
+    "fr": "profil",
+    "topic": "T1",
+    "section": "PART5",
+    "niveau": "B1"
+  },
+  {
+    "k": "SNS",
+    "h": "エスエヌエス",
+    "fr": "réseaux sociaux",
+    "topic": "T1",
+    "section": "PART5",
+    "niveau": "B1"
+  },
+  {
+    "k": "自己紹介",
+    "h": "じこしょうかい",
+    "fr": "présentation de soi-même",
+    "topic": "T1",
+    "section": "PART5",
+    "niveau": "B1"
+  },
+  {
+    "k": "欄",
+    "h": "らん",
+    "fr": "rubrique",
+    "topic": "T1",
+    "section": "PART5",
+    "niveau": "B1"
+  },
+  {
+    "k": "職業",
+    "h": "しょくぎょう",
+    "fr": "profession",
+    "topic": "T1",
+    "section": "PART5",
+    "niveau": "B1"
+  },
+  {
+    "k": "興味",
+    "h": "きょうみ",
+    "fr": "intérêt",
+    "topic": "T1",
+    "section": "PART5",
+    "niveau": "B1"
+  },
+  {
+    "k": "希望",
+    "h": "きぼう",
+    "fr": "espoir / désir / souhait",
+    "topic": "T1",
+    "section": "PART5",
+    "niveau": "B1"
+  },
+  {
+    "k": "抱負",
+    "h": "ほうふ",
+    "fr": "projets / espoirs",
+    "topic": "T1",
+    "section": "PART5",
+    "niveau": "B1"
+  },
+  {
+    "k": "本名",
+    "h": "ほんみょう",
+    "fr": "vrai nom",
+    "topic": "T1",
+    "section": "PART5",
+    "niveau": "B1"
+  },
+  {
+    "k": "入力する",
+    "h": "にゅうりょくする",
+    "fr": "entrer (des données)",
+    "topic": "T1",
+    "section": "PART5",
+    "niveau": "B1"
+  },
+  {
+    "k": "検索する",
+    "h": "けんさくする",
+    "fr": "faire une recherche",
+    "topic": "T1",
+    "section": "PART5",
+    "niveau": "B1"
+  },
+  {
+    "k": "のせる",
+    "h": "のせる",
+    "fr": "indiquer (sur internet)",
+    "topic": "T1",
+    "section": "PART5",
+    "niveau": "B1"
+  },
+  {
+    "k": "ホームページ",
+    "h": "ホームページ",
+    "fr": "site Internet",
+    "topic": "T1",
+    "section": "PART5",
+    "niveau": "B1"
+  },
+  {
+    "k": "ブログ",
+    "h": "ブログ",
+    "fr": "blog",
+    "topic": "T1",
+    "section": "PART5",
+    "niveau": "B1"
+  },
+  {
+    "k": "アドレス",
+    "h": "アドレス",
+    "fr": "adresse électronique / URL",
+    "topic": "T1",
+    "section": "PART5",
+    "niveau": "B1"
+  },
+  {
+    "k": "～以内",
+    "h": "～いない",
+    "fr": "au maximum〜 (après un nombre)",
+    "topic": "T1",
+    "section": "PART5",
+    "niveau": "B1"
+  },
+  {
+    "k": "平和",
+    "h": "へいわ",
+    "fr": "paix",
+    "topic": "T1",
+    "section": "教室の外へ",
+    "niveau": "B1"
+  },
+  {
+    "k": "プロフィール",
+    "h": "プロフィール",
+    "fr": "profil",
+    "topic": "T1",
+    "section": "教室の外へ",
+    "niveau": "B1"
+  },
+  {
+    "k": "Twitter",
+    "h": "ツイッター",
+    "fr": "Twitter",
+    "topic": "T1",
+    "section": "教室の外へ",
+    "niveau": "B1"
+  },
+  {
+    "k": "興味",
+    "h": "きょうみ",
+    "fr": "intérêt",
+    "topic": "T1",
+    "section": "教室の外へ",
+    "niveau": "B1"
+  },
+  {
+    "k": "フォローする",
+    "h": "フォローする",
+    "fr": "être un follower",
+    "topic": "T1",
+    "section": "教室の外へ",
+    "niveau": "B1"
+  },
+  {
+    "k": "血液型",
+    "h": "けつえきがた",
+    "fr": "groupe sanguin",
+    "topic": "T1",
+    "section": "教室の外へ",
+    "niveau": "B1"
+  },
+  {
+    "k": "星座",
+    "h": "せいざ",
+    "fr": "signe astrologique",
+    "topic": "T1",
+    "section": "教室の外へ",
+    "niveau": "B1"
+  },
+  {
+    "k": "性格",
+    "h": "せいかく",
+    "fr": "personnalité",
+    "topic": "T1",
+    "section": "教室の外へ",
+    "niveau": "B1"
+  },
+  {
+    "k": "自己紹介",
+    "h": "じこしょうかい",
+    "fr": "présentation de soi-même",
+    "topic": "T1",
+    "section": "教室の外へ",
+    "niveau": "B1"
+  },
+  {
+    "k": "関係する",
+    "h": "かんけいする",
+    "fr": "être lié / connecté à",
+    "topic": "T1",
+    "section": "教室の外へ",
+    "niveau": "B1"
+  },
+  {
+    "k": "実際に",
+    "h": "じっさいに",
+    "fr": "réellement",
+    "topic": "T1",
+    "section": "教室の外へ",
+    "niveau": "B1"
+  },
+  {
+    "k": "交流する",
+    "h": "こうりゅうする",
+    "fr": "avoir des échanges",
+    "topic": "T1",
+    "section": "教室の外へ",
+    "niveau": "B1"
+  },
+  {
+    "k": "サークル",
+    "h": "サークル",
+    "fr": "club / groupe",
+    "topic": "T1",
+    "section": "教室の外へ",
+    "niveau": "B1"
+  },
+  {
+    "k": "話しかける",
+    "h": "はなしかける",
+    "fr": "s'adresser à",
+    "topic": "T1",
+    "section": "教室の外へ",
+    "niveau": "B1"
+  },
   {
     "k": "おすすめ",
     "h": "おすすめ",
