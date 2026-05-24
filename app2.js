@@ -6,9 +6,9 @@ let revealed     = false;
 let scoreGood    = 0;
 let scoreTotal   = 0;
 
-// Sélections actives pour chaque dimension (Set vide = "Tous")
-const learnSel = { topic: new Set(), section: new Set() };
-const revSel   = { topic: new Set(), section: new Set() };
+// Sélections actives (Set vide = "Tous")
+const learnSel = { niveauTopic: new Set(), section: new Set() };
+const revSel   = { niveauTopic: new Set(), section: new Set() };
 
 // ============ NAVIGATION ============
 function showScreen(id) {
@@ -17,35 +17,60 @@ function showScreen(id) {
 }
 
 // ============ UTILITAIRES ============
-function unique(arr) { return [...new Set(arr)].sort(); }
+function unique(arr) { return [...new Set(arr)]; }
 
-function filterVocab(sel) {
-  return VOCAB.filter(v =>
-    (sel.topic.size   === 0 || sel.topic.has(v.topic))   &&
-    (sel.section.size === 0 || sel.section.has(v.section))
-  );
+// Clé composite "Niveau Topic"
+function ntKey(v) { return v.niveau + ' ' + v.topic; }
+
+// Toutes les clés composites triées, en conservant niveau et topic séparément pour le tri
+function allNTKeys() {
+  var map = {};
+  VOCAB.forEach(function(v) {
+    var k = ntKey(v);
+    if (!map[k]) map[k] = { niveau: v.niveau, topic: v.topic };
+  });
+  return Object.keys(map).sort(function(a, b) {
+    var pa = map[a], pb = map[b];
+    if (pa.niveau !== pb.niveau) return pa.niveau.localeCompare(pb.niveau);
+    return pa.topic.localeCompare(pb.topic);
+  });
 }
 
-// ============ CHIPS MULTI-SÉLECTION ============
+// Filtrage :
+// - niveauTopic : filtre sur la clé composite (vide = tous)
+// - section : filtre uniquement les mots qui ONT une section (section !== 'aucune')
+//             les mots sans section passent toujours si leur niveauTopic est ok
+function filterVocab(sel) {
+  return VOCAB.filter(function(v) {
+    // 1. Filtre niveau+topic
+    if (sel.niveauTopic.size > 0 && !sel.niveauTopic.has(ntKey(v))) return false;
+    // 2. Filtre section : ignoré pour les mots sans section
+    if (v.section === 'aucune') return true;
+    if (sel.section.size > 0 && !sel.section.has(v.section)) return false;
+    return true;
+  });
+}
+
+// ============ CHIPS ============
 function buildChips(containerId, values, selSet, onChange) {
-  const container = document.getElementById(containerId);
+  var container = document.getElementById(containerId);
   container.innerHTML = '';
 
-  const allChip = document.createElement('button');
+  var allChip = document.createElement('button');
   allChip.className = 'chip' + (selSet.size === 0 ? ' active' : '');
   allChip.textContent = 'Tous';
-  allChip.addEventListener('click', () => {
+  allChip.addEventListener('click', function() {
     selSet.clear();
     buildChips(containerId, values, selSet, onChange);
     onChange();
   });
   container.appendChild(allChip);
 
-  values.forEach(val => {
-    const chip = document.createElement('button');
+  values.forEach(function(val) {
+    var chip = document.createElement('button');
     chip.className = 'chip' + (selSet.has(val) ? ' active' : '');
     chip.textContent = val;
-    chip.addEventListener('click', () => {
+    chip.addEventListener('click', function() {
       if (selSet.has(val)) selSet.delete(val);
       else selSet.add(val);
       buildChips(containerId, values, selSet, onChange);
@@ -56,36 +81,40 @@ function buildChips(containerId, values, selSet, onChange) {
 }
 
 function initChips(prefix, sel, onChange) {
-  buildChips(`${prefix}-chips-topic`,   unique(VOCAB.map(v => v.topic)),   sel.topic,   onChange);
-  buildChips(`${prefix}-chips-section`, unique(VOCAB.map(v => v.section)), sel.section, onChange);
+  // Chips Niveau+Topic fusionnés
+  buildChips(prefix + '-chips-topic', allNTKeys(), sel.niveauTopic, onChange);
+
+  // Chips Section : exclure "aucune", ne montrer que les vraies sections
+  var sections = unique(VOCAB.map(function(v) { return v.section; }))
+    .filter(function(s) { return s !== 'aucune'; })
+    .sort();
+  buildChips(prefix + '-chips-section', sections, sel.section, onChange);
 }
 
 // ============ ACCUEIL ============
 (function initHome() {
-  const topics = unique(VOCAB.map(v => v.topic)).join(', ');
+  var niveaux = unique(VOCAB.map(function(v) { return v.niveau; })).sort().join(', ');
   document.getElementById('home-stats').textContent =
-    VOCAB.length + ' mots · Topics : ' + topics;
+    VOCAB.length + ' mots · Niveaux : ' + niveaux;
 })();
 
 // ============ MODE APPRENDRE ============
-let learnFilterOpen = false;
-document.getElementById('filter-toggle-btn').addEventListener('click', () => {
+var learnFilterOpen = false;
+document.getElementById('filter-toggle-btn').addEventListener('click', function() {
   learnFilterOpen = !learnFilterOpen;
-  const panel = document.getElementById('learn-filter-panel');
+  var panel = document.getElementById('learn-filter-panel');
   panel.style.display = learnFilterOpen ? 'flex' : 'none';
   document.getElementById('filter-toggle-btn').classList.toggle('active', learnFilterOpen);
 });
 
 function renderLearnTable() {
-  const words  = filterVocab(learnSel);
-  const hideJP = document.getElementById('hide-jp').checked;
-  const hideFR = document.getElementById('hide-fr').checked;
+  var words  = filterVocab(learnSel);
+  var hideJP = document.getElementById('hide-jp').checked;
+  var hideFR = document.getElementById('hide-fr').checked;
 
-  document.getElementById('th-jp').style.display = '';
-  document.getElementById('th-fr').style.display = '';
   document.getElementById('learn-count').textContent = words.length + ' mot(s) affiché(s)';
 
-  const tbody = document.getElementById('learn-tbody');
+  var tbody = document.getElementById('learn-tbody');
   tbody.innerHTML = '';
 
   if (words.length === 0) {
@@ -93,24 +122,22 @@ function renderLearnTable() {
     return;
   }
 
-  words.forEach(w => {
-    const tr = document.createElement('tr');
+  words.forEach(function(w) {
+    var tr = document.createElement('tr');
 
-    // --- Colonne Japonais ---
-    const tdJP = document.createElement('td');
+    // Colonne Japonais
+    var tdJP = document.createElement('td');
     tdJP.className = 'td-jp';
-
-    const kanji = w.k || w.h;
-    const hira  = (w.h && w.h !== w.k) ? w.h : '';
+    var kanji = w.k || w.h;
+    var hira  = (w.h && w.h !== w.k) ? w.h : '';
 
     if (hideJP) {
-      // Bloc masqué, tap pour révéler
-      const block = document.createElement('div');
+      var block = document.createElement('div');
       block.className = 'cell-hidden';
       block.setAttribute('role', 'button');
-      const k = document.createElement('span'); k.className = 'jp-kanji'; k.textContent = kanji;
-      block.appendChild(k);
-      if (hira) { const h = document.createElement('span'); h.className = 'jp-hira'; h.textContent = hira; block.appendChild(h); }
+      var spanK = document.createElement('span'); spanK.className = 'jp-kanji'; spanK.textContent = kanji;
+      block.appendChild(spanK);
+      if (hira) { var spanH = document.createElement('span'); spanH.className = 'jp-hira'; spanH.textContent = hira; block.appendChild(spanH); }
       block.addEventListener('click', function(e) {
         e.stopPropagation();
         block.classList.remove('cell-hidden');
@@ -118,18 +145,17 @@ function renderLearnTable() {
       });
       tdJP.appendChild(block);
     } else {
-      const k = document.createElement('span'); k.className = 'jp-kanji'; k.textContent = kanji;
-      tdJP.appendChild(k);
-      if (hira) { const h = document.createElement('span'); h.className = 'jp-hira'; h.textContent = hira; tdJP.appendChild(h); }
+      var spanK2 = document.createElement('span'); spanK2.className = 'jp-kanji'; spanK2.textContent = kanji;
+      tdJP.appendChild(spanK2);
+      if (hira) { var spanH2 = document.createElement('span'); spanH2.className = 'jp-hira'; spanH2.textContent = hira; tdJP.appendChild(spanH2); }
     }
     tr.appendChild(tdJP);
 
-    // --- Colonne Français ---
-    const tdFR = document.createElement('td');
+    // Colonne Français
+    var tdFR = document.createElement('td');
     tdFR.className = 'td-fr';
-
     if (hideFR) {
-      const span = document.createElement('span');
+      var span = document.createElement('span');
       span.className = 'cell-hidden';
       span.textContent = w.fr;
       span.setAttribute('role', 'button');
@@ -154,8 +180,8 @@ function renderLearnTable() {
 
 // ============ MODE RÉVISION SETUP ============
 function updateRevCount() {
-  var n = filterVocab(revSel).length;
-  document.getElementById('rev-count').textContent = n + ' mot(s) sélectionné(s)';
+  document.getElementById('rev-count').textContent =
+    filterVocab(revSel).length + ' mot(s) sélectionné(s)';
 }
 
 function startRevise() {
@@ -231,8 +257,7 @@ function updateScore() {
 document.addEventListener('click', function(e) {
   var el = e.target.closest('[data-action]');
   if (!el) return;
-  var action = el.dataset.action;
-  switch (action) {
+  switch (el.dataset.action) {
     case 'goto-home':         showScreen('home-screen'); break;
     case 'goto-learn':
       initChips('learn', learnSel, renderLearnTable);
