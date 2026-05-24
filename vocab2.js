@@ -1,6 +1,1686 @@
 // Généré automatiquement par update_vocab.py — ne pas modifier manuellement
 const VOCAB = [
   {
+    "k": "あいます(ひどいめに)",
+    "h": "あいます(ひどいめに)",
+    "fr": "être confronté à (une situation terrible)",
+    "topic": "T8",
+    "section": "aucune",
+    "niveau": "A2/B1"
+  },
+  {
+    "k": "(開きます)",
+    "h": "あきます",
+    "fr": "s'ouvrir",
+    "topic": "T8",
+    "section": "aucune",
+    "niveau": "A2/B1"
+  },
+  {
+    "k": "(開けます)",
+    "h": "あけます",
+    "fr": "ouvrir",
+    "topic": "T8",
+    "section": "aucune",
+    "niveau": "A2/B1"
+  },
+  {
+    "k": "アナウンス",
+    "h": "アナウンス",
+    "fr": "l'annonce",
+    "topic": "T8",
+    "section": "aucune",
+    "niveau": "A2/B1"
+  },
+  {
+    "k": "洗います",
+    "h": "あらいます",
+    "fr": "laver",
+    "topic": "T8",
+    "section": "aucune",
+    "niveau": "A2/B1"
+  },
+  {
+    "k": "～行き",
+    "h": "～いき",
+    "fr": "à destination de ~",
+    "topic": "T8",
+    "section": "aucune",
+    "niveau": "A2/B1"
+  },
+  {
+    "k": "今しばらく",
+    "h": "いましばらく",
+    "fr": "un instant (d'attente)",
+    "topic": "T8",
+    "section": "aucune",
+    "niveau": "A2/B1"
+  },
+  {
+    "k": "受付",
+    "h": "うけつけ",
+    "fr": "la réception / l'accueil",
+    "topic": "T8",
+    "section": "aucune",
+    "niveau": "A2/B1"
+  },
+  {
+    "k": "エアコン",
+    "h": "エアコン",
+    "fr": "l'air conditionné",
+    "topic": "T8",
+    "section": "aucune",
+    "niveau": "A2/B1"
+  },
+  {
+    "k": "映画",
+    "h": "えいが",
+    "fr": "le film",
+    "topic": "T8",
+    "section": "aucune",
+    "niveau": "A2/B1"
+  },
+  {
+    "k": "えー",
+    "h": "えー",
+    "fr": "Quoi ? / Sérieux ? (expression de l'étonnement)",
+    "topic": "T8",
+    "section": "aucune",
+    "niveau": "A2/B1"
+  },
+  {
+    "k": "ええと／ええっと",
+    "h": "ええと／ええっと",
+    "fr": "euh",
+    "topic": "T8",
+    "section": "aucune",
+    "niveau": "A2/B1"
+  },
+  {
+    "k": "エーン",
+    "h": "エーン",
+    "fr": "ouin (pleurs)",
+    "topic": "T8",
+    "section": "aucune",
+    "niveau": "A2/B1"
+  },
+  {
+    "k": "エレベーター",
+    "h": "エレベーター",
+    "fr": "l'ascenseur",
+    "topic": "T8",
+    "section": "aucune",
+    "niveau": "A2/B1"
+  },
+  {
+    "k": "エンジン",
+    "h": "エンジン",
+    "fr": "le moteur",
+    "topic": "T8",
+    "section": "aucune",
+    "niveau": "A2/B1"
+  },
+  {
+    "k": "お急ぎ",
+    "h": "おいそぎ",
+    "fr": "vous êtes pressé (formel)",
+    "topic": "T8",
+    "section": "aucune",
+    "niveau": "A2/B1"
+  },
+  {
+    "k": "(起こります)",
+    "h": "おこります",
+    "fr": "se produire / survenir",
+    "topic": "T8",
+    "section": "aucune",
+    "niveau": "A2/B1"
+  },
+  {
+    "k": "思い出します",
+    "h": "おもいだします",
+    "fr": "se souvenir",
+    "topic": "T8",
+    "section": "aucune",
+    "niveau": "A2/B1"
+  },
+  {
+    "k": "お湯",
+    "h": "おゆ(ゆ)",
+    "fr": "l'eau chaude",
+    "topic": "T8",
+    "section": "aucune",
+    "niveau": "A2/B1"
+  },
+  {
+    "k": "おります",
+    "h": "おります",
+    "fr": "descendre (d'un transport, etc.)",
+    "topic": "T8",
+    "section": "aucune",
+    "niveau": "A2/B1"
+  },
+  {
+    "k": "お忘れ物",
+    "h": "おわすれもの",
+    "fr": "l'objet perdu",
+    "topic": "T8",
+    "section": "aucune",
+    "niveau": "A2/B1"
+  },
+  {
+    "k": "お忘れ物センター",
+    "h": "おわすれものセンター",
+    "fr": "le centre des objets trouvés",
+    "topic": "T8",
+    "section": "aucune",
+    "niveau": "A2/B1"
+  },
+  {
+    "k": "開始(します)",
+    "h": "かいし(します)",
+    "fr": "le commencement / la rentrée",
+    "topic": "T8",
+    "section": "aucune",
+    "niveau": "A2/B1"
+  },
+  {
+    "k": "ガイドブック",
+    "h": "ガイドブック",
+    "fr": "le guide de voyage (livre)",
+    "topic": "T8",
+    "section": "aucune",
+    "niveau": "A2/B1"
+  },
+  {
+    "k": "カウンター",
+    "h": "カウンター",
+    "fr": "le comptoir",
+    "topic": "T8",
+    "section": "aucune",
+    "niveau": "A2/B1"
+  },
+  {
+    "k": "かけます(めいわくを)",
+    "h": "かけます(めいわくを)",
+    "fr": "causer (des désagréments)",
+    "topic": "T8",
+    "section": "aucune",
+    "niveau": "A2/B1"
+  },
+  {
+    "k": "方(このあたりの)",
+    "h": "かた",
+    "fr": "une personne (du coin)",
+    "topic": "T8",
+    "section": "aucune",
+    "niveau": "A2/B1"
+  },
+  {
+    "k": "かばん",
+    "h": "かばん",
+    "fr": "le sac / la sacoche",
+    "topic": "T8",
+    "section": "aucune",
+    "niveau": "A2/B1"
+  },
+  {
+    "k": "きえます",
+    "h": "きえます",
+    "fr": "disparaître",
+    "topic": "T8",
+    "section": "aucune",
+    "niveau": "A2/B1"
+  },
+  {
+    "k": "帰国(します)",
+    "h": "きこく(します)",
+    "fr": "le retour au pays (rentrer dans son pays)",
+    "topic": "T8",
+    "section": "aucune",
+    "niveau": "A2/B1"
+  },
+  {
+    "k": "技術者",
+    "h": "ぎじゅつしゃ",
+    "fr": "le technicien",
+    "topic": "T8",
+    "section": "aucune",
+    "niveau": "A2/B1"
+  },
+  {
+    "k": "ゲート",
+    "h": "ゲート",
+    "fr": "la porte (aéroport)",
+    "topic": "T8",
+    "section": "aucune",
+    "niveau": "A2/B1"
+  },
+  {
+    "k": "ゲーム",
+    "h": "ゲーム",
+    "fr": "le jeu",
+    "topic": "T8",
+    "section": "aucune",
+    "niveau": "A2/B1"
+  },
+  {
+    "k": "けします",
+    "h": "けします",
+    "fr": "effacer / éteindre",
+    "topic": "T8",
+    "section": "aucune",
+    "niveau": "A2/B1"
+  },
+  {
+    "k": "～後",
+    "h": "ご",
+    "fr": "dans ~ (expression temporelle) / après ~",
+    "topic": "T8",
+    "section": "aucune",
+    "niveau": "A2/B1"
+  },
+  {
+    "k": "～航空",
+    "h": "こうくう",
+    "fr": "la compagnie aérienne ~",
+    "topic": "T8",
+    "section": "aucune",
+    "niveau": "A2/B1"
+  },
+  {
+    "k": "～号室",
+    "h": "ごうしつ",
+    "fr": "chambre numéro ~",
+    "topic": "T8",
+    "section": "aucune",
+    "niveau": "A2/B1"
+  },
+  {
+    "k": "国際～",
+    "h": "こくさい～",
+    "fr": "international",
+    "topic": "T8",
+    "section": "aucune",
+    "niveau": "A2/B1"
+  },
+  {
+    "k": "午後",
+    "h": "ごご",
+    "fr": "l'après-midi",
+    "topic": "T8",
+    "section": "aucune",
+    "niveau": "A2/B1"
+  },
+  {
+    "k": "故障(します)",
+    "h": "こしょう(します)",
+    "fr": "la panne (tomber en panne)",
+    "topic": "T8",
+    "section": "aucune",
+    "niveau": "A2/B1"
+  },
+  {
+    "k": "ご搭乗",
+    "h": "ごとうじょう(とうじょう)",
+    "fr": "l'embarquement",
+    "topic": "T8",
+    "section": "aucune",
+    "niveau": "A2/B1"
+  },
+  {
+    "k": "ごめいわく(めいわく)",
+    "h": "ごめいわく(めいわく)",
+    "fr": "le désagrément",
+    "topic": "T8",
+    "section": "aucune",
+    "niveau": "A2/B1"
+  },
+  {
+    "k": "コメント",
+    "h": "コメント",
+    "fr": "le commentaire / l'avis",
+    "topic": "T8",
+    "section": "aucune",
+    "niveau": "A2/B1"
+  },
+  {
+    "k": "ご利用",
+    "h": "ごりよう(りよう)",
+    "fr": "l'utilisation / l'usage",
+    "topic": "T8",
+    "section": "aucune",
+    "niveau": "A2/B1"
+  },
+  {
+    "k": "サイン",
+    "h": "サイン",
+    "fr": "la signature",
+    "topic": "T8",
+    "section": "aucune",
+    "niveau": "A2/B1"
+  },
+  {
+    "k": "～時",
+    "h": "じ",
+    "fr": "~ heures",
+    "topic": "T8",
+    "section": "aucune",
+    "niveau": "A2/B1"
+  },
+  {
+    "k": "自動詞",
+    "h": "じどうし",
+    "fr": "le verbe intransitif (sans complément d'objet)",
+    "topic": "T8",
+    "section": "aucune",
+    "niveau": "A2/B1"
+  },
+  {
+    "k": "しまります",
+    "h": "しまります",
+    "fr": "se fermer / être fermé(e)",
+    "topic": "T8",
+    "section": "aucune",
+    "niveau": "A2/B1"
+  },
+  {
+    "k": "しめます",
+    "h": "しめます",
+    "fr": "fermer",
+    "topic": "T8",
+    "section": "aucune",
+    "niveau": "A2/B1"
+  },
+  {
+    "k": "出発(します)",
+    "h": "しゅっぱつ(します)",
+    "fr": "le départ (partir)",
+    "topic": "T8",
+    "section": "aucune",
+    "niveau": "A2/B1"
+  },
+  {
+    "k": "出発ゲート",
+    "h": "しゅっぱつゲート",
+    "fr": "la porte d'embarquement",
+    "topic": "T8",
+    "section": "aucune",
+    "niveau": "A2/B1"
+  },
+  {
+    "k": "知らせます",
+    "h": "しらせます",
+    "fr": "informer",
+    "topic": "T8",
+    "section": "aucune",
+    "niveau": "A2/B1"
+  },
+  {
+    "k": "スイッチ",
+    "h": "スイッチ",
+    "fr": "l'interrupteur",
+    "topic": "T8",
+    "section": "aucune",
+    "niveau": "A2/B1"
+  },
+  {
+    "k": "スーツケース",
+    "h": "スーツケース",
+    "fr": "la valise",
+    "topic": "T8",
+    "section": "aucune",
+    "niveau": "A2/B1"
+  },
+  {
+    "k": "すごします",
+    "h": "すごします",
+    "fr": "passer",
+    "topic": "T8",
+    "section": "aucune",
+    "niveau": "A2/B1"
+  },
+  {
+    "k": "スタッフ",
+    "h": "スタッフ",
+    "fr": "le personnel",
+    "topic": "T8",
+    "section": "aucune",
+    "niveau": "A2/B1"
+  },
+  {
+    "k": "説明(します)",
+    "h": "せつめい(します)",
+    "fr": "l'explication (expliquer)",
+    "topic": "T8",
+    "section": "aucune",
+    "niveau": "A2/B1"
+  },
+  {
+    "k": "センター",
+    "h": "センター",
+    "fr": "le centre",
+    "topic": "T8",
+    "section": "aucune",
+    "niveau": "A2/B1"
+  },
+  {
+    "k": "そうじ",
+    "h": "そうじ",
+    "fr": "le ménage",
+    "topic": "T8",
+    "section": "aucune",
+    "niveau": "A2/B1"
+  },
+  {
+    "k": "それから",
+    "h": "それから",
+    "fr": "ensuite",
+    "topic": "T8",
+    "section": "aucune",
+    "niveau": "A2/B1"
+  },
+  {
+    "k": "(大変)",
+    "h": "たいへん",
+    "fr": "terrible / difficile (situation)",
+    "topic": "T8",
+    "section": "aucune",
+    "niveau": "A2/B1"
+  },
+  {
+    "k": "たずねます",
+    "h": "たずねます",
+    "fr": "rendre visite / demander",
+    "topic": "T8",
+    "section": "aucune",
+    "niveau": "A2/B1"
+  },
+  {
+    "k": "立てます(計画を)",
+    "h": "たてます(けいかくを)",
+    "fr": "dresser / établir (un projet)",
+    "topic": "T8",
+    "section": "aucune",
+    "niveau": "A2/B1"
+  },
+  {
+    "k": "他動詞",
+    "h": "たどうし",
+    "fr": "le verbe transitif (avec complément d'objet en ～を)",
+    "topic": "T8",
+    "section": "aucune",
+    "niveau": "A2/B1"
+  },
+  {
+    "k": "たのみます",
+    "h": "たのみます",
+    "fr": "demander (un service)",
+    "topic": "T8",
+    "section": "aucune",
+    "niveau": "A2/B1"
+  },
+  {
+    "k": "チェック(します)",
+    "h": "チェック(します)",
+    "fr": "la vérification (vérifier)",
+    "topic": "T8",
+    "section": "aucune",
+    "niveau": "A2/B1"
+  },
+  {
+    "k": "チェックイン(します)",
+    "h": "チェックイン(します)",
+    "fr": "l'enregistrement (enregistrer) [dans un aéroport, un hôtel, etc.]",
+    "topic": "T8",
+    "section": "aucune",
+    "niveau": "A2/B1"
+  },
+  {
+    "k": "チェックインカウンター",
+    "h": "チェックインカウンター",
+    "fr": "le comptoir d'enregistrement (à l'aéroport, etc.)",
+    "topic": "T8",
+    "section": "aucune",
+    "niveau": "A2/B1"
+  },
+  {
+    "k": "つきます(でんきが)",
+    "h": "つきます(でんきが)",
+    "fr": "être allumé(e) / s'allumer (la lumière)",
+    "topic": "T8",
+    "section": "aucune",
+    "niveau": "A2/B1"
+  },
+  {
+    "k": "つけます",
+    "h": "つけます",
+    "fr": "allumer (un appareil électrique, la lumière)",
+    "topic": "T8",
+    "section": "aucune",
+    "niveau": "A2/B1"
+  },
+  {
+    "k": "手",
+    "h": "て",
+    "fr": "la main",
+    "topic": "T8",
+    "section": "aucune",
+    "niveau": "A2/B1"
+  },
+  {
+    "k": "(丁寧体)",
+    "h": "ていねいたい",
+    "fr": "la forme polie (です・ます）",
+    "topic": "T8",
+    "section": "aucune",
+    "niveau": "A2/B1"
+  },
+  {
+    "k": "手続き",
+    "h": "てつづき",
+    "fr": "les formalités / les procédures",
+    "topic": "T8",
+    "section": "aucune",
+    "niveau": "A2/B1"
+  },
+  {
+    "k": "出てきます",
+    "h": "でてきます",
+    "fr": "sortir / apparaître",
+    "topic": "T8",
+    "section": "aucune",
+    "niveau": "A2/B1"
+  },
+  {
+    "k": "電気",
+    "h": "でんき",
+    "fr": "l'électricité",
+    "topic": "T8",
+    "section": "aucune",
+    "niveau": "A2/B1"
+  },
+  {
+    "k": "ドア",
+    "h": "ドア",
+    "fr": "la porte",
+    "topic": "T8",
+    "section": "aucune",
+    "niveau": "A2/B1"
+  },
+  {
+    "k": "トイレ",
+    "h": "トイレ",
+    "fr": "les toilettes",
+    "topic": "T8",
+    "section": "aucune",
+    "niveau": "A2/B1"
+  },
+  {
+    "k": "搭乗",
+    "h": "とうじょう",
+    "fr": "l'embarquement",
+    "topic": "T8",
+    "section": "aucune",
+    "niveau": "A2/B1"
+  },
+  {
+    "k": "到着(します)",
+    "h": "とうちゃく(します)",
+    "fr": "l'arrivée (arriver)",
+    "topic": "T8",
+    "section": "aucune",
+    "niveau": "A2/B1"
+  },
+  {
+    "k": "どこか",
+    "h": "どこか",
+    "fr": "quelque part",
+    "topic": "T8",
+    "section": "aucune",
+    "niveau": "A2/B1"
+  },
+  {
+    "k": "とにかく",
+    "h": "とにかく",
+    "fr": "en tout cas",
+    "topic": "T8",
+    "section": "aucune",
+    "niveau": "A2/B1"
+  },
+  {
+    "k": "(飛びます)",
+    "h": "とびます",
+    "fr": "voler (dans les airs)",
+    "topic": "T8",
+    "section": "aucune",
+    "niveau": "A2/B1"
+  },
+  {
+    "k": "止まります",
+    "h": "とまります",
+    "fr": "s'arrêter",
+    "topic": "T8",
+    "section": "aucune",
+    "niveau": "A2/B1"
+  },
+  {
+    "k": "止めます",
+    "h": "とめます",
+    "fr": "arrêter",
+    "topic": "T8",
+    "section": "aucune",
+    "niveau": "A2/B1"
+  },
+  {
+    "k": "トラブル",
+    "h": "トラブル",
+    "fr": "les ennuis / les problèmes",
+    "topic": "T8",
+    "section": "aucune",
+    "niveau": "A2/B1"
+  },
+  {
+    "k": "どろぼう",
+    "h": "どろぼう",
+    "fr": "le voleur",
+    "topic": "T8",
+    "section": "aucune",
+    "niveau": "A2/B1"
+  },
+  {
+    "k": "ないよう",
+    "h": "ないよう",
+    "fr": "le contenu",
+    "topic": "T8",
+    "section": "aucune",
+    "niveau": "A2/B1"
+  },
+  {
+    "k": "中",
+    "h": "なか",
+    "fr": "l'intérieur",
+    "topic": "T8",
+    "section": "aucune",
+    "niveau": "A2/B1"
+  },
+  {
+    "k": "ながれます",
+    "h": "ながれます",
+    "fr": "couler",
+    "topic": "T8",
+    "section": "aucune",
+    "niveau": "A2/B1"
+  },
+  {
+    "k": "なきます",
+    "h": "なきます",
+    "fr": "pleurer",
+    "topic": "T8",
+    "section": "aucune",
+    "niveau": "A2/B1"
+  },
+  {
+    "k": "なぜ",
+    "h": "なぜ",
+    "fr": "pourquoi",
+    "topic": "T8",
+    "section": "aucune",
+    "niveau": "A2/B1"
+  },
+  {
+    "k": "にげます",
+    "h": "にげます",
+    "fr": "fuir / s'enfuir",
+    "topic": "T8",
+    "section": "aucune",
+    "niveau": "A2/B1"
+  },
+  {
+    "k": "にっき",
+    "h": "にっき",
+    "fr": "le journal intime / le carnet de notes personnelles",
+    "topic": "T8",
+    "section": "aucune",
+    "niveau": "A2/B1"
+  },
+  {
+    "k": "荷物",
+    "h": "にもつ",
+    "fr": "le bagage",
+    "topic": "T8",
+    "section": "aucune",
+    "niveau": "A2/B1"
+  },
+  {
+    "k": "始まります",
+    "h": "はじまります",
+    "fr": "commencer",
+    "topic": "T8",
+    "section": "aucune",
+    "niveau": "A2/B1"
+  },
+  {
+    "k": "パスポート",
+    "h": "パスポート",
+    "fr": "le passeport",
+    "topic": "T8",
+    "section": "aucune",
+    "niveau": "A2/B1"
+  },
+  {
+    "k": "パリ",
+    "h": "パリ",
+    "fr": "Paris",
+    "topic": "T8",
+    "section": "aucune",
+    "niveau": "A2/B1"
+  },
+  {
+    "k": "～半",
+    "h": "はん",
+    "fr": "et demi(e) (heure, durée)",
+    "topic": "T8",
+    "section": "aucune",
+    "niveau": "A2/B1"
+  },
+  {
+    "k": "～番",
+    "h": "ばん",
+    "fr": "numéro ~",
+    "topic": "T8",
+    "section": "aucune",
+    "niveau": "A2/B1"
+  },
+  {
+    "k": "飛行機",
+    "h": "ひこうき",
+    "fr": "l'avion",
+    "topic": "T8",
+    "section": "aucune",
+    "niveau": "A2/B1"
+  },
+  {
+    "k": "～便",
+    "h": "びん",
+    "fr": "vol ~",
+    "topic": "T8",
+    "section": "aucune",
+    "niveau": "A2/B1"
+  },
+  {
+    "k": "ふつうたい",
+    "h": "ふつうたい",
+    "fr": "la forme neutre",
+    "topic": "T8",
+    "section": "aucune",
+    "niveau": "A2/B1"
+  },
+  {
+    "k": "フライト",
+    "h": "フライト",
+    "fr": "le vol (avion)",
+    "topic": "T8",
+    "section": "aucune",
+    "niveau": "A2/B1"
+  },
+  {
+    "k": "(下手(な))",
+    "h": "へた(な)",
+    "fr": "maladroit / mauvais",
+    "topic": "T8",
+    "section": "aucune",
+    "niveau": "A2/B1"
+  },
+  {
+    "k": "ベッド",
+    "h": "ベッド",
+    "fr": "le lit",
+    "topic": "T8",
+    "section": "aucune",
+    "niveau": "A2/B1"
+  },
+  {
+    "k": "変更",
+    "h": "へんこう",
+    "fr": "la modification",
+    "topic": "T8",
+    "section": "aucune",
+    "niveau": "A2/B1"
+  },
+  {
+    "k": "ホッ",
+    "h": "ホッ",
+    "fr": "ouf (soulagement)",
+    "topic": "T8",
+    "section": "aucune",
+    "niveau": "A2/B1"
+  },
+  {
+    "k": "ホテル",
+    "h": "ホテル",
+    "fr": "l'hôtel",
+    "topic": "T8",
+    "section": "aucune",
+    "niveau": "A2/B1"
+  },
+  {
+    "k": "マッサージ",
+    "h": "マッサージ",
+    "fr": "le massage",
+    "topic": "T8",
+    "section": "aucune",
+    "niveau": "A2/B1"
+  },
+  {
+    "k": "まど",
+    "h": "まど",
+    "fr": "la fenêtre",
+    "topic": "T8",
+    "section": "aucune",
+    "niveau": "A2/B1"
+  },
+  {
+    "k": "見送り",
+    "h": "みおくり",
+    "fr": "raccompagner",
+    "topic": "T8",
+    "section": "aucune",
+    "niveau": "A2/B1"
+  },
+  {
+    "k": "水",
+    "h": "みず",
+    "fr": "l'eau",
+    "topic": "T8",
+    "section": "aucune",
+    "niveau": "A2/B1"
+  },
+  {
+    "k": "南",
+    "h": "みなみ",
+    "fr": "le sud",
+    "topic": "T8",
+    "section": "aucune",
+    "niveau": "A2/B1"
+  },
+  {
+    "k": "もうすぐ",
+    "h": "もうすぐ",
+    "fr": "bientôt / sous peu",
+    "topic": "T8",
+    "section": "aucune",
+    "niveau": "A2/B1"
+  },
+  {
+    "k": "予定",
+    "h": "よてい",
+    "fr": "le projet / quelque chose de prévu",
+    "topic": "T8",
+    "section": "aucune",
+    "niveau": "A2/B1"
+  },
+  {
+    "k": "利用",
+    "h": "りよう",
+    "fr": "l'utilisation / l'usage",
+    "topic": "T8",
+    "section": "aucune",
+    "niveau": "A2/B1"
+  },
+  {
+    "k": "れいな/れいなさん",
+    "h": "れいな/れいなさん",
+    "fr": "Reina",
+    "topic": "T8",
+    "section": "aucune",
+    "niveau": "A2/B1"
+  },
+  {
+    "k": "歴史",
+    "h": "れきし",
+    "fr": "l'histoire",
+    "topic": "T8",
+    "section": "aucune",
+    "niveau": "A2/B1"
+  },
+  {
+    "k": "ロンドン",
+    "h": "ロンドン",
+    "fr": "Londres",
+    "topic": "T8",
+    "section": "aucune",
+    "niveau": "A2/B1"
+  },
+  {
+    "k": "忘れ物",
+    "h": "わすれもの",
+    "fr": "l'objet perdu",
+    "topic": "T8",
+    "section": "aucune",
+    "niveau": "A2/B1"
+  },
+  {
+    "k": "わびます",
+    "h": "わびます",
+    "fr": "présenter ses excuses",
+    "topic": "T8",
+    "section": "aucune",
+    "niveau": "A2/B1"
+  },
+  {
+    "k": "アジア",
+    "h": "アジア",
+    "fr": "l'Asie",
+    "topic": "T9",
+    "section": "aucune",
+    "niveau": "A2/B1"
+  },
+  {
+    "k": "あそこ",
+    "h": "あそこ",
+    "fr": "là-bas",
+    "topic": "T9",
+    "section": "aucune",
+    "niveau": "A2/B1"
+  },
+  {
+    "k": "あらわします",
+    "h": "あらわします",
+    "fr": "montrer / afficher / exprimer",
+    "topic": "T9",
+    "section": "aucune",
+    "niveau": "A2/B1"
+  },
+  {
+    "k": "ある",
+    "h": "ある",
+    "fr": "un(e) certain(e) ~",
+    "topic": "T9",
+    "section": "aucune",
+    "niveau": "A2/B1"
+  },
+  {
+    "k": "いえいえ",
+    "h": "いえいえ",
+    "fr": "mais non (exprime souvent de la modestie)",
+    "topic": "T9",
+    "section": "aucune",
+    "niveau": "A2/B1"
+  },
+  {
+    "k": "今まで",
+    "h": "いままで",
+    "fr": "jusqu'à présent",
+    "topic": "T9",
+    "section": "aucune",
+    "niveau": "A2/B1"
+  },
+  {
+    "k": "いらっしゃいます",
+    "h": "いらっしゃいます",
+    "fr": "être là (langage honorifique, équivalent de いる)",
+    "topic": "T9",
+    "section": "aucune",
+    "niveau": "A2/B1"
+  },
+  {
+    "k": "いらっしゃいませ",
+    "h": "いらっしゃいませ",
+    "fr": "bonjour / bienvenue",
+    "topic": "T9",
+    "section": "aucune",
+    "niveau": "A2/B1"
+  },
+  {
+    "k": "売ります",
+    "h": "うります",
+    "fr": "vendre",
+    "topic": "T9",
+    "section": "aucune",
+    "niveau": "A2/B1"
+  },
+  {
+    "k": "営業",
+    "h": "えいぎょう",
+    "fr": "le commerce",
+    "topic": "T9",
+    "section": "aucune",
+    "niveau": "A2/B1"
+  },
+  {
+    "k": "営業部",
+    "h": "えいぎょうぶ",
+    "fr": "le service commercial",
+    "topic": "T9",
+    "section": "aucune",
+    "niveau": "A2/B1"
+  },
+  {
+    "k": "選びます",
+    "h": "えらびます",
+    "fr": "choisir",
+    "topic": "T9",
+    "section": "aucune",
+    "niveau": "A2/B1"
+  },
+  {
+    "k": "お名前",
+    "h": "おなまえ(なまえ)",
+    "fr": "(votre) nom",
+    "topic": "T9",
+    "section": "aucune",
+    "niveau": "A2/B1"
+  },
+  {
+    "k": "お願い(します)",
+    "h": "おねがい(します)",
+    "fr": "le souhait (je m'en remets à vous)",
+    "topic": "T9",
+    "section": "aucune",
+    "niveau": "A2/B1"
+  },
+  {
+    "k": "おもに",
+    "h": "おもに",
+    "fr": "principalement",
+    "topic": "T9",
+    "section": "aucune",
+    "niveau": "A2/B1"
+  },
+  {
+    "k": "おやくそく(やくそく)",
+    "h": "おやくそく(やくそく)",
+    "fr": "(votre) rendez-vous (le rendez-vous / la promesse)",
+    "topic": "T9",
+    "section": "aucune",
+    "niveau": "A2/B1"
+  },
+  {
+    "k": "終わります",
+    "h": "おわります",
+    "fr": "finir / s'achever",
+    "topic": "T9",
+    "section": "aucune",
+    "niveau": "A2/B1"
+  },
+  {
+    "k": "～課",
+    "h": "か",
+    "fr": "section / département",
+    "topic": "T9",
+    "section": "aucune",
+    "niveau": "A2/B1"
+  },
+  {
+    "k": "海外事業",
+    "h": "かいがいじぎょう",
+    "fr": "les affaires étrangères",
+    "topic": "T9",
+    "section": "aucune",
+    "niveau": "A2/B1"
+  },
+  {
+    "k": "海外事業課",
+    "h": "かいがいじぎょうか",
+    "fr": "le département des affaires étrangères",
+    "topic": "T9",
+    "section": "aucune",
+    "niveau": "A2/B1"
+  },
+  {
+    "k": "会議",
+    "h": "かいぎ",
+    "fr": "la réunion",
+    "topic": "T9",
+    "section": "aucune",
+    "niveau": "A2/B1"
+  },
+  {
+    "k": "～会社",
+    "h": "がいしゃ",
+    "fr": "l'entreprise de ~",
+    "topic": "T9",
+    "section": "aucune",
+    "niveau": "A2/B1"
+  },
+  {
+    "k": "かお",
+    "h": "かお",
+    "fr": "le visage",
+    "topic": "T9",
+    "section": "aucune",
+    "niveau": "A2/B1"
+  },
+  {
+    "k": "かぜ",
+    "h": "かぜ",
+    "fr": "le rhume",
+    "topic": "T9",
+    "section": "aucune",
+    "niveau": "A2/B1"
+  },
+  {
+    "k": "活動",
+    "h": "かつどう",
+    "fr": "l'activité",
+    "topic": "T9",
+    "section": "aucune",
+    "niveau": "A2/B1"
+  },
+  {
+    "k": "観光客",
+    "h": "かんこうきゃく",
+    "fr": "le touriste",
+    "topic": "T9",
+    "section": "aucune",
+    "niveau": "A2/B1"
+  },
+  {
+    "k": "機械",
+    "h": "きかい",
+    "fr": "la machine",
+    "topic": "T9",
+    "section": "aucune",
+    "niveau": "A2/B1"
+  },
+  {
+    "k": "企画",
+    "h": "きかく",
+    "fr": "le plan / le planning",
+    "topic": "T9",
+    "section": "aucune",
+    "niveau": "A2/B1"
+  },
+  {
+    "k": "企画課",
+    "h": "きかくか",
+    "fr": "la section du planning",
+    "topic": "T9",
+    "section": "aucune",
+    "niveau": "A2/B1"
+  },
+  {
+    "k": "きちんと",
+    "h": "きちんと",
+    "fr": "exactement / proprement",
+    "topic": "T9",
+    "section": "aucune",
+    "niveau": "A2/B1"
+  },
+  {
+    "k": "キャプテン",
+    "h": "キャプテン",
+    "fr": "le capitaine",
+    "topic": "T9",
+    "section": "aucune",
+    "niveau": "A2/B1"
+  },
+  {
+    "k": "協力(します)",
+    "h": "きょうりょく(します)",
+    "fr": "la coopération (coopérer)",
+    "topic": "T9",
+    "section": "aucune",
+    "niveau": "A2/B1"
+  },
+  {
+    "k": "金融",
+    "h": "きんゆう",
+    "fr": "la finance",
+    "topic": "T9",
+    "section": "aucune",
+    "niveau": "A2/B1"
+  },
+  {
+    "k": "くらべます",
+    "h": "くらべます",
+    "fr": "comparer",
+    "topic": "T9",
+    "section": "aucune",
+    "niveau": "A2/B1"
+  },
+  {
+    "k": "経理",
+    "h": "けいり",
+    "fr": "la comptabilité",
+    "topic": "T9",
+    "section": "aucune",
+    "niveau": "A2/B1"
+  },
+  {
+    "k": "建設",
+    "h": "けんせつ",
+    "fr": "la construction / le bâtiment (industrie)",
+    "topic": "T9",
+    "section": "aucune",
+    "niveau": "A2/B1"
+  },
+  {
+    "k": "(工場)",
+    "h": "こうじょう",
+    "fr": "l'usine",
+    "topic": "T9",
+    "section": "aucune",
+    "niveau": "A2/B1"
+  },
+  {
+    "k": "(行動)",
+    "h": "こうどう",
+    "fr": "le comportement / les agissements",
+    "topic": "T9",
+    "section": "aucune",
+    "niveau": "A2/B1"
+  },
+  {
+    "k": "広報",
+    "h": "こうほう",
+    "fr": "les relations publiques",
+    "topic": "T9",
+    "section": "aucune",
+    "niveau": "A2/B1"
+  },
+  {
+    "k": "(～様)",
+    "h": "さま",
+    "fr": "suffixe honorifique (surtout utilisé dans le monde du travail, dans l'administration et envers les clients)",
+    "topic": "T9",
+    "section": "aucune",
+    "niveau": "A2/B1"
+  },
+  {
+    "k": "支社",
+    "h": "ししゃ",
+    "fr": "la filiale",
+    "topic": "T9",
+    "section": "aucune",
+    "niveau": "A2/B1"
+  },
+  {
+    "k": "システム",
+    "h": "システム",
+    "fr": "le système",
+    "topic": "T9",
+    "section": "aucune",
+    "niveau": "A2/B1"
+  },
+  {
+    "k": "質問(します)",
+    "h": "しつもん(します)",
+    "fr": "la question (poser une question)",
+    "topic": "T9",
+    "section": "aucune",
+    "niveau": "A2/B1"
+  },
+  {
+    "k": "社員",
+    "h": "しゃいん",
+    "fr": "l'employé d'entreprise",
+    "topic": "T9",
+    "section": "aucune",
+    "niveau": "A2/B1"
+  },
+  {
+    "k": "就活",
+    "h": "しゅうかつ",
+    "fr": "la recherche d'emploi",
+    "topic": "T9",
+    "section": "aucune",
+    "niveau": "A2/B1"
+  },
+  {
+    "k": "就職",
+    "h": "しゅうしょく",
+    "fr": "la prise de poste/d'emploi",
+    "topic": "T9",
+    "section": "aucune",
+    "niveau": "A2/B1"
+  },
+  {
+    "k": "上司",
+    "h": "じょうし",
+    "fr": "le supérieur hiérarchique",
+    "topic": "T9",
+    "section": "aucune",
+    "niveau": "A2/B1"
+  },
+  {
+    "k": "少々",
+    "h": "しょうしょう",
+    "fr": "un peu (formel, équivalent de 少し)",
+    "topic": "T9",
+    "section": "aucune",
+    "niveau": "A2/B1"
+  },
+  {
+    "k": "食品",
+    "h": "しょくひん",
+    "fr": "le produit alimentaire",
+    "topic": "T9",
+    "section": "aucune",
+    "niveau": "A2/B1"
+  },
+  {
+    "k": "しりょう",
+    "h": "しりょう",
+    "fr": "le document",
+    "topic": "T9",
+    "section": "aucune",
+    "niveau": "A2/B1"
+  },
+  {
+    "k": "信頼(します)",
+    "h": "しんらい(します)",
+    "fr": "la confiance",
+    "topic": "T9",
+    "section": "aucune",
+    "niveau": "A2/B1"
+  },
+  {
+    "k": "世界",
+    "h": "せかい",
+    "fr": "le monde",
+    "topic": "T9",
+    "section": "aucune",
+    "niveau": "A2/B1"
+  },
+  {
+    "k": "総務",
+    "h": "そうむ",
+    "fr": "les affaires générales / l'administration générale",
+    "topic": "T9",
+    "section": "aucune",
+    "niveau": "A2/B1"
+  },
+  {
+    "k": "総務課",
+    "h": "そうむか",
+    "fr": "la section des affaires générales",
+    "topic": "T9",
+    "section": "aucune",
+    "niveau": "A2/B1"
+  },
+  {
+    "k": "ソフトウェア",
+    "h": "ソフトウェア",
+    "fr": "le logiciel",
+    "topic": "T9",
+    "section": "aucune",
+    "niveau": "A2/B1"
+  },
+  {
+    "k": "体力",
+    "h": "たいりょく",
+    "fr": "la force physique / l'énergie",
+    "topic": "T9",
+    "section": "aucune",
+    "niveau": "A2/B1"
+  },
+  {
+    "k": "たしか(な)",
+    "h": "たしか(な)",
+    "fr": "sûr(e) / certain(e)",
+    "topic": "T9",
+    "section": "aucune",
+    "niveau": "A2/B1"
+  },
+  {
+    "k": "助け合います",
+    "h": "たすけあいます",
+    "fr": "s'entraider",
+    "topic": "T9",
+    "section": "aucune",
+    "niveau": "A2/B1"
+  },
+  {
+    "k": "(ただ今)",
+    "h": "ただいま",
+    "fr": "tout de suite / actuellement",
+    "topic": "T9",
+    "section": "aucune",
+    "niveau": "A2/B1"
+  },
+  {
+    "k": "担当(します)",
+    "h": "たんとう(します)",
+    "fr": "la charge (être chargé de / avoir la charge de)",
+    "topic": "T9",
+    "section": "aucune",
+    "niveau": "A2/B1"
+  },
+  {
+    "k": "つごう",
+    "h": "つごう",
+    "fr": "les disponibilités / les convenances",
+    "topic": "T9",
+    "section": "aucune",
+    "niveau": "A2/B1"
+  },
+  {
+    "k": "ていねい(な)",
+    "h": "ていねい(な)",
+    "fr": "poli / propre",
+    "topic": "T9",
+    "section": "aucune",
+    "niveau": "A2/B1"
+  },
+  {
+    "k": "同僚",
+    "h": "どうりょう",
+    "fr": "le(la) collègue de travail",
+    "topic": "T9",
+    "section": "aucune",
+    "niveau": "A2/B1"
+  },
+  {
+    "k": "(通します)",
+    "h": "とおします",
+    "fr": "faire passer / passer par (un intermédiaire)",
+    "topic": "T9",
+    "section": "aucune",
+    "niveau": "A2/B1"
+  },
+  {
+    "k": "とくい",
+    "h": "とくい",
+    "fr": "fort(e) / doué(e)",
+    "topic": "T9",
+    "section": "aucune",
+    "niveau": "A2/B1"
+  },
+  {
+    "k": "どの",
+    "h": "どの",
+    "fr": "quel ~ ? (plus de deux choix)",
+    "topic": "T9",
+    "section": "aucune",
+    "niveau": "A2/B1"
+  },
+  {
+    "k": "とりつぎます",
+    "h": "とりつぎます",
+    "fr": "annoncer quelqu'un / servir d'intermédiaire",
+    "topic": "T9",
+    "section": "aucune",
+    "niveau": "A2/B1"
+  },
+  {
+    "k": "パートタイム",
+    "h": "パートタイム",
+    "fr": "le travail à temps partiel",
+    "topic": "T9",
+    "section": "aucune",
+    "niveau": "A2/B1"
+  },
+  {
+    "k": "はじめに",
+    "h": "はじめに",
+    "fr": "pour commencer",
+    "topic": "T9",
+    "section": "aucune",
+    "niveau": "A2/B1"
+  },
+  {
+    "k": "話し合います",
+    "h": "はなしあいます",
+    "fr": "discuter, parler",
+    "topic": "T9",
+    "section": "aucune",
+    "niveau": "A2/B1"
+  },
+  {
+    "k": "ひきます(かぜを)",
+    "h": "ひきます(かぜを)",
+    "fr": "attraper (un rhume)",
+    "topic": "T9",
+    "section": "aucune",
+    "niveau": "A2/B1"
+  },
+  {
+    "k": "ひしょ",
+    "h": "ひしょ",
+    "fr": "le(la) secrétaire",
+    "topic": "T9",
+    "section": "aucune",
+    "niveau": "A2/B1"
+  },
+  {
+    "k": "～部",
+    "h": "ぶ",
+    "fr": "section de ~ (dans l'entreprise) / club de ~ (à l'école)",
+    "topic": "T9",
+    "section": "aucune",
+    "niveau": "A2/B1"
+  },
+  {
+    "k": "服そう",
+    "h": "ふくそう",
+    "fr": "l'habit",
+    "topic": "T9",
+    "section": "aucune",
+    "niveau": "A2/B1"
+  },
+  {
+    "k": "物流",
+    "h": "ぶつりゅう",
+    "fr": "la distribution (par exemple, de produits)",
+    "topic": "T9",
+    "section": "aucune",
+    "niveau": "A2/B1"
+  },
+  {
+    "k": "フリーランス",
+    "h": "フリーランス",
+    "fr": "le freelance",
+    "topic": "T9",
+    "section": "aucune",
+    "niveau": "A2/B1"
+  },
+  {
+    "k": "ふんいき",
+    "h": "ふんいき",
+    "fr": "l'atmosphère / l'ambiance",
+    "topic": "T9",
+    "section": "aucune",
+    "niveau": "A2/B1"
+  },
+  {
+    "k": "ほう",
+    "h": "ほう",
+    "fr": "Oh (quand on est impressionné)",
+    "topic": "T9",
+    "section": "aucune",
+    "niveau": "A2/B1"
+  },
+  {
+    "k": "報告(します)",
+    "h": "ほうこく(します)",
+    "fr": "le rapport (rapporter)",
+    "topic": "T9",
+    "section": "aucune",
+    "niveau": "A2/B1"
+  },
+  {
+    "k": "募集(します)",
+    "h": "ぼしゅう(します)",
+    "fr": "le recrutement (recruter)",
+    "topic": "T9",
+    "section": "aucune",
+    "niveau": "A2/B1"
+  },
+  {
+    "k": "まいります",
+    "h": "まいります",
+    "fr": "se rendre, aller (langage de modestie : sujet à la première personne)",
+    "topic": "T9",
+    "section": "aucune",
+    "niveau": "A2/B1"
+  },
+  {
+    "k": "村田／村田さん",
+    "h": "むらた/むらたさん",
+    "fr": "Murata / Monsieur (Madame) Murata",
+    "topic": "T9",
+    "section": "aucune",
+    "niveau": "A2/B1"
+  },
+  {
+    "k": "もとめます",
+    "h": "もとめます",
+    "fr": "demander, exiger / rechercher",
+    "topic": "T9",
+    "section": "aucune",
+    "niveau": "A2/B1"
+  },
+  {
+    "k": "輸出(します)",
+    "h": "ゆしゅつ(します)",
+    "fr": "l'exportation (exporter)",
+    "topic": "T9",
+    "section": "aucune",
+    "niveau": "A2/B1"
+  },
+  {
+    "k": "輸入(します)",
+    "h": "ゆにゅう(します)",
+    "fr": "l'importation (importer)",
+    "topic": "T9",
+    "section": "aucune",
+    "niveau": "A2/B1"
+  },
+  {
+    "k": "ヨーロッパ",
+    "h": "ヨーロッパ",
+    "fr": "l'Europe",
+    "topic": "T9",
+    "section": "aucune",
+    "niveau": "A2/B1"
+  },
+  {
+    "k": "よろしく",
+    "h": "よろしく",
+    "fr": "je compte sur vous",
+    "topic": "T9",
+    "section": "aucune",
+    "niveau": "A2/B1"
+  },
+  {
+    "k": "ラグビー部",
+    "h": "ラグビーぶ",
+    "fr": "le club de rugby (au collège ou au lycée)",
+    "topic": "T9",
+    "section": "aucune",
+    "niveau": "A2/B1"
+  },
+  {
+    "k": "連絡(します)",
+    "h": "れんらく(します)",
+    "fr": "le contact (contacter)",
+    "topic": "T9",
+    "section": "aucune",
+    "niveau": "A2/B1"
+  },
+  {
     "k": "知り合う",
     "h": "しりあう",
     "fr": "faire connaissance",
