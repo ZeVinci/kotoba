@@ -10,6 +10,9 @@ let scoreTotal   = 0;
 const learnSel = { niveauTopic: new Set(), section: new Set() };
 const revSel   = { niveauTopic: new Set(), section: new Set() };
 
+// Filtre grammaire (Set vide = "Tous")
+const gramSel = { themeId: new Set() };
+
 // ============ NAVIGATION ============
 function showScreen(id) {
   document.querySelectorAll('.screen').forEach(s => s.classList.remove('active'));
@@ -280,3 +283,109 @@ document.getElementById('card').addEventListener('click', revealAnswer);
 document.getElementById('card').addEventListener('keydown', function(e) {
   if (e.key === ' ' || e.key === 'Enter') revealAnswer();
 });
+
+// ============ MODE GRAMMAIRE ============
+
+// Toutes les clés thème triées : "B1-1 · T3", etc.
+function allThemeIds() {
+  return GRAMMAIRE.map(function(t) { return t.id; });
+}
+
+function gramThemeLabel(t) {
+  return t.niveau + ' · T' + t.theme_num;
+}
+
+// Chips de filtre grammaire
+function buildGramChips() {
+  var container = document.getElementById('gram-chips-theme');
+  container.innerHTML = '';
+
+  var allChip = document.createElement('button');
+  allChip.className = 'chip' + (gramSel.themeId.size === 0 ? ' active' : '');
+  allChip.textContent = 'Tous';
+  allChip.addEventListener('click', function() {
+    gramSel.themeId.clear();
+    buildGramChips();
+    renderGramList();
+  });
+  container.appendChild(allChip);
+
+  GRAMMAIRE.forEach(function(t) {
+    var chip = document.createElement('button');
+    chip.className = 'chip' + (gramSel.themeId.has(t.id) ? ' active' : '');
+    chip.textContent = gramThemeLabel(t);
+    chip.addEventListener('click', function() {
+      if (gramSel.themeId.has(t.id)) gramSel.themeId.delete(t.id);
+      else gramSel.themeId.add(t.id);
+      buildGramChips();
+      renderGramList();
+    });
+    container.appendChild(chip);
+  });
+}
+
+// Rendu de la liste accordéon
+function renderGramList() {
+  var list = document.getElementById('gram-list');
+  list.innerHTML = '';
+
+  var themes = gramSel.themeId.size === 0
+    ? GRAMMAIRE
+    : GRAMMAIRE.filter(function(t) { return gramSel.themeId.has(t.id); });
+
+  if (themes.length === 0) {
+    list.innerHTML = '<p style="text-align:center;padding:40px;color:var(--smoke)">Aucun thème sélectionné.</p>';
+    return;
+  }
+
+  themes.forEach(function(theme) {
+    // En-tête de thème
+    var header = document.createElement('div');
+    header.className = 'gram-theme-header';
+    header.innerHTML =
+      '<span class="gram-theme-label">' + gramThemeLabel(theme) + '</span>' +
+      '<span class="gram-theme-jp">' + theme.titre_jp + '</span>';
+    list.appendChild(header);
+
+    // Points accordéon
+    theme.points.forEach(function(pt) {
+      var item = document.createElement('div');
+      item.className = 'gram-acc-item';
+
+      var hdr = document.createElement('div');
+      hdr.className = 'gram-acc-header';
+      hdr.innerHTML =
+        '<span class="gram-acc-num">' + pt.num + '</span>' +
+        '<div class="gram-acc-titles">' +
+          '<span class="gram-acc-jp">' + pt.jp + '</span>' +
+          '<span class="gram-acc-fr">' + pt.fr + '</span>' +
+        '</div>' +
+        '<span class="gram-acc-arrow">▾</span>';
+
+      var body = document.createElement('div');
+      body.className = 'gram-acc-body';
+      body.innerHTML = pt.html;
+
+      hdr.addEventListener('click', function() {
+        item.classList.toggle('open');
+      });
+
+      item.appendChild(hdr);
+      item.appendChild(body);
+      list.appendChild(item);
+    });
+  });
+}
+
+// Action goto-gram dans l'event delegation (s'ajoute aux actions existantes)
+(function patchEventDelegation() {
+  document.addEventListener('click', function(e) {
+    var el = e.target.closest('[data-action]');
+    if (!el) return;
+    if (el.dataset.action === 'goto-gram') {
+      buildGramChips();
+      renderGramList();
+      showScreen('gram-screen');
+    }
+  });
+})();

@@ -27,11 +27,15 @@
       <div class="home-actions">
         <button class="btn-home" data-action="goto-learn">
           <span class="btn-icon">覚</span>
-          <span class="btn-label">Apprendre</span>
+          <span class="btn-label">Liste vocabulaire</span>
         </button>
         <button class="btn-home accent" data-action="goto-revise-setup">
           <span class="btn-icon">試</span>
-          <span class="btn-label">Réviser</span>
+          <span class="btn-label">Réviser vocabulaire</span>
+        </button>
+        <button class="btn-home" data-action="goto-gram">
+          <span class="btn-icon">文</span>
+          <span class="btn-label">Grammaire</span>
         </button>
       </div>
     </div>
@@ -41,7 +45,7 @@
   <div id="learn-screen" class="screen">
     <div class="top-bar">
       <button class="back-btn" data-action="goto-home">←</button>
-      <h2 class="top-title">Apprendre</h2>
+      <h2 class="top-title">Liste vocabulaire</h2>
       <button class="icon-btn" id="filter-toggle-btn" aria-label="Filtres">⚙</button>
     </div>
 
@@ -83,7 +87,7 @@
   <div id="revise-setup-screen" class="screen">
     <div class="top-bar">
       <button class="back-btn" data-action="goto-home">←</button>
-      <h2 class="top-title">Réviser</h2>
+      <h2 class="top-title">Réviser vocabulaire</h2>
       <div></div>
     </div>
 
@@ -167,7 +171,28 @@
     </div>
   </div>
 
+  <!-- ===== GRAMMAIRE ===== -->
+  <div id="gram-screen" class="screen">
+    <div class="top-bar">
+      <button class="back-btn" data-action="goto-home">←</button>
+      <h2 class="top-title">Grammaire</h2>
+      <div style="min-width:40px"></div>
+    </div>
+
+    <div class="filter-panel">
+      <div class="multifilter-group">
+        <div class="multifilter-label">Thème</div>
+        <div class="chip-row" id="gram-chips-theme"></div>
+      </div>
+    </div>
+
+    <div class="gram-list-wrap">
+      <div id="gram-list"></div>
+    </div>
+  </div>
+
   <script src="vocab2.js"></script>
+  <script src="grammaire.js"></script>
   <script src="app2.js"></script>
 </body>
 </html>
