@@ -1,3 +1,1557 @@
+# Grammaire — A2-B1 · Thème 1 · スポーツの試合
+
+---
+
+## 1. 試合が日曜日なら、だいじょうぶなんですが。
+*Si le match était dimanche, ça irait...*
+
+En reprenant une phrase prononcée par son interlocuteur et en y rajoutant ～なら, on peut transmettre à celui-ci ses recommandations ou ses commentaires sur le sujet.
+
+Pour décliner une invitation tout en notifiant à son interlocuteur des circonstances différentes dans lesquelles celle-ci aurait pu être acceptée, on utilise la tournure ～なら、大丈夫なんですが (Si (…), alors ça irait/serait allé). Il est également possible de personnaliser la phrase en remplaçant 大丈夫なんですが par une proposition se terminant par un verbe à la forme potentielle suivi de んですが.
+
+**Exemples :**
+
+> 試合が日曜日なら、だいじょうぶなんですが。
+> Si le match était dimanche, ça irait...
+
+> 試合が日曜日なら、行けるんですが。
+> Si le match était dimanche, je pourrais venir...
+
+De plus, on peut aussi évoquer une volonté ou des sentiments personnels dans la proposition suivant ～なら.
+
+**Exemples :**
+
+> 山田さんが行くなら、私も行きます。
+> Si Yamada-san y va, moi aussi j'y vais !
+
+> 長友選手が出るなら、おもしろい試合になると思います。
+> Si Nagatomo joue, je pense que ce sera un match intéressant.
+
+---
+
+## 2. テレビで、おもしろい試合になるって言って（い）ましたよ。
+*À la télé, ils ont dit que ce serait un match intéressant.*
+
+Lorsque l'on veut transmettre à un interlocuteur les paroles d'une tierce personne ou ce que l'on a entendu à la télévision, par exemple, on utilise la construction suivante : phrase à la forme neutre + って言っていました. Notez qu'à l'oral cette construction est souvent abrégée en って言ってました.
+
+**Exemples :**
+
+> 山田さんも行くって言ってました。
+> Yamada-san a dit qu'il/elle viendrait aussi.
+
+> 中村さんは、試合のチケットは、もう買ったって言ってました。
+> Nakamura-san a dit qu'il/elle a déjà acheté les billets pour le match.
+
+> テレビで、今週の週末は暑くないって言ってましたよ。
+> À la télé, ils ont dit qu'il ne ferait pas chaud ce week-end.
+
+---
+
+## 3. じつは、明日の試合、行けなくなったんです。
+*En fait, je ne peux plus aller au match de demain…*
+
+Pour exprimer des changements concernant une situation actuelle ou pour donner des explications, on utilise ～んです. On utilise la construction じつは、proposition à la forme neutre + んです pour annuler un rendez-vous ou décliner une invitation en en expliquant la raison. L'inclusion de じつは en début de phrase permet de marquer le fait que l'information ainsi exprimée est nouvelle pour l'interlocuteur.
+
+**Exemples :**
+
+> じつは、中国から知りあいが日本に来るんです。
+> En fait, une de mes connaissances vient au Japon depuis la Chine.
+
+> じつは、明日の試合、行けなくなったんです。
+> En fait, je ne peux plus aller au match de demain…
+
+Il est également possible d'utiliser la construction じつは、～ pour dévoiler ses sentiments personnels.
+
+**Exemples :**
+
+> じつは、前から一度サッカー場に行ってみたかったんです。
+> En fait, ça fait un moment que je voulais passer une fois au stade de foot.
+
+> じつは、学生のとき、ずっとサッカーをやってたんです。
+> En fait, j'ai fait du foot tout au long de mes études.
+
+---
+
+## 4. がんばれ／負けるな／…（命令形）
+*Fais de ton mieux ! / Ne perds pas ! / … (impératif)*
+
+Pour encourager une équipe lors d'une compétition sportive, il est nécessaire de mettre le verbe de la phrase à la forme impérative (affirmative ou négative, selon le contexte).
+
+**Construction de l'impératif (forme affirmative) :**
+
+→ Verbes du groupe 1 : On part de la forme en－ます. On ôte ce dernier, et on remplace le son « i » final par « e » :
+
+> がんばります → がんばれ！ — Fais de ton mieux !
+> はしります → はしれ！ — Cours !
+> いきます → いけ！ — Va/Vas-y !
+> かちます → かて！ — Gagne !
+
+→ Verbes du groupe 2 : On part de la forme en－ます, que l'on remplace simplement par « －ろ » :
+
+> みます → みろ！ — Regarde !
+> たべます → たべろ！ — Mange !
+
+→ Verbes du groupe 3 :
+
+> します → しろ！ — Fais !
+> しっかりします → しっかりしろ！ — Accroche-toi/Courage !
+> きます → こい！ — Viens !
+
+**Construction de l'impératif (forme négative) :**
+
+→ Pour tous les verbes, il suffit d'accoler－な à la forme du dictionnaire :
+
+> まける → まけるな！ — Ne perds pas !
+> あきらめる → あきらめるな！ — N'abandonne pas !
+
+---
+
+## 5. 土曜日に父の知りあいをむかえに行かなければなりません。／行かなきゃいけません。
+*Samedi, il faut que j'aille chercher une connaissance de mon père.*
+
+Pour exprimer la nécessité ou l'obligation d'une action, on utilise la construction suivante : verbe à la forme neutre négative + なければなりません／なきゃいけません.
+
+**Exemples :**
+
+> カーラさんはあさってまでに、レポートを出さなければなりません。
+> Kaara-san doit rendre son rapport avant après-demain au plus tard.
+
+> ホセさんは明日、大使館にしょるいを取りに行かなきゃいけません。
+> Hose-san doit passer prendre des documents à l'ambassade demain.
+
+À l'oral, on utilisera souvent la forme raccourcie なきゃいけないんです.
+
+**Exemples :**
+
+> すみません。あした、空港に友達をむかえに行かなきゃいけないんです。
+> Désolé… Demain, il faut que j'aille chercher un ami à l'aéroport.
+
+> じつは、あさってから、日本に出張しなきゃいけないんです。
+> En fait, à partir d'après-demain, je dois partir au Japon pour le travail.
+
+---
+
+## 6. 選手のプレーのすばらしさに感動しました。／勉強が忙しいから、友だちのさそいをことわりました。
+*J'ai été très impressionné par la qualité de jeu des joueurs. / Comme je suis occupé par mes études, j'ai décliné l'invitation de mon ami.*
+
+Pour exprimer ses impressions concernant un événement ou pour présenter des faits, il est possible de nominaliser l'adjectif ou le verbe concerné.
+
+**Nominalisation des adjectifs :**
+
+→ Adjectifs en い : il suffit de remplacer le « い » final par « さ » :
+
+> すばらしい ＋さ → すばらしさ — L'excellence/la splendeur.
+> いい ＋ さ → よさ — La bonté/la bonne qualité (⚠️ いい → よさ, pas いさ)
+
+→ Adjectifs en な : il suffit de remplacer le « な » final par « さ » :
+
+> かんたんな ＋さ → かんたんさ — La simplicité.
+
+**Nominalisation des verbes :**
+
+→ Il suffit de prendre la forme en－ます, et de supprimer le « ます » :
+
+> さそいます → さそい — L'invitation.
+> つかれます → つかれ — La fatigue.
+
+**Exemples :**
+
+> 長友選手のプレーのすばらしさに感動しました。
+> J'ai été impressionné par la qualité du jeu de Nagatomo.
+
+> ルールのかんたんさが、サッカー人気のりゆうの１つです。
+> La simplicité des règles est l'une des raisons de la popularité du foot.
+
+> 勉強が忙しいから友達のさそいをことわりました。
+> Comme je suis occupé par mes études, j'ai décliné l'invitation de mon ami.
+
+---
+
+## 7. 来月のマリナーズとの試合、いっしょに行きましょう。
+*Le match du mois prochain contre les Mariners, allons-y ensemble !*
+
+Pour parler d'un match d'une équipe contre un adversaire particulier, on spécifie cet adversaire par la construction suivante : nom de l'équipe adverse + と + の + 試合 (le match).
+
+Ainsi, en accolant la particule の à la particule と, on transforme la proposition précédent le と en complément du nom suivant le の.
+
+**Exemples :**
+
+> 来月、イーグルズはマリナーズと試合をします。
+> Le mois prochain, les Eagles jouent contre les Mariners.
+
+> 来月のマリナーズとの試合、いっしょに行きましょう。
+> Le match du mois prochain contre les Mariners, allons-y ensemble !
+
+La même construction est applicable aux autres particules (で、まで、から), avec le même effet. Seule exception : に n'accepte pas l'association avec の, et doit être remplacé par へ + の.
+
+**Exemples :**
+
+> JFサッカー場での試合は、年に15回ぐらいです。
+> Les matchs au stade de foot JF sont au nombre de 15 par an environ.
+
+> JFサッカー場までの行き方をサイトでしらべました。
+> J'ai cherché sur le site internet le trajet jusqu'au stade de foot JF.
+
+> ファンからのプレゼントは、Tシャツでした。
+> Le cadeau du fan était un T-shirt.
+
+> ファンへのメッセージは、サイトで読めます。
+> On peut lire le message aux fans sur le site internet.
+
+⚠️ ×ファンにのメッセージ — に ne s'associe pas directement avec の.
+
+
+# Grammaire — A2-B1 · Thème 2 · 家をさがす
+
+---
+
+## 1. いろいろさがして（い）るんですけど。／いいところがあまりなくて。
+*Je cherche à droite et à gauche, mais bon… / Il n'y a pas vraiment d'endroit bien…*
+
+En modifiant la terminaison de la phrase, il est possible d'indiquer à son interlocuteur que l'on est personnellement ennuyé par la situation.
+
+いろいろさがして（い）るんですけど possède par extrapolation un sens quasiment identique à la phrase complète いろいろ探していますが、いい家が見つかりません, mais en est une version orale moins directe. Pour la construire, on accole à la tournure んです la conjonction けど, puis on omet simplement la proposition devant logiquement suivre. On utilise cette construction quand les résultats que l'on pourrait imaginer en se basant sur la première partie de la phrase sont différents de la situation réelle.
+
+N.B. : La tournure んですが est synonyme de んですけど, et les deux sont interchangeables.
+
+**Exemples :**
+
+> いつもは9時に始まるんですけど。
+> D'habitude, ça commence toujours à 9h, mais bon…
+> *Contexte : il est 9h passées, et rien n'a encore commencé.*
+
+> きのうから田中さんに電話をかけて（い）るんですけど。
+> J'essaie de téléphoner à Tanaka-san depuis hier, mais bon…
+> *Contexte : je n'ai pas encore pu parler à Tanaka-san.*
+
+いいところがあまりなくて est sémantiquement équivalent à いいところがあまりなくて、困っています. À l'oral, on peut employer la version abrégée de la phrase pour sous-entendre que la proposition précédant le verbe en－て constitue une source d'embarras. Cette proposition peut se terminer par la forme suspensive d'un verbe, d'un adjectif en い (+ て), d'un adjectif en な (+ で) ou d'un nom (+ で).
+
+**Exemples :**
+
+> 毎日つうきんに2時間以上かかって。
+> Chaque jour, ça me prend plus de 2h pour aller au travail…
+
+> 電車やバスが少なくて。
+> Il n'y a pas beaucoup de trains et de bus…
+
+> 今の家は買い物に不便で。
+> Mon logement actuel n'est pas pratique pour les courses…
+
+> 来年はてんきんで。
+> Je serai muté(e) l'année prochaine…
+
+---
+
+## 2. 広くていい家があったから、決めました。
+*Comme il y avait un logement spacieux et convenable, je me suis décidé.*
+
+On peut utiliser la construction proposition 1 + から, proposition 2 pour mentionner les fondements ou les raisons justifiant l'une de ses décisions. La cause ou la raison est indiquée dans la proposition 1, et la décision résultante dans la proposition 2. L'élément précédant から peut également se mettre à la forme neutre (verbe, adjectif en い, adjectif en な ou nom), ce qui donne un ton légèrement plus informel à la phrase.
+
+**Exemples :**
+
+> 小さい子どもがいるから、安全なところがいいです。
+> J'ai un enfant en bas-âge, donc un endroit calme serait bien.
+
+> まわりがうるさいから、ひっこしました。
+> Les environs étaient bruyants, donc j'ai déménagé.
+
+> 駅に近くて便利だから、そのマンションにしました。
+> Comme elle est proche de la gare et pratique, j'ai choisi cette résidence.
+
+> 広くて明るい家だから、とても気に入っています。
+> Comme c'est un logement spacieux et clair, il me plaît beaucoup.
+
+---
+
+## 3. 会社まで少し遠いけど、いい家があったから、決めました。
+*C'est un peu loin de mon travail, mais comme il y avait un logement convenable, je me suis décidé.*
+
+Lorsque l'on veut avancer en même temps des aspects positifs et négatifs ayant servi de base de réflexion à la prise d'une décision, on utilise successivement けど pour le point allant dans le sens inverse de la décision finale et から pour le point ayant soutenu cette décision.
+
+**Exemples :**
+
+> やちんがたかいけど、会社に近いから、そのマンションにしました。
+> Le loyer est cher, mais comme c'est proche de mon travail, j'ai choisi cet appartement.
+
+> 会社から遠いけど、かんきょうがいいから、こうがいの家をさがしています。
+> C'est loin de mon travail, mais comme le cadre est agréable, je cherche un logement en banlieue.
+
+---
+
+## 4. せまくてもがまんしています。／不便でもここに住みたいです。
+*C'est petit, mais je fais avec. / Même si ce n'est pas pratique, c'est ici que je veux habiter.*
+
+Il s'agit ici de donner son opinion tout en mentionnant un aspect qui s'y oppose. La phrase se présente comme suit : proposition 1 + ても (ou でも), proposition 2. Le contenu de la proposition 2 est contraire à ce que le contenu de la proposition 1 laisse imaginer.
+
+**① Cas des verbes :**
+
+> ある → あっても
+> 近くに駐車場があっても、このアパートに住みたくないです。
+> Même s'il y a un parking à proximité, je ne veux pas vivre dans cet appartement.
+
+**② Cas des adjectifs en い :**
+
+> 高い → 高くても
+> 少しやちんが高くても、としんのマンションがいいです。
+> Même si le loyer est un peu cher, je préfère un appartement au centre-ville.
+
+**③ Cas des adjectifs en な :**
+
+> たいへんな → たいへんでも
+> たいへんでも、毎日電車でつうきんしています。
+> Même si c'est pénible, je vais tous les jours au travail en train.
+
+**④ Cas des noms :**
+
+> としん → としんでも
+> としんでも、安いマンションがありました。
+> Même au centre-ville, il y avait des appartements abordables.
+
+**⑤ Cas général de la forme négative :**
+
+> Pour un verbe : おふろがない → おふろがなくても
+> Pour un adjectif en い : 近くない → 近くなくても
+> Pour un adjectif en な : べんりでない → べんりでなくても
+> Pour un nom : いっこだてでない → いっこだてでなくても
+
+Pour répondre à une demande par l'affirmative mais de manière nuancée (« ça convient, mais sans être idéal »), on peut employer ～もいいです ou ～も大丈夫です.
+
+**Exemples :**
+
+> にわがなくてもいいです。
+> Ce n'est pas grave s'il n'y a pas de jardin.
+
+> やちんが少し高くてもだいじょうぶです。
+> Ce n'est pas grave si le loyer est un peu cher.
+
+Il existe également ～てもかまいません (« ça ne me dérange pas si… ») et ～ても問題ありません (« ce n'est pas un problème si… »), légèrement plus formels.
+
+**Exemples :**
+
+> 家は、としんでなくてもかまいません。
+> Peu importe si le logement n'est pas au centre-ville.
+
+---
+
+## 5. もっと広いへやがあれば、ひっこしたいです。
+*S'il y a un appartement plus grand, je veux déménager.*
+
+Lorsque l'on veut baser son discours sur une supposition, on utilise souvent la construction : proposition 1 au conditionnel + ば, proposition 2.
+
+**Exemples :**
+
+> もっと広いへやがあれば、ひっこしたいです。
+> S'il y a un appartement plus grand, je veux déménager.
+
+> 夜も安全なら、そのマンションにします。
+> Si elle est également tranquille de nuit, je choisis cette résidence.
+
+N.B. : ～ば et ～たら permettant tous deux d'effectuer une supposition (P1→P2), leur utilisation se recoupe très souvent et ils sont généralement interchangeables. Toutefois, lorsque la deuxième partie de phrase contient un ordre ou une requête, il est nécessaire d'utiliser ～たら (qui marque l'accomplissement de l'action), et non ～ば.
+
+> ○ いいマンションを見つけたら、おしえてください。
+> Si tu trouves un appartement intéressant, préviens-moi.
+> × いいマンションを見つければ、おしえてください。
+
+**Construction du conditionnel :**
+
+**① Cas des verbes :**
+
+→ Groupe 1 : remplacer le son « u » final par « e », puis ajouter ば :
+
+> すむ → すめば / かえる → かえれば / ある → あれば
+
+→ Groupe 2 : remplacer る par れば :
+
+> 食べる → 食べれば
+
+→ Groupe 3 :
+
+> くる → くれば / する → すれば
+
+**② Cas des adjectifs en い :**
+
+> 安い → 安ければ
+
+**③ Cas des adjectifs en な :**
+
+> 安全な → 安全なら
+
+**④ Cas des noms :**
+
+> マンション → マンションなら
+
+**⑤ Cas général de la forme négative :**
+
+> さがさない → さがさなければ
+> とおくない → とおくなければ
+> しずかでない → しずかでなければ
+
+
+# Grammaire — A2-B1 · Thème 3 · ほっとする食べ物
+
+---
+
+## 1. うどんは、外国の人には、味がうすくないですか。／ていしょくは量が少なすぎませんか。
+*Pour les étrangers, est-ce que les udon ne sont pas un peu fades ? / Et les formules repas, est-ce que les portions ne sont pas trop petites ?*
+
+Pour exprimer que l'on s'inquiète pour son interlocuteur à propos de quelque chose que l'on pense incommode, on utilise la forme interro-négative. Cette négation permet de poser sa question de manière moins directe (et donc plus délicate), et, de ce fait, de montrer de la considération envers les sentiments de son interlocuteur.
+
+Il n'est donc pas indispensable de répondre rigoureusement à une telle question : on peut simplement rassurer son interlocuteur par 大丈夫です (« Ça va ») ou 問題ないです (« Pas de problème »), par exemple.
+
+**Exemples :**
+
+> A：日本のくだものは、ねだんが高くないですか。
+> B：いえいえ、だいじょうぶです。
+> A : Les fruits ne sont pas un peu chers au Japon ?
+> B : Non, ça va.
+
+> A：ていしょくは、ホセさんには、量が少なすぎませんか。
+> B：はじめはそう思いました。でも、今はだいじょうぶですよ。
+> A : Les portions des formules repas ne sont pas trop petites pour toi, Hose-san ?
+> B : Au début je trouvais, mais maintenant, ça va.
+
+Dans le cas où l'on répond par l'affirmative, il est de bon ton de rassurer son interlocuteur en ajoutant un commentaire positif.
+
+**Exemples :**
+
+> ええ、ちょっとそう思いますが、もうなれました。
+> Oui, je trouve aussi un peu, mais je m'y suis habitué.
+
+> じつは、ちょっと口にあわなくて、、、。でも、しょうゆをかけると、おいしいです。
+> C'est vrai, je n'aime pas beaucoup ça… Mais avec de la sauce soja, c'est bon !
+
+---
+
+## 2. 私、日本人なので、白いご飯とみそしるが一番ほっとするんですよ。
+*Moi, comme je suis japonais(e), c'est le riz blanc et la soupe miso qui me font me sentir le mieux.*
+
+～ので exprime une cause ou une raison. On place la proposition causale avant le ～ので, puis on fait suivre une proposition principale exprimant l'action ou la situation résultante. ～ので est précédé par la forme neutre. Dans le cas d'un nom ou d'un adjectif en な à la forme affirmative non-accomplie : nom/adjectif en な + な + ので.
+
+**Exemples :**
+
+> 体の調子が悪いので、昼ご飯を半分のこしました。
+> Comme je ne suis pas en forme, j'ai laissé de côté la moitié de mon déjeuner.
+
+> うちの子どもは、食べ物に好ききらいがあるので、こまっています。
+> Comme notre enfant est très difficile avec la nourriture, nous sommes assez ennuyés.
+
+> いが弱いので、とんかつはあまり食べられないんです。
+> Étant donné que ma digestion est mauvaise, je ne peux pas vraiment manger de tonkatsu.
+
+### • 私（も）てつだわせてください。
+*Laissez-moi (aussi) vous aider...*
+
+Il s'agit d'une façon polie de faire savoir à quelqu'un que l'on souhaite l'aider. Les constructions てつだってください et てつだってくださいませんか permettent de demander de l'aide à son interlocuteur. Ici, les rôles sont inversés : てつだわせてください permet à la personne indiquée par la particule に d'informer son interlocuteur qu'il souhaite lui apporter son aide (moyennant sa permission).
+
+---
+
+## 3. ラーメンみたいな食べ物／ベジマイトは（見た目が）ジャムみたいです。
+*Un plat qui ressemble aux ramen / La vegemite, ça ressemble à de la confiture (en apparence).*
+
+Cette construction permet de décrire le goût, l'aspect, l'odeur, etc. de quelque chose en comparant celle-ci à une chose qui lui ressemble. Elle se crée en faisant suivre le nom utilisé pour comparaison par みたい. Dans le cas où l'on souhaite déterminer un nom par la chose à laquelle il ressemble : **[Nom pris comme comparaison] + みたいな + [Nom de l'aliment, l'odeur, etc.]**.
+
+**Exemples :**
+
+> ラーメンみたいな食べ物
+> Un plat qui ressemble aux ramen.
+
+> キンパはおすしみたいな食べ物です。
+> Le kinpa est un plat ressemblant aux sushis.
+
+> このお茶は花みたいなにおいがします。
+> Ce thé a une odeur qui rappelle les fleurs.
+
+Il est également possible d'employer la phrase toute simple : [Nom pris comme comparaison] + みたい + です.
+
+> ベジマイトはジャムみたいです。
+> La vegemite ressemble à de la confiture.
+
+Si l'on souhaite limiter la comparaison à une seule caractéristique, on thématise la chose avec は, et on en précise la partie souhaitée avec が.
+
+**Exemples :**
+
+> ベジマイトは見た目がジャムみたいです。
+> La vegemite, en apparence, on dirait de la confiture.
+
+> このお茶はにおいが花みたいですね。
+> L'odeur de ce thé, on dirait des fleurs !
+
+⚠️ みたい et みたいな sont informels et s'emploient avant tout à l'oral.
+
+---
+
+## 4. ラーメンは毎日食べてもあきないです。
+*Les ramen, même en en mangeant tous les jours, je ne m'en lasse pas.*
+
+Il existe deux constructions différentes de la version négative de la forme non-accomplie polie : les terminaisons verbales **～ないです** et **～ありません（ません）**. La terminaison ～ないです est très courante à l'oral. Sa construction est simple : partir d'un verbe à la forme－ない et lui accoler です.
+
+**Exemples :**
+
+> ラーメンは毎日食べてもあきないです。
+> Les ramen, même en en mangeant tous les jours, je ne m'en lasse pas.
+
+> ラーメンは自分では作らないです。
+> Les ramen, je ne les prépare pas moi-même.
+
+> 自分ではあまり料理しないです。
+> Je ne fais presque jamais la cuisine.
+
+> A：これ、ちょっとしょっぱくないですか。
+> B：いえ、ぜんぜん問題ないです。
+> A : C'est pas un peu salé, ça ? / B : Non, aucun problème.
+
+Ces deux formes sont sémantiquement identiques et donc interchangeables. Elles s'appliquent aussi aux noms (じゃないです／じゃありません), aux adjectifs en な (じゃないです／じゃありません) et aux adjectifs en い (～くないです／～くありません).
+
+**Exemples :**
+
+> そのドリンクはくすりじゃありません。
+> Cette boisson n'est pas un médicament.
+
+> 日本のなっとうは好きじゃありません。
+> Je n'aime pas le nattô japonais.
+
+> この料理はおいしくありません。
+> Ce plat n'est pas bon.
+
+### • ベジマイトは、私にとっては、なつかしいオーストラリアの味なんです。
+*La vegemite, pour moi, ça a un goût qui me rappelle l'Australie.*
+
+La construction **～にとっては** est précédée d'un mot désignant une personne ou un groupe, et permet d'en exprimer les préférences, les pensées, les intérêts, etc.
+
+**Exemples :**
+
+> やさいは、子どもにとっては、おいしくないかもしれません。
+> Les légumes, pour les enfants, ça n'a peut-être pas bon goût.
+
+> たなかさんにとって、いちばんほっとする食べ物はカレーだそうです。
+> Pour Tanaka-san, le plat le plus réconfortant est le curry, paraît-il.
+
+⚠️ ～にとっては n'exprime en aucun cas le bénéficiaire d'une action (pour cela, on utilise ～のために).
+
+> × 母は、子どもにとって、ケーキを作りました。
+> ○ 母は、子どものために、ケーキを作りました。
+> La mère a préparé un gâteau pour ses enfants.
+
+
+# Grammaire — A2-B1 · Thème 4 · 訪問
+
+---
+
+## 1. むすこのしょうです。／しょう、おねえちゃんは？
+*C'est mon fils, Shoo. / Shoo, où est ta grande sœur ?*
+
+On utilise cette tournure pour présenter sa famille à un visiteur. On mentionne tout d'abord le lien qui nous unit à la personne en question, puis le nom de cette dernière, en intercalant の entre les deux.
+
+Remarque : Il est fréquent d'utiliser うちの（むすこ、しゅじん…）plutôt que 私の（むすこ、しゅじん…）pour présenter les membres de sa famille.
+
+**Exemples :**
+
+> むすこのしょうです。
+> C'est mon fils, Shoo.
+
+> むすめのめぐみです。
+> C'est ma fille, Megumi.
+
+> うちのしゅじんです。
+> C'est mon mari.
+
+Les phrases suivantes sont employées entre membres de la famille pour demander où quelqu'un se situe ou l'inviter à venir :
+
+> しょう、お姉ちゃんは？
+> Shoo, où est ta grande sœur ?
+
+> お父さん、こっちよ。
+> Papa, viens par là !
+
+---
+
+## 2. 親切な人が多くてたすかりました。（丁寧体）／家族でよく旅行したね。（普通体）
+*Il y avait beaucoup de gens sympathiques, ça m'a aidé. / On a beaucoup voyagé en famille, hein !*
+
+Lorsque l'on parle à une personne dont on n'est pas particulièrement proche (inconnu, simple connaissance, collègue de travail, etc.), on utilise le **registre poli**, caractérisé par des phrases se terminant par です ou ます. Veillez à systématiquement utiliser ce niveau de politesse pour éviter toute impolitesse !
+
+**Exemples (registre poli) :**
+
+> 親切な人が多くて助かりました。
+> Il y avait beaucoup de gens sympathiques, ça m'a aidé.
+
+> 私たち、ニューヨークに住んでたんですよ。
+> En fait, on vivait à New-York.
+
+> ぐうぜんですね。
+> Quelle coïncidence !
+
+Inversement, on utilise le **registre ordinaire (neutre)** pour interagir avec sa famille et ses proches. Il se caractérise par l'emploi de verbes et d'adjectifs à la forme neutre. Toutefois, il est généralement préférable d'utiliser le registre poli même avec une connaissance proche si celle-ci est plus âgée ou de rang supérieur.
+
+**Exemples (registre neutre) :**
+
+> 家族でよく旅行したね。
+> On a beaucoup voyagé en famille, hein !
+
+> おぼえてるか。
+> Tu te souviens ?
+
+> わすれられないけしきだよね。
+> C'est un paysage inoubliable, hein…
+
+---
+
+## 3. アニスさんが家によんでくれました。
+*Anisu-san m'a invité(e) chez elle.*
+
+Dans le cas où quelqu'un fait une action bénéfique pour le locuteur, il est possible d'utiliser la construction : **verbe à la forme en－て + くれました**. Dans ce cas, on utilise la particule が pour se référer à l'acteur.
+
+La différence fondamentale entre un simple verbe (しました) et le même verbe en ～てくれました (してくれました) est la notion de **gratitude** incluse dans cette dernière. Le sujet de l'action ne peut jamais être la première personne, et le bénéficiaire de l'action est toujours le locuteur (généralement omis).
+
+**Exemples :**
+
+> 私の家まで車でむかえに来てくれました。
+> Quelqu'un est venu me chercher jusqu'à chez moi.
+
+> 子どものとき、母がいつも本を読んでくれました。
+> Quand j'étais petit, ma mère me lisait toujours des livres.
+
+⚠️ Un sentiment de gratitude étant sous-entendu, il est impossible d'utiliser ～てくれました pour une action engendrant un effet négatif ou désagréable.
+
+> × 兄が私の日記を読んでくれました。
+
+---
+
+## 4. アニスさんにつうやくをしてもらいました。
+*Anisu-san a fait l'interprète [→pour moi, à ma demande].*
+
+Le verbe もらう indique que le sujet a reçu un cadeau ou un objet physique d'autrui. La forme **en－て ＋ もらいました** s'emploie lorsque le sujet a reçu non pas un objet physique, mais une faveur, qu'il a bénéficié d'une action. Pour préciser la personne à l'origine de cette action, on utilise la particule に.
+
+Ici également, ～てもらいました inclut une notion de gratitude de la part du sujet envers l'acteur (précisé par に).
+
+**Exemples :**
+
+> アニスさんにつうやくをしてもらいました。
+> Anisu-san a fait l'interprète pour moi.
+
+> インドネシア語がよくわからなかったので、ご両親にゆっくり話してもらいました。
+> Comme je ne comprenais pas bien l'indonésien, ses parents ont parlé plus lentement pour moi.
+
+> お兄さんのカメラで写真をとってもらいました。
+> Son frère nous a pris en photo avec son appareil.
+
+Remarques sur la distinction ～てくれました / ～てもらいました :
+
+→ **Différence de point de vue :** le sujet de ～てくれました n'est jamais la première personne (sujet désigné par が). Le sujet de ～てもらいました est usuellement la première personne (le « bienfaiteur » est désigné par に).
+
+→ **～てもらいました** laisse supposer que l'action bienfaitrice a répondu à une demande expresse. Pour un service rendu spontanément, on utilise essentiellement ～てくれました.
+
+
+# Grammaire — A2-B1 · Thème 5 · ことばを学ぶ楽しみ
+
+---
+
+## 1. せっきょくてきに英語を話すようにしています。／はやい会話も聞きとれるようになりました。／上手になれるように、毎日英語のニュースを見ています。
+*Je fais activement en sorte de parler anglais. / Maintenant, j'arrive même à comprendre les conversations rapides. / Pour pouvoir m'améliorer, je regarde tous les jours les infos en anglais.*
+
+Récapitulons ici trois expressions utilisant différemment une même construction : verbe + ように.
+
+**① Exprimer une habitude que l'on s'efforce de prendre :**
+
+Verbe à la forme du dictionnaire + **ようにしています**.
+
+> できるだけ漢字のノートを見るようにしています。
+> Je tâche de regarder aussi souvent que possible le livret de kanji.
+
+En mettant le verbe à la forme neutre négative, on exprime une action que l'on s'efforce de ne pas faire :
+
+> 漢字を読むとき、できるだけふりがなを見ないようにしています。
+> Lorsque je lis les kanji, j'essaie de ne pas regarder les furigana dans la mesure du possible.
+
+**② Exprimer une compétence nouvellement acquise :**
+
+Verbe à la forme potentielle + **ように** + **なりました**.
+
+> かんたんな漢字が書けるようになりました。
+> J'arrive maintenant à écrire les kanji simples.
+
+Remarque : Les verbes comme わかります et 見えます contenant déjà le sens de « savoir » ou « pouvoir », il est inutile de les mettre à la forme potentielle. On utilise dans ce cas : verbe à la forme du dictionnaire + ように + なりました.
+
+> ○ 日本人の友達がたくさんできたので、日本語がわかるようになりました。
+> Comme je me suis fait plein d'amis japonais, j'en suis arrivé(e) à comprendre la langue.
+
+**③ Exprimer une action effectuée dans le but d'atteindre un objectif :**
+
+Verbe 1 à la forme potentielle + **ように**, verbe 2. Le verbe 1 présente l'objectif visé, le verbe 2 désigne l'action entreprise pour l'atteindre. Le verbe 2 se trouve très souvent à la forme en－ています, marque de l'habitude.
+
+> マリアさんみたいに上手になれるように、毎日日本語のラジオを聞いています。
+> Pour devenir aussi doué(e) que Maria-san, j'écoute tous les jours la radio en japonais.
+
+> 漢字を忘れないように、ノートをいつも持っています。
+> Pour ne pas oublier les kanji, je prends toujours mon carnet avec moi.
+
+Remarque sur la distinction **～ために vs ～ように** :
+
+→ ～ために : exprime un but final et concret ; le verbe précédent est souvent transitif et à la forme affirmative, il transmet une notion de volonté.
+→ ～ように : exprime une visée, un projet moins avancé ou une situation ; le verbe précédent est souvent intransitif, à la forme potentielle et/ou à la forme négative.
+
+> 日本に留学するために、日本語を勉強しています。
+> J'étudie le japonais pour partir étudier au Japon. *(objectif concret, déjà avancé)*
+
+> 日本に留学できるように、日本語を勉強しています。
+> J'étudie le japonais dans l'optique de pouvoir partir étudier au Japon. *(visée, moins certain)*
+
+---
+
+## 2. 日本語の学校、つづいてますね。（丁寧体）／英語の学校、つづいてるね。（普通体）
+*Vous continuez de fréquenter une école de japonais, donc ? / Tu vas toujours à une école d'anglais, hein ?*
+
+Dans le thème 4, nous avons appris à distinguer registre poli et registre neutre. Voici des précisions sur les interlocuteurs concernés :
+
+→ **Registre poli** pour : ①les personnes rencontrées pour la première fois, ②ses aînés au travail ou à l'école, ③ses supérieurs hiérarchiques, ④les simples connaissances.
+
+> 日本語の学校、つづいて（い）ますね。
+> Vous continuez de fréquenter une école de japonais, donc ?
+
+> 日本語が上手になりましたね。
+> Votre japonais est devenu excellent !
+
+→ **Registre neutre** pour : ⑤les membres de sa famille, ⑥ses cadets au travail ou à l'école, ⑦ses amis proches, ⑧les personnes clairement plus jeunes que soi, ⑨soi-même (soliloque).
+
+> 英語の学校、つづいて（い）るね。
+> Tu vas toujours à une école d'anglais, hein ?
+
+> 英語の学校にはいろいろな人がいて、自分とはちがういけんが聞けて、勉強になるよ。
+> Il y a toutes sortes de gens dans une école d'anglais, on entend plein d'opinions différentes de la sienne, c'est instructif !
+
+Pour faire part d'une nécessité à son interlocuteur à la forme neutre, on utilisera : verbe à la forme－ない sans le い final + **きゃ**.
+
+> エスターさんを見習わなきゃ。
+> Il faut que je prenne exemple sur Esutaa-san !
+
+> マンガカフェを始めたいなら、お金をためなきゃ。
+> Si tu veux ouvrir un « manga café », il faut mettre de l'argent de côté !
+
+---
+
+## 3. 大学を卒業したら、日本に留学しようと思っています。
+*Après avoir fini l'université, je compte partir étudier au Japon.*
+
+Lorsque l'on veut exprimer un projet ou une volonté pour l'avenir, on utilise : **verbe à la forme volitive + と思っています**.
+
+> しょうらい、お金をためて、マンガカフェを始めようと思っています。
+> Plus tard, je veux économiser de l'argent et ouvrir un « manga café ».
+
+Pour exposer ce projet en guise de réponse ou d'explication à une question, on adapte : **verbe à la forme volitive + と思って（い）るんです**.
+
+> A：あれ？スペイン語を勉強しているんですか？
+> B：はい。じつは、来年スペインにフラメンコをならいに行こうと思って（い）るんです。
+> A : Oh... Tu apprends l'espagnol ? / B : Oui... En fait, je compte aller étudier le flamenco en Espagne l'an prochain.
+
+**Construction du volitif :**
+
+→ Groupe 1 : remplacer le son « i » final (forme en－ます) par « ou » :
+
+> いきます → いこう / はいります → はいろう / かいます → かおう
+
+→ Groupe 2 : remplacer ます par よう :
+
+> はじめます → はじめよう / たべます → たべよう
+
+→ Groupe 3 :
+
+> します → しよう / 留学します → 留学しよう / きます → こよう
+
+---
+
+## 4. つぎの試験は、いいせいせきがとれそうです。／私にも読めそうな本
+*Je pense pouvoir obtenir une bonne note au prochain examen. / Un livre que je devrais pouvoir lire moi aussi*
+
+Pour laisser entendre que quelqu'un semble avoir des chances de réussir, on utilise : **verbe à la forme potentielle, de laquelle on remplace「－ます」par「－そうです」**.
+
+> この本は難しくないから、弟にも読めそうです。（読めます+そうです）
+> Ce livre n'est pas difficile, donc je pense que même mon petit frère pourra le lire.
+
+> シンさんにいい本を貸してもらったので、今日中にレポートができそうです。
+> Comme Shin-san m'a prêté un bon livre, je pense pouvoir finir le rapport aujourd'hui.
+
+Similairement, on peut utiliser cette tournure pour exprimer un événement probable dans des circonstances données :
+
+> 日本語のクラスにおくれそうです。
+> Je vais sans doute être en retard au cours de japonais.
+
+> つぎの試験は、らくだいしそうです。
+> Je vais sans doute échouer au prochain examen.
+
+En remplaçant「－そうです」par「－そうな」, on peut accoler cette tournure à un nom :
+
+> 私にも読めそうな本
+> Un livre que moi aussi pourrais peut-être lire.
+
+> 試験に出そうな漢字
+> Un kanji susceptible de sortir à l'examen.
+
+「－そうです」et「－そうな」peuvent également se greffer à des adjectifs en い et en な pour exprimer une impression basée sur l'apparence :
+
+> その本、おもしろそうですね。→ おもしろそうな本
+> Ce livre, il a l'air intéressant ! → un livre qui semble intéressant.
+
+> スペイン語のぶんぽう、ふくざつそうですね。→ ふくざつそうなぶんぽう
+> La grammaire espagnole, ça a l'air compliqué ! → une grammaire qui semble compliquée.
+
+---
+
+## 5. きのうは3時間もチャットをしました。／チャットは楽しいので、何時間もやります。
+*Hier, on a « tchatté » 3 heures ! / Comme le « tchat » est amusant, je l'utilise pendant des heures !*
+
+Lorsque l'on veut faire savoir qu'une valeur est supérieure à ce que l'on avait personnellement prévu, il est possible d'inclure ce sentiment dans la phrase en accolant la particule **も** au compteur numéral.
+
+> マリアさんは日本に7回も行ったことがあるんですか。うらやましいです。
+> Maria-san est déjà allée sept fois au Japon ?! Je l'envie !
+
+Pour souligner un prix élevé, on emploie : prix + も + **します** (et non です).
+
+> ○ この学校のじゅこう料は、48,000円もします。
+> Les frais d'inscription à cette école atteignent les 48000 yens.
+
+Pour souligner le grand nombre d'occurrences, on emploie **何回も** ; pour un grand nombre de personnes, **何人も** ; pour une durée longue, **何時間も**.
+
+**Exemples :**
+
+> このアニメはとてもおもしろいので、何回も見ています。
+> Comme cet animé est vraiment intéressant, je l'ai regardé plusieurs fois.
+
+> この学校には、外国人の先生が何人もいます。
+> Dans cette école, il y a de nombreux professeurs étrangers.
+
+> 今月、日本語の試験がありますから、毎日何時間も勉強しています。
+> Comme il y a un examen de japonais ce mois-ci, j'étudie plusieurs heures chaque jour.
+
+
+# Grammaire — A2-B1 · Thème 6 · 結婚
+
+---
+
+## 1. のりかさんは、今、きっと幸せでしょうね。
+*Norika-san doit sûrement être heureuse, maintenant !*
+
+Après avoir reçu des informations sur un(e) ami(e) ou une connaissance, on peut employer cette tournure pour faire part de ses suppositions concernant l'état d'esprit ou les sentiments de cette personne. La construction est : verbe/adjectif en い/adjectif en な + **でしょうね**.
+
+**① Verbe + でしょうね :**
+
+On utilise un verbe exprimant un sentiment, mis à la forme en－ている.
+
+> ホセさんは、試験に合格できて、よろこんでいるでしょうね。
+> Hose-san a réussi son examen, il doit être content !
+
+> 田中さんは、仕事が見つからなくて、こまっているでしょうね。
+> Tanaka-san doit être embêté(e) de ne pas arriver à trouver du travail...
+
+**② Adjectif en い + でしょうね :**
+
+On utilise la forme neutre d'un adjectif en い exprimant un sentiment.
+
+> マリアさんは、恋人とわかれて、きっと悲しいでしょうね。
+> Maria-san a rompu avec son petit-ami, elle doit sûrement être triste...
+
+> 林さんは、結婚が決まって、うれしいでしょうね。
+> Hayashi-san va se marier, il (elle) doit être ravi(e) !
+
+**③ Adjectif en な + でしょうね :**
+
+On utilise la forme neutre d'un adjectif en な exprimant un sentiment. On omet le だ final de la forme neutre, qui est directement remplacé par でしょうね (幸せだ → 幸せでしょうね).
+
+> のりかさんは、今、きっと幸せでしょうね。
+> Norika-san doit sûrement être heureuse, maintenant !
+
+> キムさんは、お父さんが入院して、心配でしょうね。
+> Kim-san doit être inquiet, son père est hospitalisé...
+
+---
+
+## 2. 何かお祝いをしようと思うんですが。
+*Je pense faire quelque chose pour fêter ça...*
+
+Cette tournure s'utilise pour annoncer une action que l'on envisage d'effectuer, pour proposer une action commune à son interlocuteur ou pour demander l'avis de ce dernier. On met le verbe exprimant l'action que l'on compte faire à la forme volitive, puis on y accole **と思うんですが**.
+
+**Exemples :**
+
+> 何かお祝いしようと思うんですが。
+> Je pense faire quelque chose pour fêter ça...
+
+> 中村さんのおみまいに行こうと思うんですが。
+> Je pense aller voir Nakamura-san à l'hôpital...
+
+> マリアさんをはげますために、パーティーにさそおうと思うんですが。
+> Je pense inviter Maria-san à la fête pour l'encourager...
+
+---
+
+## 3. のりかさん、聞きましたよ。／結婚するそうですね。／やさしい人なんですよね。
+*Norika-san, j'en ai entendu parler ! / Il paraît que tu vas te marier, hein ? / C'est quelqu'un de gentil, hein...*
+
+Ce type de construction permet de vérifier une information entendue sur un(e) ami(e) ou une connaissance auprès de la personne concernée. On ajoute les particules よ, ね, ou l'association よね, en fin de phrase.
+
+**① Emploi de ～よ :**
+
+Pour vérifier une information que l'on a entendue, vue, lue, etc., on aborde la personne concernée par 聞きましたよ ou 見ましたよ.
+
+> A：のりかさん、聞きましたよ。結婚するそうですね。 / B：ええ、そうなんです。
+> A : Norika-san, j'en ai entendu parler ! Il paraît que tu vas te marier, hein ? / B : Oui, c'est vrai.
+
+> A：石川さん、新聞で読みましたよ。ボランティアに参加したそうですね。 / B：はい、そうなんです。
+> A : Ishikawa-san, je l'ai lu dans le journal ! Il paraît que vous avez fait du bénévolat ? / B : Oui, c'est vrai.
+
+On peut également employer cette tournure pour transmettre une information dont l'interlocuteur n'a pas connaissance :
+
+> A：聞きましたか。川野さん、恋人とわかれたそうですよ。 / B：えっ、ほんとうですか。
+> A : Tu as entendu ? Il paraît que Kawano-san a rompu ! / B : Hein, c'est vrai ?
+
+**② Emploi de ～ね :**
+
+Il s'agit de vérifier une information et/ou de montrer que l'on partage le ressenti de son interlocuteur.
+
+> 結婚するそうですね。おめでとうございます。よかったですね。
+> Il paraît que tu vas te marier, alors ? Félicitations ! C'est super !
+
+> パーティーに招待しますから、ぜひ参加してくださいね。
+> Tu seras invité à la fête, alors sois là sans faute, hein !
+
+**③ Emploi de ～よね :**
+
+Lorsque son interlocuteur est mieux informé que soi-même, on utilise よね pour vérifier ce que l'on sait tout en indiquant que l'on partage son ressenti.
+
+> A：聞きましたよ。やさしい人なんですよね。 / B：ええ。
+> A : J'en ai entendu parler ! C'est quelqu'un de gentil, hein ? / B : Oui...
+
+> A：のりかさんに、何かお祝いをするんですよね。 / B：ええ、みんなでいっしょにプレゼントを買いましょう。
+> A : Il faut faire quelque chose pour Norika-san ! / B : Oui, achetons-lui un cadeau tous ensemble !
+
+---
+
+## 4. （私は）のりかの願いを聞いてあげます。
+*Je vais écouter les souhaits de Norika.*
+
+Le verbe あげる s'emploie pour indiquer que l'on fait soi-même un don à quelqu'un. Similairement, ce même verbe peut s'employer en tant qu'auxiliaire après un verbe à la forme en－て, pour signifier que l'on fait l'action **au bénéfice/au profit de quelqu'un d'autre**.
+
+Cette tournure sous-entend que l'on « impose » quelque peu arbitrairement ses bons sentiments au bénéficiaire : il est donc plus courant de l'employer lorsque ce dernier n'est pas présent, et le bénéficiaire doit être un parent, un ami proche ou quelqu'un de plus jeune que soi.
+
+**Exemples :**
+
+> のりかの願いを聞いてあげます。
+> Je vais écouter les souhaits de Norika.
+
+> 結婚式で、のりかの写真をたくさんとってあげます。
+> Pendant la cérémonie de mariage, je vais prendre plein de photos de Norika.
+
+Pour éviter de passer pour paternaliste ou hautain, on adoucit souvent la tournure en la transformant en ～てあげたいです ou ～てあげようと思っています.
+
+> 結婚式のじゅんびをてつだってあげたいです。
+> Je veux aider aux préparatifs de la cérémonie de mariage !
+
+> レストランでパーティーをしてあげようと思います。
+> Je pense lui organiser une fête au restaurant.
+
+Comparaison entre ～てあげる, ～てもらう et ～てくれる :
+
+> 父は田中さんをてつだってあげます。
+> Mon père aide Tanaka-san (→ mon père a décidé de lui-même que ce serait souhaitable).
+
+> 田中さんは父にてつだってもらいます。
+> Tanaka-san reçoit l'aide de mon père (→ sur demande de Tanaka-san).
+
+> 父は私をてつだってくれます。
+> Mon père m'aide (→ spontanément).
+
+---
+
+## 5. 大きなパーティーはしなくてもいいです。
+*Ce n'est pas la peine de faire une grande fête.*
+
+La tournure **verbe à la forme－なくても + いいです** permet d'exprimer l'absence de nécessité d'une action. Pour la construire : mettre le verbe à la forme négative neutre non-accomplie (forme en－ない), remplacer le い final par く, puis greffer てもいいです (しない → しなく + ても + いいです).
+
+**Exemples :**
+
+> 大きなパーティーはしなくてもいいです。
+> Ce n'est pas la peine de faire une grande fête.
+
+> 結婚式でワルツをおどらなくてもいいです。
+> On n'est pas obligé de danser la valse à un mariage.
+
+On peut également utiliser ～なくても + **だいじょうぶです** pour dire qu'il est tout à fait possible ou acceptable de ne pas faire quelque chose.
+
+**Exemples :**
+
+> 結婚式にしゅっせきするとき、着物を着なくてもだいじょうぶです。
+> Tu n'es pas obligé(e) de porter un kimono pour assister à une cérémonie de mariage.
+
+> 結婚式でスピーチをしなくてもだいじょうぶです。
+> Tu n'es pas obligé(e) de faire un discours pendant la cérémonie de mariage.
+
+
+# Grammaire — A2-B1 · Thème 7 · なやみ相談
+
+---
+
+## 1. ちょっとつかれて（い）て（元気がありません）。／仕事のことでちょっと（こまっています）。
+*Je suis un peu fatigué(e)... / À cause du travail, je suis un peu... (embêté)*
+
+Lorsque l'on veut expliquer les raisons d'une situation dans laquelle on se trouve (manque de forme, embarras quelconque), il est courant d'omettre la fin de la phrase et de terminer son explication par la forme en－て/－で.
+
+**Exemples :**
+
+> ちょっとつかれて（い）て（元気がありません）。 → つかれています → つかれていて
+> Je suis un peu fatigué(e)... *(verbe affirmatif)*
+
+> 朝ご飯、食べて（い）なくて（元気がありません）。 → 食べていません → 食べていなくて
+> Je n'ai pas mangé ce matin… *(verbe négatif)*
+
+> ちょっとねむくて（元気がありません）。 → ねむいです → ねむくて
+> J'ai un peu sommeil… *(adjectif en い affirmatif)*
+
+> 今、仕事がおもしろくなくて（元気がありません）。 → おもしろくないです → おもしろくなくて
+> Mon travail n'est pas intéressant en ce moment... *(adjectif en い négatif)*
+
+> 人間関係がふくざつで（こまっています）。 → ふくざつです → ふくざつで
+> Le relationnel est compliqué... *(adjectif en な affirmatif)*
+
+> ペットの犬が元気じゃなくて、（こまっています）。 → 元気じゃないです → 元気じゃなくて
+> Mon chien n'est pas en forme... *(adjectif en な négatif)*
+
+Lorsque la raison évoquée est un fait ou une personne, on l'introduit par Nom + **のことで**.
+
+> 子どものことでちょっと…（こまっています）。
+> À cause des enfants, je suis un peu... (dans l'embarras)
+
+> うちのことで…。（こまっています。）
+> Avec ce qui se passe à la maison... (je suis préoccupé)
+
+Pour aborder quelqu'un qui semble soucieux ou moins en forme :
+
+> A：カーラさん、いつもより元気がないですね。カーラさんらしくないですよ。
+> B：じつは、さいきん、恋人が私に会ってくれなくて…。
+> A : Kaara-san, tu es moins en forme que d'habitude, non ? Ça ne te ressemble pas.
+> B : En fait, en ce moment, mon copain refuse de me voir...
+
+---
+
+## 2. 私のしょくばでも、同じかもしれません。
+*À mon travail aussi, c'est peut-être pareil.*
+
+Pour avancer une possibilité ou une probabilité ne pouvant être affirmée avec certitude, on utilise **Verbe (neutre) + かもしれません**. Les adjectifs en い et en な suivent la même construction : Adjectif en い/Adjectif en な + **かもしれません**.
+
+**Exemples :**
+
+> 人間関係に問題があると、心の病気になるかもしれません。
+> Quand on a des problèmes dans ses relations avec les autres, il est possible de tomber en dépression.
+
+> 今の会社で、ストレスがない人はいないかもしれません。
+> Dans mon entreprise actuelle, il n'y a peut-être personne qui ne soit pas stressé.
+
+> しょくばでは人間関係のなやみが一番多いかもしれません。
+> Au travail, les problèmes relationnels sont peut-être les problèmes les plus courants.
+
+> 心の病気がある人はしょうらいが不安かもしれません。
+> Les personnes dépressives sont peut-être anxieuses au sujet de leur avenir.
+
+> しょうらいが不安なのは、みんな同じかもしれません。
+> Être inquiet pour son avenir, c'est peut-être commun à tous.
+
+---
+
+## 3. せっかく会っているのに、友達はカレシと長電話をします。
+*Alors qu'on se voit enfin, mon amie est au téléphone avec son copain depuis un bon moment.*
+
+Lorsque l'on veut exprimer sa déception ou son mécontentement quant à une situation dont on espérait mieux, on construit sa phrase ainsi : **Proposition 1 + のに, Proposition 2**. La proposition 1 présente la réalité de la situation (à la forme neutre), et la proposition 2 introduit l'élément contraire à ses attentes.
+
+**Exemples :**
+
+> いつも一緒に昼食を食べるのに、今日は一人です。
+> Alors qu'on déjeune toujours ensemble, aujourd'hui je me retrouve seul(e).
+
+> あまり食べたり飲んだりしないのに、わりかんでお金を払います。
+> Alors que je n'ai presque rien mangé ou bu, je me retrouve à payer ma part de la note.
+
+> メールであやまったのに、カレシはまだおこっています。
+> Bien que je me sois excusé(e) par message, mon copain est toujours fâché.
+
+> 早く帰りたいのに、次の店にさそわれます。
+> Je veux rentrer tôt, mais me voilà invité(e) à la suite de la soirée...
+
+> お酒に強くないのに、部長にすすめられます。
+> Alors que je ne tiens pas l'alcool, mon chef de section me fait boire.
+
+Si la proposition 1 se termine par un adjectif en な à la forme affirmative non-accomplie ou par un nom, のに devient **なのに**.
+
+> カレシとデートするとき、友だちはじゃまなのに、いつも一緒に来ます。
+> Quand je sors avec mon copain, mon ami(e) vient toujours nous accompagner alors qu'il (elle) est de trop.
+
+> 会社の人に新人なのに、なまいきだと言われました。
+> Quelqu'un de mon entreprise m'a dit que j'étais bien arrogant(e) pour un(e) petit(e) nouveau (nouvelle).
+
+Quand la proposition 1 se termine par un adjectif en な à la forme négative ou par un nom suivi d'une négation, on utilise la construction **じゃない + のに**.
+
+> お酒は好きじゃないのに、すすめられます。
+> Alors que je n'aime pas l'alcool, on me force à boire.
+
+> 大山さんはカレシじゃないのに、毎日電話がかかってきます。
+> Ooyama-san n'est pas mon copain, mais il m'appelle pourtant tous les jours.
+
+---
+
+## 4. 私はS子にマナーをまもってほしいです。／長電話をしないでほしいです。
+*J'aimerais que S-ko surveille ses manières. / J'aimerais que tu arrêtes de passer des coups de fil interminables.*
+
+Pour exprimer un souhait ou une volonté que quelqu'un fasse quelque chose de particulier, on utilise : **A は B に verbe à la forme en－て + ほしいです**, où A désigne la personne émettant le souhait et B désigne la personne supposée réaliser l'action.
+
+Remarque : Cette construction s'emploie généralement à la première personne. Pour rapporter le souhait d'une tierce personne, on utilise : verbe à la forme en－て + **ほしいと思っています**.
+
+> ようこ：「私は夫にもっと早くかえってきてほしいです。」
+> Yooko : « J'aimerais que mon mari rentre plus tôt à la maison. »
+
+> ようこさんはごしゅじんにもっと早くかえってきてほしいと思っています。
+> Yooko-san voudrait que son mari rentre plus tôt à la maison.
+
+Pour exprimer un souhait que quelqu'un **ne fasse pas** quelque chose : **A は B に verbe à la forme en－ない + で + ほしいです**.
+
+> しょう：「ぼくはお父さんにお母さんとけんかしないでほしいです。」
+> Shoo : « J'aimerais que mon père ne se dispute pas avec ma mère. »
+
+> しょうくんはお父さんにお母さんとけんかしないでほしいと思っています。
+> Shoo-kun voudrait que son père ne se dispute pas avec sa mère.
+
+
+# Grammaire — A2-B1 · Thème 8 · 旅行中のトラブル
+
+---
+
+## 1. もうすぐ飛行機に乗れるそうです。
+*Apparemment, on pourra bientôt monter dans l'avion.*
+
+On utilise cette tournure pour rapporter à son interlocuteur des informations que l'on a vues, lues ou entendues : **verbe à la forme neutre + そうです**.
+
+**Exemples :**
+
+> もうすぐ飛行機に乗れるそうです。
+> Apparemment, on pourra bientôt monter dans l'avion.
+
+> 飛行機のとうちゃくが1時間ほどおくれるそうです。
+> Apparemment, l'arrivée de l'avion est retardée d'une heure environ.
+
+À la place de cette tournure, on peut également utiliser **～って言っていました** :
+
+> あと30分ほどで、手続きがはじまるって言っていました。
+> Ils ont dit que les procédures commenceront dans 30 minutes environ.
+
+> 115便は、エンジンのこしょうで、とばないって言っていました。
+> Ils ont dit que le vol 115 ne décollera pas à cause d'une panne de moteur.
+
+On peut transformer ～って言っていました en question en le plaçant après 何 : 何て言ってましたか.
+
+> A：今のアナウンス、何て言っていましたか。
+> B：出発ゲートがへんこうになったそうです。
+> A : L'annonce à l'instant, qu'est-ce qu'ils ont dit ? / B : Apparemment la porte d'embarquement a changé.
+
+> A：アナウンス、何て言ってましたか。
+> B：あと20分ほどで、手続きが始まるそうです。
+> A : Qu'est-ce que l'annonce a dit ? / B : Les procédures commenceront dans 20 minutes environ, il paraît.
+
+La particule **ほど** est synonyme de ぐらい et s'emploie pour donner une approximation. Dans le cas d'une annonce, ほど est usuellement préféré à ぐらい car il donne un ton plus formel.
+
+> JF航空115便をご利用のお客様にお知らせします。あと15分ほどで、チェックインの手続きをかいしします。
+> Ceci est une annonce à destination des passagers embarquant sur le vol n°115 d'Air JF. Nous entamerons les procédures d'enregistrement dans 15 minutes environ.
+
+---
+
+## 2. ありました。／あった！
+*Je l'ai trouvé. / Je l'ai !*
+
+On emploie le **registre neutre** pour se parler à soi-même (même pour un aparté dans une conversation), tout en recourant systématiquement au **langage poli** pour s'adresser à son interlocuteur.
+
+**Exemples :**
+
+> ありました。/あった！
+> C'était là ! / Je l'ai trouvé(e) ! / Je l'ai !
+
+> あれ？時計がない。どこにおいたかな。
+> Hm ? Ma montre n'est pas là… Où est-ce que je l'ai mise !?
+
+> A：林さん、かばん、ありましたか。
+> B：ありません。受付へ行ったとき、もっていたかな。どうしよう。わからない。
+> A : Hayashi-san, tu as trouvé ton sac ? / B : Non… Je me demande si je l'avais quand j'étais à l'accueil... Qu'est-ce que je vais faire... J'en sais rien !
+
+Pour indiquer que, après avoir accompli une action 1, on fait une action 2 : **verbe 1 à la forme en－た, verbe 2**.
+
+> チェックインした後で、カフェでお茶を飲んだ。
+> Après m'être enregistré(e), j'ai bu un thé dans un café.
+
+> 空港についた後で、メールをチェックします。
+> Une fois arrivé(e) à l'aéroport, je vérifierai mes courriels.
+
+Lorsque son interlocuteur hésite, on peut l'inciter à agir : **とにかく、verbe en－てみましょう**.
+
+> A：石川さん、ケータイ、見つかりましたか。
+> B：いいえ。カフェへ行くときはもっていたから、カフェにあるかもしれない。でも、あるかなあ。
+> A：あるかもしれませんよ。とにかく、カフェへ行ってみましょう。
+> A : Ishikawa-san, tu as trouvé ton portable ? / B : Non. Je l'avais en allant au café, donc il est peut-être là-bas. Mais bon, ça m'étonnerait… / A : Ben il y est peut-être ! De toute façon, allons déjà à ce café pour voir.
+
+---
+
+## 3. 助けて！／誰か！
+*À l'aide ! / Quelqu'un !*
+
+Pour appeler quelqu'un à l'aide ou transmettre une information en toute hâte en cas d'urgence, on utilise soit un verbe à la forme en－て, soit l'impératif. Dans le cas d'un appel à l'aide, on peut aussi omettre complètement le verbe et crier seulement だれか！
+
+**Exemples :**
+
+> 誰か（来て）！助けて！
+> (Que) Quelqu'un (vienne) ! Au secours !
+
+> 火事だ！にげろ！
+> Au feu ! Fuyons !
+
+Il est également possible de rencontrer la construction **verbe en－て + くれ** (forme impérative de ～てくれます). Cette manière d'appeler à l'aide est plutôt employée par les hommes.
+
+> どろぼう！誰かつかまえてくれ！
+> Au voleur ! Attrapez-le !
+
+> 助けてくれ！
+> Aidez-moi !
+
+---
+
+## 4. 電気がつきます。
+*La lumière s'allume.*
+
+En japonais, on peut séparer les verbes en verbes intransitifs (自動詞 jidooshi) et verbes transitifs (他動詞 tadooshi). Les verbes transitifs introduisent un complément d'objet, tandis que les verbes intransitifs n'en admettent aucun.
+
+Construction pour décrire un phénomène ou l'état d'un objet : **[nom décrivant un objet] + が + verbe intransitif**.
+
+**Exemples :**
+
+> 電気がつきます。
+> La lumière s'allume.
+
+> セーフティボックスのかぎがかかりません。
+> La clé du coffre-fort ne ferme pas.
+
+---
+
+## 5. ホテルの人が電気をつけます。
+*L'employé de l'hôtel allume la lumière.*
+
+Construction pour décrire une action effectuée par quelqu'un : **[nom désignant une personne] が/は + COD を + verbe transitif**.
+
+**Exemples :**
+
+> ホテルの人が電気をつけます。
+> L'employé de l'hôtel allume la lumière.
+
+> となりのへやがうるさかったから、ホテルの人がへやをかえてくれました。
+> La chambre voisine était bruyante, alors un employé de l'hôtel m'a donné une autre chambre.
+
+Remarque : La particule を n'accompagne pas nécessairement un COD ! Elle peut introduire un lieu que l'on quitte (ホテルを出ます) ou que l'on traverse (ホテルの受付の前をとおります) avec des verbes de mouvement intransitifs.
+
+Le japonais compte un certain nombre de paires de verbes transitifs/intransitifs liés sémantiquement. En voici quelques-unes :
+
+> 電気がつきます [つく] — （ホテルの人が）電気をつけます [つける]
+> 電気がきえます [きえる] — （ホテルの人が）電気をけします [けす]
+> ドアがあきます [あく] — （ホテルの人が）ドアをあけます [あける]
+> ドアがしまります [しまる] — （ホテルの人が）ドアをしめます [しめる]
+> 水が出ます [出る] — （ホテルの人が）水を出します [出す]
+> 水がとまります [とまる] — （ホテルの人が）水をとめます [とめる]
+> かぎがかかります [かかる] — （ホテルの人が）かぎをかけます [かける]
+
+Il existe certaines tendances morphologiques régissant la construction de ces paires, mais pas de règle universelle : il est indispensable de mémoriser soigneusement les paires les plus courantes.
+
+---
+
+## 6. ホテルの人は歩きながら、ホテルの歴史を説明しました。
+*L'employé de l'hôtel, tout en marchant, a donné des explications sur l'histoire de l'hôtel.*
+
+Par l'emploi de la particule de coordination **ながら**, on peut exprimer qu'un même sujet effectue deux actions simultanément : **verbe 1 + ながら, verbe 2**. L'action du verbe 2 est effectuée en parallèle à celle du verbe 1. Pour greffer ながら à un verbe, on le met à la forme en－ます et on remplace ます par ながら.
+
+**Exemples :**
+
+> ホテルの人はあるきながら、ホテルの歴史を説明しました。
+> L'employé de l'hôtel, tout en marchant, a donné des explications sur l'histoire de l'hôtel.
+
+> ホテルのロビーでコーヒーを飲みながら、ガイドブックを読みます。
+> Je lis un guide de voyage en buvant un café dans le hall de l'hôtel.
+
+Remarque : ながら indiquant une simultanéité, il peut souvent se traduire par le participe présent en français. Toutefois, la réciproque n'est pas vraie : si deux actions ne sont pas rigoureusement simultanées, l'emploi de ながら est impropre.
+
+> × あくしゅしながら、わかれました。
+> ○ あくしゅして、わかれました。
+> On s'est séparés sur une poignée de main.
+
+
+# Grammaire — A2-B1 · Thème 9 · 仕事をさがす
+
+---
+
+## 1. もうしわけありません。／少々お待ちください。
+*Je vous prie de m'excuser. / Veuillez patienter un instant.*
+
+もうしわけありません est une façon de s'excuser encore plus polie que すみません. En japonais, il est nécessaire d'adapter systématiquement son registre de langue à la situation et à ses interlocuteurs. Par exemple, lorsque l'on accueille des visiteurs ou des clients au sein de son entreprise ou lors d'un déplacement professionnel, il est de mise d'employer un niveau de politesse supérieur à celui utilisé habituellement.
+
+**Exemples :**
+
+> もうしわけありません。
+> Je vous prie de m'excuser.
+
+> 少々お待ちください。
+> Veuillez patienter un instant.
+
+> ただいままいります。
+> J'arrive immédiatement.
+
+---
+
+## 2. 留学が終わったら、日本の会社で働きたいと思って（い）るんです。
+*Une fois mon programme d'échange terminé, j'aimerais travailler dans une entreprise japonaise.*
+
+On utilise cette expression pour évoquer quelque chose que l'on souhaite faire à un point donné dans le futur. La première moitié de la phrase se termine en ～たら, indication de son caractère encore hypothétique (cf. leçon 7 du niveau A2-2), et la seconde moitié décrit ce que l'on souhaite ou envisage de faire une fois que cette première partie sera réalisée.
+
+D'autre part, le い de la forme en－ている est souvent omis à l'oral : on dit simplement 思ってるんです.
+
+**Exemples :**
+
+> 留学が終わったら、日本の会社で働きたいと思って(い)るんです。
+> Une fois mon programme d'échange terminé, j'aimerais travailler dans une entreprise japonaise.
+
+> 大学を卒業したら、つうやくになりたいと思って(い)るんです。
+> Une fois mon diplôme universitaire obtenu, j'aimerais devenir interprète.
+
+Lorsqu'une durée précède ～たら, il faut le comprendre comme « lorsque cette période sera écoulée » — généralement une indication approximative du délai préalable à la réalisation de l'objectif global visé.
+
+> あと2、3年したら、海外の支社に行きたいと思って(い)るんです。
+> Dans deux ou trois ans, j'aimerais bien être transféré dans une succursale à l'étranger.
+
+> 5年ぐらいしたら、自分で会社を作りたいと思って(い)るんです。
+> Je pense monter ma propre entreprise dans environ cinq ans.
+
+---
+
+## 3. ヨーロッパの情報を集めることができます。
+*Je peux rassembler des informations sur l'Europe.*
+
+On emploie cette tournure pour mentionner ses compétences ou ses aptitudes, ou encore pour demander à son interlocuteur s'il est capable d'accomplir une tâche donnée. La construction est : **verbe à la forme du dictionnaire + ことができます**. Sémantiquement, cette tournure est équivalente à la forme potentielle et parfaitement interchangeable avec celle-ci.
+
+Important : si ～ことができます est rigoureusement synonyme de la forme potentielle, une différence fondamentale subsiste dans sa construction : le complément d'objet direct est ici introduit par **を** (et non par が comme pour la forme potentielle).
+
+**Exemples :**
+
+> ヨーロッパの情報を集めることができます。（＝集められます）
+> Je peux rassembler des informations sur l'Europe.
+
+> ていねいな外国語で書いたり、話したりすることができますか。
+> Est-ce que vous êtes capable d'écrire et de parler convenablement une langue étrangère ?
+
+> 日本語を話すことができます。（日本語が話せます）
+> Je sais parler japonais.
+
+> いろいろな人と協力して仕事をすることができます。（いろいろな人と協力して仕事ができます）
+> Je suis capable de travailler en coopération avec tout type de personne.
+
+---
+
+## 4. 人の前で話すよりレポートを書く方がとくいです。
+*Je suis meilleur pour écrire des rapports que pour parler devant un public.*
+
+Pour comparer deux objets, on emploie : Nom 1 より, Nom 2 の**ほうが** [Adjectif] です. Similairement, on peut remplacer les noms 1 et 2 par deux verbes ou propositions pour comparer deux actions : **Verbe 1 (forme du dictionnaire) より, Verbe 2 (forme du dictionnaire) のほうが** [Adjectif] です.
+
+**Exemples :**
+
+> 人の前で話すよりレポートを書く方がとくいです。
+> Je suis plus doué pour écrire des rapports que pour parler devant tout le monde.
+
+> １人で働くよりいろいろな人に会う方が好きです。
+> Plutôt que de travailler seul, je préfère rencontrer toute sorte de gens.
+
+Il est également possible de mettre les verbes 1 et 2 à la forme potentielle. Ce faisant, ce ne sont plus deux actions que l'on compare, mais deux compétences.
+
+> 外国語が話せるよりほかの人と協力して働ける方がだいじです。
+> Il est plus important d'être capable de coopérer avec autrui que de maîtriser une langue étrangère.
+
+
+# Grammaire — B1-1 · Thème 1 · はじめての人と
+
+---
+
+## 1. このヨガクラスに、よくいらっしゃっていますね。
+*Vous venez souvent à ce cours de yoga, non ?*
+
+Pour s'adresser à quelqu'un que l'on ne connaît pas encore bien ou lorsque l'on souhaite s'exprimer dans un langage respectueux et poli, on utilise le langage de politesse dit keego 敬語. Le keego inclut notamment des formes particulières des verbes appelées langage honorifique, sonkeego 尊敬語. Utiliser la forme honorifique des verbes pour décrire les actions de son interlocuteur permet de lui témoigner son respect.
+
+**① La forme honorifique 1 : constructions particulières**
+
+Certains verbes possèdent une forme honorifique qui leur est propre :
+
+| Verbe courant | Forme honorifique 1 |
+|---|---|
+| します（する）faire | なさいます（なさる）|
+| います（いる）être / 行きます（行く）aller / 来ます（来る）venir | いらっしゃいます（いらっしゃる）|
+| 食べます（食べる）manger / 飲みます（飲む）boire | めしあがります（めしあがる）|
+| 見ます（見る）regarder | ごらんになります（ごらんになる）|
+| 言います（言う）dire | おっしゃいます（おっしゃる）|
+| くれます（くれる）donner (autrui → soi) | くださいます（くださる）|
+
+**Exemples :**
+
+> クリスティーヌさん、来週のバレエのクラス、参加なさいますか。（参加します）
+> Christine-san, est-ce que vous participerez au cours de ballet la semaine prochaine ?
+
+> こちらには、ご家族でいらっしゃったんですか。（来た）
+> Est-ce que vous êtes venu(e) ici avec votre famille ?
+
+> ５時からの合気道のクラス、いらっしゃいますか。（行きます）
+> Est-ce que vous irez au cours d'aikido de 5h ?
+
+> もうパリに何年ぐらいいらっしゃいますか。（います）
+> Depuis combien d'années déjà êtes-vous à Paris ?
+
+> これ、昨日作ったんですけど、よかったら、めしあがってください。（食べて）
+> J'ai préparé ça hier… Si ça vous tente, servez-vous !
+
+> ジャンピエール・ジュネかんとくの新しい映画、もう、ごらんになりましたか。（見ました）
+> Avez-vous déjà vu le nouveau film de Jean-Pierre Jeunet ?
+
+> むすこさんのお名前、なんとおっしゃいますか。（言います）
+> Quel est le nom de votre fils ?
+
+> よろしければ、ランゲージエクスチェンジの相手になってくださいませんか。（くれません）
+> Est-ce que vous voudriez bien devenir mon partenaire d'échange linguistique ?
+
+---
+
+## 2. さっき携帯で日本語をお話しになっていたので。
+*Comme vous parliez japonais au téléphone tout à l'heure…*
+
+Les verbes qui ne possèdent pas de forme particulière se mettent à la forme honorifique 1 de la manière générale présentée ci-dessous. Les verbes possédant une forme particulière n'utilisent pas la construction générale !
+
+**② La forme honorifique 1 : construction générale**
+
+Pour construire la forme honorifique générale d'un verbe, on le met à la forme en－ます, on remplace ます par になります et on rajoute お devant le tout : **お + V en－ます sans ます + になります**.
+
+**Exemples :**
+
+> 何時ごろ、お帰りになりますか。（帰ります）
+> À quelle heure rentrerez-vous ?
+
+> トマさんは、本当にいつもていねいなことばをお使いになるんですね。（使います）
+> Thomas-san, vous êtes toujours si poli !
+
+> いつも何時にお休みになりますか。（休みます）
+> À quelle heure vous couchez-vous d'habitude ?
+
+> さっき、日本語をお話しになっていたので。（話します）
+> Comme vous parliez en japonais tout à l'heure…
+
+---
+
+## 3. 3年前からまた習いはじめました。
+*J'ai recommencé à étudier il y a trois ans.*
+
+Pour indiquer quand ou pourquoi on a commencé une activité ou un passe-temps, on utilise la construction suivante : **V en－ます sans ます + はじめる**.
+
+**Exemples :**
+
+> 大学を卒業して、社会人になってから、自分で料理を作りはじめました。
+> J'ai commencé à cuisiner moi-même à partir du moment où j'ai quitté l'université et suis rentré(e) dans la vie active.
+
+> 4年前からJFの日本語クラスに通いはじめました。
+> J'ai commencé à suivre les cours de japonais de la FJ il y a quatre ans.
+
+> どうして書道を習いはじめたんですか。
+> Pourquoi est-ce que vous avez commencé à apprendre la calligraphie ?
+
+> いつごろから、日本語を勉強しはじめたんですか。
+> Quand est-ce que vous avez commencé à étudier le japonais ?
+
+### • おたくは近いんですか。
+*Vous habitez près d'ici ?*
+
+Nous avons déjà rencontré la construction « proposition à la forme neutre + んです » pour fournir des explications ou annuler un rendez-vous. Ici, pour demander confirmation à son interlocuteur d'une information que l'on a déduite du contexte (certains de ses actes, ses paroles, son apparence, ses habitudes…), on utilise la construction interrogative **～んですか**.
+
+Elle permet de créer un sentiment de proximité, d'empathie et de compréhension. Attention toutefois à ne pas poser de question trop personnelle ou indiscrète !
+
+**Exemples :**
+
+> A：ここには、よくいらっしゃっていますね。おたくは近いんですか。
+> B：ええ、すぐそこのマンションに住んでいます。
+> A : Vous venez souvent ici, non ? Vous habitez près d'ici ? / B : Oui, j'habite dans cette résidence, juste là.
+
+> A：フランス語、お上手ですね。こちらに来て、もう長いんですか。
+> B：いいえ、まだ半年ぐらいです。
+> A : Vous parlez très bien français ! Ça fait longtemps que vous êtes ici ? / B : Non, ça ne fait encore que six mois à peu près.
+
+> A：フランスは、お仕事でいらっしゃったんですか。
+> B：そうなんです。フランスに来る前は、メキシコにいたんですよ。
+> A : Vous êtes venu(e) en France pour le travail ? / B : C'est ça. Avant de venir en France, je vivais au Mexique.
+
+---
+
+## 4. 海外生活4年目の主婦／ロンドン在住／ベトナム語を学習中。
+*Femme au foyer vivant à l'étranger depuis 4 ans / Habite Londres / Étudie le vietnamien.*
+
+Lorsque l'on souhaite écrire des phrases laconiques pour prendre des notes ou écrire un court message, il est très courant que l'on omette tout simplement ～です et ～ます, et que l'on termine les phrases par un substantif. On utilise le terme taigendome 体言止め pour décrire ce style.
+
+**Exemples :**
+
+> ３３歳、東京在住。銀行員。北海道出身。趣味は、映画とスキー。
+> 33 ans, habite Tokyo. Employé de banque. Originaire de Hokkaidoo. Loisirs : les films et le ski.
+
+> ４２歳、主婦。小2の男の子の母。現在、フランス語勉強中。初の海外生活で、発見の多い毎日です。
+> 42 ans, femme au foyer. Mère d'un garçon de CE1. Étudie le français. C'est ma première expérience de vie à l'étranger, chaque jour est plein de découvertes !
+
+> 京都に着きました。これからホテルにチェックインして、まず食事。天気もいいし、秋の京都、最高。
+> Arrivé(e) à Kyoto ! Prochaine étape, check-in à l'hôtel, puis repas avant tout. Le ciel est bleu, Kyoto en automne, c'est top !
+
+---
+
+## 5. いろいろ情報交換できればと思っています。
+*J'espère pouvoir échanger des informations de toute sorte.*
+
+On emploie cette tournure lorsque l'on se présente, pour exprimer ce que l'on espère ou souhaite accomplir. Elle peut être utilisée aussi bien à l'oral qu'à l'écrit. La forme générale est **V (conditionnel) + と思っています**, et peut se présenter de différentes façons (～ばいいと思っています, ～ばうれしいと思っています, etc.).
+
+Il est en outre courant que le verbe précédant と思っています soit à la forme potentielle conditionnelle.
+
+| Forme du dictionnaire | Forme potentielle | Forme potentielle conditionnelle |
+|---|---|---|
+| 行く aller | 行ける | 行ければ |
+| 作る fabriquer | 作れる | 作れれば |
+| 見る regarder | 見られる | 見られれば |
+| 留学する étudier à l'étranger | 留学できる | 留学できれば |
+| くる venir | こられる | こられれば |
+
+**Exemples :**
+
+> フランスのいろいろな町に行ければと思っています。
+> J'espère pouvoir visiter différentes villes de France.
+
+> 将来、自分の会社が作れればと思っています。
+> Plus tard, j'aimerais créer ma propre entreprise.
+
+> これから、みなさんといっしょに楽しく勉強できればと思っています。
+> J'espère pouvoir étudier en m'amusant avec vous tous.
+
+---
+
+## 6. ここではいろいろな人と知り合えるといいな。
+*J'aimerais bien pouvoir rencontrer ici toute sorte de gens.*
+
+Cette tournure permet également d'exprimer ses espoirs et ses attentes. Elle est particulièrement employée lorsqu'une contribution extérieure, et non pas ses seuls efforts personnels, est nécessaire à l'accomplissement du souhait. Plutôt qu'un message à autrui, il s'agit plus d'une phrase que l'on s'adresse à soi-même : on ne l'utilise généralement pas dans une conversation, et encore moins dans un environnement formel.
+
+La construction est simple : **V + といいな**, où le verbe précédant といいな est à la forme non-accomplie neutre.
+
+**Exemples :**
+
+> いろいろな国のともだちができるといいな。
+> J'aimerais bien me faire des amis de différents pays.
+
+> 日本のことについて教えてもらえるといいな。
+> Ce serait bien si je pouvais en apprendre plus sur le Japon grâce à vous tous.
+
+> コメントがたくさんくるといいな。
+> J'aimerais bien recevoir plein de commentaires !
+
+
 # Grammaire — B1-1 · Thème 2 · おすすめの料理
 
 ---
