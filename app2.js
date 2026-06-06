@@ -10,8 +10,47 @@ let scoreTotal   = 0;
 const learnSel = { niveauTopic: new Set(), section: new Set() };
 const revSel   = { niveauTopic: new Set(), section: new Set() };
 
-// Filtre grammaire (Set vide = "Tous")
-const gramSel = { themeId: new Set() };
+// ============ FAVORIS (mots marqués) ============
+// Persistance via localStorage, clé basée sur le CONTENU du mot (k|h)
+// → survit à la régénération de vocab2.js (l'ordre du tableau n'a pas d'importance)
+const FAV_KEY = 'kotoba-favoris';
+let favs = loadFavs();
+let learnFavsOnly = false;
+
+function wordId(w) { return w.k + '|' + w.h; }
+
+function loadFavs() {
+  try { return new Set(JSON.parse(localStorage.getItem(FAV_KEY) || '[]')); }
+  catch (e) { return new Set(); }
+}
+function saveFavs() {
+  try { localStorage.setItem(FAV_KEY, JSON.stringify([...favs])); }
+  catch (e) {}
+}
+function isFav(w)    { return favs.has(wordId(w)); }
+function toggleFav(w) {
+  const id = wordId(w);
+  if (favs.has(id)) favs.delete(id); else favs.add(id);
+  saveFavs();
+}
+
+// Export → télécharge kotoba-favoris.json
+function exportFavs() {
+  var blob = new Blob([JSON.stringify([...favs], null, 2)], { type: 'application/json' });
+  var a = document.createElement('a');
+  a.href = URL.createObjectURL(blob);
+  a.download = 'kotoba-favoris.json';
+  a.click();
+  URL.revokeObjectURL(a.href);
+}
+
+// Import → replace=true remplace, replace=false fusionne
+function importFavsFromText(text, replace) {
+  var arr = JSON.parse(text);
+  if (!Array.isArray(arr)) throw new Error('Format invalide');
+  favs = replace ? new Set(arr) : new Set([...favs, ...arr]);
+  saveFavs();
+}
 
 // ============ NAVIGATION ============
 function showScreen(id) {
@@ -112,6 +151,7 @@ document.getElementById('filter-toggle-btn').addEventListener('click', function(
 
 function renderLearnTable() {
   var words  = filterVocab(learnSel);
+  if (learnFavsOnly) words = words.filter(isFav);
   var hideJP = document.getElementById('hide-jp').checked;
   var hideFR = document.getElementById('hide-fr').checked;
 
@@ -121,12 +161,32 @@ function renderLearnTable() {
   tbody.innerHTML = '';
 
   if (words.length === 0) {
-    tbody.innerHTML = '<tr><td colspan="2" style="text-align:center;padding:30px;color:var(--smoke)">Aucun mot pour ces filtres.</td></tr>';
+    var msg = learnFavsOnly ? 'Aucun mot marqué pour ces filtres.' : 'Aucun mot pour ces filtres.';
+    tbody.innerHTML = '<tr><td colspan="3" style="text-align:center;padding:30px;color:var(--smoke)">' + msg + '</td></tr>';
     return;
   }
 
   words.forEach(function(w) {
     var tr = document.createElement('tr');
+
+    // Colonne étoile (favori)
+    var tdStar = document.createElement('td');
+    tdStar.className = 'td-star';
+    var star = document.createElement('button');
+    star.className = 'star-btn' + (isFav(w) ? ' on' : '');
+    star.textContent = isFav(w) ? '★' : '☆';
+    star.setAttribute('aria-label', 'Marquer / démarquer ce mot');
+    star.addEventListener('click', function(e) {
+      e.stopPropagation();
+      toggleFav(w);
+      var nowFav = isFav(w);
+      star.classList.toggle('on', nowFav);
+      star.textContent = nowFav ? '★' : '☆';
+      // En mode "favoris uniquement", la ligne démarquée doit disparaître
+      if (learnFavsOnly && !nowFav) renderLearnTable();
+    });
+    tdStar.appendChild(star);
+    tr.appendChild(tdStar);
 
     // Colonne Japonais
     var tdJP = document.createElement('td');
@@ -179,6 +239,43 @@ function renderLearnTable() {
 
 ['hide-jp', 'hide-fr'].forEach(function(id) {
   document.getElementById(id).addEventListener('change', renderLearnTable);
+});
+
+// ---- Contrôles favoris ----
+document.getElementById('fav-only').addEventListener('change', function(e) {
+  learnFavsOnly = e.target.checked;
+  renderLearnTable();
+});
+
+document.getElementById('fav-export').addEventListener('click', function() {
+  if (favs.size === 0) { alert('Aucun mot marqué à exporter.'); return; }
+  exportFavs();
+});
+
+document.getElementById('fav-import').addEventListener('click', function() {
+  document.getElementById('fav-import-file').click();
+});
+
+document.getElementById('fav-import-file').addEventListener('change', function(e) {
+  var file = e.target.files[0];
+  if (!file) return;
+  var reader = new FileReader();
+  reader.onload = function() {
+    try {
+      var replace = confirm(
+        'Importer les favoris :\n\n' +
+        'OK = REMPLACER la liste actuelle\n' +
+        'Annuler = FUSIONNER avec la liste actuelle'
+      );
+      importFavsFromText(reader.result, replace);
+      renderLearnTable();
+      alert('Import réussi — ' + favs.size + ' mot(s) marqué(s) au total.');
+    } catch (err) {
+      alert('Échec de l\'import : fichier JSON invalide.');
+    }
+  };
+  reader.readAsText(file);
+  e.target.value = ''; // permet de réimporter le même fichier ensuite
 });
 
 // ============ MODE RÉVISION SETUP ============
@@ -283,109 +380,3 @@ document.getElementById('card').addEventListener('click', revealAnswer);
 document.getElementById('card').addEventListener('keydown', function(e) {
   if (e.key === ' ' || e.key === 'Enter') revealAnswer();
 });
-
-// ============ MODE GRAMMAIRE ============
-
-// Toutes les clés thème triées : "B1-1 · T3", etc.
-function allThemeIds() {
-  return GRAMMAIRE.map(function(t) { return t.id; });
-}
-
-function gramThemeLabel(t) {
-  return t.niveau + ' · T' + t.theme_num;
-}
-
-// Chips de filtre grammaire
-function buildGramChips() {
-  var container = document.getElementById('gram-chips-theme');
-  container.innerHTML = '';
-
-  var allChip = document.createElement('button');
-  allChip.className = 'chip' + (gramSel.themeId.size === 0 ? ' active' : '');
-  allChip.textContent = 'Tous';
-  allChip.addEventListener('click', function() {
-    gramSel.themeId.clear();
-    buildGramChips();
-    renderGramList();
-  });
-  container.appendChild(allChip);
-
-  GRAMMAIRE.forEach(function(t) {
-    var chip = document.createElement('button');
-    chip.className = 'chip' + (gramSel.themeId.has(t.id) ? ' active' : '');
-    chip.textContent = gramThemeLabel(t);
-    chip.addEventListener('click', function() {
-      if (gramSel.themeId.has(t.id)) gramSel.themeId.delete(t.id);
-      else gramSel.themeId.add(t.id);
-      buildGramChips();
-      renderGramList();
-    });
-    container.appendChild(chip);
-  });
-}
-
-// Rendu de la liste accordéon
-function renderGramList() {
-  var list = document.getElementById('gram-list');
-  list.innerHTML = '';
-
-  var themes = gramSel.themeId.size === 0
-    ? GRAMMAIRE
-    : GRAMMAIRE.filter(function(t) { return gramSel.themeId.has(t.id); });
-
-  if (themes.length === 0) {
-    list.innerHTML = '<p style="text-align:center;padding:40px;color:var(--smoke)">Aucun thème sélectionné.</p>';
-    return;
-  }
-
-  themes.forEach(function(theme) {
-    // En-tête de thème
-    var header = document.createElement('div');
-    header.className = 'gram-theme-header';
-    header.innerHTML =
-      '<span class="gram-theme-label">' + gramThemeLabel(theme) + '</span>' +
-      '<span class="gram-theme-jp">' + theme.titre_jp + '</span>';
-    list.appendChild(header);
-
-    // Points accordéon
-    theme.points.forEach(function(pt) {
-      var item = document.createElement('div');
-      item.className = 'gram-acc-item';
-
-      var hdr = document.createElement('div');
-      hdr.className = 'gram-acc-header';
-      hdr.innerHTML =
-        '<span class="gram-acc-num">' + pt.num + '</span>' +
-        '<div class="gram-acc-titles">' +
-          '<span class="gram-acc-jp">' + pt.jp + '</span>' +
-          '<span class="gram-acc-fr">' + pt.fr + '</span>' +
-        '</div>' +
-        '<span class="gram-acc-arrow">▾</span>';
-
-      var body = document.createElement('div');
-      body.className = 'gram-acc-body';
-      body.innerHTML = pt.html;
-
-      hdr.addEventListener('click', function() {
-        item.classList.toggle('open');
-      });
-
-      item.appendChild(hdr);
-      item.appendChild(body);
-      list.appendChild(item);
-    });
-  });
-}
-
-// Action goto-gram dans l'event delegation (s'ajoute aux actions existantes)
-(function patchEventDelegation() {
-  document.addEventListener('click', function(e) {
-    var el = e.target.closest('[data-action]');
-    if (!el) return;
-    if (el.dataset.action === 'goto-gram') {
-      buildGramChips();
-      renderGramList();
-      showScreen('gram-screen');
-    }
-  });
-})();

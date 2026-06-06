@@ -67,6 +67,17 @@
         <label class="cb-label"><input type="checkbox" id="hide-jp"> Japonais</label>
         <label class="cb-label"><input type="checkbox" id="hide-fr"> Français</label>
       </div>
+
+      <!-- Favoris -->
+      <div class="fav-row">
+        <label class="cb-label"><input type="checkbox" id="fav-only"> ★ Favoris uniquement</label>
+        <div class="fav-actions">
+          <button class="fav-btn" id="fav-export">↓ Exporter</button>
+          <button class="fav-btn" id="fav-import">↑ Importer</button>
+          <input type="file" id="fav-import-file" accept="application/json,.json" hidden>
+        </div>
+      </div>
+
       <div class="filter-count" id="learn-count"></div>
     </div>
 
@@ -74,6 +85,7 @@
       <table class="learn-table">
         <thead>
           <tr>
+            <th class="th-star" aria-label="Favori"></th>
             <th id="th-jp">Japonais</th>
             <th id="th-fr">Français</th>
           </tr>

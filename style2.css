@@ -287,6 +287,45 @@ html, body {
   padding: 3px 6px;
 }
 
+/* ============ FAVORIS ============ */
+/* Colonne étoile */
+.th-star, .td-star {
+  width: 38px;
+  padding-left: 10px !important;
+  padding-right: 0 !important;
+  text-align: center;
+}
+.star-btn {
+  background: none; border: none;
+  color: var(--smoke);
+  font-size: 1.25rem; line-height: 1;
+  cursor: pointer; padding: 4px;
+  transition: color var(--trans), transform 0.1s;
+}
+.star-btn:active { transform: scale(1.3); }
+.star-btn.on { color: var(--gold); }
+
+/* Ligne favoris dans le panneau de filtres */
+.fav-row {
+  display: flex; align-items: center; justify-content: space-between;
+  flex-wrap: wrap; gap: 10px;
+  padding-top: 8px;
+  border-top: 1px solid rgba(255,255,255,0.04);
+}
+.fav-actions { display: flex; gap: 8px; }
+.fav-btn {
+  padding: 6px 12px;
+  border-radius: 20px;
+  border: 1.5px solid rgba(226,185,111,0.4);
+  background: rgba(226,185,111,0.08);
+  color: var(--gold);
+  font-family: var(--font-ui);
+  font-size: 0.78rem;
+  cursor: pointer;
+  transition: background var(--trans), transform 0.1s;
+}
+.fav-btn:active { transform: scale(0.95); background: rgba(226,185,111,0.2); }
+
 /* ============ SETUP RÉVISION ============ */
 #revise-setup-screen { overflow-y: auto; }
 .setup-body {
@@ -455,167 +494,4 @@ html, body {
   .filter-row { flex-wrap: nowrap; }
   .mode-cards { flex-direction: row; }
   .mode-card { flex: 1; }
-}
-/* ============ GRAMMAIRE ============ */
-
-/* Filtre chips thème */
-#gram-screen .filter-panel {
-  display: flex;
-}
-
-/* En-tête de thème dans la liste */
-.gram-theme-header {
-  display: flex; align-items: baseline; gap: 10px;
-  padding: 16px 4px 6px;
-}
-.gram-theme-label {
-  font-size: 0.67rem; color: var(--gold);
-  letter-spacing: 0.12em; text-transform: uppercase;
-  font-weight: 500; flex-shrink: 0;
-}
-.gram-theme-jp {
-  font-family: var(--font-jp);
-  font-size: 0.88rem; color: var(--smoke);
-}
-
-/* Zone de scroll de la liste */
-.gram-list-wrap {
-  flex: 1; overflow-y: auto;
-  padding: 4px 12px 32px;
-  -webkit-overflow-scrolling: touch;
-}
-
-/* Item accordéon */
-.gram-acc-item {
-  background: rgba(255,255,255,0.04);
-  border: 1px solid rgba(255,255,255,0.07);
-  border-radius: 12px;
-  margin-bottom: 8px;
-  overflow: hidden;
-}
-
-.gram-acc-header {
-  display: flex; align-items: flex-start; gap: 10px;
-  padding: 12px 14px;
-  cursor: pointer;
-  user-select: none;
-  -webkit-tap-highlight-color: transparent;
-}
-.gram-acc-header:active { background: rgba(255,255,255,0.03); }
-
-.gram-acc-num {
-  font-size: 0.72rem; font-weight: 500;
-  color: var(--gold);
-  background: rgba(226,185,111,0.12);
-  border-radius: 6px;
-  padding: 2px 7px;
-  flex-shrink: 0;
-  margin-top: 3px;
-  letter-spacing: 0.04em;
-}
-
-.gram-acc-titles {
-  flex: 1; display: flex; flex-direction: column; gap: 3px;
-}
-.gram-acc-jp {
-  font-family: var(--font-jp);
-  font-size: 0.92rem; font-weight: 500;
-  color: var(--paper); line-height: 1.4;
-}
-.gram-acc-fr {
-  font-size: 0.75rem; color: var(--smoke);
-  font-style: italic; line-height: 1.3;
-}
-
-.gram-acc-arrow {
-  font-size: 0.85rem; color: var(--smoke);
-  flex-shrink: 0; margin-top: 5px;
-  transition: transform var(--trans);
-}
-.gram-acc-item.open .gram-acc-arrow {
-  transform: rotate(180deg);
-}
-
-/* Corps de l'accordéon */
-.gram-acc-body {
-  display: none;
-  padding: 0 14px 14px;
-  border-top: 1px solid rgba(255,255,255,0.06);
-}
-.gram-acc-item.open .gram-acc-body {
-  display: block;
-}
-
-/* Contenu HTML généré par convert_grammaire.py */
-.gram-acc-body p {
-  font-size: 0.82rem;
-  color: var(--paper2);
-  line-height: 1.65;
-  margin-top: 10px;
-}
-.gram-acc-body p strong {
-  color: var(--paper);
-}
-.gram-acc-body p em {
-  color: var(--smoke);
-}
-.gram-acc-body code {
-  font-family: monospace;
-  background: rgba(255,255,255,0.07);
-  border-radius: 4px;
-  padding: 1px 5px;
-  font-size: 0.85em;
-  color: var(--gold);
-}
-
-/* Sous-titre interne (### dans le corps) */
-.gram-acc-body .body-h4 {
-  font-size: 0.8rem; font-weight: 500;
-  color: var(--paper);
-  margin-top: 12px;
-  padding-bottom: 4px;
-  border-bottom: 1px solid rgba(255,255,255,0.06);
-}
-
-/* Sous-point (### • ...) intégré */
-.gram-acc-body .subpoint-title {
-  display: flex; flex-direction: column; gap: 2px;
-  font-weight: 500;
-  margin-top: 14px; margin-bottom: 2px;
-  padding: 8px 10px;
-  background: rgba(226,185,111,0.06);
-  border-left: 2px solid var(--gold);
-  border-radius: 0 6px 6px 0;
-}
-.gram-acc-body .subpoint-jp {
-  font-family: var(--font-jp);
-  font-size: 0.88rem; color: var(--gold);
-}
-.gram-acc-body .subpoint-fr {
-  font-size: 0.75rem; color: var(--smoke); font-style: italic;
-}
-
-/* Blocs d'exemples */
-.gram-acc-body .examples-block {
-  display: flex; flex-direction: column; gap: 6px;
-  margin-top: 8px;
-}
-.gram-acc-body .example {
-  background: rgba(255,255,255,0.03);
-  border-radius: 8px;
-  padding: 8px 10px;
-}
-.gram-acc-body .ex-jp {
-  font-family: var(--font-jp);
-  font-size: 0.88rem; color: var(--gold);
-  line-height: 1.5;
-}
-.gram-acc-body .ex-fr {
-  font-size: 0.78rem; color: var(--smoke);
-  font-style: italic; line-height: 1.4;
-  margin-top: 2px;
-}
-.gram-acc-body .ex-note {
-  font-size: 0.78rem; color: var(--smoke);
-  padding: 4px 2px; font-style: italic;
 }
