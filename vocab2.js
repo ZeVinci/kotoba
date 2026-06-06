@@ -1,6 +1,5862 @@
 // Généré automatiquement par update_vocab.py — ne pas modifier manuellement
 const VOCAB = [
   {
+    "k": "アイロン",
+    "h": "アイロン",
+    "fr": "le fer à repasser",
+    "topic": "L11",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "あきます",
+    "h": "あきます",
+    "fr": "s'ouvrir",
+    "topic": "L11",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "あらいます",
+    "h": "あらいます",
+    "fr": "laver",
+    "topic": "L11",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "うごきます",
+    "h": "うごきます",
+    "fr": "fonctionner / bouger",
+    "topic": "L11",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "おとします",
+    "h": "おとします",
+    "fr": "faire tomber",
+    "topic": "L11",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "おんがくプレーヤー",
+    "h": "おんがくプレーヤー",
+    "fr": "le lecteur de musique",
+    "topic": "L11",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "かかります",
+    "h": "かかります",
+    "fr": "prendre (du temps)",
+    "topic": "L11",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "がまん(します)",
+    "h": "がまん(します)",
+    "fr": "la patience (endurer / supporter)",
+    "topic": "L11",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "かんがえます",
+    "h": "かんがえます",
+    "fr": "penser / réfléchir",
+    "topic": "L11",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "きに します",
+    "h": "きに します",
+    "fr": "se soucier de / se préoccuper de",
+    "topic": "L11",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "～機(そうじき)",
+    "h": "～機(そうじき)",
+    "fr": "l'appareil ～ (l'aspirateur)",
+    "topic": "L11",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "くらべます",
+    "h": "くらべます",
+    "fr": "comparer",
+    "topic": "L11",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "クレジットカード",
+    "h": "クレジットカード",
+    "fr": "la carte de crédit",
+    "topic": "L11",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "けいけん",
+    "h": "けいけん",
+    "fr": "l'expérience",
+    "topic": "L11",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "けっか",
+    "h": "けっか",
+    "fr": "le résultat",
+    "topic": "L11",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "コメント",
+    "h": "コメント",
+    "fr": "le commentaire",
+    "topic": "L11",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "こわれます",
+    "h": "こわれます",
+    "fr": "se casser (machine etc.)",
+    "topic": "L11",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "CDプレーヤー",
+    "h": "CDプレーヤー",
+    "fr": "le lecteur de CD",
+    "topic": "L11",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "～時間",
+    "h": "～時間",
+    "fr": "~ heure(s) (pour mesurer une durée)",
+    "topic": "L11",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "します(きれいに)",
+    "h": "します(きれいに)",
+    "fr": "rendre (propre) / nettoyer",
+    "topic": "L11",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "しょうひん",
+    "h": "しょうひん",
+    "fr": "le produit / la marchandise",
+    "topic": "L11",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "しょくせんき",
+    "h": "しょくせんき",
+    "fr": "le lave-vaisselle",
+    "topic": "L11",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "ショッピング",
+    "h": "ショッピング",
+    "fr": "le shopping",
+    "topic": "L11",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "しんぱい(な)",
+    "h": "しんぱい(な)",
+    "fr": "inquiétant(e) / alarmant(e)",
+    "topic": "L11",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "ぜんぜん",
+    "h": "ぜんぜん",
+    "fr": "pas du tout (phrase négative)",
+    "topic": "L11",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "ぜんたい",
+    "h": "ぜんたい",
+    "fr": "l'ensemble / la totalité",
+    "topic": "L11",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "せんたくき",
+    "h": "せんたくき",
+    "fr": "le lave-linge",
+    "topic": "L11",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "せんぷうき",
+    "h": "せんぷうき",
+    "fr": "le ventilateur",
+    "topic": "L11",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "そうじき",
+    "h": "そうじき",
+    "fr": "l'aspirateur",
+    "topic": "L11",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "たかい",
+    "h": "たかい",
+    "fr": "cher(-ère) / coûteux(-se)",
+    "topic": "L11",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "ちょうさ",
+    "h": "ちょうさ",
+    "fr": "l'enquête / le recensement",
+    "topic": "L11",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "ちょうし",
+    "h": "ちょうし",
+    "fr": "l'état (objet) / la forme (être vivant)",
+    "topic": "L11",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "つきます(でんきが)",
+    "h": "つきます(でんきが)",
+    "fr": "être allumée (la lumière)",
+    "topic": "L11",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "てんいん",
+    "h": "てんいん",
+    "fr": "l'employé(e) de magasin / le (la) vendeur(-se)",
+    "topic": "L11",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "でんき",
+    "h": "でんき",
+    "fr": "l'électricité / la lumière",
+    "topic": "L11",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "でんきせいひん",
+    "h": "でんきせいひん",
+    "fr": "l'appareil électrique",
+    "topic": "L11",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "でんしレンジ",
+    "h": "でんしレンジ",
+    "fr": "le (four à) micro-ondes",
+    "topic": "L11",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "とどきます",
+    "h": "とどきます",
+    "fr": "parvenir / être livré",
+    "topic": "L11",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "どのぐらい",
+    "h": "どのぐらい",
+    "fr": "combien de ? (temps / quantité)",
+    "topic": "L11",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "ねだん",
+    "h": "ねだん",
+    "fr": "le prix",
+    "topic": "L11",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "ネット",
+    "h": "ネット",
+    "fr": "le net",
+    "topic": "L11",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "ネットショッピング",
+    "h": "ネットショッピング",
+    "fr": "les achats en ligne",
+    "topic": "L11",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "ねます",
+    "h": "ねます",
+    "fr": "se coucher / dormir",
+    "topic": "L11",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "～年",
+    "h": "～年",
+    "fr": "l'année ～",
+    "topic": "L11",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "～パーセント",
+    "h": "～パーセント",
+    "fr": "pour cent (%)",
+    "topic": "L11",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "ふた",
+    "h": "ふた",
+    "fr": "le couvercle",
+    "topic": "L11",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "みず",
+    "h": "みず",
+    "fr": "l'eau",
+    "topic": "L11",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "めんどう(な)",
+    "h": "めんどう(な)",
+    "fr": "ennuyeux(-se) / pénible",
+    "topic": "L11",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "ゆうこ／ゆうこさん",
+    "h": "ゆうこ／ゆうこさん",
+    "fr": "Yuko",
+    "topic": "L11",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "ユーザーコメント",
+    "h": "ユーザーコメント",
+    "fr": "l'avis des utilisateurs",
+    "topic": "L11",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "りゆう",
+    "h": "りゆう",
+    "fr": "la raison / la cause",
+    "topic": "L11",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "れいぞうこ",
+    "h": "れいぞうこ",
+    "fr": "le réfrigérateur",
+    "topic": "L11",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "インターネット",
+    "h": "インターネット",
+    "fr": "Internet",
+    "topic": "L11",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "エアコン",
+    "h": "エアコン",
+    "fr": "l'air conditionné",
+    "topic": "L11",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "おと",
+    "h": "おと",
+    "fr": "le son / le bruit",
+    "topic": "L11",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "かわい／かわいさん",
+    "h": "かわい／かわいさん",
+    "fr": "Kawai / Madame Kawai",
+    "topic": "L11",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "き",
+    "h": "き",
+    "fr": "l'humeur / l'attention / le tempérament",
+    "topic": "L11",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "こまります",
+    "h": "こまります",
+    "fr": "être ennuyé(e) / avoir un problème",
+    "topic": "L11",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "サイト",
+    "h": "サイト",
+    "fr": "le site Internet",
+    "topic": "L11",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "すいはんき",
+    "h": "すいはんき",
+    "fr": "l'autocuiseur à riz",
+    "topic": "L11",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "すずき／すずきさん",
+    "h": "すずき／すずきさん",
+    "fr": "Suzuki / Madame Suzuki",
+    "topic": "L11",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "せんしゅう",
+    "h": "せんしゅう",
+    "fr": "la semaine dernière",
+    "topic": "L11",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "たいへん(な)",
+    "h": "たいへん(な)",
+    "fr": "difficile / pénible (situation)",
+    "topic": "L11",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "ときどき",
+    "h": "ときどき",
+    "fr": "de temps en temps",
+    "topic": "L11",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "なにか",
+    "h": "なにか",
+    "fr": "quelque chose",
+    "topic": "L11",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "はなし",
+    "h": "はなし",
+    "fr": "la discussion",
+    "topic": "L11",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "ほしい",
+    "h": "ほしい",
+    "fr": "je veux ～ (un objet)",
+    "topic": "L11",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "ラジオ",
+    "h": "ラジオ",
+    "fr": "la radio",
+    "topic": "L11",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "でます",
+    "h": "でます",
+    "fr": "sortir / apparaître",
+    "topic": "L11",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "うるさい",
+    "h": "うるさい",
+    "fr": "bruyant(e)",
+    "topic": "L12",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "エネルギー",
+    "h": "エネルギー",
+    "fr": "l'énergie",
+    "topic": "L12",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "おしゃれ(な)",
+    "h": "おしゃれ(な)",
+    "fr": "élégant(e) / chic / branché / à la mode",
+    "topic": "L12",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "おもい",
+    "h": "おもい",
+    "fr": "lourd(e)",
+    "topic": "L12",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "おもさ",
+    "h": "おもさ",
+    "fr": "le poids",
+    "topic": "L12",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "カラー",
+    "h": "カラー",
+    "fr": "la couleur",
+    "topic": "L12",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "かるい",
+    "h": "かるい",
+    "fr": "léger(-ère)",
+    "topic": "L12",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "きのう",
+    "h": "きのう",
+    "fr": "la fonction (machine)",
+    "topic": "L12",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "～キロ",
+    "h": "～キロ",
+    "fr": "kilo(grammes)",
+    "topic": "L12",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "グレー",
+    "h": "グレー",
+    "fr": "le gris / gris(e)",
+    "topic": "L12",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "くろ",
+    "h": "くろ",
+    "fr": "le noir",
+    "topic": "L12",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "～後",
+    "h": "～後",
+    "fr": "après",
+    "topic": "L12",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "こっち",
+    "h": "こっち",
+    "fr": "(par) ici (par extension chez moi/nous)",
+    "topic": "L12",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "サイズ",
+    "h": "サイズ",
+    "fr": "la taille / les dimensions",
+    "topic": "L12",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "さら",
+    "h": "さら",
+    "fr": "l'assiette",
+    "topic": "L12",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "しょうエネ",
+    "h": "しょうエネ",
+    "fr": "les économies d'énergie",
+    "topic": "L12",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "しょうひでんりょく",
+    "h": "しょうひでんりょく",
+    "fr": "la consommation d'énergie électrique",
+    "topic": "L12",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "しろ",
+    "h": "しろ",
+    "fr": "le blanc",
+    "topic": "L12",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "すくない",
+    "h": "すくない",
+    "fr": "peu nombreux(-ses)",
+    "topic": "L12",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "ぜいきん",
+    "h": "ぜいきん",
+    "fr": "les taxes",
+    "topic": "L12",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "ぜいこみ",
+    "h": "ぜいこみ",
+    "fr": "taxes incluses / TTC",
+    "topic": "L12",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "せいひん",
+    "h": "せいひん",
+    "fr": "le produit manufacturé",
+    "topic": "L12",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "せまい",
+    "h": "せまい",
+    "fr": "étroit(e) / petit(e) / exigu(ë)",
+    "topic": "L12",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "そうりょう",
+    "h": "そうりょう",
+    "fr": "les frais de port",
+    "topic": "L12",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "そっち",
+    "h": "そっち",
+    "fr": "par-là / là-bas",
+    "topic": "L12",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "たぶん",
+    "h": "たぶん",
+    "fr": "probablement / peut-être",
+    "topic": "L12",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "デザイン",
+    "h": "デザイン",
+    "fr": "le design",
+    "topic": "L12",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "でんりょく",
+    "h": "でんりょく",
+    "fr": "l'énergie électrique",
+    "topic": "L12",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "とくちょう",
+    "h": "とくちょう",
+    "fr": "la particularité",
+    "topic": "L12",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "どちら",
+    "h": "どちら",
+    "fr": "lequel / laquelle ? (deux choix)",
+    "topic": "L12",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "どっち",
+    "h": "どっち",
+    "fr": "lequel / laquelle ? (forme orale et familière)",
+    "topic": "L12",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "とりだします",
+    "h": "とりだします",
+    "fr": "sortir (quelque chose de)",
+    "topic": "L12",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "にほんせい",
+    "h": "にほんせい",
+    "fr": "de fabrication japonaise (Made in Japan)",
+    "topic": "L12",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "ねん",
+    "h": "ねん",
+    "fr": "année",
+    "topic": "L12",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "びっくり",
+    "h": "びっくり",
+    "fr": "la surprise",
+    "topic": "L12",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "ふくざつ(な)",
+    "h": "ふくざつ(な)",
+    "fr": "complexe / compliqué(e)",
+    "topic": "L12",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "ほう",
+    "h": "ほう",
+    "fr": "la direction / le côté / vers",
+    "topic": "L12",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "まんぞく(します)",
+    "h": "まんぞく(します)",
+    "fr": "la satisfaction (être satisfait)",
+    "topic": "L12",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "モデル",
+    "h": "モデル",
+    "fr": "le modèle",
+    "topic": "L12",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "よくじつ",
+    "h": "よくじつ",
+    "fr": "le lendemain",
+    "topic": "L12",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "よしだ／よしださん",
+    "h": "よしだ／よしださん",
+    "fr": "Yoshida / Monsieur Yoshida",
+    "topic": "L12",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "よわい",
+    "h": "よわい",
+    "fr": "faible",
+    "topic": "L12",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "ううん／うーん",
+    "h": "ううん／うーん",
+    "fr": "non (familier)",
+    "topic": "L12",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "おおきい",
+    "h": "おおきい",
+    "fr": "grand(e) / gros",
+    "topic": "L12",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "おおきさ",
+    "h": "おおきさ",
+    "fr": "la grandeur / la grosseur",
+    "topic": "L12",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "かんたん(な)",
+    "h": "かんたん(な)",
+    "fr": "simple",
+    "topic": "L12",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "きに いります",
+    "h": "きに いります",
+    "fr": "plaire",
+    "topic": "L12",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "ごみ／ゴミ",
+    "h": "ごみ／ゴミ",
+    "fr": "le déchet",
+    "topic": "L12",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "しょうエネルギー",
+    "h": "しょうエネルギー",
+    "fr": "les économies d'énergie",
+    "topic": "L12",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "すてます",
+    "h": "すてます",
+    "fr": "jeter",
+    "topic": "L12",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "ちいさい",
+    "h": "ちいさい",
+    "fr": "petit(e)",
+    "topic": "L12",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "～てん",
+    "h": "～てん",
+    "fr": "le magasin de ～ / la boutique de ～",
+    "topic": "L12",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "べんり(な)",
+    "h": "べんり(な)",
+    "fr": "pratique / commode",
+    "topic": "L12",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "モード",
+    "h": "モード",
+    "fr": "mode ～",
+    "topic": "L12",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "らく(な)",
+    "h": "らく(な)",
+    "fr": "aisé(e) / confortable",
+    "topic": "L12",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "レッド",
+    "h": "レッド",
+    "fr": "rouge",
+    "topic": "L12",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "レビュー",
+    "h": "レビュー",
+    "fr": "la critique / l'avis",
+    "topic": "L12",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "あしかわよしみつ",
+    "h": "あしかわよしみつ",
+    "fr": "Yoshimitsu Ashikaga (shogun du 14ème siècle)",
+    "topic": "L13",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "いくら",
+    "h": "いくら",
+    "fr": "combien ? (prix)",
+    "topic": "L13",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "うま",
+    "h": "うま",
+    "fr": "le cheval",
+    "topic": "L13",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "おこないます",
+    "h": "おこないます",
+    "fr": "tenir (un événement) / exécuter (tâche)",
+    "topic": "L13",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "おわり",
+    "h": "おわり",
+    "fr": "la fin",
+    "topic": "L13",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "おわりごろ",
+    "h": "おわりごろ",
+    "fr": "vers la fin",
+    "topic": "L13",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "かんこうきゃく",
+    "h": "かんこうきゃく",
+    "fr": "le (la) touriste",
+    "topic": "L13",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "かんむてんのう",
+    "h": "かんむてんのう",
+    "fr": "l'empereur Kanmu (8ème siècle)",
+    "topic": "L13",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "ぎおんまつり",
+    "h": "ぎおんまつり",
+    "fr": "le festival de Gion (à Kyoto)",
+    "topic": "L13",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "きょうことば",
+    "h": "きょうことば",
+    "fr": "le parler de Kyoto / la langue de Kyoto",
+    "topic": "L13",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "きょうと",
+    "h": "きょうと",
+    "fr": "Kyoto",
+    "topic": "L13",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "きん",
+    "h": "きん",
+    "fr": "l'or",
+    "topic": "L13",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "きんいろ",
+    "h": "きんいろ",
+    "fr": "la couleur dorée",
+    "topic": "L13",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "きんかくじ／きんかく",
+    "h": "きんかくじ／きんかく",
+    "fr": "le Temple du Pavillon d'or (à Kyoto)",
+    "topic": "L13",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "きんぱく",
+    "h": "きんぱく",
+    "fr": "la feuille d'or",
+    "topic": "L13",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "けいかく",
+    "h": "けいかく",
+    "fr": "le projet",
+    "topic": "L13",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "けいかくてき(な)",
+    "h": "けいかくてき(な)",
+    "fr": "planifié(e)",
+    "topic": "L13",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "こうこうせい",
+    "h": "こうこうせい",
+    "fr": "le(la) lycéen(-ne)",
+    "topic": "L13",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "ごかぞく(かぞく)",
+    "h": "ごかぞく(かぞく)",
+    "fr": "(votre) famille",
+    "topic": "L13",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "ごきょうだい(きょうだい)",
+    "h": "ごきょうだい(きょうだい)",
+    "fr": "(vos) frères et sœurs",
+    "topic": "L13",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "ごしょ",
+    "h": "ごしょ",
+    "fr": "l'ancien palais impérial",
+    "topic": "L13",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "こんかい",
+    "h": "こんかい",
+    "fr": "cette fois-ci",
+    "topic": "L13",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "さきます",
+    "h": "さきます",
+    "fr": "fleurir",
+    "topic": "L13",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "さくら",
+    "h": "さくら",
+    "fr": "la fleur de cerisier / le cerisier",
+    "topic": "L13",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "しゅっぱつ(します)",
+    "h": "しゅっぱつ(します)",
+    "fr": "le départ (partir)",
+    "topic": "L13",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "しょうかい(します)",
+    "h": "しょうかい(します)",
+    "fr": "la présentation (présenter)",
+    "topic": "L13",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "しょうぐん",
+    "h": "しょうぐん",
+    "fr": "le shogun",
+    "topic": "L13",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "しろ（城）",
+    "h": "しろ（城）",
+    "fr": "le château",
+    "topic": "L13",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "せいかつ",
+    "h": "せいかつ",
+    "fr": "la vie quotidienne",
+    "topic": "L13",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "～世紀",
+    "h": "～世紀",
+    "fr": "le siècle",
+    "topic": "L13",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "せかい",
+    "h": "せかい",
+    "fr": "le monde",
+    "topic": "L13",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "せかいいさん",
+    "h": "せかいいさん",
+    "fr": "le patrimoine mondial",
+    "topic": "L13",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "せかいじゅう",
+    "h": "せかいじゅう",
+    "fr": "à travers le monde",
+    "topic": "L13",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "たてます(たてものを)",
+    "h": "たてます(たてものを)",
+    "fr": "élever / construire (un édifice)",
+    "topic": "L13",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "たてもの",
+    "h": "たてもの",
+    "fr": "le bâtiment / l'édifice",
+    "topic": "L13",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "たのしみ",
+    "h": "たのしみ",
+    "fr": "le plaisir / la joie",
+    "topic": "L13",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "たのしみに します",
+    "h": "たのしみに します",
+    "fr": "avoir hâte de / être impatient(e) de",
+    "topic": "L13",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "だれ",
+    "h": "だれ",
+    "fr": "qui ?",
+    "topic": "L13",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "ちゅうがくせい",
+    "h": "ちゅうがくせい",
+    "fr": "le(la) collégien(-ne)",
+    "topic": "L13",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "ちゅうしん",
+    "h": "ちゅうしん",
+    "fr": "le centre",
+    "topic": "L13",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "つれます",
+    "h": "つれます",
+    "fr": "accompagner",
+    "topic": "L13",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "～的",
+    "h": "～的",
+    "fr": "suffixe pour transformer un nom en adjectif en な",
+    "topic": "L13",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "てら",
+    "h": "てら",
+    "fr": "le temple bouddhique",
+    "topic": "L13",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "てんのう",
+    "h": "てんのう",
+    "fr": "l'empereur",
+    "topic": "L13",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "とうろく(します)",
+    "h": "とうろく(します)",
+    "fr": "l'inscription (s'inscrire)",
+    "topic": "L13",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "とおり",
+    "h": "とおり",
+    "fr": "la rue / l'avenue",
+    "topic": "L13",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "とくがわしょうぐん",
+    "h": "とくがわしょうぐん",
+    "fr": "le shogun Tokugawa",
+    "topic": "L13",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "なかごろ",
+    "h": "なかごろ",
+    "fr": "vers le milieu de",
+    "topic": "L13",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "にぎやか(な)",
+    "h": "にぎやか(な)",
+    "fr": "animé(e) (quartier / ville)",
+    "topic": "L13",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "にじょうじょう",
+    "h": "にじょうじょう",
+    "fr": "le château de Nijo",
+    "topic": "L13",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "にほんてき(な)",
+    "h": "にほんてき(な)",
+    "fr": "typiquement japonais(e)",
+    "topic": "L13",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "にもつ",
+    "h": "にもつ",
+    "fr": "le bagage",
+    "topic": "L13",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "にわ",
+    "h": "にわ",
+    "fr": "le jardin",
+    "topic": "L13",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "はこびます",
+    "h": "はこびます",
+    "fr": "transporter",
+    "topic": "L13",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "はじめごろ",
+    "h": "はじめごろ",
+    "fr": "vers le début",
+    "topic": "L13",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "はる",
+    "h": "はる",
+    "fr": "le printemps",
+    "topic": "L13",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "ぶっきょう",
+    "h": "ぶっきょう",
+    "fr": "le bouddhisme",
+    "topic": "L13",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "ふんいき",
+    "h": "ふんいき",
+    "fr": "l'ambiance / l'atmosphère",
+    "topic": "L13",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "まちじゅう",
+    "h": "まちじゅう",
+    "fr": "dans toute la ville",
+    "topic": "L13",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "まっすぐ(な)",
+    "h": "まっすぐ(な)",
+    "fr": "tout droit",
+    "topic": "L13",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "れきしてき(な)",
+    "h": "れきしてき(な)",
+    "fr": "historique",
+    "topic": "L13",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "わあ",
+    "h": "わあ",
+    "fr": "oh ! / waouh ! (émerveillement)",
+    "topic": "L13",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "あき",
+    "h": "あき",
+    "fr": "l'automne",
+    "topic": "L13",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "あたり",
+    "h": "あたり",
+    "fr": "les environs / les alentours",
+    "topic": "L13",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "あるきます",
+    "h": "あるきます",
+    "fr": "marcher",
+    "topic": "L13",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "いし",
+    "h": "いし",
+    "fr": "la pierre",
+    "topic": "L13",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "いじょう",
+    "h": "いじょう",
+    "fr": "plus de (égal ou supérieur)",
+    "topic": "L13",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "え",
+    "h": "え",
+    "fr": "la peinture / le dessin",
+    "topic": "L13",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "おおきに",
+    "h": "おおきに",
+    "fr": "Merci (dialecte du Kansai)",
+    "topic": "L13",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "おおさか",
+    "h": "おおさか",
+    "fr": "Osaka",
+    "topic": "L13",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "おかしやさん",
+    "h": "おかしやさん",
+    "fr": "le(la) pâtissier(-ère)",
+    "topic": "L13",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "おがわ／おがわさん",
+    "h": "おがわ／おがわさん",
+    "fr": "Ogawa / Monsieur Ogawa",
+    "topic": "L13",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "おきます（おく）",
+    "h": "おきます（おく）",
+    "fr": "poser",
+    "topic": "L13",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "おくります",
+    "h": "おくります",
+    "fr": "envoyer",
+    "topic": "L13",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "おしろ(しろ)",
+    "h": "おしろ(しろ)",
+    "fr": "le château",
+    "topic": "L13",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "おちゃ",
+    "h": "おちゃ",
+    "fr": "le thé (par extension la cérémonie du thé)",
+    "topic": "L13",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "おっと",
+    "h": "おっと",
+    "fr": "(mon) mari / époux",
+    "topic": "L13",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "おてら(てら)",
+    "h": "おてら(てら)",
+    "fr": "le temple bouddhique",
+    "topic": "L13",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "おにわ(にわ)",
+    "h": "おにわ(にわ)",
+    "fr": "(votre) jardin",
+    "topic": "L13",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "おはな",
+    "h": "おはな",
+    "fr": "l'arrangement floral",
+    "topic": "L13",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "おはよう",
+    "h": "おはよう",
+    "fr": "Bonjour (le matin)",
+    "topic": "L13",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "おみやげ(みやげ)",
+    "h": "おみやげ(みやげ)",
+    "fr": "le cadeau souvenir",
+    "topic": "L13",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "おめでたい(めでたい)",
+    "h": "おめでたい(めでたい)",
+    "fr": "heureux (évènement)",
+    "topic": "L13",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "かいがい",
+    "h": "かいがい",
+    "fr": "outremer (par extension l'étranger)",
+    "topic": "L13",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "がいこくじん",
+    "h": "がいこくじん",
+    "fr": "l'étranger (-ère)",
+    "topic": "L13",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "かいめ",
+    "h": "かいめ",
+    "fr": "la -ème fois",
+    "topic": "L13",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "かどう",
+    "h": "かどう",
+    "fr": "l'art de l'arrangement floral",
+    "topic": "L13",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "カフェ",
+    "h": "カフェ",
+    "fr": "le café (lieu)",
+    "topic": "L13",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "ぎおん",
+    "h": "ぎおん",
+    "fr": "Gion (quartier traditionnel de Kyoto)",
+    "topic": "L13",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "きぞく",
+    "h": "きぞく",
+    "fr": "la noblesse",
+    "topic": "L13",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "きもち(が) いい",
+    "h": "きもち(が) いい",
+    "fr": "être agréable",
+    "topic": "L13",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "きよみずでら",
+    "h": "きよみずでら",
+    "fr": "le temple Kiyomizu",
+    "topic": "L13",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "きよみずの ぶたい",
+    "h": "きよみずの ぶたい",
+    "fr": "la plate-forme du Kiyomizu",
+    "topic": "L13",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "ケルン",
+    "h": "ケルン",
+    "fr": "Cologne (ville d'Allemagne)",
+    "topic": "L13",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "～こ",
+    "h": "～こ",
+    "fr": "spécificatif numéral pour compter les petits objets",
+    "topic": "L13",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "こくめい",
+    "h": "こくめい",
+    "fr": "le nom du pays",
+    "topic": "L13",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "ここ",
+    "h": "ここ",
+    "fr": "ici",
+    "topic": "L13",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "これから",
+    "h": "これから",
+    "fr": "à partir de maintenant / désormais",
+    "topic": "L13",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "～ごろ",
+    "h": "～ごろ",
+    "fr": "environ / aux environs de",
+    "topic": "L13",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "さっき",
+    "h": "さっき",
+    "fr": "tout à l'heure",
+    "topic": "L13",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "ざっし",
+    "h": "ざっし",
+    "fr": "le magazine / la revue",
+    "topic": "L13",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "さどう",
+    "h": "さどう",
+    "fr": "la cérémonie du thé",
+    "topic": "L13",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "さむらい",
+    "h": "さむらい",
+    "fr": "le samouraï",
+    "topic": "L13",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "しじょうかわらまち",
+    "h": "しじょうかわらまち",
+    "fr": "Shijokawara-machi (quartier de Kyoto)",
+    "topic": "L13",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "しずか(な)",
+    "h": "しずか(な)",
+    "fr": "calme / tranquille",
+    "topic": "L13",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "じだい",
+    "h": "じだい",
+    "fr": "l'époque / l'ère",
+    "topic": "L13",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "ステージ",
+    "h": "ステージ",
+    "fr": "la scène (de spectacle)",
+    "topic": "L13",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "～せいき",
+    "h": "～せいき",
+    "fr": "le siècle",
+    "topic": "L13",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "せきてい",
+    "h": "せきてい",
+    "fr": "le jardin de pierres",
+    "topic": "L13",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "せつめい(します)",
+    "h": "せつめい(します)",
+    "fr": "l'explication (expliquer)",
+    "topic": "L13",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "たくさん",
+    "h": "たくさん",
+    "fr": "beaucoup / nombreux",
+    "topic": "L13",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "つぎ",
+    "h": "つぎ",
+    "fr": "suivant(e)",
+    "topic": "L13",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "つよい",
+    "h": "つよい",
+    "fr": "fort(e)",
+    "topic": "L13",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "でんとう",
+    "h": "でんとう",
+    "fr": "la tradition",
+    "topic": "L13",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "でんとうてき(な)",
+    "h": "でんとうてき(な)",
+    "fr": "traditionnel(le)",
+    "topic": "L13",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "ドイツ",
+    "h": "ドイツ",
+    "fr": "l'Allemagne",
+    "topic": "L13",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "はしら",
+    "h": "はしら",
+    "fr": "le pilier",
+    "topic": "L13",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "はな",
+    "h": "はな",
+    "fr": "la fleur",
+    "topic": "L13",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "はなみ",
+    "h": "はなみ",
+    "fr": "le hanami (fête des cerisiers en fleur)",
+    "topic": "L13",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "ぶたい",
+    "h": "ぶたい",
+    "fr": "la scène (de spectacle)",
+    "topic": "L13",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "へいあんじんぐう",
+    "h": "へいあんじんぐう",
+    "fr": "le sanctuaire Heian",
+    "topic": "L13",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "へや",
+    "h": "へや",
+    "fr": "la pièce / la chambre",
+    "topic": "L13",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "ほう／ほお",
+    "h": "ほう／ほお",
+    "fr": "Ah ! (quand on est impressionné)",
+    "topic": "L13",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "～本",
+    "h": "～本",
+    "fr": "spécificatif numéral pour les objets longs et cylindriques",
+    "topic": "L13",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "ほんもの",
+    "h": "ほんもの",
+    "fr": "le(la) vrai(e) / l'authentique",
+    "topic": "L13",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "まいこさん",
+    "h": "まいこさん",
+    "fr": "la maiko (sorte d'apprentie geisha)",
+    "topic": "L13",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "まつ",
+    "h": "まつ",
+    "fr": "le pin",
+    "topic": "L13",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "みえます",
+    "h": "みえます",
+    "fr": "être visible / être dans le champ de vision",
+    "topic": "L13",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "ミステリアス(な)",
+    "h": "ミステリアス(な)",
+    "fr": "mystérieux(-se)",
+    "topic": "L13",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "みせます",
+    "h": "みせます",
+    "fr": "montrer",
+    "topic": "L13",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "メール",
+    "h": "メール",
+    "fr": "l'e-mail / le courriel",
+    "topic": "L13",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "モダン(な)",
+    "h": "モダン(な)",
+    "fr": "moderne",
+    "topic": "L13",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "もみじ",
+    "h": "もみじ",
+    "fr": "l'érable",
+    "topic": "L13",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "やく～",
+    "h": "やく～",
+    "fr": "environ ～",
+    "topic": "L13",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "～や(やさん)",
+    "h": "～や(やさん)",
+    "fr": "le magasin / la boutique de ～",
+    "topic": "L13",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "ようこそ",
+    "h": "ようこそ",
+    "fr": "Bienvenue",
+    "topic": "L13",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "よかったら",
+    "h": "よかったら",
+    "fr": "Si vous n'y voyez pas d'inconvénient",
+    "topic": "L13",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "よく（副詞）",
+    "h": "よく（副詞）",
+    "fr": "très",
+    "topic": "L13",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "リーダー",
+    "h": "リーダー",
+    "fr": "le leader / le chef",
+    "topic": "L13",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "りっぱ(な)",
+    "h": "りっぱ(な)",
+    "fr": "beau (belle)",
+    "topic": "L13",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "りょうあんじ",
+    "h": "りょうあんじ",
+    "fr": "le temple Ryoan-ji",
+    "topic": "L13",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "れきし",
+    "h": "れきし",
+    "fr": "l'histoire",
+    "topic": "L13",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "ろくおんじ",
+    "h": "ろくおんじ",
+    "fr": "le temple Rokuon-ji",
+    "topic": "L13",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "アイスクリーム",
+    "h": "アイスクリーム",
+    "fr": "la crème glacée",
+    "topic": "L14",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "いじょう（以上）",
+    "h": "いじょう（以上）",
+    "fr": "plus de (égal ou supérieur)",
+    "topic": "L14",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "イベントカレンダー",
+    "h": "イベントカレンダー",
+    "fr": "le calendrier des évènements",
+    "topic": "L14",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "いんしょく",
+    "h": "いんしょく",
+    "fr": "boisson et nourriture",
+    "topic": "L14",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "うさぎ",
+    "h": "うさぎ",
+    "fr": "le lapin",
+    "topic": "L14",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "えいが",
+    "h": "えいが",
+    "fr": "le cinéma / le film",
+    "topic": "L14",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "えいがかん",
+    "h": "えいがかん",
+    "fr": "le cinéma (lieu)",
+    "topic": "L14",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "えー",
+    "h": "えー",
+    "fr": "euh… (ici équivalent de ええと)",
+    "topic": "L14",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "ええと／ええっと",
+    "h": "ええと／ええっと",
+    "fr": "euh… (hésitation)",
+    "topic": "L14",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "おかね(かね)",
+    "h": "おかね(かね)",
+    "fr": "l'argent",
+    "topic": "L14",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "おきます（おく）2",
+    "h": "おきます（おく）2",
+    "fr": "poser",
+    "topic": "L14",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "おちゃ（茶道）",
+    "h": "おちゃ（茶道）",
+    "fr": "le thé (par extension la cérémonie du thé)",
+    "topic": "L14",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "おまつり(まつり)",
+    "h": "おまつり(まつり)",
+    "fr": "le matsuri (fête folklorique)",
+    "topic": "L14",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "おりもの",
+    "h": "おりもの",
+    "fr": "le tissu / le tissage",
+    "topic": "L14",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "～階",
+    "h": "～階",
+    "fr": "l'étage",
+    "topic": "L14",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "がいこくご",
+    "h": "がいこくご",
+    "fr": "la langue étrangère",
+    "topic": "L14",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "かえる",
+    "h": "かえる",
+    "fr": "la grenouille",
+    "topic": "L14",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "がっき",
+    "h": "がっき",
+    "fr": "l'instrument de musique",
+    "topic": "L14",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "がっきてん",
+    "h": "がっきてん",
+    "fr": "l'exposition d'instruments de musique",
+    "topic": "L14",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "カレンダー",
+    "h": "カレンダー",
+    "fr": "le calendrier",
+    "topic": "L14",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "きもの",
+    "h": "きもの",
+    "fr": "le kimono",
+    "topic": "L14",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "きんし",
+    "h": "きんし",
+    "fr": "l'interdiction",
+    "topic": "L14",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "コース",
+    "h": "コース",
+    "fr": "le parcours / le circuit",
+    "topic": "L14",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "こちら",
+    "h": "こちら",
+    "fr": "par ici",
+    "topic": "L14",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "こんげつ",
+    "h": "こんげつ",
+    "fr": "ce mois-ci",
+    "topic": "L14",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "サービス",
+    "h": "サービス",
+    "fr": "les services",
+    "topic": "L14",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "さかもとりょうま",
+    "h": "さかもとりょうま",
+    "fr": "Ryooma Sakamoto (acteur important de la révolution de Meiji)",
+    "topic": "L14",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "じしょ",
+    "h": "じしょ",
+    "fr": "le dictionnaire",
+    "topic": "L14",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "しゅう",
+    "h": "しゅう",
+    "fr": "semaine",
+    "topic": "L14",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "ショップ",
+    "h": "ショップ",
+    "fr": "la boutique",
+    "topic": "L14",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "しらせます",
+    "h": "しらせます",
+    "fr": "informer",
+    "topic": "L14",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "しらべます",
+    "h": "しらべます",
+    "fr": "faire une recherche / consulter",
+    "topic": "L14",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "すもう",
+    "h": "すもう",
+    "fr": "le sumo (lutte traditionnelle japonaise)",
+    "topic": "L14",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "ぜひ",
+    "h": "ぜひ",
+    "fr": "à tout prix (recommandation du locuteur)",
+    "topic": "L14",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "セミナー",
+    "h": "セミナー",
+    "fr": "le séminaire",
+    "topic": "L14",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "それで",
+    "h": "それで",
+    "fr": "et ainsi / et donc",
+    "topic": "L14",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "～だい",
+    "h": "～だい",
+    "fr": "spécificatif numéral pour les machines",
+    "topic": "L14",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "つき",
+    "h": "つき",
+    "fr": "le mois / la lune",
+    "topic": "L14",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "てがみ",
+    "h": "てがみ",
+    "fr": "la lettre",
+    "topic": "L14",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "でぐち",
+    "h": "でぐち",
+    "fr": "la sortie",
+    "topic": "L14",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "デジタルとしょかん",
+    "h": "デジタルとしょかん",
+    "fr": "la bibliothèque numérique",
+    "topic": "L14",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "では",
+    "h": "では",
+    "fr": "alors / dans ce cas",
+    "topic": "L14",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "～てん（展）",
+    "h": "～てん（展）",
+    "fr": "l'exposition ～",
+    "topic": "L14",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "てんじひん",
+    "h": "てんじひん",
+    "fr": "l'objet/l'œuvre exposé(e)",
+    "topic": "L14",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "とおか",
+    "h": "とおか",
+    "fr": "le 10 du mois",
+    "topic": "L14",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "としょかん",
+    "h": "としょかん",
+    "fr": "la bibliothèque",
+    "topic": "L14",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "ねんかんパスポート",
+    "h": "ねんかんパスポート",
+    "fr": "le passeport annuel",
+    "topic": "L14",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "はくぶつかん",
+    "h": "はくぶつかん",
+    "fr": "le musée (en dehors des musées d'arts)",
+    "topic": "L14",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "はります",
+    "h": "はります",
+    "fr": "coller",
+    "topic": "L14",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "パンフレット",
+    "h": "パンフレット",
+    "fr": "la brochure / le dépliant",
+    "topic": "L14",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "びじゅつかん",
+    "h": "びじゅつかん",
+    "fr": "le musée des beaux arts",
+    "topic": "L14",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "ひらがな",
+    "h": "ひらがな",
+    "fr": "hiragana",
+    "topic": "L14",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "ぶし",
+    "h": "ぶし",
+    "fr": "le guerrier",
+    "topic": "L14",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "ブログ",
+    "h": "ブログ",
+    "fr": "le blog",
+    "topic": "L14",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "ぶんかざい",
+    "h": "ぶんかざい",
+    "fr": "le bien culturel",
+    "topic": "L14",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "ポスター",
+    "h": "ポスター",
+    "fr": "l'affiche / le poster",
+    "topic": "L14",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "～まい",
+    "h": "～まい",
+    "fr": "spécificatif numéral pour les objets plats et fins",
+    "topic": "L14",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "まいつき",
+    "h": "まいつき",
+    "fr": "chaque mois",
+    "topic": "L14",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "まっちゃ",
+    "h": "まっちゃ",
+    "fr": "le matcha (thé vert en poudre)",
+    "topic": "L14",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "ミュージアム",
+    "h": "ミュージアム",
+    "fr": "le musée",
+    "topic": "L14",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "ミュージアムショップ",
+    "h": "ミュージアムショップ",
+    "fr": "la boutique du musée",
+    "topic": "L14",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "もくようび",
+    "h": "もくようび",
+    "fr": "jeudi",
+    "topic": "L14",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "やきもの",
+    "h": "やきもの",
+    "fr": "la céramique",
+    "topic": "L14",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "ヨーロッパ",
+    "h": "ヨーロッパ",
+    "fr": "l'Europe",
+    "topic": "L14",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "ロッカー",
+    "h": "ロッカー",
+    "fr": "le casier",
+    "topic": "L14",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "ロビー",
+    "h": "ロビー",
+    "fr": "le hall de réception",
+    "topic": "L14",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "わりびき",
+    "h": "わりびき",
+    "fr": "la réduction / la remise",
+    "topic": "L14",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "いつごろ",
+    "h": "いつごろ",
+    "fr": "quand ? (ne vise pas un instant précis)",
+    "topic": "L14",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "うた",
+    "h": "うた",
+    "fr": "la chanson",
+    "topic": "L14",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "おお",
+    "h": "おお",
+    "fr": "oh ! (émotion / surprise)",
+    "topic": "L14",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "おはか(はか)",
+    "h": "おはか(はか)",
+    "fr": "la tombe",
+    "topic": "L14",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "かぜ",
+    "h": "かぜ",
+    "fr": "le vent",
+    "topic": "L14",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "かたな",
+    "h": "かたな",
+    "fr": "le sabre japonais / le katana",
+    "topic": "L14",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "かみさま",
+    "h": "かみさま",
+    "fr": "Dieu",
+    "topic": "L14",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "かみなり",
+    "h": "かみなり",
+    "fr": "la foudre",
+    "topic": "L14",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "けいたいでんわ",
+    "h": "けいたいでんわ",
+    "fr": "le téléphone portable",
+    "topic": "L14",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "こい",
+    "h": "こい",
+    "fr": "l'amour",
+    "topic": "L14",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "こきんわかしゅう",
+    "h": "こきんわかしゅう",
+    "fr": "le Kokin wakashuu (recueil de poèmes du Xème siècle)",
+    "topic": "L14",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "こくほう",
+    "h": "こくほう",
+    "fr": "le trésor national",
+    "topic": "L14",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "ごめんなさい",
+    "h": "ごめんなさい",
+    "fr": "Excusez-moi",
+    "topic": "L14",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "さわります",
+    "h": "さわります",
+    "fr": "toucher",
+    "topic": "L14",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "じ（時）",
+    "h": "じ（時）",
+    "fr": "～heure(s)",
+    "topic": "L14",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "じゅうたん",
+    "h": "じゅうたん",
+    "fr": "le tapis",
+    "topic": "L14",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "しょ",
+    "h": "しょ",
+    "fr": "un écrit / la calligraphie",
+    "topic": "L14",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "しよう",
+    "h": "しよう",
+    "fr": "l'usage",
+    "topic": "L14",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "せんそう",
+    "h": "せんそう",
+    "fr": "la guerre",
+    "topic": "L14",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "つち",
+    "h": "つち",
+    "fr": "la terre",
+    "topic": "L14",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "でんわ(します)",
+    "h": "でんわ(します)",
+    "fr": "le téléphone (téléphoner)",
+    "topic": "L14",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "どうして",
+    "h": "どうして",
+    "fr": "pourquoi ?",
+    "topic": "L14",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "とよとみひでよし",
+    "h": "とよとみひでよし",
+    "fr": "Hideyoshi Toyotomi (shogun du 16ème siècle)",
+    "topic": "L14",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "はこ",
+    "h": "はこ",
+    "fr": "la boîte",
+    "topic": "L14",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "ふうじんらいじんずびょうぶ",
+    "h": "ふうじんらいじんずびょうぶ",
+    "fr": "le paravent représentant Fujin et Raijin",
+    "topic": "L14",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "ふく",
+    "h": "ふく",
+    "fr": "les vêtements / les habits",
+    "topic": "L14",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "フラッシュ",
+    "h": "フラッシュ",
+    "fr": "le flash",
+    "topic": "L14",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "ペルシャ",
+    "h": "ペルシャ",
+    "fr": "la Perse",
+    "topic": "L14",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "ポルトガル",
+    "h": "ポルトガル",
+    "fr": "le Portugal",
+    "topic": "L14",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "ほん",
+    "h": "ほん",
+    "fr": "le livre",
+    "topic": "L14",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "やっぱり",
+    "h": "やっぱり",
+    "fr": "comme pressenti / tout compte fait",
+    "topic": "L14",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "ゆしゅつ(します)",
+    "h": "ゆしゅつ(します)",
+    "fr": "l'exportation (exporter)",
+    "topic": "L14",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "ワイン",
+    "h": "ワイン",
+    "fr": "le vin",
+    "topic": "L14",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "あけます",
+    "h": "あけます",
+    "fr": "ouvrir",
+    "topic": "L15",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "あびます",
+    "h": "あびます",
+    "fr": "s'asperger de",
+    "topic": "L15",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "あぶら",
+    "h": "あぶら",
+    "fr": "l'huile",
+    "topic": "L15",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "エコ",
+    "h": "エコ",
+    "fr": "écologique / vert",
+    "topic": "L15",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "エコかつどう",
+    "h": "エコかつどう",
+    "fr": "les gestes écologiques",
+    "topic": "L15",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "オフィス",
+    "h": "オフィス",
+    "fr": "le bureau",
+    "topic": "L15",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "おんど",
+    "h": "おんど",
+    "fr": "la température",
+    "topic": "L15",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "かいぎ",
+    "h": "かいぎ",
+    "fr": "la réunion",
+    "topic": "L15",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "かいぎしつ",
+    "h": "かいぎしつ",
+    "fr": "la salle de réunion",
+    "topic": "L15",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "かいだん",
+    "h": "かいだん",
+    "fr": "l'escalier",
+    "topic": "L15",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "かつどう",
+    "h": "かつどう",
+    "fr": "l'activité",
+    "topic": "L15",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "かばん",
+    "h": "かばん",
+    "fr": "le sac / la sacoche",
+    "topic": "L15",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "きります(スイッチを)",
+    "h": "きります(スイッチを)",
+    "fr": "éteindre / couper (avec l'interrupteur)",
+    "topic": "L15",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "グリーンカーテン",
+    "h": "グリーンカーテン",
+    "fr": "le rideau végétal",
+    "topic": "L15",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "グリーンルーフ",
+    "h": "グリーンルーフ",
+    "fr": "le toit végétalisé",
+    "topic": "L15",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "けします",
+    "h": "けします",
+    "fr": "éteindre / effacer",
+    "topic": "L15",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "コピー",
+    "h": "コピー",
+    "fr": "la photocopie",
+    "topic": "L15",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "コピーき",
+    "h": "コピーき",
+    "fr": "la photocopieuse",
+    "topic": "L15",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "ごみ",
+    "h": "ごみ",
+    "fr": "le déchet",
+    "topic": "L15",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "コンポスト",
+    "h": "コンポスト",
+    "fr": "le compost",
+    "topic": "L15",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "さげます",
+    "h": "さげます",
+    "fr": "baisser",
+    "topic": "L15",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "しめます",
+    "h": "しめます",
+    "fr": "fermer",
+    "topic": "L15",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "シャワー",
+    "h": "シャワー",
+    "fr": "la douche",
+    "topic": "L15",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "スイッチ",
+    "h": "スイッチ",
+    "fr": "l'interrupteur",
+    "topic": "L15",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "すてます",
+    "h": "すてます",
+    "fr": "jeter",
+    "topic": "L15",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "ソーラーパネル",
+    "h": "ソーラーパネル",
+    "fr": "le panneau solaire",
+    "topic": "L15",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "だいどころ",
+    "h": "だいどころ",
+    "fr": "la cuisine",
+    "topic": "L15",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "ちゅうい(します)",
+    "h": "ちゅうい(します)",
+    "fr": "l'attention (faire attention) / l'avertissement",
+    "topic": "L15",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "できるだけ",
+    "h": "できるだけ",
+    "fr": "autant que possible",
+    "topic": "L15",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "～点",
+    "h": "～点",
+    "fr": "～ points (note d'examen etc.)",
+    "topic": "L15",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "でんきじどうしゃ",
+    "h": "でんきじどうしゃ",
+    "fr": "la voiture électrique",
+    "topic": "L15",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "～度",
+    "h": "～度",
+    "fr": "～ degrés (température)",
+    "topic": "L15",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "ながします",
+    "h": "ながします",
+    "fr": "faire couler / déverser",
+    "topic": "L15",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "なるほど",
+    "h": "なるほど",
+    "fr": "Je vois / Ah d'accord",
+    "topic": "L15",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "はし",
+    "h": "はし",
+    "fr": "les baguettes",
+    "topic": "L15",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "バッグ",
+    "h": "バッグ",
+    "fr": "le sac (à main / à dos)",
+    "topic": "L15",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "ふくろ",
+    "h": "ふくろ",
+    "fr": "le sac (surtout pour faire les courses)",
+    "topic": "L15",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "ふゆ",
+    "h": "ふゆ",
+    "fr": "l'hiver",
+    "topic": "L15",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "プリンター",
+    "h": "プリンター",
+    "fr": "l'imprimante",
+    "topic": "L15",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "へらします",
+    "h": "へらします",
+    "fr": "diminuer / faire baisser",
+    "topic": "L15",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "まど",
+    "h": "まど",
+    "fr": "la fenêtre",
+    "topic": "L15",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "むだ(な)",
+    "h": "むだ(な)",
+    "fr": "inutile / gaspillé(e)",
+    "topic": "L15",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "むだに します",
+    "h": "むだに します",
+    "fr": "gaspiller",
+    "topic": "L15",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "メモ",
+    "h": "メモ",
+    "fr": "le mémo",
+    "topic": "L15",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "もったいない",
+    "h": "もったいない",
+    "fr": "c'est du gâchis",
+    "topic": "L15",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "やくに たちます",
+    "h": "やくに たちます",
+    "fr": "être utile",
+    "topic": "L15",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "よごします",
+    "h": "よごします",
+    "fr": "salir / souiller",
+    "topic": "L15",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "わけます",
+    "h": "わけます",
+    "fr": "trier / séparer",
+    "topic": "L15",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "わりばし",
+    "h": "わりばし",
+    "fr": "les baguettes jetables en bois",
+    "topic": "L15",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "エコバッグ",
+    "h": "エコバッグ",
+    "fr": "l'eco-bag (le sac réutilisable)",
+    "topic": "L15",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "かみ",
+    "h": "かみ",
+    "fr": "le papier",
+    "topic": "L15",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "カン",
+    "h": "カン",
+    "fr": "la cannette / la boîte de conserve",
+    "topic": "L15",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "かんがえ",
+    "h": "かんがえ",
+    "fr": "l'idée / la pensée",
+    "topic": "L15",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "かんきょう",
+    "h": "かんきょう",
+    "fr": "l'environnement",
+    "topic": "L15",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "きを つけます",
+    "h": "きを つけます",
+    "fr": "faire attention",
+    "topic": "L15",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "くうき",
+    "h": "くうき",
+    "fr": "l'air / l'atmosphère",
+    "topic": "L15",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "しょくぶつ",
+    "h": "しょくぶつ",
+    "fr": "la plante / la végétation",
+    "topic": "L15",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "しんぶんし",
+    "h": "しんぶんし",
+    "fr": "le papier journal",
+    "topic": "L15",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "スーパー",
+    "h": "スーパー",
+    "fr": "le supermarché",
+    "topic": "L15",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "すぐ",
+    "h": "すぐ",
+    "fr": "immédiatement",
+    "topic": "L15",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "すずしい",
+    "h": "すずしい",
+    "fr": "frais (temps)",
+    "topic": "L15",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "せいかつ",
+    "h": "せいかつ",
+    "fr": "la vie quotidienne",
+    "topic": "L15",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "たいせつ(な)",
+    "h": "たいせつ(な)",
+    "fr": "important(e)",
+    "topic": "L15",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "だいたい",
+    "h": "だいたい",
+    "fr": "environ / à peu près",
+    "topic": "L15",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "つけます(でんきを)",
+    "h": "つけます(でんきを)",
+    "fr": "allumer (la lumière)",
+    "topic": "L15",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "でんき（電気）",
+    "h": "でんき（電気）",
+    "fr": "l'électricité / la lumière",
+    "topic": "L15",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "ドア",
+    "h": "ドア",
+    "fr": "la porte",
+    "topic": "L15",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "ビン",
+    "h": "ビン",
+    "fr": "la bouteille (en verre)",
+    "topic": "L15",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "プラ(プラスチック)",
+    "h": "プラ(プラスチック)",
+    "fr": "le plastique",
+    "topic": "L15",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "むずかしい",
+    "h": "むずかしい",
+    "fr": "difficile",
+    "topic": "L15",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "リサイクル(します)",
+    "h": "リサイクル(します)",
+    "fr": "le recyclage (recycler)",
+    "topic": "L15",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "わすれます",
+    "h": "わすれます",
+    "fr": "oublier",
+    "topic": "L15",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "やぎ／やぎさん",
+    "h": "やぎ／やぎさん",
+    "fr": "Yagi / Monsieur Yagi",
+    "topic": "L15",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "あお",
+    "h": "あお",
+    "fr": "le bleu",
+    "topic": "L16",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "あきます（あきる）",
+    "h": "あきます（あきる）",
+    "fr": "se lasser",
+    "topic": "L16",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "あな",
+    "h": "あな",
+    "fr": "le trou",
+    "topic": "L16",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "いります",
+    "h": "いります",
+    "fr": "avoir besoin de",
+    "topic": "L16",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "いろ",
+    "h": "いろ",
+    "fr": "la couleur",
+    "topic": "L16",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "うります",
+    "h": "うります",
+    "fr": "vendre",
+    "topic": "L16",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "エプロン",
+    "h": "エプロン",
+    "fr": "le tablier",
+    "topic": "L16",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "おんなのこ",
+    "h": "おんなのこ",
+    "fr": "la fille",
+    "topic": "L16",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "～か月",
+    "h": "～か月",
+    "fr": "～ mois (durée)",
+    "topic": "L16",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "かします",
+    "h": "かします",
+    "fr": "prêter / louer",
+    "topic": "L16",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "かわります",
+    "h": "かわります",
+    "fr": "changer",
+    "topic": "L16",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "きいろ",
+    "h": "きいろ",
+    "fr": "le jaune",
+    "topic": "L16",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "くつした",
+    "h": "くつした",
+    "fr": "les chaussettes",
+    "topic": "L16",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "ゲームソフト",
+    "h": "ゲームソフト",
+    "fr": "le jeu vidéo",
+    "topic": "L16",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "ごぜんちゅう",
+    "h": "ごぜんちゅう",
+    "fr": "dans la matinée",
+    "topic": "L16",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "ジーンズ",
+    "h": "ジーンズ",
+    "fr": "le jean",
+    "topic": "L16",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "しつれい(します)",
+    "h": "しつれい(します)",
+    "fr": "l'impolitesse (commettre une impolitesse)",
+    "topic": "L16",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "しゅうり(します)",
+    "h": "しゅうり(します)",
+    "fr": "la réparation (réparer)",
+    "topic": "L16",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "しゅっちょう",
+    "h": "しゅっちょう",
+    "fr": "le déplacement professionnel",
+    "topic": "L16",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "しんぶんし（新聞紙）",
+    "h": "しんぶんし（新聞紙）",
+    "fr": "le papier journal",
+    "topic": "L16",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "スーツケース",
+    "h": "スーツケース",
+    "fr": "la valise",
+    "topic": "L16",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "スカーフ",
+    "h": "スカーフ",
+    "fr": "le foulard",
+    "topic": "L16",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "タオル",
+    "h": "タオル",
+    "fr": "la serviette de toilette",
+    "topic": "L16",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "ちょうど",
+    "h": "ちょうど",
+    "fr": "précisément / exactement",
+    "topic": "L16",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "ちょうど いい",
+    "h": "ちょうど いい",
+    "fr": "être pile comme il faut",
+    "topic": "L16",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "てぶくろ",
+    "h": "てぶくろ",
+    "fr": "les gants",
+    "topic": "L16",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "トイレットペーパー",
+    "h": "トイレットペーパー",
+    "fr": "le papier toilette",
+    "topic": "L16",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "にんぎょう",
+    "h": "にんぎょう",
+    "fr": "la poupée",
+    "topic": "L16",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "～年間",
+    "h": "～年間",
+    "fr": "～ ans (durée)",
+    "topic": "L16",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "はらいます",
+    "h": "はらいます",
+    "fr": "payer",
+    "topic": "L16",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "ひろいます",
+    "h": "ひろいます",
+    "fr": "ramasser",
+    "topic": "L16",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "ブラウス",
+    "h": "ブラウス",
+    "fr": "le chemisier / la blouse",
+    "topic": "L16",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "フリーマーケット",
+    "h": "フリーマーケット",
+    "fr": "le marché aux puces",
+    "topic": "L16",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "ペットボトル",
+    "h": "ペットボトル",
+    "fr": "la bouteille en plastique",
+    "topic": "L16",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "みずしま／みずしまさん",
+    "h": "みずしま／みずしまさん",
+    "fr": "Mizushima / Madame ou Monsieur Mizushima",
+    "topic": "L16",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "もりかわ／もりかわさん",
+    "h": "もりかわ／もりかわさん",
+    "fr": "Morikawa / Madame ou Monsieur Morikawa",
+    "topic": "L16",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "やぶれます",
+    "h": "やぶれます",
+    "fr": "se déchirer",
+    "topic": "L16",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "やまもと／やまもとさん",
+    "h": "やまもと／やまもとさん",
+    "fr": "Yamamoto / Madame ou Monsieur Yamamoto",
+    "topic": "L16",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "～用",
+    "h": "～用",
+    "fr": "pour / à l'usage de",
+    "topic": "L16",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "よごれます",
+    "h": "よごれます",
+    "fr": "se salir / se souiller",
+    "topic": "L16",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "らいげつ",
+    "h": "らいげつ",
+    "fr": "le mois prochain",
+    "topic": "L16",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "リサイクル",
+    "h": "リサイクル",
+    "fr": "le recyclage",
+    "topic": "L16",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "リサイクルショップ",
+    "h": "リサイクルショップ",
+    "fr": "le magasin de recyclage",
+    "topic": "L16",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "レンタルショップ",
+    "h": "レンタルショップ",
+    "fr": "la boutique de location",
+    "topic": "L16",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "あかちゃん",
+    "h": "あかちゃん",
+    "fr": "le bébé",
+    "topic": "L16",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "あべ／あべさん",
+    "h": "あべ／あべさん",
+    "fr": "Abe / Madame Abe",
+    "topic": "L16",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "いります（L16b）",
+    "h": "いります（L16b）",
+    "fr": "avoir besoin de / être nécessaire",
+    "topic": "L16",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "おとうと",
+    "h": "おとうと",
+    "fr": "(mon) petit frère",
+    "topic": "L16",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "おもちゃ",
+    "h": "おもちゃ",
+    "fr": "le jouet",
+    "topic": "L16",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "かさ",
+    "h": "かさ",
+    "fr": "le parapluie",
+    "topic": "L16",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "きんじょ",
+    "h": "きんじょ",
+    "fr": "le voisinage",
+    "topic": "L16",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "くだもの",
+    "h": "くだもの",
+    "fr": "les fruits",
+    "topic": "L16",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "くつ",
+    "h": "くつ",
+    "fr": "les chaussures",
+    "topic": "L16",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "クッション",
+    "h": "クッション",
+    "fr": "le coussin",
+    "topic": "L16",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "こうえん",
+    "h": "こうえん",
+    "fr": "le parc / le jardin public",
+    "topic": "L16",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "ジャム",
+    "h": "ジャム",
+    "fr": "la confiture",
+    "topic": "L16",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "すてき(な)",
+    "h": "すてき(な)",
+    "fr": "charmant(e) / merveilleux(-se)",
+    "topic": "L16",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "ちかく",
+    "h": "ちかく",
+    "fr": "les environs / à proximité de ～",
+    "topic": "L16",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "ひつよう(な)",
+    "h": "ひつよう(な)",
+    "fr": "nécessaire",
+    "topic": "L16",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "ふえます",
+    "h": "ふえます",
+    "fr": "augmenter / se multiplier",
+    "topic": "L16",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "ふとん",
+    "h": "ふとん",
+    "fr": "le futon",
+    "topic": "L16",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "ふるい",
+    "h": "ふるい",
+    "fr": "vieux (vieille) / ancien(ne) / usé(e)",
+    "topic": "L16",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "プレゼント",
+    "h": "プレゼント",
+    "fr": "le cadeau",
+    "topic": "L16",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "ベビーカー",
+    "h": "ベビーカー",
+    "fr": "la poussette",
+    "topic": "L16",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "ベビーベッド",
+    "h": "ベビーベッド",
+    "fr": "le lit de bébé",
+    "topic": "L16",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "よろこびます",
+    "h": "よろこびます",
+    "fr": "se réjouir",
+    "topic": "L16",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "りんご",
+    "h": "りんご",
+    "fr": "la pomme",
+    "topic": "L16",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "あきはばら",
+    "h": "あきはばら",
+    "fr": "Akihabara (quartier de Tokyo)",
+    "topic": "L17",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "あさくさ",
+    "h": "あさくさ",
+    "fr": "Asakusa (quartier de Tokyo)",
+    "topic": "L17",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "アルル",
+    "h": "アルル",
+    "fr": "Arles",
+    "topic": "L17",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "えほん",
+    "h": "えほん",
+    "fr": "le livre d'images",
+    "topic": "L17",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "おおきな",
+    "h": "おおきな",
+    "fr": "grand(e) / gros(-se)",
+    "topic": "L17",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "おもいだします",
+    "h": "おもいだします",
+    "fr": "se souvenir",
+    "topic": "L17",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "オリンピック",
+    "h": "オリンピック",
+    "fr": "les Jeux Olympiques",
+    "topic": "L17",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "おんがくか",
+    "h": "おんがくか",
+    "fr": "le(la) musicien(-ne)",
+    "topic": "L17",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "～家",
+    "h": "～家",
+    "fr": "suffixe renvoyant à une personne qui exerce une activité",
+    "topic": "L17",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "がか",
+    "h": "がか",
+    "fr": "le peintre",
+    "topic": "L17",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "かしゅ",
+    "h": "かしゅ",
+    "fr": "le(la) chanteur(-se)",
+    "topic": "L17",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "きょうみを もちます",
+    "h": "きょうみを もちます",
+    "fr": "avoir de l'intérêt pour ～",
+    "topic": "L17",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "きんメダル",
+    "h": "きんメダル",
+    "fr": "la médaille d'or",
+    "topic": "L17",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "くろう(します)",
+    "h": "くろう(します)",
+    "fr": "l'effort acharné (peiner / se donner du mal)",
+    "topic": "L17",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "げいじゅつか",
+    "h": "げいじゅつか",
+    "fr": "l'artiste",
+    "topic": "L17",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "こうこう",
+    "h": "こうこう",
+    "fr": "le lycée",
+    "topic": "L17",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "こうじょう",
+    "h": "こうじょう",
+    "fr": "l'usine / la fabrique",
+    "topic": "L17",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "コーチ",
+    "h": "コーチ",
+    "fr": "le coach / l'entraîneur",
+    "topic": "L17",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "ことば（言葉）",
+    "h": "ことば（言葉）",
+    "fr": "la langue / le mot",
+    "topic": "L17",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "サッカー",
+    "h": "サッカー",
+    "fr": "le football",
+    "topic": "L17",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "じこ",
+    "h": "じこ",
+    "fr": "l'accident",
+    "topic": "L17",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "じつぎょうか",
+    "h": "じつぎょうか",
+    "fr": "l'homme d'affaires",
+    "topic": "L17",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "しゅしょう",
+    "h": "しゅしょう",
+    "fr": "le Premier ministre",
+    "topic": "L17",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "しょう（賞）",
+    "h": "しょう（賞）",
+    "fr": "le prix / la récompense",
+    "topic": "L17",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "じょゆう",
+    "h": "じょゆう",
+    "fr": "l'actrice",
+    "topic": "L17",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "じんせい",
+    "h": "じんせい",
+    "fr": "la vie",
+    "topic": "L17",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "しんぶん（新聞）",
+    "h": "しんぶん（新聞）",
+    "fr": "le journal",
+    "topic": "L17",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "すいえい",
+    "h": "すいえい",
+    "fr": "la natation",
+    "topic": "L17",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "せいじか",
+    "h": "せいじか",
+    "fr": "l'homme (la femme) politique",
+    "topic": "L17",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "せんしゅ",
+    "h": "せんしゅ",
+    "fr": "l'athlète / le champion",
+    "topic": "L17",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "せんもん",
+    "h": "せんもん",
+    "fr": "la spécialité",
+    "topic": "L17",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "そつぎょう(します)",
+    "h": "そつぎょう(します)",
+    "fr": "la fin d'études (terminer ses études)",
+    "topic": "L17",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "だいがくいん",
+    "h": "だいがくいん",
+    "fr": "l'université (à partir du master)",
+    "topic": "L17",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "だいとうりょう",
+    "h": "だいとうりょう",
+    "fr": "le(la) président(e) (d'un pays)",
+    "topic": "L17",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "たしか",
+    "h": "たしか",
+    "fr": "si je ne me trompe pas / en effet",
+    "topic": "L17",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "たやま／たやまさん",
+    "h": "たやま／たやまさん",
+    "fr": "Tayama / Monsieur Tayama",
+    "topic": "L17",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "ちゅうごくご",
+    "h": "ちゅうごくご",
+    "fr": "le chinois",
+    "topic": "L17",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "テレビ",
+    "h": "テレビ",
+    "fr": "la télévision",
+    "topic": "L17",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "なくなります",
+    "h": "なくなります",
+    "fr": "disparaître / mourir",
+    "topic": "L17",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "ニュース",
+    "h": "ニュース",
+    "fr": "les informations / les nouvelles",
+    "topic": "L17",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "はいゆう",
+    "h": "はいゆう",
+    "fr": "l'acteur(-trice)",
+    "topic": "L17",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "ピアノ",
+    "h": "ピアノ",
+    "fr": "le piano",
+    "topic": "L17",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "ひきます",
+    "h": "ひきます",
+    "fr": "jouer (d'un instrument à cordes)",
+    "topic": "L17",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "ビジネス",
+    "h": "ビジネス",
+    "fr": "les affaires / le business",
+    "topic": "L17",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "びっくりします",
+    "h": "びっくりします",
+    "fr": "être surpris(e) / être étonné(e)",
+    "topic": "L17",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "ぼうえき",
+    "h": "ぼうえき",
+    "fr": "le commerce extérieur",
+    "topic": "L17",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "ぼうえきがいしゃ",
+    "h": "ぼうえきがいしゃ",
+    "fr": "l'entreprise d'exportation",
+    "topic": "L17",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "ほんとう",
+    "h": "ほんとう",
+    "fr": "vrai / véritable",
+    "topic": "L17",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "まずしい",
+    "h": "まずしい",
+    "fr": "pauvre",
+    "topic": "L17",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "マレーシア",
+    "h": "マレーシア",
+    "fr": "la Malaisie",
+    "topic": "L17",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "マレーシアご",
+    "h": "マレーシアご",
+    "fr": "le malais",
+    "topic": "L17",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "みずの／みずのさん",
+    "h": "みずの／みずのさん",
+    "fr": "Mizuno / Madame ou Monsieur Mizuno",
+    "topic": "L17",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "みなみ",
+    "h": "みなみ",
+    "fr": "le sud",
+    "topic": "L17",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "メダル",
+    "h": "メダル",
+    "fr": "la médaille",
+    "topic": "L17",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "やめます",
+    "h": "やめます",
+    "fr": "arrêter / abandonner",
+    "topic": "L17",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "ゆずります",
+    "h": "ゆずります",
+    "fr": "céder / léguer",
+    "topic": "L17",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "ゆっくりします",
+    "h": "ゆっくりします",
+    "fr": "se détendre / se délasser",
+    "topic": "L17",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "ゆみ／ゆみさん",
+    "h": "ゆみ／ゆみさん",
+    "fr": "Yumi",
+    "topic": "L17",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "ラーメン",
+    "h": "ラーメン",
+    "fr": "les ramen (soupe de nouilles)",
+    "topic": "L17",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "りこん(します)",
+    "h": "りこん(します)",
+    "fr": "le divorce (divorcer)",
+    "topic": "L17",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "りゅうがくせい",
+    "h": "りゅうがくせい",
+    "fr": "l'étudiant(e) étranger(-ère)",
+    "topic": "L17",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "イタリア",
+    "h": "イタリア",
+    "fr": "l'Italie",
+    "topic": "L17",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "いまから",
+    "h": "いまから",
+    "fr": "dès à présent",
+    "topic": "L17",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "いままで",
+    "h": "いままで",
+    "fr": "jusqu'à présent",
+    "topic": "L17",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "うみべのカフカ",
+    "h": "うみべのカフカ",
+    "fr": "Kafka sur le rivage (roman de Haruki Murakami)",
+    "topic": "L17",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "エキスポ",
+    "h": "エキスポ",
+    "fr": "l'exposition",
+    "topic": "L17",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "エキスポ ななじゅう おおさか",
+    "h": "エキスポ ななじゅう おおさか",
+    "fr": "l'Exposition universelle de 1970 à Osaka",
+    "topic": "L17",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "おかもとたろう",
+    "h": "おかもとたろう",
+    "fr": "Taro Okamoto",
+    "topic": "L17",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "おぼえます",
+    "h": "おぼえます",
+    "fr": "mémoriser / garder en souvenir",
+    "topic": "L17",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "がいこく",
+    "h": "がいこく",
+    "fr": "le pays étranger",
+    "topic": "L17",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "かがく",
+    "h": "かがく",
+    "fr": "les sciences",
+    "topic": "L17",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "かがくしゃ",
+    "h": "かがくしゃ",
+    "fr": "le (la) scientifique",
+    "topic": "L17",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "がくせい",
+    "h": "がくせい",
+    "fr": "l'étudiant(e)",
+    "topic": "L17",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "かけはし",
+    "h": "かけはし",
+    "fr": "le pont en suspension",
+    "topic": "L17",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "かつやく(します)",
+    "h": "かつやく(します)",
+    "fr": "l'activité (être actif)",
+    "topic": "L17",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "かんとく",
+    "h": "かんとく",
+    "fr": "le directeur / le réalisateur (de films)",
+    "topic": "L17",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "がんばります",
+    "h": "がんばります",
+    "fr": "faire des efforts / faire de son mieux",
+    "topic": "L17",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "きこく(します)",
+    "h": "きこく(します)",
+    "fr": "le retour dans son pays (rentrer dans son pays)",
+    "topic": "L17",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "きっかけ",
+    "h": "きっかけ",
+    "fr": "l'élément déclencheur",
+    "topic": "L17",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "きょういく",
+    "h": "きょういく",
+    "fr": "l'éducation",
+    "topic": "L17",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "きょういくしゃ",
+    "h": "きょういくしゃ",
+    "fr": "l'éducateur (-trice) / l'enseignant(-e)",
+    "topic": "L17",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "くろさわあきら",
+    "h": "くろさわあきら",
+    "fr": "Akira Kurosawa (réalisateur de films)",
+    "topic": "L17",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "くろやなぎてつこ",
+    "h": "くろやなぎてつこ",
+    "fr": "Tetsuko Kuroyanagi (animatrice TV / actrice)",
+    "topic": "L17",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "げいじゅつ",
+    "h": "げいじゅつ",
+    "fr": "l'art / les beaux-arts",
+    "topic": "L17",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "けが（L17）",
+    "h": "けが（L17）",
+    "fr": "la blessure",
+    "topic": "L17",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "ごとうみどり",
+    "h": "ごとうみどり",
+    "fr": "Midori Goto",
+    "topic": "L17",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "さくひん",
+    "h": "さくひん",
+    "fr": "l'oeuvre",
+    "topic": "L17",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "シーディー",
+    "h": "シーディー",
+    "fr": "le CD",
+    "topic": "L17",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "シーディープレーヤー",
+    "h": "シーディープレーヤー",
+    "fr": "le lecteur de CD",
+    "topic": "L17",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "しかいしゃ",
+    "h": "しかいしゃ",
+    "fr": "l'animateur(-trice) (débat / conférence / émission etc.)",
+    "topic": "L17",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "しちにんのさむらい",
+    "h": "しちにんのさむらい",
+    "fr": "Les sept samouraïs (film d'Akira Kurosawa)",
+    "topic": "L17",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "～しゃ(かがくしゃ)",
+    "h": "～しゃ(かがくしゃ)",
+    "fr": "suffixe permettant de former des noms de profession",
+    "topic": "L17",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "じゅうどうか",
+    "h": "じゅうどうか",
+    "fr": "le(la) judoka",
+    "topic": "L17",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "しょうせつ",
+    "h": "しょうせつ",
+    "fr": "le roman",
+    "topic": "L17",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "しょうせつか",
+    "h": "しょうせつか",
+    "fr": "le(la) romancier(-ère)",
+    "topic": "L17",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "しんぜん",
+    "h": "しんぜん",
+    "fr": "la bonne entente / les relations amicales",
+    "topic": "L17",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "しんぜんたいし",
+    "h": "しんぜんたいし",
+    "fr": "l'ambassadeur(-drice) de bonne volonté",
+    "topic": "L17",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "せかいじゅう",
+    "h": "せかいじゅう",
+    "fr": "dans le monde entier",
+    "topic": "L17",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "せんせい",
+    "h": "せんせい",
+    "fr": "le professeur / le maître",
+    "topic": "L17",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "だいがく",
+    "h": "だいがく",
+    "fr": "l'université",
+    "topic": "L17",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "たいし",
+    "h": "たいし",
+    "fr": "l'ambassadeur",
+    "topic": "L17",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "だいファン",
+    "h": "だいファン",
+    "fr": "un(e) grand(e) fan",
+    "topic": "L17",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "たいようのとう",
+    "h": "たいようのとう",
+    "fr": "la Tour du soleil",
+    "topic": "L17",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "～たち",
+    "h": "～たち",
+    "fr": "marque du pluriel",
+    "topic": "L17",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "つだうめこ",
+    "h": "つだうめこ",
+    "fr": "Umeko Tsuda (féministe de l'ère Meiji)",
+    "topic": "L17",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "ノーベルしょう",
+    "h": "ノーベルしょう",
+    "fr": "le prix Nobel",
+    "topic": "L17",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "バイオリニスト",
+    "h": "バイオリニスト",
+    "fr": "le(la) violoniste",
+    "topic": "L17",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "バイオリン",
+    "h": "バイオリン",
+    "fr": "le violon",
+    "topic": "L17",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "ファン",
+    "h": "ファン",
+    "fr": "le(la) fan",
+    "topic": "L17",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "ぶつりがく",
+    "h": "ぶつりがく",
+    "fr": "la physique",
+    "topic": "L17",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "ほか",
+    "h": "ほか",
+    "fr": "autre(s)",
+    "topic": "L17",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "もちろん",
+    "h": "もちろん",
+    "fr": "évidemment",
+    "topic": "L17",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "やましたやすひろ",
+    "h": "やましたやすひろ",
+    "fr": "Yasuhiro Yamashita (judoka)",
+    "topic": "L17",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "ゆかわひでき",
+    "h": "ゆかわひでき",
+    "fr": "Hideki Yukawa (physicien / prix Nobel de 1949)",
+    "topic": "L17",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "ユニセフ(UNICEF)",
+    "h": "ユニセフ(UNICEF)",
+    "fr": "l'UNICEF",
+    "topic": "L17",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "らしょうもん",
+    "h": "らしょうもん",
+    "fr": "Rashomon (film d'Akira Kurosawa)",
+    "topic": "L17",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "りゅうがく(します)",
+    "h": "りゅうがく(します)",
+    "fr": "les études à l'étranger (faire des études à l'étranger)",
+    "topic": "L17",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "あかい",
+    "h": "あかい",
+    "fr": "rouge",
+    "topic": "L18",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "えらびます",
+    "h": "えらびます",
+    "fr": "sélectionner / choisir",
+    "topic": "L18",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "おきます（起きる）",
+    "h": "おきます（起きる）",
+    "fr": "se lever / se réveiller",
+    "topic": "L18",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "おそい(おそく)",
+    "h": "おそい(おそく)",
+    "fr": "tard (tardivement)",
+    "topic": "L18",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "かなしい",
+    "h": "かなしい",
+    "fr": "triste",
+    "topic": "L18",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "かなり",
+    "h": "かなり",
+    "fr": "assez / plutôt",
+    "topic": "L18",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "クラス",
+    "h": "クラス",
+    "fr": "la classe",
+    "topic": "L18",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "ゲーム",
+    "h": "ゲーム",
+    "fr": "le match / le jeu",
+    "topic": "L18",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "こうはい",
+    "h": "こうはい",
+    "fr": "le junior / le cadet (celui qui a moins d'ancienneté)",
+    "topic": "L18",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "さくぶん",
+    "h": "さくぶん",
+    "fr": "l'exercice de rédaction",
+    "topic": "L18",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "さそいます",
+    "h": "さそいます",
+    "fr": "inviter",
+    "topic": "L18",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "ざんぎょう",
+    "h": "ざんぎょう",
+    "fr": "les heures supplémentaires",
+    "topic": "L18",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "しかります",
+    "h": "しかります",
+    "fr": "réprimander",
+    "topic": "L18",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "しにます",
+    "h": "しにます",
+    "fr": "mourir",
+    "topic": "L18",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "しゅうしょく(します)",
+    "h": "しゅうしょく(します)",
+    "fr": "la prise d'emploi (obtenir un emploi)",
+    "topic": "L18",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "しょうがっこう",
+    "h": "しょうがっこう",
+    "fr": "l'école primaire",
+    "topic": "L18",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "スピーチ",
+    "h": "スピーチ",
+    "fr": "le discours",
+    "topic": "L18",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "せんぱい",
+    "h": "せんぱい",
+    "fr": "le senior / l'aîné (celui qui a plus d'ancienneté)",
+    "topic": "L18",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "たけし／たけしさん",
+    "h": "たけし／たけしさん",
+    "fr": "Takeshi",
+    "topic": "L18",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "たのみます",
+    "h": "たのみます",
+    "fr": "demander / faire une requête",
+    "topic": "L18",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "チーム",
+    "h": "チーム",
+    "fr": "l'équipe",
+    "topic": "L18",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "つらい",
+    "h": "つらい",
+    "fr": "pénible / douloureux",
+    "topic": "L18",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "テスト",
+    "h": "テスト",
+    "fr": "le test",
+    "topic": "L18",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "どうして（L18）",
+    "h": "どうして（L18）",
+    "fr": "pourquoi ?",
+    "topic": "L18",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "とおい",
+    "h": "とおい",
+    "fr": "loin / éloigné(e)",
+    "topic": "L18",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "とおく",
+    "h": "とおく",
+    "fr": "au loin",
+    "topic": "L18",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "とし",
+    "h": "とし",
+    "fr": "les années / l'âge",
+    "topic": "L18",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "とります(としを)",
+    "h": "とります(としを)",
+    "fr": "prendre (de l'âge)",
+    "topic": "L18",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "ねむい",
+    "h": "ねむい",
+    "fr": "avoir sommeil",
+    "topic": "L18",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "はずかしい",
+    "h": "はずかしい",
+    "fr": "embarrassant / gênant / avoir honte",
+    "topic": "L18",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "バラ",
+    "h": "バラ",
+    "fr": "la rose",
+    "topic": "L18",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "ひどい",
+    "h": "ひどい",
+    "fr": "horrible / cruel(le)",
+    "topic": "L18",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "ほめます",
+    "h": "ほめます",
+    "fr": "féliciter / complimenter",
+    "topic": "L18",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "まちあわせ",
+    "h": "まちあわせ",
+    "fr": "le rendez-vous",
+    "topic": "L18",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "まよいます",
+    "h": "まよいます",
+    "fr": "se perdre / s'égarer",
+    "topic": "L18",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "もじ",
+    "h": "もじ",
+    "fr": "la lettre / le caractère",
+    "topic": "L18",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "よる",
+    "h": "よる",
+    "fr": "le soir / la nuit",
+    "topic": "L18",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "リーダー（L18）",
+    "h": "リーダー（L18）",
+    "fr": "le leader / le chef",
+    "topic": "L18",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "あに",
+    "h": "あに",
+    "fr": "(mon) grand frère",
+    "topic": "L18",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "あのころ",
+    "h": "あのころ",
+    "fr": "à l'époque / en ce temps-là",
+    "topic": "L18",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "あまえます",
+    "h": "あまえます",
+    "fr": "être câlin / agir en enfant gâté",
+    "topic": "L18",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "いいます",
+    "h": "いいます",
+    "fr": "dire",
+    "topic": "L18",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "いちばん",
+    "h": "いちばん",
+    "fr": "le (la) plus / le (la) meilleur(e)",
+    "topic": "L18",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "いっぽん＜じゅうどう＞",
+    "h": "いっぽん＜じゅうどう＞",
+    "fr": "ippon (action décisive au judo)",
+    "topic": "L18",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "いぬ",
+    "h": "いぬ",
+    "fr": "le chien",
+    "topic": "L18",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "うれしい",
+    "h": "うれしい",
+    "fr": "heureux (-se) / content(e)",
+    "topic": "L18",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "オイルショック",
+    "h": "オイルショック",
+    "fr": "le choc pétrolier",
+    "topic": "L18",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "おしゃれします",
+    "h": "おしゃれします",
+    "fr": "se faire beau/belle",
+    "topic": "L18",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "おそい",
+    "h": "おそい",
+    "fr": "lent(e)",
+    "topic": "L18",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "おとなしい",
+    "h": "おとなしい",
+    "fr": "sage / obéissant",
+    "topic": "L18",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "カタカナ",
+    "h": "カタカナ",
+    "fr": "katakana",
+    "topic": "L18",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "かんこく",
+    "h": "かんこく",
+    "fr": "la Corée du Sud",
+    "topic": "L18",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "かんこくご",
+    "h": "かんこくご",
+    "fr": "le coréen",
+    "topic": "L18",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "キャプテン",
+    "h": "キャプテン",
+    "fr": "le capitaine",
+    "topic": "L18",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "きょうみを もちます(～に)",
+    "h": "きょうみを もちます(～に)",
+    "fr": "s'intéresser à ～",
+    "topic": "L18",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "けっこん(します)",
+    "h": "けっこん(します)",
+    "fr": "le mariage (se marier)",
+    "topic": "L18",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "けんか(します)",
+    "h": "けんか(します)",
+    "fr": "la dispute (se disputer)",
+    "topic": "L18",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "こいびと",
+    "h": "こいびと",
+    "fr": "l'amoureux(-se)",
+    "topic": "L18",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "こうこう",
+    "h": "こうこう",
+    "fr": "le lycée",
+    "topic": "L18",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "ごけっこん(けっこん)",
+    "h": "ごけっこん(けっこん)",
+    "fr": "votre mariage (le mariage)",
+    "topic": "L18",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "ごりょうしん(りょうしん)",
+    "h": "ごりょうしん(りょうしん)",
+    "fr": "(vos) parents",
+    "topic": "L18",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "ころ",
+    "h": "ころ",
+    "fr": "environ (expression temporelle)",
+    "topic": "L18",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "サイン",
+    "h": "サイン",
+    "fr": "la signature",
+    "topic": "L18",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "さかい／さかいさん",
+    "h": "さかい／さかいさん",
+    "fr": "Sakai / Madame Sakai",
+    "topic": "L18",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "さそいます（L18）",
+    "h": "さそいます（L18）",
+    "fr": "inviter",
+    "topic": "L18",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "しつれい(な)",
+    "h": "しつれい(な)",
+    "fr": "malpoli(e)",
+    "topic": "L18",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "しゃかいじん",
+    "h": "しゃかいじん",
+    "fr": "la personne active (qui subvient à ses propres besoins)",
+    "topic": "L18",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "しゅうしょく(します)（L18b）",
+    "h": "しゅうしょく(します)（L18b）",
+    "fr": "la prise d'emploi (obtenir un emploi)",
+    "topic": "L18",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "しょうがくせい",
+    "h": "しょうがくせい",
+    "fr": "l'écolier (-ère)",
+    "topic": "L18",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "～人",
+    "h": "～人",
+    "fr": "personne venant de (+ nom de pays ou d'un peuple)",
+    "topic": "L18",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "しんぶん（新聞）L18",
+    "h": "しんぶん（新聞）L18",
+    "fr": "le journal",
+    "topic": "L18",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "すすめます",
+    "h": "すすめます",
+    "fr": "recommander / conseiller",
+    "topic": "L18",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "せいせき",
+    "h": "せいせき",
+    "fr": "les notes",
+    "topic": "L18",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "せんだいし",
+    "h": "せんだいし",
+    "fr": "la ville de Sendai",
+    "topic": "L18",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "そつぎょう(します)（L18）",
+    "h": "そつぎょう(します)（L18）",
+    "fr": "la fin des études (sortir diplômé)",
+    "topic": "L18",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "そと",
+    "h": "そと",
+    "fr": "dehors / à l'extérieur de",
+    "topic": "L18",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "タイ",
+    "h": "タイ",
+    "fr": "la Thaïlande",
+    "topic": "L18",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "タイご",
+    "h": "タイご",
+    "fr": "le thaïlandais",
+    "topic": "L18",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "たいしょく(します)",
+    "h": "たいしょく(します)",
+    "fr": "la retraite (prendre sa retraite)",
+    "topic": "L18",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "タイじん",
+    "h": "タイじん",
+    "fr": "le (la) Thaïlandais(e)",
+    "topic": "L18",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "ちち",
+    "h": "ちち",
+    "fr": "(mon) père",
+    "topic": "L18",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "ちゅうがっこう",
+    "h": "ちゅうがっこう",
+    "fr": "le collège",
+    "topic": "L18",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "デート(します)",
+    "h": "デート(します)",
+    "fr": "le rendez-vous amoureux (avoir un rendez-vous amoureux)",
+    "topic": "L18",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "てんきん(します)",
+    "h": "てんきん(します)",
+    "fr": "la mutation (être muté(e))",
+    "topic": "L18",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "とうきょうオリンピック",
+    "h": "とうきょうオリンピック",
+    "fr": "les Jeux Olympiques de Tokyo",
+    "topic": "L18",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "なかが いい",
+    "h": "なかが いい",
+    "fr": "bien s'entendre avec",
+    "topic": "L18",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "ならいます",
+    "h": "ならいます",
+    "fr": "apprendre",
+    "topic": "L18",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "なんとか",
+    "h": "なんとか",
+    "fr": "tant bien que mal",
+    "topic": "L18",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "にゅうがく",
+    "h": "にゅうがく",
+    "fr": "l'entrée dans une école",
+    "topic": "L18",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "にんめ",
+    "h": "にんめ",
+    "fr": "la ～ème personne",
+    "topic": "L18",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "パーティー",
+    "h": "パーティー",
+    "fr": "la fête",
+    "topic": "L18",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "はは",
+    "h": "はは",
+    "fr": "(ma) mère",
+    "topic": "L18",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "ひどい(ひどく)",
+    "h": "ひどい(ひどく)",
+    "fr": "horrible / cruel",
+    "topic": "L18",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "ひとり",
+    "h": "ひとり",
+    "fr": "une personne / seul(e)",
+    "topic": "L18",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "ふたり",
+    "h": "ふたり",
+    "fr": "deux (personnes)",
+    "topic": "L18",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "ブラジル",
+    "h": "ブラジル",
+    "fr": "le Brésil",
+    "topic": "L18",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "フランスご",
+    "h": "フランスご",
+    "fr": "le français",
+    "topic": "L18",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "べんきょう(します)",
+    "h": "べんきょう(します)",
+    "fr": "les études (étudier)",
+    "topic": "L18",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "もじ（L18b）",
+    "h": "もじ（L18b）",
+    "fr": "la lettre / le caractère",
+    "topic": "L18",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "やっと",
+    "h": "やっと",
+    "fr": "enfin",
+    "topic": "L18",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "ゆうしょく",
+    "h": "ゆうしょく",
+    "fr": "le dîner",
+    "topic": "L18",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "よわい（L18）",
+    "h": "よわい（L18）",
+    "fr": "faible",
+    "topic": "L18",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "ラグビー",
+    "h": "ラグビー",
+    "fr": "le rugby",
+    "topic": "L18",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "ラグビーぶ",
+    "h": "ラグビーぶ",
+    "fr": "le club de rugby (à l'école)",
+    "topic": "L18",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "りょうしん",
+    "h": "りょうしん",
+    "fr": "(mes) parents",
+    "topic": "L18",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
+    "k": "わざあり＜じゅうどう＞",
+    "h": "わざあり＜じゅうどう＞",
+    "fr": "le waza-ari (au judo)",
+    "topic": "L18",
+    "section": "aucune",
+    "niveau": "A2"
+  },
+  {
     "k": "あ／あっ",
     "h": "あ／あっ",
     "fr": "Ah",

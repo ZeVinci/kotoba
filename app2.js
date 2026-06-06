@@ -7,50 +7,8 @@ let scoreGood    = 0;
 let scoreTotal   = 0;
 
 // Sélections actives (Set vide = "Tous")
-const learnSel = { niveauTopic: new Set(), section: new Set() };
-const revSel   = { niveauTopic: new Set(), section: new Set() };
-
-// ============ FAVORIS (mots marqués) ============
-// Persistance via localStorage, clé basée sur le CONTENU du mot (k|h)
-// → survit à la régénération de vocab2.js (l'ordre du tableau n'a pas d'importance)
-const FAV_KEY = 'kotoba-favoris';
-let favs = loadFavs();
-let learnFavsOnly = false;
-
-function wordId(w) { return w.k + '|' + w.h; }
-
-function loadFavs() {
-  try { return new Set(JSON.parse(localStorage.getItem(FAV_KEY) || '[]')); }
-  catch (e) { return new Set(); }
-}
-function saveFavs() {
-  try { localStorage.setItem(FAV_KEY, JSON.stringify([...favs])); }
-  catch (e) {}
-}
-function isFav(w)    { return favs.has(wordId(w)); }
-function toggleFav(w) {
-  const id = wordId(w);
-  if (favs.has(id)) favs.delete(id); else favs.add(id);
-  saveFavs();
-}
-
-// Export → télécharge kotoba-favoris.json
-function exportFavs() {
-  var blob = new Blob([JSON.stringify([...favs], null, 2)], { type: 'application/json' });
-  var a = document.createElement('a');
-  a.href = URL.createObjectURL(blob);
-  a.download = 'kotoba-favoris.json';
-  a.click();
-  URL.revokeObjectURL(a.href);
-}
-
-// Import → replace=true remplace, replace=false fusionne
-function importFavsFromText(text, replace) {
-  var arr = JSON.parse(text);
-  if (!Array.isArray(arr)) throw new Error('Format invalide');
-  favs = replace ? new Set(arr) : new Set([...favs, ...arr]);
-  saveFavs();
-}
+const learnSel = { niveau: new Set(), niveauTopic: new Set(), section: new Set() };
+const revSel   = { niveau: new Set(), niveauTopic: new Set(), section: new Set() };
 
 // ============ NAVIGATION ============
 function showScreen(id) {
@@ -84,6 +42,8 @@ function allNTKeys() {
 //             les mots sans section passent toujours si leur niveauTopic est ok
 function filterVocab(sel) {
   return VOCAB.filter(function(v) {
+    // 0. Filtre niveau seul
+    if (sel.niveau.size > 0 && !sel.niveau.has(v.niveau)) return false;
     // 1. Filtre niveau+topic
     if (sel.niveauTopic.size > 0 && !sel.niveauTopic.has(ntKey(v))) return false;
     // 2. Filtre section : ignoré pour les mots sans section
@@ -123,14 +83,83 @@ function buildChips(containerId, values, selSet, onChange) {
 }
 
 function initChips(prefix, sel, onChange) {
-  // Chips Niveau+Topic fusionnés
-  buildChips(prefix + '-chips-topic', allNTKeys(), sel.niveauTopic, onChange);
+  // --- Chips Niveau (toujours visibles) ---
+  var niveaux = unique(VOCAB.map(function(v) { return v.niveau; })).sort();
+  buildChips(prefix + '-chips-niveau', niveaux, sel.niveau, function() {
+    // Quand le niveau change : réinitialiser topic et section si incohérents
+    sel.niveauTopic.forEach(function(k) {
+      var found = VOCAB.some(function(v) {
+        return ntKey(v) === k && (sel.niveau.size === 0 || sel.niveau.has(v.niveau));
+      });
+      if (!found) sel.niveauTopic.delete(k);
+    });
+    sel.section.clear();
+    refreshTopicAndSection(prefix, sel, onChange);
+    onChange();
+  });
 
-  // Chips Section : exclure "aucune", ne montrer que les vraies sections
-  var sections = unique(VOCAB.map(function(v) { return v.section; }))
-    .filter(function(s) { return s !== 'aucune'; })
-    .sort();
-  buildChips(prefix + '-chips-section', sections, sel.section, onChange);
+  refreshTopicAndSection(prefix, sel, onChange);
+}
+
+function refreshTopicAndSection(prefix, sel, onChange) {
+  var groupTopic   = document.getElementById(prefix + '-group-topic');
+  var groupSection = document.getElementById(prefix + '-group-section');
+
+  // --- Topics : filtrés par niveau actif ---
+  var vocabForNiveau = sel.niveau.size > 0
+    ? VOCAB.filter(function(v) { return sel.niveau.has(v.niveau); })
+    : VOCAB;
+
+  var ntKeys = (function() {
+    var map = {};
+    vocabForNiveau.forEach(function(v) {
+      var k = ntKey(v);
+      if (!map[k]) map[k] = { niveau: v.niveau, topic: v.topic };
+    });
+    return Object.keys(map).sort(function(a, b) {
+      var pa = map[a], pb = map[b];
+      if (pa.niveau !== pb.niveau) return pa.niveau.localeCompare(pb.niveau);
+      return pa.topic.localeCompare(pb.topic);
+    });
+  })();
+
+  if (sel.niveau.size > 0) {
+    groupTopic.style.display = '';
+    buildChips(prefix + '-chips-topic', ntKeys, sel.niveauTopic, function() {
+      sel.section.clear();
+      refreshSection(prefix, sel, onChange);
+      onChange();
+    });
+  } else {
+    groupTopic.style.display = 'none';
+    sel.niveauTopic.clear();
+  }
+
+  refreshSection(prefix, sel, onChange);
+}
+
+function refreshSection(prefix, sel, onChange) {
+  var groupSection = document.getElementById(prefix + '-group-section');
+
+  if (sel.niveauTopic.size > 0) {
+    // Sections présentes dans les topics sélectionnés
+    var sections = unique(
+      VOCAB
+        .filter(function(v) { return sel.niveauTopic.has(ntKey(v)) && v.section !== 'aucune'; })
+        .map(function(v) { return v.section; })
+    ).sort();
+
+    if (sections.length > 0) {
+      groupSection.style.display = '';
+      buildChips(prefix + '-chips-section', sections, sel.section, onChange);
+    } else {
+      groupSection.style.display = 'none';
+      sel.section.clear();
+    }
+  } else {
+    groupSection.style.display = 'none';
+    sel.section.clear();
+  }
 }
 
 // ============ ACCUEIL ============
@@ -151,7 +180,6 @@ document.getElementById('filter-toggle-btn').addEventListener('click', function(
 
 function renderLearnTable() {
   var words  = filterVocab(learnSel);
-  if (learnFavsOnly) words = words.filter(isFav);
   var hideJP = document.getElementById('hide-jp').checked;
   var hideFR = document.getElementById('hide-fr').checked;
 
@@ -161,32 +189,12 @@ function renderLearnTable() {
   tbody.innerHTML = '';
 
   if (words.length === 0) {
-    var msg = learnFavsOnly ? 'Aucun mot marqué pour ces filtres.' : 'Aucun mot pour ces filtres.';
-    tbody.innerHTML = '<tr><td colspan="3" style="text-align:center;padding:30px;color:var(--smoke)">' + msg + '</td></tr>';
+    tbody.innerHTML = '<tr><td colspan="2" style="text-align:center;padding:30px;color:var(--smoke)">Aucun mot pour ces filtres.</td></tr>';
     return;
   }
 
   words.forEach(function(w) {
     var tr = document.createElement('tr');
-
-    // Colonne étoile (favori)
-    var tdStar = document.createElement('td');
-    tdStar.className = 'td-star';
-    var star = document.createElement('button');
-    star.className = 'star-btn' + (isFav(w) ? ' on' : '');
-    star.textContent = isFav(w) ? '★' : '☆';
-    star.setAttribute('aria-label', 'Marquer / démarquer ce mot');
-    star.addEventListener('click', function(e) {
-      e.stopPropagation();
-      toggleFav(w);
-      var nowFav = isFav(w);
-      star.classList.toggle('on', nowFav);
-      star.textContent = nowFav ? '★' : '☆';
-      // En mode "favoris uniquement", la ligne démarquée doit disparaître
-      if (learnFavsOnly && !nowFav) renderLearnTable();
-    });
-    tdStar.appendChild(star);
-    tr.appendChild(tdStar);
 
     // Colonne Japonais
     var tdJP = document.createElement('td');
@@ -239,43 +247,6 @@ function renderLearnTable() {
 
 ['hide-jp', 'hide-fr'].forEach(function(id) {
   document.getElementById(id).addEventListener('change', renderLearnTable);
-});
-
-// ---- Contrôles favoris ----
-document.getElementById('fav-only').addEventListener('change', function(e) {
-  learnFavsOnly = e.target.checked;
-  renderLearnTable();
-});
-
-document.getElementById('fav-export').addEventListener('click', function() {
-  if (favs.size === 0) { alert('Aucun mot marqué à exporter.'); return; }
-  exportFavs();
-});
-
-document.getElementById('fav-import').addEventListener('click', function() {
-  document.getElementById('fav-import-file').click();
-});
-
-document.getElementById('fav-import-file').addEventListener('change', function(e) {
-  var file = e.target.files[0];
-  if (!file) return;
-  var reader = new FileReader();
-  reader.onload = function() {
-    try {
-      var replace = confirm(
-        'Importer les favoris :\n\n' +
-        'OK = REMPLACER la liste actuelle\n' +
-        'Annuler = FUSIONNER avec la liste actuelle'
-      );
-      importFavsFromText(reader.result, replace);
-      renderLearnTable();
-      alert('Import réussi — ' + favs.size + ' mot(s) marqué(s) au total.');
-    } catch (err) {
-      alert('Échec de l\'import : fichier JSON invalide.');
-    }
-  };
-  reader.readAsText(file);
-  e.target.value = ''; // permet de réimporter le même fichier ensuite
 });
 
 // ============ MODE RÉVISION SETUP ============

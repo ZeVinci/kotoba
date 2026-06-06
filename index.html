@@ -53,10 +53,14 @@
 
       <!-- Filtres multi-sélection -->
       <div class="multifilter-group">
+        <div class="multifilter-label">Niveau</div>
+        <div class="chip-row" id="learn-chips-niveau"></div>
+      </div>
+      <div class="multifilter-group" id="learn-group-topic" style="display:none">
         <div class="multifilter-label">Topic</div>
         <div class="chip-row" id="learn-chips-topic"></div>
       </div>
-      <div class="multifilter-group">
+      <div class="multifilter-group" id="learn-group-section" style="display:none">
         <div class="multifilter-label">Section</div>
         <div class="chip-row" id="learn-chips-section"></div>
       </div>
@@ -67,17 +71,6 @@
         <label class="cb-label"><input type="checkbox" id="hide-jp"> Japonais</label>
         <label class="cb-label"><input type="checkbox" id="hide-fr"> Français</label>
       </div>
-
-      <!-- Favoris -->
-      <div class="fav-row">
-        <label class="cb-label"><input type="checkbox" id="fav-only"> ★ Favoris uniquement</label>
-        <div class="fav-actions">
-          <button class="fav-btn" id="fav-export">↓ Exporter</button>
-          <button class="fav-btn" id="fav-import">↑ Importer</button>
-          <input type="file" id="fav-import-file" accept="application/json,.json" hidden>
-        </div>
-      </div>
-
       <div class="filter-count" id="learn-count"></div>
     </div>
 
@@ -85,7 +78,6 @@
       <table class="learn-table">
         <thead>
           <tr>
-            <th class="th-star" aria-label="Favori"></th>
             <th id="th-jp">Japonais</th>
             <th id="th-fr">Français</th>
           </tr>
@@ -107,10 +99,14 @@
       <div class="setup-section">
         <div class="setup-section-title">Filtrer les mots</div>
         <div class="multifilter-group">
+          <div class="multifilter-label">Niveau</div>
+          <div class="chip-row" id="rev-chips-niveau"></div>
+        </div>
+        <div class="multifilter-group" id="rev-group-topic" style="display:none">
           <div class="multifilter-label">Topic</div>
           <div class="chip-row" id="rev-chips-topic"></div>
         </div>
-        <div class="multifilter-group">
+        <div class="multifilter-group" id="rev-group-section" style="display:none">
           <div class="multifilter-label">Section</div>
           <div class="chip-row" id="rev-chips-section"></div>
         </div>
