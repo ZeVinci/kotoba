@@ -7,50 +7,8 @@ let scoreGood    = 0;
 let scoreTotal   = 0;
 
 // Sélections actives (Set vide = "Tous")
-const learnSel = { niveau: new Set(), niveauTopic: new Set(), section: new Set() };
-const revSel   = { niveau: new Set(), niveauTopic: new Set(), section: new Set() };
-
-// ============ FAVORIS (mots marqués) ============
-// Persistance via localStorage, clé basée sur le CONTENU du mot (k|h)
-// → survit à la régénération de vocab2.js (l'ordre du tableau n'a pas d'importance)
-const FAV_KEY = 'kotoba-favoris';
-let favs = loadFavs();
-let learnFavsOnly = false;
-
-function wordId(w) { return w.k + '|' + w.h; }
-
-function loadFavs() {
-  try { return new Set(JSON.parse(localStorage.getItem(FAV_KEY) || '[]')); }
-  catch (e) { return new Set(); }
-}
-function saveFavs() {
-  try { localStorage.setItem(FAV_KEY, JSON.stringify([...favs])); }
-  catch (e) {}
-}
-function isFav(w)    { return favs.has(wordId(w)); }
-function toggleFav(w) {
-  const id = wordId(w);
-  if (favs.has(id)) favs.delete(id); else favs.add(id);
-  saveFavs();
-}
-
-// Export → télécharge kotoba-favoris.json
-function exportFavs() {
-  var blob = new Blob([JSON.stringify([...favs], null, 2)], { type: 'application/json' });
-  var a = document.createElement('a');
-  a.href = URL.createObjectURL(blob);
-  a.download = 'kotoba-favoris.json';
-  a.click();
-  URL.revokeObjectURL(a.href);
-}
-
-// Import → replace=true remplace, replace=false fusionne
-function importFavsFromText(text, replace) {
-  var arr = JSON.parse(text);
-  if (!Array.isArray(arr)) throw new Error('Format invalide');
-  favs = replace ? new Set(arr) : new Set([...favs, ...arr]);
-  saveFavs();
-}
+const learnSel = { niveauTopic: new Set(), section: new Set() };
+const revSel   = { niveauTopic: new Set(), section: new Set() };
 
 // ============ NAVIGATION ============
 function showScreen(id) {
@@ -64,53 +22,29 @@ function unique(arr) { return [...new Set(arr)]; }
 // Clé composite "Niveau Topic"
 function ntKey(v) { return v.niveau + ' ' + v.topic; }
 
-// Niveau extrait d'une clé composite ("A2/B1 T8" -> "A2/B1")
-function ntNiveauOf(key) { return key.substring(0, key.lastIndexOf(' ')); }
-
-// Niveaux distincts, triés
-function allNiveaux() {
-  return unique(VOCAB.map(function(v) { return v.niveau; })).sort();
-}
-
-// Toutes les paires Niveau/Topic distinctes, triées
-function allNT() {
+// Toutes les clés composites triées, en conservant niveau et topic séparément pour le tri
+function allNTKeys() {
   var map = {};
   VOCAB.forEach(function(v) {
     var k = ntKey(v);
-    if (!map[k]) map[k] = { key: k, niveau: v.niveau, topic: v.topic };
+    if (!map[k]) map[k] = { niveau: v.niveau, topic: v.topic };
   });
-  return Object.keys(map).map(function(k) { return map[k]; }).sort(function(a, b) {
-    if (a.niveau !== b.niveau) return a.niveau.localeCompare(b.niveau);
-    return a.topic.localeCompare(b.topic);
+  return Object.keys(map).sort(function(a, b) {
+    var pa = map[a], pb = map[b];
+    if (pa.niveau !== pb.niveau) return pa.niveau.localeCompare(pb.niveau);
+    return pa.topic.localeCompare(pb.topic);
   });
-}
-
-// Sections réelles présentes dans la sélection niveau+topic courante
-function sectionsForSelection(sel) {
-  var ws = VOCAB.filter(function(v) {
-    if (sel.niveau.size > 0 && !sel.niveau.has(v.niveau)) return false;
-    if (sel.niveauTopic.size > 0 && !sel.niveauTopic.has(ntKey(v))) return false;
-    return true;
-  });
-  return unique(ws.map(function(v) { return v.section; }))
-    .filter(function(s) { return s !== 'aucune'; })
-    .sort();
-}
-
-// Retire les sections sélectionnées qui ne sont plus présentes dans la sélection
-function pruneSections(sel) {
-  var avail = new Set(sectionsForSelection(sel));
-  [...sel.section].forEach(function(s) { if (!avail.has(s)) sel.section.delete(s); });
 }
 
 // Filtrage :
-// - niveau : filtre sur le niveau (vide = tous)
 // - niveauTopic : filtre sur la clé composite (vide = tous)
-// - section : ignorée pour les mots sans section ('aucune')
+// - section : filtre uniquement les mots qui ONT une section (section !== 'aucune')
+//             les mots sans section passent toujours si leur niveauTopic est ok
 function filterVocab(sel) {
   return VOCAB.filter(function(v) {
-    if (sel.niveau.size > 0 && !sel.niveau.has(v.niveau)) return false;
+    // 1. Filtre niveau+topic
     if (sel.niveauTopic.size > 0 && !sel.niveauTopic.has(ntKey(v))) return false;
+    // 2. Filtre section : ignoré pour les mots sans section
     if (v.section === 'aucune') return true;
     if (sel.section.size > 0 && !sel.section.has(v.section)) return false;
     return true;
@@ -118,8 +52,7 @@ function filterVocab(sel) {
 }
 
 // ============ CHIPS ============
-// items : tableau de { value, label }
-function buildChipGroup(containerId, items, selSet, onChange) {
+function buildChips(containerId, values, selSet, onChange) {
   var container = document.getElementById(containerId);
   container.innerHTML = '';
 
@@ -128,82 +61,34 @@ function buildChipGroup(containerId, items, selSet, onChange) {
   allChip.textContent = 'Tous';
   allChip.addEventListener('click', function() {
     selSet.clear();
+    buildChips(containerId, values, selSet, onChange);
     onChange();
   });
   container.appendChild(allChip);
 
-  items.forEach(function(it) {
+  values.forEach(function(val) {
     var chip = document.createElement('button');
-    chip.className = 'chip' + (selSet.has(it.value) ? ' active' : '');
-    chip.textContent = it.label;
+    chip.className = 'chip' + (selSet.has(val) ? ' active' : '');
+    chip.textContent = val;
     chip.addEventListener('click', function() {
-      if (selSet.has(it.value)) selSet.delete(it.value);
-      else selSet.add(it.value);
+      if (selSet.has(val)) selSet.delete(val);
+      else selSet.add(val);
+      buildChips(containerId, values, selSet, onChange);
       onChange();
     });
     container.appendChild(chip);
   });
 }
 
-// Révélation progressive : Niveau -> Topic -> Section
-function renderFilters(prefix, sel, onChange) {
-  // 1. Niveau (toujours visible)
-  buildChipGroup(
-    prefix + '-chips-niveau',
-    allNiveaux().map(function(n) { return { value: n, label: n }; }),
-    sel.niveau,
-    function() {
-      // Cascade : retirer les topics dont le niveau n'est plus sélectionné
-      [...sel.niveauTopic].forEach(function(k) {
-        if (!sel.niveau.has(ntNiveauOf(k))) sel.niveauTopic.delete(k);
-      });
-      pruneSections(sel);
-      renderFilters(prefix, sel, onChange);
-      onChange();
-    }
-  );
+function initChips(prefix, sel, onChange) {
+  // Chips Niveau+Topic fusionnés
+  buildChips(prefix + '-chips-topic', allNTKeys(), sel.niveauTopic, onChange);
 
-  // 2. Topic (visible seulement si >= 1 niveau sélectionné)
-  var topicGroup = document.getElementById(prefix + '-group-topic');
-  if (sel.niveau.size === 0) {
-    topicGroup.style.display = 'none';
-  } else {
-    topicGroup.style.display = '';
-    var topics = allNT().filter(function(o) { return sel.niveau.has(o.niveau); });
-    buildChipGroup(
-      prefix + '-chips-topic',
-      topics.map(function(o) {
-        // Un seul niveau sélectionné : label court ("T1"). Plusieurs : label
-        // complet ("B1 T1") pour lever l'ambiguïté quand des numéros de topic
-        // se chevauchent entre niveaux (ex. A2/B1 et B1 partagent T1–T5).
-        return { value: o.key, label: (sel.niveau.size > 1 ? o.key : o.topic) };
-      }),
-      sel.niveauTopic,
-      function() {
-        pruneSections(sel);
-        renderFilters(prefix, sel, onChange);
-        onChange();
-      }
-    );
-  }
-
-  // 3. Section (visible seulement si >= 1 topic sélectionné ET sections présentes)
-  var secGroup = document.getElementById(prefix + '-group-section');
-  var sections = sectionsForSelection(sel);
-  if (sel.niveauTopic.size === 0 || sections.length === 0) {
-    secGroup.style.display = 'none';
-  } else {
-    secGroup.style.display = '';
-    buildChipGroup(
-      prefix + '-chips-section',
-      sections.map(function(s) { return { value: s, label: s }; }),
-      sel.section,
-      function() {
-        renderFilters(prefix, sel, onChange);
-        onChange();
-      }
-    );
-  }
+  // Chips Section : exclure "aucune", ne montrer que les vraies sections
+  var sections = unique(VOCAB.map(function(v) { return v.section; }))
+    .filter(function(s) { return s !== 'aucune'; })
+    .sort();
+  buildChips(prefix + '-chips-section', sections, sel.section, onChange);
 }
 
 // ============ ACCUEIL ============
@@ -224,7 +109,6 @@ document.getElementById('filter-toggle-btn').addEventListener('click', function(
 
 function renderLearnTable() {
   var words  = filterVocab(learnSel);
-  if (learnFavsOnly) words = words.filter(isFav);
   var hideJP = document.getElementById('hide-jp').checked;
   var hideFR = document.getElementById('hide-fr').checked;
 
@@ -234,32 +118,12 @@ function renderLearnTable() {
   tbody.innerHTML = '';
 
   if (words.length === 0) {
-    var msg = learnFavsOnly ? 'Aucun mot marqué pour ces filtres.' : 'Aucun mot pour ces filtres.';
-    tbody.innerHTML = '<tr><td colspan="3" style="text-align:center;padding:30px;color:var(--smoke)">' + msg + '</td></tr>';
+    tbody.innerHTML = '<tr><td colspan="2" style="text-align:center;padding:30px;color:var(--smoke)">Aucun mot pour ces filtres.</td></tr>';
     return;
   }
 
   words.forEach(function(w) {
     var tr = document.createElement('tr');
-
-    // Colonne étoile (favori)
-    var tdStar = document.createElement('td');
-    tdStar.className = 'td-star';
-    var star = document.createElement('button');
-    star.className = 'star-btn' + (isFav(w) ? ' on' : '');
-    star.textContent = isFav(w) ? '★' : '☆';
-    star.setAttribute('aria-label', 'Marquer / démarquer ce mot');
-    star.addEventListener('click', function(e) {
-      e.stopPropagation();
-      toggleFav(w);
-      var nowFav = isFav(w);
-      star.classList.toggle('on', nowFav);
-      star.textContent = nowFav ? '★' : '☆';
-      // En mode "favoris uniquement", la ligne démarquée doit disparaître
-      if (learnFavsOnly && !nowFav) renderLearnTable();
-    });
-    tdStar.appendChild(star);
-    tr.appendChild(tdStar);
 
     // Colonne Japonais
     var tdJP = document.createElement('td');
@@ -312,43 +176,6 @@ function renderLearnTable() {
 
 ['hide-jp', 'hide-fr'].forEach(function(id) {
   document.getElementById(id).addEventListener('change', renderLearnTable);
-});
-
-// ---- Contrôles favoris ----
-document.getElementById('fav-only').addEventListener('change', function(e) {
-  learnFavsOnly = e.target.checked;
-  renderLearnTable();
-});
-
-document.getElementById('fav-export').addEventListener('click', function() {
-  if (favs.size === 0) { alert('Aucun mot marqué à exporter.'); return; }
-  exportFavs();
-});
-
-document.getElementById('fav-import').addEventListener('click', function() {
-  document.getElementById('fav-import-file').click();
-});
-
-document.getElementById('fav-import-file').addEventListener('change', function(e) {
-  var file = e.target.files[0];
-  if (!file) return;
-  var reader = new FileReader();
-  reader.onload = function() {
-    try {
-      var replace = confirm(
-        'Importer les favoris :\n\n' +
-        'OK = REMPLACER la liste actuelle\n' +
-        'Annuler = FUSIONNER avec la liste actuelle'
-      );
-      importFavsFromText(reader.result, replace);
-      renderLearnTable();
-      alert('Import réussi — ' + favs.size + ' mot(s) marqué(s) au total.');
-    } catch (err) {
-      alert('Échec de l\'import : fichier JSON invalide.');
-    }
-  };
-  reader.readAsText(file);
-  e.target.value = ''; // permet de réimporter le même fichier ensuite
 });
 
 // ============ MODE RÉVISION SETUP ============
@@ -426,6 +253,122 @@ function updateScore() {
   document.getElementById('pct-badge').textContent = pct;
 }
 
+// ============ GRAMMAIRE ============
+// Thèmes sélectionnés (Set vide = tous)
+const gramSel = new Set();
+
+function gramThemeLabel(g) {
+  // ex. "B1-1 T2"
+  return g.niveau + ' T' + g.theme_num;
+}
+
+function initGramChips() {
+  var container = document.getElementById('gram-chips-theme');
+  container.innerHTML = '';
+
+  var allChip = document.createElement('button');
+  allChip.className = 'chip' + (gramSel.size === 0 ? ' active' : '');
+  allChip.textContent = 'Tous';
+  allChip.addEventListener('click', function () {
+    gramSel.clear();
+    initGramChips();
+    renderGramList();
+  });
+  container.appendChild(allChip);
+
+  GRAMMAIRE.forEach(function (g) {
+    var chip = document.createElement('button');
+    chip.className = 'chip' + (gramSel.has(g.id) ? ' active' : '');
+    chip.textContent = gramThemeLabel(g);
+    chip.addEventListener('click', function () {
+      if (gramSel.has(g.id)) gramSel.delete(g.id);
+      else gramSel.add(g.id);
+      initGramChips();
+      renderGramList();
+    });
+    container.appendChild(chip);
+  });
+}
+
+function renderGramList() {
+  var wrap = document.getElementById('gram-list');
+  wrap.innerHTML = '';
+
+  var themes = GRAMMAIRE.filter(function (g) {
+    return gramSel.size === 0 || gramSel.has(g.id);
+  });
+
+  if (themes.length === 0) {
+    wrap.innerHTML = '<div class="gram-empty">Aucun thème pour ces filtres.</div>';
+    return;
+  }
+
+  themes.forEach(function (g) {
+    var section = document.createElement('div');
+    section.className = 'gram-theme';
+
+    var head = document.createElement('div');
+    head.className = 'gram-theme-head';
+    var tag = document.createElement('span');
+    tag.className = 'gram-theme-tag';
+    tag.textContent = gramThemeLabel(g);
+    var title = document.createElement('span');
+    title.className = 'gram-theme-title';
+    title.textContent = g.titre_jp || '';
+    head.appendChild(tag);
+    head.appendChild(title);
+    section.appendChild(head);
+
+    g.points.forEach(function (pt) {
+      var item = document.createElement('div');
+      item.className = 'gram-point';
+
+      var ph = document.createElement('button');
+      ph.className = 'gram-point-head';
+      ph.type = 'button';
+
+      var num = document.createElement('span');
+      num.className = 'gram-point-num';
+      num.textContent = pt.num;
+
+      var txt = document.createElement('span');
+      txt.className = 'gram-point-text';
+      var jp = document.createElement('span');
+      jp.className = 'gram-point-jp';
+      jp.textContent = pt.jp;
+      var fr = document.createElement('span');
+      fr.className = 'gram-point-fr';
+      fr.textContent = pt.fr;
+      txt.appendChild(jp);
+      txt.appendChild(fr);
+
+      var arrow = document.createElement('span');
+      arrow.className = 'gram-point-arrow';
+      arrow.textContent = '\u25be'; // ▾
+
+      ph.appendChild(num);
+      ph.appendChild(txt);
+      ph.appendChild(arrow);
+
+      var body = document.createElement('div');
+      body.className = 'gram-point-body';
+      body.innerHTML = pt.html;   // contenu généré par convert_grammaire.py
+      body.style.display = 'none';
+
+      ph.addEventListener('click', function () {
+        var open = item.classList.toggle('open');
+        body.style.display = open ? 'block' : 'none';
+      });
+
+      item.appendChild(ph);
+      item.appendChild(body);
+      section.appendChild(item);
+    });
+
+    wrap.appendChild(section);
+  });
+}
+
 // ============ EVENT DELEGATION ============
 document.addEventListener('click', function(e) {
   var el = e.target.closest('[data-action]');
@@ -433,14 +376,19 @@ document.addEventListener('click', function(e) {
   switch (el.dataset.action) {
     case 'goto-home':         showScreen('home-screen'); break;
     case 'goto-learn':
-      renderFilters('learn', learnSel, renderLearnTable);
+      initChips('learn', learnSel, renderLearnTable);
       renderLearnTable();
       showScreen('learn-screen');
       break;
     case 'goto-revise-setup':
-      renderFilters('rev', revSel, updateRevCount);
+      initChips('rev', revSel, updateRevCount);
       updateRevCount();
       showScreen('revise-setup-screen');
+      break;
+    case 'goto-gram':
+      initGramChips();
+      renderGramList();
+      showScreen('gram-screen');
       break;
     case 'start-revise':  startRevise(); break;
     case 'stop-revise':   showScreen('home-screen'); break;

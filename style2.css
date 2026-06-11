@@ -287,45 +287,6 @@ html, body {
   padding: 3px 6px;
 }
 
-/* ============ FAVORIS ============ */
-/* Colonne étoile */
-.th-star, .td-star {
-  width: 38px;
-  padding-left: 10px !important;
-  padding-right: 0 !important;
-  text-align: center;
-}
-.star-btn {
-  background: none; border: none;
-  color: var(--smoke);
-  font-size: 1.25rem; line-height: 1;
-  cursor: pointer; padding: 4px;
-  transition: color var(--trans), transform 0.1s;
-}
-.star-btn:active { transform: scale(1.3); }
-.star-btn.on { color: var(--gold); }
-
-/* Ligne favoris dans le panneau de filtres */
-.fav-row {
-  display: flex; align-items: center; justify-content: space-between;
-  flex-wrap: wrap; gap: 10px;
-  padding-top: 8px;
-  border-top: 1px solid rgba(255,255,255,0.04);
-}
-.fav-actions { display: flex; gap: 8px; }
-.fav-btn {
-  padding: 6px 12px;
-  border-radius: 20px;
-  border: 1.5px solid rgba(226,185,111,0.4);
-  background: rgba(226,185,111,0.08);
-  color: var(--gold);
-  font-family: var(--font-ui);
-  font-size: 0.78rem;
-  cursor: pointer;
-  transition: background var(--trans), transform 0.1s;
-}
-.fav-btn:active { transform: scale(0.95); background: rgba(226,185,111,0.2); }
-
 /* ============ SETUP RÉVISION ============ */
 #revise-setup-screen { overflow-y: auto; }
 .setup-body {
@@ -495,3 +456,85 @@ html, body {
   .mode-cards { flex-direction: row; }
   .mode-card { flex: 1; }
 }
+/* ============ GRAMMAIRE ============ */
+.gram-list-wrap { flex: 1; overflow-y: auto; padding: 14px 14px 40px; }
+
+.gram-theme { margin-bottom: 24px; }
+.gram-theme-head {
+  display: flex; align-items: baseline; gap: 10px;
+  padding: 6px 0 10px;
+  border-bottom: 1px solid rgba(226,185,111,0.25);
+  margin-bottom: 12px;
+}
+.gram-theme-tag {
+  flex: 0 0 auto;
+  font-family: var(--font-ui);
+  font-size: 0.68rem; font-weight: 600; letter-spacing: 0.05em;
+  color: var(--ink); background: var(--gold);
+  padding: 3px 9px; border-radius: 8px; white-space: nowrap;
+}
+.gram-theme-title { font-family: var(--font-jp); font-size: 1.15rem; color: var(--gold); }
+
+.gram-point {
+  background: var(--ink2);
+  border: 1px solid rgba(226,185,111,0.12);
+  border-radius: 12px;
+  margin-bottom: 8px;
+  overflow: hidden;
+}
+.gram-point.open { border-color: rgba(226,185,111,0.4); }
+
+.gram-point-head {
+  width: 100%;
+  display: flex; align-items: center; gap: 11px;
+  background: none; border: none; cursor: pointer;
+  text-align: left;
+  padding: 12px 14px;
+  color: var(--paper);
+}
+.gram-point-num {
+  flex: 0 0 auto; width: 26px; height: 26px; border-radius: 50%;
+  display: flex; align-items: center; justify-content: center;
+  background: var(--gold); color: var(--ink);
+  font-family: var(--font-ui); font-weight: 700; font-size: 0.82rem;
+}
+.gram-point-text { flex: 1; display: flex; flex-direction: column; gap: 2px; min-width: 0; }
+.gram-point-jp { font-family: var(--font-jp); font-size: 1rem; color: var(--paper); }
+.gram-point-fr { font-size: 0.78rem; color: var(--smoke); font-style: italic; }
+.gram-point-arrow {
+  flex: 0 0 auto; color: var(--gold); font-size: 0.8rem;
+  transition: transform var(--trans);
+}
+.gram-point.open .gram-point-arrow { transform: rotate(180deg); }
+
+.gram-point-body {
+  padding: 6px 16px 16px;
+  font-size: 0.92rem; line-height: 1.65;
+  color: var(--paper);
+  border-top: 1px solid rgba(226,185,111,0.12);
+}
+.gram-point-body p { margin: 10px 0; }
+.gram-point-body strong { color: var(--gold); font-weight: 600; }
+.gram-point-body em { color: var(--smoke); font-style: italic; }
+
+.gram-point-body h4.subpoint-title {
+  margin: 18px 0 8px; padding-top: 12px;
+  border-top: 1px dashed rgba(226,185,111,0.28);
+  font-size: 0.95rem; font-weight: 600;
+}
+.gram-point-body .subpoint-jp { font-family: var(--font-jp); color: var(--gold); }
+.gram-point-body .subpoint-fr { color: var(--smoke); font-style: italic; font-weight: 400; }
+
+/* Exemples (générés dans le HTML de grammaire.js) */
+.examples-block { margin: 8px 0; }
+.example {
+  background: rgba(15,52,96,0.45);
+  border-left: 3px solid var(--gold2);
+  border-radius: 6px;
+  padding: 8px 12px; margin: 6px 0;
+}
+.ex-jp { font-family: var(--font-jp); color: var(--paper); margin-bottom: 2px; }
+.ex-fr { font-size: 0.85rem; color: var(--smoke); }
+.ex-note { font-size: 0.8rem; color: var(--smoke); font-style: italic; padding: 2px 12px; }
+
+.gram-empty { text-align: center; color: var(--smoke); padding: 30px; }
