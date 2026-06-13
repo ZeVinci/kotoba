@@ -538,3 +538,45 @@ html, body {
 .ex-note { font-size: 0.8rem; color: var(--smoke); font-style: italic; padding: 2px 12px; }
 
 .gram-empty { text-align: center; color: var(--smoke); padding: 30px; }
+
+/* ============ FAVORIS ============ */
+.fav-row {
+  display: flex; align-items: center; justify-content: space-between;
+  gap: 12px; flex-wrap: wrap;
+  padding-top: 8px;
+  border-top: 1px solid rgba(255,255,255,0.04);
+}
+.fav-actions { display: flex; gap: 8px; }
+.fav-btn {
+  padding: 5px 12px;
+  border-radius: 20px;
+  border: 1.5px solid rgba(255,255,255,0.12);
+  background: rgba(255,255,255,0.04);
+  color: var(--smoke);
+  font-family: var(--font-ui);
+  font-size: 0.78rem;
+  cursor: pointer;
+  transition: all var(--trans);
+}
+.fav-btn:active { transform: scale(0.95); }
+.fav-btn:hover { border-color: var(--gold); color: var(--gold); }
+
+/* Colonne étoile dans le tableau */
+.th-star {
+  width: 40px;
+  text-align: center !important;
+  padding-left: 8px !important; padding-right: 4px !important;
+}
+.td-star {
+  width: 40px; text-align: center;
+  padding-left: 8px !important; padding-right: 4px !important;
+}
+.star-btn {
+  background: none; border: none; cursor: pointer;
+  font-size: 1.15rem; line-height: 1;
+  color: var(--smoke);
+  padding: 4px; border-radius: 6px;
+  transition: color var(--trans), transform 0.1s;
+}
+.star-btn:active { transform: scale(0.82); }
+.star-btn.on { color: var(--gold); }

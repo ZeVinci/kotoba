@@ -7,8 +7,50 @@ let scoreGood    = 0;
 let scoreTotal   = 0;
 
 // Sélections actives (Set vide = "Tous")
-const learnSel = { niveauTopic: new Set(), section: new Set() };
-const revSel   = { niveauTopic: new Set(), section: new Set() };
+const learnSel = { niveau: new Set(), niveauTopic: new Set(), section: new Set() };
+const revSel   = { niveau: new Set(), niveauTopic: new Set(), section: new Set() };
+
+// ============ FAVORIS (mots marqués) ============
+// Persistance via localStorage, clé basée sur le CONTENU du mot (k|h)
+// → survit à la régénération de vocab2.js (l'ordre du tableau n'a pas d'importance)
+const FAV_KEY = 'kotoba-favoris';
+let favs = loadFavs();
+let learnFavsOnly = false;
+
+function wordId(w) { return w.k + '|' + w.h; }
+
+function loadFavs() {
+  try { return new Set(JSON.parse(localStorage.getItem(FAV_KEY) || '[]')); }
+  catch (e) { return new Set(); }
+}
+function saveFavs() {
+  try { localStorage.setItem(FAV_KEY, JSON.stringify([...favs])); }
+  catch (e) {}
+}
+function isFav(w) { return favs.has(wordId(w)); }
+function toggleFav(w) {
+  const id = wordId(w);
+  if (favs.has(id)) favs.delete(id); else favs.add(id);
+  saveFavs();
+}
+
+// Export → télécharge kotoba-favoris.json
+function exportFavs() {
+  var blob = new Blob([JSON.stringify([...favs], null, 2)], { type: 'application/json' });
+  var a = document.createElement('a');
+  a.href = URL.createObjectURL(blob);
+  a.download = 'kotoba-favoris.json';
+  a.click();
+  URL.revokeObjectURL(a.href);
+}
+
+// Import → replace=true remplace, replace=false fusionne
+function importFavsFromText(text, replace) {
+  var arr = JSON.parse(text);
+  if (!Array.isArray(arr)) throw new Error('Format invalide');
+  favs = replace ? new Set(arr) : new Set([...favs, ...arr]);
+  saveFavs();
+}
 
 // ============ NAVIGATION ============
 function showScreen(id) {
@@ -21,39 +63,64 @@ function unique(arr) { return [...new Set(arr)]; }
 
 // Clé composite "Niveau Topic"
 function ntKey(v) { return v.niveau + ' ' + v.topic; }
+// Extraire niveau / topic d'une clé composite (le niveau peut contenir un espace, ex "A2/B1")
+function ntNiveauOf(key) { return key.slice(0, key.lastIndexOf(' ')); }
+function ntTopicOf(key)  { return key.slice(key.lastIndexOf(' ') + 1); }
 
-// Toutes les clés composites triées, en conservant niveau et topic séparément pour le tri
-function allNTKeys() {
+// Tous les niveaux distincts, triés
+function allNiveaux() {
+  return unique(VOCAB.map(function(v) { return v.niveau; })).sort();
+}
+
+// Toutes les paires { key, niveau, topic } distinctes, triées par niveau puis topic
+function allNT() {
   var map = {};
   VOCAB.forEach(function(v) {
     var k = ntKey(v);
-    if (!map[k]) map[k] = { niveau: v.niveau, topic: v.topic };
+    if (!map[k]) map[k] = { key: k, niveau: v.niveau, topic: v.topic };
   });
-  return Object.keys(map).sort(function(a, b) {
-    var pa = map[a], pb = map[b];
-    if (pa.niveau !== pb.niveau) return pa.niveau.localeCompare(pb.niveau);
-    return pa.topic.localeCompare(pb.topic);
+  return Object.keys(map).map(function(k) { return map[k]; }).sort(function(a, b) {
+    if (a.niveau !== b.niveau) return a.niveau.localeCompare(b.niveau);
+    return a.topic.localeCompare(b.topic, undefined, { numeric: true });
   });
 }
 
+// Sections réelles (hors 'aucune') disponibles pour la sélection courante
+function sectionsForSelection(sel) {
+  var set = {};
+  VOCAB.forEach(function(v) {
+    if (sel.niveau.size > 0 && !sel.niveau.has(v.niveau)) return;
+    if (sel.niveauTopic.size > 0 && !sel.niveauTopic.has(ntKey(v))) return;
+    if (v.section !== 'aucune') set[v.section] = true;
+  });
+  return Object.keys(set).sort();
+}
+
+// Retirer les sections sélectionnées qui ne sont plus disponibles
+function pruneSections(sel) {
+  var avail = new Set(sectionsForSelection(sel));
+  [...sel.section].forEach(function(s) { if (!avail.has(s)) sel.section.delete(s); });
+}
+
 // Filtrage :
+// - niveau      : filtre sur le niveau (vide = tous)
 // - niveauTopic : filtre sur la clé composite (vide = tous)
-// - section : filtre uniquement les mots qui ONT une section (section !== 'aucune')
-//             les mots sans section passent toujours si leur niveauTopic est ok
+// - section     : ignorée pour les mots sans section ('aucune')
 function filterVocab(sel) {
   return VOCAB.filter(function(v) {
-    // 1. Filtre niveau+topic
+    if (sel.niveau.size > 0 && !sel.niveau.has(v.niveau)) return false;
     if (sel.niveauTopic.size > 0 && !sel.niveauTopic.has(ntKey(v))) return false;
-    // 2. Filtre section : ignoré pour les mots sans section
     if (v.section === 'aucune') return true;
     if (sel.section.size > 0 && !sel.section.has(v.section)) return false;
     return true;
   });
 }
 
-// ============ CHIPS ============
-function buildChips(containerId, values, selSet, onChange) {
+// ============ CHIPS (cascade) ============
+// items : tableau de { value, label }
+function buildChipGroup(containerId, items, selSet, onChange) {
   var container = document.getElementById(containerId);
+  if (!container) return;
   container.innerHTML = '';
 
   var allChip = document.createElement('button');
@@ -61,34 +128,81 @@ function buildChips(containerId, values, selSet, onChange) {
   allChip.textContent = 'Tous';
   allChip.addEventListener('click', function() {
     selSet.clear();
-    buildChips(containerId, values, selSet, onChange);
     onChange();
   });
   container.appendChild(allChip);
 
-  values.forEach(function(val) {
+  items.forEach(function(it) {
     var chip = document.createElement('button');
-    chip.className = 'chip' + (selSet.has(val) ? ' active' : '');
-    chip.textContent = val;
+    chip.className = 'chip' + (selSet.has(it.value) ? ' active' : '');
+    chip.textContent = it.label;
     chip.addEventListener('click', function() {
-      if (selSet.has(val)) selSet.delete(val);
-      else selSet.add(val);
-      buildChips(containerId, values, selSet, onChange);
+      if (selSet.has(it.value)) selSet.delete(it.value);
+      else selSet.add(it.value);
       onChange();
     });
     container.appendChild(chip);
   });
 }
 
-function initChips(prefix, sel, onChange) {
-  // Chips Niveau+Topic fusionnés
-  buildChips(prefix + '-chips-topic', allNTKeys(), sel.niveauTopic, onChange);
+// Révélation progressive : Niveau → Topic → Section
+function renderFilters(prefix, sel, onChange) {
+  // 1. Niveau (toujours visible)
+  buildChipGroup(
+    prefix + '-chips-niveau',
+    allNiveaux().map(function(n) { return { value: n, label: n }; }),
+    sel.niveau,
+    function() {
+      // Cascade : retirer les topics dont le niveau n'est plus sélectionné
+      [...sel.niveauTopic].forEach(function(k) {
+        if (sel.niveau.size > 0 && !sel.niveau.has(ntNiveauOf(k))) sel.niveauTopic.delete(k);
+      });
+      pruneSections(sel);
+      renderFilters(prefix, sel, onChange);
+      onChange();
+    }
+  );
 
-  // Chips Section : exclure "aucune", ne montrer que les vraies sections
-  var sections = unique(VOCAB.map(function(v) { return v.section; }))
-    .filter(function(s) { return s !== 'aucune'; })
-    .sort();
-  buildChips(prefix + '-chips-section', sections, sel.section, onChange);
+  // 2. Topic (visible uniquement si ≥ 1 niveau sélectionné)
+  var topicGroup = document.getElementById(prefix + '-group-topic');
+  if (sel.niveau.size === 0) {
+    if (topicGroup) topicGroup.style.display = 'none';
+  } else {
+    if (topicGroup) topicGroup.style.display = '';
+    var topics = allNT().filter(function(o) { return sel.niveau.has(o.niveau); });
+    // Préfixer par le niveau seulement si plusieurs niveaux sont sélectionnés
+    var multi = sel.niveau.size > 1;
+    buildChipGroup(
+      prefix + '-chips-topic',
+      topics.map(function(o) {
+        return { value: o.key, label: multi ? (o.niveau + ' ' + o.topic) : o.topic };
+      }),
+      sel.niveauTopic,
+      function() {
+        pruneSections(sel);
+        renderFilters(prefix, sel, onChange);
+        onChange();
+      }
+    );
+  }
+
+  // 3. Section (visible uniquement si ≥ 1 topic sélectionné ET de vraies sections existent)
+  var sectionGroup = document.getElementById(prefix + '-group-section');
+  var sections = sectionsForSelection(sel);
+  if (sel.niveauTopic.size === 0 || sections.length === 0) {
+    if (sectionGroup) sectionGroup.style.display = 'none';
+  } else {
+    if (sectionGroup) sectionGroup.style.display = '';
+    buildChipGroup(
+      prefix + '-chips-section',
+      sections.map(function(s) { return { value: s, label: s }; }),
+      sel.section,
+      function() {
+        renderFilters(prefix, sel, onChange);
+        onChange();
+      }
+    );
+  }
 }
 
 // ============ ACCUEIL ============
@@ -109,6 +223,7 @@ document.getElementById('filter-toggle-btn').addEventListener('click', function(
 
 function renderLearnTable() {
   var words  = filterVocab(learnSel);
+  if (learnFavsOnly) words = words.filter(isFav);
   var hideJP = document.getElementById('hide-jp').checked;
   var hideFR = document.getElementById('hide-fr').checked;
 
@@ -118,12 +233,34 @@ function renderLearnTable() {
   tbody.innerHTML = '';
 
   if (words.length === 0) {
-    tbody.innerHTML = '<tr><td colspan="2" style="text-align:center;padding:30px;color:var(--smoke)">Aucun mot pour ces filtres.</td></tr>';
+    var msg = learnFavsOnly
+      ? 'Aucun favori pour ces filtres.'
+      : 'Aucun mot pour ces filtres.';
+    tbody.innerHTML = '<tr><td colspan="3" style="text-align:center;padding:30px;color:var(--smoke)">' + msg + '</td></tr>';
     return;
   }
 
   words.forEach(function(w) {
     var tr = document.createElement('tr');
+
+    // Colonne étoile (favori)
+    var tdStar = document.createElement('td');
+    tdStar.className = 'td-star';
+    var starBtn = document.createElement('button');
+    starBtn.type = 'button';
+    starBtn.className = 'star-btn' + (isFav(w) ? ' on' : '');
+    starBtn.textContent = isFav(w) ? '★' : '☆';
+    starBtn.setAttribute('aria-label', 'Marquer comme favori');
+    starBtn.addEventListener('click', function(e) {
+      e.stopPropagation();
+      toggleFav(w);
+      var on = isFav(w);
+      starBtn.classList.toggle('on', on);
+      starBtn.textContent = on ? '★' : '☆';
+      if (learnFavsOnly) renderLearnTable(); // le mot disparaît s'il est dé-favorisé
+    });
+    tdStar.appendChild(starBtn);
+    tr.appendChild(tdStar);
 
     // Colonne Japonais
     var tdJP = document.createElement('td');
@@ -176,6 +313,37 @@ function renderLearnTable() {
 
 ['hide-jp', 'hide-fr'].forEach(function(id) {
   document.getElementById(id).addEventListener('change', renderLearnTable);
+});
+
+// --- Contrôles favoris (écran Liste) ---
+document.getElementById('fav-only').addEventListener('change', function() {
+  learnFavsOnly = this.checked;
+  renderLearnTable();
+});
+document.getElementById('fav-export').addEventListener('click', exportFavs);
+document.getElementById('fav-import').addEventListener('click', function() {
+  document.getElementById('fav-import-file').click();
+});
+document.getElementById('fav-import-file').addEventListener('change', function(e) {
+  var file = e.target.files && e.target.files[0];
+  if (!file) return;
+  var reader = new FileReader();
+  reader.onload = function() {
+    try {
+      var replace = confirm(
+        'Importer les favoris :\n\n' +
+        'OK = REMPLACER tes favoris actuels\n' +
+        'Annuler = FUSIONNER avec tes favoris actuels'
+      );
+      importFavsFromText(reader.result, replace);
+      renderLearnTable();
+      alert('Favoris importés — ' + favs.size + ' au total.');
+    } catch (err) {
+      alert('Échec de l\'import : ' + err.message);
+    }
+  };
+  reader.readAsText(file);
+  e.target.value = ''; // permet de réimporter le même fichier
 });
 
 // ============ MODE RÉVISION SETUP ============
@@ -376,12 +544,12 @@ document.addEventListener('click', function(e) {
   switch (el.dataset.action) {
     case 'goto-home':         showScreen('home-screen'); break;
     case 'goto-learn':
-      initChips('learn', learnSel, renderLearnTable);
+      renderFilters('learn', learnSel, renderLearnTable);
       renderLearnTable();
       showScreen('learn-screen');
       break;
     case 'goto-revise-setup':
-      initChips('rev', revSel, updateRevCount);
+      renderFilters('rev', revSel, updateRevCount);
       updateRevCount();
       showScreen('revise-setup-screen');
       break;
