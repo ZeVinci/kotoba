@@ -448,6 +448,65 @@ html, body {
 ::-webkit-scrollbar-track { background: transparent; }
 ::-webkit-scrollbar-thumb { background: rgba(255,255,255,0.1); border-radius: 4px; }
 
+/* ============ AIDE ============ */
+.help-fab {
+  position: absolute; top: 18px; right: 18px; z-index: 3;
+  width: 40px; height: 40px;
+  display: flex; align-items: center; justify-content: center;
+  border-radius: 50%;
+  background: rgba(255,255,255,0.05);
+  border: 1px solid rgba(226,185,111,0.3);
+  color: var(--gold);
+  font-family: var(--font-ui);
+  font-size: 1.2rem; font-weight: 500;
+  cursor: pointer;
+  transition: background var(--trans), transform 0.1s;
+}
+.help-fab:active { transform: scale(0.92); background: rgba(226,185,111,0.15); }
+
+.help-body {
+  flex: 1; overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+  padding: 20px 16px 32px;
+  display: flex; flex-direction: column; gap: 16px;
+}
+.help-block {
+  background: rgba(255,255,255,0.03);
+  border: 1px solid rgba(255,255,255,0.06);
+  border-radius: var(--radius);
+  padding: 16px 16px 18px;
+}
+.help-h {
+  display: flex; align-items: center; gap: 8px;
+  font-size: 0.95rem; font-weight: 600;
+  color: var(--gold);
+  margin-bottom: 10px;
+  letter-spacing: 0.02em;
+}
+.help-kanji {
+  font-family: var(--font-jp); font-weight: 700;
+  color: var(--gold);
+  background: rgba(226,185,111,0.15);
+  border-radius: 6px;
+  padding: 1px 7px;
+  font-size: 0.95rem; line-height: 1.4;
+}
+.help-body p {
+  font-size: 0.9rem; line-height: 1.55;
+  color: var(--paper); margin-bottom: 8px;
+}
+.help-body p:last-child { margin-bottom: 0; }
+.help-list {
+  list-style: none;
+  display: flex; flex-direction: column; gap: 8px;
+  margin: 8px 0;
+}
+.help-list li { font-size: 0.9rem; line-height: 1.5; color: var(--paper); }
+.help-ol { margin: 8px 0 8px 18px; display: flex; flex-direction: column; gap: 10px; }
+.help-ol li { font-size: 0.9rem; line-height: 1.5; color: var(--paper); }
+.help-body b { color: var(--paper); font-weight: 600; }
+.help-body .hl { color: var(--gold); font-weight: 500; }
+
 /* ============ DESKTOP ============ */
 @media (min-width: 640px) {
   .home-actions { flex-direction: row; max-width: 480px; }

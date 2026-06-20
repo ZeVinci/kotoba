@@ -15,6 +15,7 @@
 
   <!-- ===== ACCUEIL ===== -->
   <div id="home-screen" class="screen active">
+    <button class="help-fab" data-action="goto-help" aria-label="Aide">?</button>
     <div class="home-bg" aria-hidden="true">
       <div class="kanji-deco">語</div>
     </div>
@@ -51,16 +52,12 @@
 
     <div class="filter-panel" id="learn-filter-panel" style="display:none">
 
-      <!-- Filtres multi-sélection (révélation progressive) -->
-      <div class="multifilter-group" id="learn-group-niveau">
-        <div class="multifilter-label">Niveau</div>
-        <div class="chip-row" id="learn-chips-niveau"></div>
-      </div>
-      <div class="multifilter-group" id="learn-group-topic" style="display:none">
+      <!-- Filtres multi-sélection -->
+      <div class="multifilter-group">
         <div class="multifilter-label">Topic</div>
         <div class="chip-row" id="learn-chips-topic"></div>
       </div>
-      <div class="multifilter-group" id="learn-group-section" style="display:none">
+      <div class="multifilter-group">
         <div class="multifilter-label">Section</div>
         <div class="chip-row" id="learn-chips-section"></div>
       </div>
@@ -71,17 +68,6 @@
         <label class="cb-label"><input type="checkbox" id="hide-jp"> Japonais</label>
         <label class="cb-label"><input type="checkbox" id="hide-fr"> Français</label>
       </div>
-
-      <!-- Favoris -->
-      <div class="fav-row">
-        <label class="cb-label"><input type="checkbox" id="fav-only"> ★ Favoris uniquement</label>
-        <div class="fav-actions">
-          <button class="fav-btn" id="fav-export">↓ Exporter</button>
-          <button class="fav-btn" id="fav-import">↑ Importer</button>
-          <input type="file" id="fav-import-file" accept="application/json,.json" hidden>
-        </div>
-      </div>
-
       <div class="filter-count" id="learn-count"></div>
     </div>
 
@@ -89,7 +75,6 @@
       <table class="learn-table">
         <thead>
           <tr>
-            <th class="th-star" aria-label="Favori"></th>
             <th id="th-jp">Japonais</th>
             <th id="th-fr">Français</th>
           </tr>
@@ -110,15 +95,11 @@
     <div class="setup-body">
       <div class="setup-section">
         <div class="setup-section-title">Filtrer les mots</div>
-        <div class="multifilter-group" id="rev-group-niveau">
-          <div class="multifilter-label">Niveau</div>
-          <div class="chip-row" id="rev-chips-niveau"></div>
-        </div>
-        <div class="multifilter-group" id="rev-group-topic" style="display:none">
+        <div class="multifilter-group">
           <div class="multifilter-label">Topic</div>
           <div class="chip-row" id="rev-chips-topic"></div>
         </div>
-        <div class="multifilter-group" id="rev-group-section" style="display:none">
+        <div class="multifilter-group">
           <div class="multifilter-label">Section</div>
           <div class="chip-row" id="rev-chips-section"></div>
         </div>
@@ -208,6 +189,73 @@
 
     <div class="gram-list-wrap">
       <div id="gram-list"></div>
+    </div>
+  </div>
+
+  <!-- ===== AIDE ===== -->
+  <div id="help-screen" class="screen">
+    <div class="top-bar">
+      <button class="back-btn" data-action="goto-home">←</button>
+      <h2 class="top-title">Aide</h2>
+      <div style="min-width:40px"></div>
+    </div>
+
+    <div class="help-body">
+
+      <section class="help-block">
+        <h3 class="help-h">À propos de Kotoba</h3>
+        <p>Kotoba (言葉) est ton appli de révision du japonais. Installée sur ton téléphone, elle fonctionne hors-ligne.</p>
+      </section>
+
+      <section class="help-block">
+        <h3 class="help-h">Accueil</h3>
+        <p>Trois entrées :</p>
+        <ul class="help-list">
+          <li><span class="help-kanji">覚</span> <b>Liste vocabulaire</b> — consulter les mots</li>
+          <li><span class="help-kanji">試</span> <b>Réviser vocabulaire</b> — t'auto-interroger</li>
+          <li><span class="help-kanji">文</span> <b>Grammaire</b> — les points de grammaire</li>
+        </ul>
+        <p>Le compteur sous le titre indique le nombre total de mots et les niveaux disponibles.</p>
+      </section>
+
+      <section class="help-block">
+        <h3 class="help-h"><span class="help-kanji">覚</span> Liste vocabulaire</h3>
+        <p>Un tableau à deux colonnes : le japonais (kanji en doré, lecture en hiragana dessous) et le français.</p>
+        <ul class="help-list">
+          <li>Touche l'icône <span class="hl">⚙</span> en haut à droite pour ouvrir les filtres.</li>
+          <li>Filtre par <b>Topic</b> (ex. <span class="hl">B1 T1</span>) et par <b>Section</b> (準備, PART1…) en touchant les pastilles. Plusieurs choix possibles ; <span class="hl">Tous</span> réaffiche l'ensemble.</li>
+          <li>Coche <b>Masquer : Japonais</b> ou <b>Français</b> pour t'entraîner. La colonne cachée devient grise — touche une case pour révéler le mot, un par un.</li>
+        </ul>
+      </section>
+
+      <section class="help-block">
+        <h3 class="help-h"><span class="help-kanji">試</span> Réviser vocabulaire</h3>
+        <ol class="help-ol">
+          <li>Choisis tes filtres (mêmes pastilles Topic / Section). Le compteur indique combien de mots seront révisés.</li>
+          <li>Choisis un mode :
+            <ul class="help-list" style="margin-top:8px">
+              <li><span class="hl">漢 → tout</span> : seul le kanji s'affiche ; touche la carte pour faire apparaître lecture + traduction.</li>
+              <li><span class="hl">漢+ひ → FR</span> : les deux écritures japonaises d'abord, le français au toucher.</li>
+              <li><span class="hl">FR → 漢+ひ</span> : le français d'abord, le japonais au toucher.</li>
+            </ul>
+          </li>
+          <li>Touche <b>Commencer</b>. Pour chaque carte : touche-la pour révéler la réponse, puis indique <span class="hl">✓ Réussi</span> ou <span class="hl">✕ Raté</span>. Le score se met à jour en haut. La croix <span class="hl">✕</span> arrête la session.</li>
+        </ol>
+      </section>
+
+      <section class="help-block">
+        <h3 class="help-h"><span class="help-kanji">文</span> Grammaire</h3>
+        <p>Les points de grammaire sont classés par thème. Touche une pastille de thème pour filtrer, puis déplie un point pour lire l'explication et les exemples.</p>
+      </section>
+
+      <section class="help-block">
+        <h3 class="help-h">Astuces</h3>
+        <ul class="help-list">
+          <li>« Ajouter à l'écran d'accueil » installe Kotoba comme une vraie appli, utilisable sans connexion.</li>
+          <li>Les mots des niveaux A2/B1 (sans section) ne sont jamais exclus par un filtre de Section.</li>
+        </ul>
+      </section>
+
     </div>
   </div>
 

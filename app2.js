@@ -558,6 +558,7 @@ document.addEventListener('click', function(e) {
       renderGramList();
       showScreen('gram-screen');
       break;
+    case 'goto-help':  showScreen('help-screen'); break;
     case 'start-revise':  startRevise(); break;
     case 'stop-revise':   showScreen('home-screen'); break;
     case 'mark-right':    markAnswer(true);  break;
