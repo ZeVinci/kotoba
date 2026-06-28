@@ -38,6 +38,10 @@
           <span class="btn-icon">文</span>
           <span class="btn-label">Grammaire</span>
         </button>
+        <button class="btn-home" data-action="goto-perso">
+          <span class="btn-icon">自</span>
+          <span class="btn-label">Mon vocabulaire</span>
+        </button>
       </div>
     </div>
   </div>
@@ -52,12 +56,16 @@
 
     <div class="filter-panel" id="learn-filter-panel" style="display:none">
 
-      <!-- Filtres multi-sélection -->
-      <div class="multifilter-group">
+      <!-- Filtres multi-sélection (révélation progressive) -->
+      <div class="multifilter-group" id="learn-group-niveau">
+        <div class="multifilter-label">Niveau</div>
+        <div class="chip-row" id="learn-chips-niveau"></div>
+      </div>
+      <div class="multifilter-group" id="learn-group-topic" style="display:none">
         <div class="multifilter-label">Topic</div>
         <div class="chip-row" id="learn-chips-topic"></div>
       </div>
-      <div class="multifilter-group">
+      <div class="multifilter-group" id="learn-group-section" style="display:none">
         <div class="multifilter-label">Section</div>
         <div class="chip-row" id="learn-chips-section"></div>
       </div>
@@ -68,6 +76,17 @@
         <label class="cb-label"><input type="checkbox" id="hide-jp"> Japonais</label>
         <label class="cb-label"><input type="checkbox" id="hide-fr"> Français</label>
       </div>
+
+      <!-- Favoris -->
+      <div class="fav-row">
+        <label class="cb-label"><input type="checkbox" id="fav-only"> ★ Favoris uniquement</label>
+        <div class="fav-actions">
+          <button class="fav-btn" id="fav-export">↓ Exporter</button>
+          <button class="fav-btn" id="fav-import">↑ Importer</button>
+          <input type="file" id="fav-import-file" accept="application/json,.json" hidden>
+        </div>
+      </div>
+
       <div class="filter-count" id="learn-count"></div>
     </div>
 
@@ -75,6 +94,7 @@
       <table class="learn-table">
         <thead>
           <tr>
+            <th class="th-star" aria-label="Favori"></th>
             <th id="th-jp">Japonais</th>
             <th id="th-fr">Français</th>
           </tr>
@@ -95,11 +115,15 @@
     <div class="setup-body">
       <div class="setup-section">
         <div class="setup-section-title">Filtrer les mots</div>
-        <div class="multifilter-group">
+        <div class="multifilter-group" id="rev-group-niveau">
+          <div class="multifilter-label">Niveau</div>
+          <div class="chip-row" id="rev-chips-niveau"></div>
+        </div>
+        <div class="multifilter-group" id="rev-group-topic" style="display:none">
           <div class="multifilter-label">Topic</div>
           <div class="chip-row" id="rev-chips-topic"></div>
         </div>
-        <div class="multifilter-group">
+        <div class="multifilter-group" id="rev-group-section" style="display:none">
           <div class="multifilter-label">Section</div>
           <div class="chip-row" id="rev-chips-section"></div>
         </div>
@@ -209,11 +233,12 @@
 
       <section class="help-block">
         <h3 class="help-h">Accueil</h3>
-        <p>Trois entrées :</p>
+        <p>Quatre entrées :</p>
         <ul class="help-list">
           <li><span class="help-kanji">覚</span> <b>Liste vocabulaire</b> — consulter les mots</li>
           <li><span class="help-kanji">試</span> <b>Réviser vocabulaire</b> — t'auto-interroger</li>
           <li><span class="help-kanji">文</span> <b>Grammaire</b> — les points de grammaire</li>
+          <li><span class="help-kanji">自</span> <b>Mon vocabulaire</b> — ajouter tes propres mots</li>
         </ul>
         <p>Le compteur sous le titre indique le nombre total de mots et les niveaux disponibles.</p>
       </section>
@@ -223,7 +248,8 @@
         <p>Un tableau à deux colonnes : le japonais (kanji en doré, lecture en hiragana dessous) et le français.</p>
         <ul class="help-list">
           <li>Touche l'icône <span class="hl">⚙</span> en haut à droite pour ouvrir les filtres.</li>
-          <li>Filtre par <b>Topic</b> (ex. <span class="hl">B1 T1</span>) et par <b>Section</b> (準備, PART1…) en touchant les pastilles. Plusieurs choix possibles ; <span class="hl">Tous</span> réaffiche l'ensemble.</li>
+          <li>Choisis d'abord un <b>Niveau</b>, puis un <b>Topic</b> (ex. <span class="hl">B1 T1</span>), puis une <b>Section</b> (準備, PART1…) en touchant les pastilles. Plusieurs choix possibles ; <span class="hl">Tous</span> réaffiche l'ensemble.</li>
+          <li>L'étoile <span class="hl">☆</span> à gauche met un mot en favori. Coche <b>★ Favoris uniquement</b> pour ne voir que ceux-là.</li>
           <li>Coche <b>Masquer : Japonais</b> ou <b>Français</b> pour t'entraîner. La colonne cachée devient grise — touche une case pour révéler le mot, un par un.</li>
         </ul>
       </section>
@@ -231,7 +257,7 @@
       <section class="help-block">
         <h3 class="help-h"><span class="help-kanji">試</span> Réviser vocabulaire</h3>
         <ol class="help-ol">
-          <li>Choisis tes filtres (mêmes pastilles Topic / Section). Le compteur indique combien de mots seront révisés.</li>
+          <li>Choisis tes filtres (mêmes pastilles Niveau / Topic / Section). Le compteur indique combien de mots seront révisés.</li>
           <li>Choisis un mode :
             <ul class="help-list" style="margin-top:8px">
               <li><span class="hl">漢 → tout</span> : seul le kanji s'affiche ; touche la carte pour faire apparaître lecture + traduction.</li>
@@ -249,13 +275,86 @@
       </section>
 
       <section class="help-block">
+        <h3 class="help-h"><span class="help-kanji">自</span> Mon vocabulaire</h3>
+        <p>Ajoute tes propres mots, qui apparaîtront sous le niveau <b>Perso</b> dans la liste et la révision. Trois façons de faire :</p>
+        <ul class="help-list">
+          <li><b>À la main</b> : remplis kanji, kana, français (et au besoin un thème / un chapitre), puis <b>Ajouter</b>.</li>
+          <li><b>Coller</b> : copie des cellules depuis Excel ou Google Sheets et colle-les dans la zone prévue.</li>
+          <li><b>Fichier</b> : importe un CSV / TSV (colonnes : kanji, kana, français, [thème], [chapitre]).</li>
+        </ul>
+        <p>Tout reste <b>sur ton appareil</b>. Tu peux exporter ta liste en JSON pour la sauvegarder ou la transférer sur un autre téléphone.</p>
+      </section>
+
+      <section class="help-block">
         <h3 class="help-h">Astuces</h3>
         <ul class="help-list">
           <li>« Ajouter à l'écran d'accueil » installe Kotoba comme une vraie appli, utilisable sans connexion.</li>
-          <li>Les mots des niveaux A2/B1 (sans section) ne sont jamais exclus par un filtre de Section.</li>
+          <li>Les mots sans chapitre (A2/B1, Perso…) ne sont jamais exclus par un filtre de Section.</li>
         </ul>
       </section>
 
+    </div>
+  </div>
+
+  <!-- ===== MON VOCABULAIRE (perso) ===== -->
+  <div id="perso-screen" class="screen">
+    <div class="top-bar">
+      <button class="back-btn" data-action="goto-home">←</button>
+      <h2 class="top-title">Mon vocabulaire</h2>
+      <div style="min-width:40px"></div>
+    </div>
+
+    <div class="perso-body">
+      <p class="perso-stats" id="perso-stats"></p>
+      <p class="perso-note">Tout reste sur ton appareil — rien n'est envoyé en ligne. Ces mots apparaissent sous le niveau <b>Perso</b> dans la liste et la révision.</p>
+
+      <!-- Ajout manuel -->
+      <section class="perso-section">
+        <h3 class="perso-h">Ajouter un mot</h3>
+        <div class="perso-form">
+          <input class="perso-input" id="perso-in-k"  placeholder="Kanji *" autocomplete="off">
+          <input class="perso-input" id="perso-in-h"  placeholder="Kana — lecture *" autocomplete="off">
+          <input class="perso-input" id="perso-in-fr" placeholder="Français *" autocomplete="off">
+          <div class="perso-form-row">
+            <input class="perso-input" id="perso-in-topic"   placeholder="Thème (optionnel)" autocomplete="off">
+            <input class="perso-input" id="perso-in-section" placeholder="Chapitre (optionnel)" autocomplete="off">
+          </div>
+          <button class="perso-btn primary" id="perso-add">＋ Ajouter</button>
+        </div>
+        <p class="perso-hint">* obligatoire. Sans thème → « Général ». Sans chapitre → aucun filtre de chapitre.</p>
+      </section>
+
+      <!-- Import en masse -->
+      <section class="perso-section">
+        <h3 class="perso-h">Importer une liste</h3>
+        <p class="perso-hint">Colle des cellules copiées depuis Excel ou Google Sheets (colonnes : kanji, kana, français, thème, chapitre — les 3 premières obligatoires) :</p>
+        <textarea class="perso-textarea" id="perso-paste" rows="4" placeholder="食べる&#9;たべる&#9;manger&#9;Verbes&#9;Leçon 1&#10;飲む&#9;のむ&#9;boire&#9;Verbes&#9;Leçon 1"></textarea>
+        <div class="perso-btn-row">
+          <button class="perso-btn primary" id="perso-paste-load">Charger le texte collé</button>
+          <button class="perso-btn" id="perso-file">Importer un fichier CSV / TSV</button>
+        </div>
+        <input type="file" id="perso-file-input" accept=".csv,.tsv,.txt,text/csv,text/plain" hidden>
+      </section>
+
+      <!-- Sauvegarde JSON -->
+      <section class="perso-section">
+        <h3 class="perso-h">Sauvegarde & partage</h3>
+        <p class="perso-hint">Exporte ta liste perso (JSON) pour la sauvegarder ou la transférer sur un autre appareil.</p>
+        <div class="perso-btn-row">
+          <button class="perso-btn" id="perso-export">↓ Exporter (JSON)</button>
+          <button class="perso-btn" id="perso-import">↑ Importer (JSON)</button>
+        </div>
+        <input type="file" id="perso-import-input" accept="application/json,.json" hidden>
+      </section>
+
+      <!-- Liste éditable -->
+      <section class="perso-section">
+        <div class="perso-section-head">
+          <h3 class="perso-h">Mots ajoutés</h3>
+          <button class="perso-btn danger" id="perso-clear">Tout effacer</button>
+        </div>
+        <div class="perso-list" id="perso-list"></div>
+      </section>
     </div>
   </div>
 

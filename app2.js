@@ -52,6 +52,282 @@ function importFavsFromText(text, replace) {
   saveFavs();
 }
 
+// ============ VOCABULAIRE PERSO (importé localement) ============
+// Persistance locale via localStorage (clé kotoba-perso). Jamais envoyé au serveur.
+// Chaque mot perso : { k, h, fr, topic, section, niveau:'Perso' }
+//   - thème non renseigné    → topic   = 'Général'
+//   - chapitre non renseigné → section = 'aucune' (toujours admis par le filtre Section)
+const PERSO_KEY = 'kotoba-perso';
+let persoWords = loadPerso();
+
+// Tableau de travail = vocab embarqué (VOCAB) + vocab perso. Toute l'app lit ALL_VOCAB.
+let ALL_VOCAB = VOCAB.concat(persoWords);
+
+function loadPerso() {
+  try {
+    var arr = JSON.parse(localStorage.getItem(PERSO_KEY) || '[]');
+    return Array.isArray(arr) ? arr.map(normPerso).filter(Boolean) : [];
+  } catch (e) { return []; }
+}
+function savePerso() {
+  try { localStorage.setItem(PERSO_KEY, JSON.stringify(persoWords)); }
+  catch (e) { alert('Impossible d\'enregistrer le vocabulaire perso (stockage plein ?).'); }
+}
+
+// Normalise / valide une entrée perso ; renvoie null si k, h ou fr manque.
+function normPerso(w) {
+  if (!w) return null;
+  var k  = (w.k  == null ? '' : String(w.k)).trim();
+  var h  = (w.h  == null ? '' : String(w.h)).trim();
+  var fr = (w.fr == null ? '' : String(w.fr)).trim();
+  if (!k || !h || !fr) return null;
+  var topic   = (w.topic   == null ? '' : String(w.topic)).trim()   || 'Général';
+  var section = (w.section == null ? '' : String(w.section)).trim() || 'aucune';
+  return { k: k, h: h, fr: fr, topic: topic, section: section, niveau: 'Perso' };
+}
+
+// Dédoublonnage par identité de contenu (k|h) — la dernière occurrence l'emporte.
+function dedupePerso(arr) {
+  var map = {};
+  arr.forEach(function(w) { var n = normPerso(w); if (n) map[n.k + '|' + n.h] = n; });
+  return Object.keys(map).map(function(key) { return map[key]; });
+}
+
+// Reconstruit ALL_VOCAB après tout changement perso + rafraîchit l'accueil.
+// Réinitialise les filtres en cours pour éviter des sélections périmées.
+function rebuildVocab() {
+  ALL_VOCAB = VOCAB.concat(persoWords);
+  [learnSel, revSel].forEach(function(sel) {
+    sel.niveau.clear(); sel.niveauTopic.clear(); sel.section.clear();
+  });
+  renderHomeStats();
+}
+
+// --- Parsing CSV / TSV (texte collé ou fichier) ---
+function stripBOM(s) { return (s && s.charCodeAt(0) === 0xFEFF) ? s.slice(1) : s; }
+
+// Autodétection du séparateur : tabulation (collage tableur) > point-virgule > virgule.
+function detectDelimiter(text) {
+  var lines = text.split(/\r\n|\r|\n/);
+  var first = '';
+  for (var i = 0; i < lines.length; i++) { if (lines[i].trim() !== '') { first = lines[i]; break; } }
+  if (first.indexOf('\t') !== -1) return '\t';
+  var semi  = (first.match(/;/g) || []).length;
+  var comma = (first.match(/,/g) || []).length;
+  return semi > comma ? ';' : ',';
+}
+
+// Parseur tolérant : "champs entre guillemets", "" échappé, séparateur/saut de ligne dans les guillemets.
+function parseDelimited(text, delim) {
+  var rows = [], row = [], field = '', q = false, i = 0, n = text.length;
+  while (i < n) {
+    var c = text[i];
+    if (q) {
+      if (c === '"') {
+        if (text[i + 1] === '"') { field += '"'; i += 2; continue; }
+        q = false; i++; continue;
+      }
+      field += c; i++; continue;
+    }
+    if (c === '"') { q = true; i++; continue; }
+    if (c === delim) { row.push(field); field = ''; i++; continue; }
+    if (c === '\r') { i++; continue; }
+    if (c === '\n') { row.push(field); rows.push(row); row = []; field = ''; i++; continue; }
+    field += c; i++;
+  }
+  row.push(field); rows.push(row);
+  return rows.filter(function(r) { return r.some(function(cell) { return cell.trim() !== ''; }); });
+}
+
+// Une 1re ligne ressemblant à un en-tête de colonnes est ignorée.
+function looksLikeHeader(cells) {
+  var j = cells.slice(0, 3).join(' ').toLowerCase();
+  return /kanji|kana|hiragana|jap|fran|lecture|trad|word|mot|th[eè]me|chap/.test(j);
+}
+
+// Texte (collé ou fichier) → { words, errors, delim }
+function parsePersoText(text) {
+  text = stripBOM(text || '');
+  var delim = detectDelimiter(text);
+  var rows = parseDelimited(text, delim);
+  if (rows.length && looksLikeHeader(rows[0])) rows = rows.slice(1);
+  var words = [], errors = 0;
+  rows.forEach(function(r) {
+    var w = normPerso({ k: r[0], h: r[1], fr: r[2], topic: r[3], section: r[4] });
+    if (w) words.push(w); else errors++;
+  });
+  return { words: words, errors: errors, delim: delim };
+}
+
+// Import en masse (collage ou fichier). OK = remplacer tout, Annuler = fusionner.
+function applyPersoImport(text) {
+  var res = parsePersoText(text);
+  if (res.words.length === 0) {
+    alert('Aucune ligne valide.\n\n' +
+          'Format attendu (séparateur , ; ou tabulation) :\n' +
+          'kanji, kana, français, [thème], [chapitre]\n' +
+          'Les trois premières colonnes sont obligatoires.');
+    return;
+  }
+  var replace = confirm(
+    res.words.length + ' mot(s) valide(s) détecté(s).\n\n' +
+    'OK = REMPLACER tout ton vocabulaire perso\n' +
+    'Annuler = AJOUTER à l\'existant'
+  );
+  persoWords = replace ? dedupePerso(res.words) : dedupePerso(persoWords.concat(res.words));
+  savePerso(); rebuildVocab(); renderPersoScreen();
+  var msg = res.words.length + ' mot(s) importé(s).';
+  if (res.errors) msg += '\n' + res.errors + ' ligne(s) ignorée(s) (colonne obligatoire vide).';
+  msg += '\n' + persoWords.length + ' mot(s) perso au total.';
+  alert(msg);
+}
+
+// Ajout manuel d'un seul mot.
+function addPersoManual() {
+  var w = normPerso({
+    k: gv('perso-in-k'), h: gv('perso-in-h'), fr: gv('perso-in-fr'),
+    topic: gv('perso-in-topic'), section: gv('perso-in-section')
+  });
+  if (!w) { alert('Kanji, kana et français sont obligatoires.'); return; }
+  persoWords = dedupePerso(persoWords.concat([w]));
+  savePerso(); rebuildVocab();
+  ['perso-in-k', 'perso-in-h', 'perso-in-fr', 'perso-in-topic', 'perso-in-section']
+    .forEach(function(id) { var el = document.getElementById(id); if (el) el.value = ''; });
+  var kEl = document.getElementById('perso-in-k'); if (kEl) kEl.focus();
+  renderPersoScreen();
+}
+
+function deletePersoWord(id) {
+  persoWords = persoWords.filter(function(w) { return (w.k + '|' + w.h) !== id; });
+  savePerso(); rebuildVocab(); renderPersoScreen();
+}
+
+function clearPerso() {
+  if (persoWords.length === 0) return;
+  if (!confirm('Effacer les ' + persoWords.length + ' mot(s) de ton vocabulaire perso ?\n(Action locale, irréversible.)')) return;
+  persoWords = [];
+  savePerso(); rebuildVocab(); renderPersoScreen();
+}
+
+// Export / import JSON (sauvegarde & partage entre appareils).
+function exportPerso() {
+  var blob = new Blob([JSON.stringify(persoWords, null, 2)], { type: 'application/json' });
+  var a = document.createElement('a');
+  a.href = URL.createObjectURL(blob);
+  a.download = 'kotoba-perso.json';
+  a.click();
+  URL.revokeObjectURL(a.href);
+}
+function importPersoJSON(text, replace) {
+  var arr = JSON.parse(stripBOM(text));
+  if (!Array.isArray(arr)) throw new Error('Format JSON invalide (tableau attendu)');
+  var clean = arr.map(normPerso).filter(Boolean);
+  persoWords = replace ? dedupePerso(clean) : dedupePerso(persoWords.concat(clean));
+  savePerso(); rebuildVocab(); renderPersoScreen();
+  return clean.length;
+}
+
+// Petit utilitaire : valeur d'un champ par id.
+function gv(id) { var el = document.getElementById(id); return el ? el.value : ''; }
+
+// Rendu de l'écran perso (stats + liste éditable).
+function renderPersoScreen() {
+  var stats = document.getElementById('perso-stats');
+  if (stats) {
+    stats.textContent = persoWords.length === 0
+      ? 'Aucun mot perso pour l\'instant.'
+      : persoWords.length + ' mot(s) dans ton vocabulaire perso.';
+  }
+  var list = document.getElementById('perso-list');
+  if (!list) return;
+  list.innerHTML = '';
+  if (persoWords.length === 0) {
+    list.innerHTML = '<div class="perso-empty">Ajoute un mot ci-dessus, colle une liste, ou importe un fichier.</div>';
+    return;
+  }
+  persoWords.slice().reverse().forEach(function(w) {
+    var item = document.createElement('div');
+    item.className = 'perso-item';
+
+    var info = document.createElement('div');
+    info.className = 'perso-item-info';
+    var jp = document.createElement('div');
+    jp.className = 'perso-item-jp';
+    jp.textContent = w.k + (w.h && w.h !== w.k ? '（' + w.h + '）' : '');
+    var fr = document.createElement('div');
+    fr.className = 'perso-item-fr';
+    var meta = (w.topic && w.topic !== 'Général' ? w.topic : '') +
+               (w.section && w.section !== 'aucune' ? ' · ' + w.section : '');
+    fr.textContent = w.fr + (meta ? '   —   ' + meta : '');
+    info.appendChild(jp); info.appendChild(fr);
+
+    var del = document.createElement('button');
+    del.type = 'button';
+    del.className = 'perso-del';
+    del.textContent = '✕';
+    del.setAttribute('aria-label', 'Supprimer ce mot');
+    var id = w.k + '|' + w.h;
+    del.addEventListener('click', function() { deletePersoWord(id); });
+
+    item.appendChild(info); item.appendChild(del);
+    list.appendChild(item);
+  });
+}
+
+// Câblage des contrôles perso (éléments statiques de #perso-screen).
+function on(id, evt, fn) { var el = document.getElementById(id); if (el) el.addEventListener(evt, fn); }
+
+(function wirePerso() {
+  on('perso-add', 'click', addPersoManual);
+
+  on('perso-paste-load', 'click', function() {
+    var ta = document.getElementById('perso-paste');
+    var text = ta ? ta.value : '';
+    if (!text.trim()) { alert('Colle d\'abord tes cellules (depuis Excel, Google Sheets…).'); return; }
+    applyPersoImport(text);
+    if (ta) ta.value = '';
+  });
+
+  on('perso-file', 'click', function() {
+    var f = document.getElementById('perso-file-input'); if (f) f.click();
+  });
+  on('perso-file-input', 'change', function(e) {
+    var file = e.target.files && e.target.files[0];
+    if (!file) return;
+    var reader = new FileReader();
+    reader.onload = function() { applyPersoImport(reader.result); };
+    reader.readAsText(file, 'UTF-8');
+    e.target.value = '';
+  });
+
+  on('perso-export', 'click', exportPerso);
+  on('perso-import', 'click', function() {
+    var f = document.getElementById('perso-import-input'); if (f) f.click();
+  });
+  on('perso-import-input', 'change', function(e) {
+    var file = e.target.files && e.target.files[0];
+    if (!file) return;
+    var reader = new FileReader();
+    reader.onload = function() {
+      try {
+        var replace = confirm(
+          'Importer la sauvegarde JSON :\n\n' +
+          'OK = REMPLACER ton vocabulaire perso\n' +
+          'Annuler = FUSIONNER avec l\'existant'
+        );
+        importPersoJSON(reader.result, replace);
+        alert(persoWords.length + ' mot(s) perso au total.');
+      } catch (err) {
+        alert('Échec de l\'import JSON : ' + err.message);
+      }
+    };
+    reader.readAsText(file, 'UTF-8');
+    e.target.value = '';
+  });
+
+  on('perso-clear', 'click', clearPerso);
+})();
+
 // ============ NAVIGATION ============
 function showScreen(id) {
   document.querySelectorAll('.screen').forEach(s => s.classList.remove('active'));
@@ -61,21 +337,22 @@ function showScreen(id) {
 // ============ UTILITAIRES ============
 function unique(arr) { return [...new Set(arr)]; }
 
-// Clé composite "Niveau Topic"
-function ntKey(v) { return v.niveau + ' ' + v.topic; }
-// Extraire niveau / topic d'une clé composite (le niveau peut contenir un espace, ex "A2/B1")
-function ntNiveauOf(key) { return key.slice(0, key.lastIndexOf(' ')); }
-function ntTopicOf(key)  { return key.slice(key.lastIndexOf(' ') + 1); }
+// Clé composite "Niveau<SEP>Topic". Séparateur non imprimable (unit separator)
+// au lieu d'un espace → reste correct même si un thème perso contient des espaces.
+var NT_SEP = '\u001f';
+function ntKey(v) { return v.niveau + NT_SEP + v.topic; }
+function ntNiveauOf(key) { return key.slice(0, key.indexOf(NT_SEP)); }
+function ntTopicOf(key)  { return key.slice(key.indexOf(NT_SEP) + 1); }
 
 // Tous les niveaux distincts, triés
 function allNiveaux() {
-  return unique(VOCAB.map(function(v) { return v.niveau; })).sort();
+  return unique(ALL_VOCAB.map(function(v) { return v.niveau; })).sort();
 }
 
 // Toutes les paires { key, niveau, topic } distinctes, triées par niveau puis topic
 function allNT() {
   var map = {};
-  VOCAB.forEach(function(v) {
+  ALL_VOCAB.forEach(function(v) {
     var k = ntKey(v);
     if (!map[k]) map[k] = { key: k, niveau: v.niveau, topic: v.topic };
   });
@@ -88,7 +365,7 @@ function allNT() {
 // Sections réelles (hors 'aucune') disponibles pour la sélection courante
 function sectionsForSelection(sel) {
   var set = {};
-  VOCAB.forEach(function(v) {
+  ALL_VOCAB.forEach(function(v) {
     if (sel.niveau.size > 0 && !sel.niveau.has(v.niveau)) return;
     if (sel.niveauTopic.size > 0 && !sel.niveauTopic.has(ntKey(v))) return;
     if (v.section !== 'aucune') set[v.section] = true;
@@ -107,7 +384,7 @@ function pruneSections(sel) {
 // - niveauTopic : filtre sur la clé composite (vide = tous)
 // - section     : ignorée pour les mots sans section ('aucune')
 function filterVocab(sel) {
-  return VOCAB.filter(function(v) {
+  return ALL_VOCAB.filter(function(v) {
     if (sel.niveau.size > 0 && !sel.niveau.has(v.niveau)) return false;
     if (sel.niveauTopic.size > 0 && !sel.niveauTopic.has(ntKey(v))) return false;
     if (v.section === 'aucune') return true;
@@ -206,11 +483,12 @@ function renderFilters(prefix, sel, onChange) {
 }
 
 // ============ ACCUEIL ============
-(function initHome() {
-  var niveaux = unique(VOCAB.map(function(v) { return v.niveau; })).sort().join(', ');
-  document.getElementById('home-stats').textContent =
-    VOCAB.length + ' mots · Niveaux : ' + niveaux;
-})();
+function renderHomeStats() {
+  var niveaux = unique(ALL_VOCAB.map(function(v) { return v.niveau; })).sort().join(', ');
+  var el = document.getElementById('home-stats');
+  if (el) el.textContent = ALL_VOCAB.length + ' mots · Niveaux : ' + niveaux;
+}
+renderHomeStats();
 
 // ============ MODE APPRENDRE ============
 var learnFilterOpen = false;
@@ -559,6 +837,10 @@ document.addEventListener('click', function(e) {
       showScreen('gram-screen');
       break;
     case 'goto-help':  showScreen('help-screen'); break;
+    case 'goto-perso':
+      renderPersoScreen();
+      showScreen('perso-screen');
+      break;
     case 'start-revise':  startRevise(); break;
     case 'stop-revise':   showScreen('home-screen'); break;
     case 'mark-right':    markAnswer(true);  break;

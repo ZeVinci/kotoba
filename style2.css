@@ -639,3 +639,128 @@ html, body {
 }
 .star-btn:active { transform: scale(0.82); }
 .star-btn.on { color: var(--gold); }
+
+/* ============ MON VOCABULAIRE (perso) ============ */
+.perso-body {
+  flex: 1; overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+  padding: 18px 16px 36px;
+  display: flex; flex-direction: column; gap: 16px;
+}
+.perso-stats {
+  font-size: 0.95rem; font-weight: 600; color: var(--gold);
+  text-align: center;
+}
+.perso-note {
+  font-size: 0.82rem; line-height: 1.5; color: var(--smoke);
+  text-align: center; margin-top: -6px;
+}
+
+.perso-section {
+  background: rgba(255,255,255,0.03);
+  border: 1px solid rgba(255,255,255,0.06);
+  border-radius: var(--radius);
+  padding: 16px;
+  display: flex; flex-direction: column; gap: 10px;
+}
+.perso-section-head {
+  display: flex; align-items: center; justify-content: space-between; gap: 10px;
+}
+.perso-h {
+  font-size: 0.9rem; font-weight: 600; color: var(--gold);
+  letter-spacing: 0.02em;
+}
+.perso-hint { font-size: 0.78rem; line-height: 1.45; color: var(--smoke); }
+
+.perso-form { display: flex; flex-direction: column; gap: 8px; }
+.perso-form-row { display: flex; gap: 8px; }
+.perso-form-row .perso-input { flex: 1; min-width: 0; }
+
+.perso-input {
+  width: 100%;
+  background: rgba(255,255,255,0.05);
+  border: 1.5px solid rgba(255,255,255,0.12);
+  border-radius: 10px;
+  padding: 10px 12px;
+  color: var(--paper);
+  font-family: var(--font-ui);
+  font-size: 0.92rem;
+  transition: border-color var(--trans);
+}
+.perso-input::placeholder { color: var(--smoke); }
+.perso-input:focus { outline: none; border-color: var(--gold); }
+
+.perso-textarea {
+  width: 100%;
+  background: rgba(255,255,255,0.05);
+  border: 1.5px solid rgba(255,255,255,0.12);
+  border-radius: 10px;
+  padding: 10px 12px;
+  color: var(--paper);
+  font-family: var(--font-jp), var(--font-ui);
+  font-size: 0.9rem; line-height: 1.5;
+  resize: vertical;
+  transition: border-color var(--trans);
+}
+.perso-textarea::placeholder { color: var(--smoke); font-family: var(--font-ui); }
+.perso-textarea:focus { outline: none; border-color: var(--gold); }
+
+.perso-btn-row { display: flex; gap: 8px; flex-wrap: wrap; }
+.perso-btn-row .perso-btn { flex: 1; min-width: 140px; }
+
+.perso-btn {
+  padding: 11px 14px;
+  border-radius: 12px;
+  border: 1.5px solid rgba(255,255,255,0.14);
+  background: rgba(255,255,255,0.05);
+  color: var(--paper);
+  font-family: var(--font-ui);
+  font-size: 0.86rem; font-weight: 500;
+  cursor: pointer;
+  transition: all var(--trans), transform 0.1s;
+}
+.perso-btn:active { transform: scale(0.97); }
+.perso-btn:hover { border-color: var(--gold); }
+.perso-btn.primary {
+  background: var(--gold); border-color: var(--gold); color: var(--ink);
+  font-weight: 600;
+}
+.perso-btn.primary:active { background: var(--gold2); }
+.perso-btn.danger {
+  border-color: rgba(192,57,43,0.5); color: #e57368;
+  font-size: 0.78rem; padding: 6px 12px; border-radius: 20px;
+}
+.perso-btn.danger:hover { border-color: var(--red); background: rgba(192,57,43,0.12); }
+
+.perso-list { display: flex; flex-direction: column; gap: 6px; }
+.perso-empty { text-align: center; color: var(--smoke); padding: 18px; font-size: 0.85rem; }
+.perso-item {
+  display: flex; align-items: center; gap: 10px;
+  background: var(--ink2);
+  border: 1px solid rgba(226,185,111,0.12);
+  border-radius: 10px;
+  padding: 9px 12px;
+}
+.perso-item-info { flex: 1; min-width: 0; }
+.perso-item-jp {
+  font-family: var(--font-jp); color: var(--gold);
+  font-size: 1.02rem; font-weight: 700; line-height: 1.3;
+}
+.perso-item-fr {
+  color: var(--paper); font-size: 0.82rem; line-height: 1.35;
+  word-break: break-word;
+}
+.perso-del {
+  flex: 0 0 auto;
+  background: none; border: none; cursor: pointer;
+  color: var(--smoke); font-size: 0.95rem;
+  padding: 6px 8px; border-radius: 8px;
+  transition: color var(--trans), background var(--trans);
+}
+.perso-del:hover { color: var(--red); background: rgba(192,57,43,0.1); }
+
+/* 4 entrées sur l'accueil : autoriser le retour à la ligne en mode large */
+@media (min-width: 640px) {
+  .home-actions { flex-wrap: wrap; justify-content: center; }
+  .home-actions .btn-home { flex: 1 1 calc(50% - 14px); }
+}
