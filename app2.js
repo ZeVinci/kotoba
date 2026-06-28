@@ -625,14 +625,38 @@ document.getElementById('fav-import-file').addEventListener('change', function(e
 });
 
 // ============ MODE RÉVISION SETUP ============
-function updateRevCount() {
-  document.getElementById('rev-count').textContent =
-    filterVocab(revSel).length + ' mot(s) sélectionné(s)';
+// « Favoris seulement » coché ?
+function reviseFavsOnly() {
+  var cb = document.getElementById('rev-fav-only');
+  return !!(cb && cb.checked);
 }
 
+// Pool de mots à réviser : filtres (Niveau/Topic/Section) PUIS, si demandé,
+// restriction aux favoris (intersection — comme l'écran Liste).
+function revisePool() {
+  var words = filterVocab(revSel);
+  if (reviseFavsOnly()) words = words.filter(isFav);
+  return words;
+}
+
+function updateRevCount() {
+  var pool = revisePool();
+  var noun = reviseFavsOnly() ? 'favori(s)' : 'mot(s)';
+  document.getElementById('rev-count').textContent =
+    pool.length + ' ' + noun + ' sélectionné(s)';
+}
+
+// La case « Favoris seulement » met à jour le compteur en direct.
+on('rev-fav-only', 'change', updateRevCount);
+
 function startRevise() {
-  reviseWords = filterVocab(revSel);
-  if (reviseWords.length === 0) { alert('Aucun mot ne correspond aux filtres.'); return; }
+  reviseWords = revisePool();
+  if (reviseWords.length === 0) {
+    alert(reviseFavsOnly()
+      ? 'Aucun favori ne correspond à ces filtres.\nMarque des mots avec l\'étoile ☆ dans la liste, ou décoche « Favoris seulement ».'
+      : 'Aucun mot ne correspond aux filtres.');
+    return;
+  }
   reviseMode = document.querySelector('input[name="rev-mode"]:checked').value;
   scoreGood = scoreTotal = 0;
   updateScore();
