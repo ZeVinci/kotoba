@@ -841,6 +841,7 @@ document.addEventListener('click', function(e) {
       renderPersoScreen();
       showScreen('perso-screen');
       break;
+    case 'goto-perso-help': showScreen('perso-help-screen'); break;
     case 'start-revise':  startRevise(); break;
     case 'stop-revise':   showScreen('home-screen'); break;
     case 'mark-right':    markAnswer(true);  break;

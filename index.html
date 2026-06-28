@@ -301,7 +301,7 @@
     <div class="top-bar">
       <button class="back-btn" data-action="goto-home">←</button>
       <h2 class="top-title">Mon vocabulaire</h2>
-      <div style="min-width:40px"></div>
+      <button class="icon-btn" data-action="goto-perso-help" aria-label="Aide — ajouter du vocabulaire">?</button>
     </div>
 
     <div class="perso-body">
@@ -355,6 +355,72 @@
         </div>
         <div class="perso-list" id="perso-list"></div>
       </section>
+    </div>
+  </div>
+
+  <!-- ===== AIDE — MON VOCABULAIRE ===== -->
+  <div id="perso-help-screen" class="screen">
+    <div class="top-bar">
+      <button class="back-btn" data-action="goto-perso">←</button>
+      <h2 class="top-title">Aide — Mon vocabulaire</h2>
+      <div style="min-width:40px"></div>
+    </div>
+
+    <div class="help-body">
+
+      <section class="help-block">
+        <h3 class="help-h">Trois façons d'ajouter du vocabulaire</h3>
+        <p>Les mots que tu ajoutes apparaissent sous le niveau <b>Perso</b>, dans la Liste comme dans la Révision. Tout reste sur ton appareil — rien n'est envoyé en ligne.</p>
+      </section>
+
+      <section class="help-block">
+        <h3 class="help-h">1 · À la main</h3>
+        <p>Remplis <b>Kanji</b>, <b>Kana</b> (la lecture) et <b>Français</b> — ces trois champs sont obligatoires. Tu peux aussi indiquer un <b>Thème</b> et un <b>Chapitre</b>, puis touche <span class="hl">＋ Ajouter</span>.</p>
+        <p>Idéal pour noter un mot croisé en lisant, au fil de l'eau.</p>
+      </section>
+
+      <section class="help-block">
+        <h3 class="help-h">2 · Coller depuis un tableur</h3>
+        <p>Dans Excel ou Google Sheets, sélectionne tes cellules (une ligne par mot), copie-les, colle-les dans la zone de texte, puis touche <span class="hl">Charger le texte collé</span>.</p>
+        <p>C'est la méthode la plus simple sur téléphone : aucun fichier à gérer, et le japonais ne risque pas de se casser.</p>
+        <p>Ordre des colonnes attendu :</p>
+        <ul class="help-list">
+          <li><b>1.</b> Kanji <span class="hl">(obligatoire)</span></li>
+          <li><b>2.</b> Kana / lecture <span class="hl">(obligatoire)</span></li>
+          <li><b>3.</b> Français <span class="hl">(obligatoire)</span></li>
+          <li><b>4.</b> Thème <i>(optionnel)</i></li>
+          <li><b>5.</b> Chapitre <i>(optionnel)</i></li>
+        </ul>
+      </section>
+
+      <section class="help-block">
+        <h3 class="help-h">3 · Importer un fichier</h3>
+        <p>Touche <span class="hl">Importer un fichier CSV / TSV</span> et choisis ton fichier. Mêmes colonnes que ci-dessus. Le séparateur (virgule, point-virgule ou tabulation) est détecté automatiquement.</p>
+        <p>⚠️ Le fichier doit être encodé en <b>UTF-8</b>, sinon le japonais s'affiche mal. Dans Excel : « Enregistrer sous » → <b>CSV UTF-8</b>.</p>
+      </section>
+
+      <section class="help-block">
+        <h3 class="help-h">Remplacer ou ajouter ?</h3>
+        <p>À chaque collage ou import de fichier, une question apparaît :</p>
+        <ul class="help-list">
+          <li><span class="hl">OK</span> → <b>remplace</b> tout ton vocabulaire perso par la nouvelle liste.</li>
+          <li><span class="hl">Annuler</span> → <b>ajoute</b> à l'existant (les doublons kanji + kana sont fusionnés).</li>
+        </ul>
+      </section>
+
+      <section class="help-block">
+        <h3 class="help-h">Valeurs par défaut & filtres</h3>
+        <ul class="help-list">
+          <li>Sans <b>thème</b> → le mot est rangé sous <span class="hl">Général</span>.</li>
+          <li>Sans <b>chapitre</b> → le mot n'est jamais exclu par le filtre Chapitre.</li>
+        </ul>
+      </section>
+
+      <section class="help-block">
+        <h3 class="help-h">Sauvegarde & partage</h3>
+        <p><span class="hl">↓ Exporter (JSON)</span> télécharge toute ta liste perso dans un fichier. <span class="hl">↑ Importer (JSON)</span> la recharge — pratique pour passer d'un téléphone à un autre, ou partager ta liste avec quelqu'un.</p>
+      </section>
+
     </div>
   </div>
 
