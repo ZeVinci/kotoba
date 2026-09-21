@@ -28895,5 +28895,5485 @@ const VOCAB = [
     "topic": "T5",
     "section": "教室の外へ",
     "niveau": "B1"
+  },
+  {
+    "k": "マンガ",
+    "h": "マンガ",
+    "fr": "manga",
+    "topic": "T6",
+    "section": "準備",
+    "niveau": "B1"
+  },
+  {
+    "k": "表紙",
+    "h": "ひょうし",
+    "fr": "couverture",
+    "topic": "T6",
+    "section": "準備",
+    "niveau": "B1"
+  },
+  {
+    "k": "種類",
+    "h": "しゅるい",
+    "fr": "sorte",
+    "topic": "T6",
+    "section": "準備",
+    "niveau": "B1"
+  },
+  {
+    "k": "ジャンル",
+    "h": "ジャンル",
+    "fr": "genre",
+    "topic": "T6",
+    "section": "準備",
+    "niveau": "B1"
+  },
+  {
+    "k": "ラブコメディ",
+    "h": "ラブコメディ",
+    "fr": "comédie romantique",
+    "topic": "T6",
+    "section": "準備",
+    "niveau": "B1"
+  },
+  {
+    "k": "ミステリー",
+    "h": "ミステリー",
+    "fr": "policier",
+    "topic": "T6",
+    "section": "準備",
+    "niveau": "B1"
+  },
+  {
+    "k": "探偵",
+    "h": "たんてい",
+    "fr": "détective / policier",
+    "topic": "T6",
+    "section": "準備",
+    "niveau": "B1"
+  },
+  {
+    "k": "～もの",
+    "h": "～もの",
+    "fr": "sur〜/ à propos de (sur des samurai, etc.)",
+    "topic": "T6",
+    "section": "準備",
+    "niveau": "B1"
+  },
+  {
+    "k": "ファンタジー",
+    "h": "ファンタジー",
+    "fr": "fantaisie",
+    "topic": "T6",
+    "section": "準備",
+    "niveau": "B1"
+  },
+  {
+    "k": "アクション",
+    "h": "アクション",
+    "fr": "action",
+    "topic": "T6",
+    "section": "準備",
+    "niveau": "B1"
+  },
+  {
+    "k": "サラリーマン",
+    "h": "サラリーマン",
+    "fr": "cols blancs / cadres",
+    "topic": "T6",
+    "section": "準備",
+    "niveau": "B1"
+  },
+  {
+    "k": "ギャグ",
+    "h": "ギャグ",
+    "fr": "humour",
+    "topic": "T6",
+    "section": "準備",
+    "niveau": "B1"
+  },
+  {
+    "k": "『ワンピース』",
+    "h": "ワンピース",
+    "fr": "One Piece",
+    "topic": "T6",
+    "section": "準備",
+    "niveau": "B1"
+  },
+  {
+    "k": "ストーリー",
+    "h": "ストーリー",
+    "fr": "histoire",
+    "topic": "T6",
+    "section": "準備",
+    "niveau": "B1"
+  },
+  {
+    "k": "旅",
+    "h": "たび",
+    "fr": "voyage",
+    "topic": "T6",
+    "section": "準備",
+    "niveau": "B1"
+  },
+  {
+    "k": "途中",
+    "h": "とちゅう",
+    "fr": "en cours de route",
+    "topic": "T6",
+    "section": "準備",
+    "niveau": "B1"
+  },
+  {
+    "k": "熱",
+    "h": "ねつ",
+    "fr": "fièvre",
+    "topic": "T6",
+    "section": "準備",
+    "niveau": "B1"
+  },
+  {
+    "k": "アシスタント",
+    "h": "アシスタント",
+    "fr": "assistant",
+    "topic": "T6",
+    "section": "準備",
+    "niveau": "B1"
+  },
+  {
+    "k": "トナカイ",
+    "h": "トナカイ",
+    "fr": "renne",
+    "topic": "T6",
+    "section": "準備",
+    "niveau": "B1"
+  },
+  {
+    "k": "様子",
+    "h": "ようす",
+    "fr": "apparence",
+    "topic": "T6",
+    "section": "準備",
+    "niveau": "B1"
+  },
+  {
+    "k": "シーン",
+    "h": "シーン",
+    "fr": "scène",
+    "topic": "T6",
+    "section": "準備",
+    "niveau": "B1"
+  },
+  {
+    "k": "セリフ",
+    "h": "セリフ",
+    "fr": "réplique(s)",
+    "topic": "T6",
+    "section": "準備",
+    "niveau": "B1"
+  },
+  {
+    "k": "吹き出し",
+    "h": "ふきだし",
+    "fr": "bulle / phylactère",
+    "topic": "T6",
+    "section": "準備",
+    "niveau": "B1"
+  },
+  {
+    "k": "お前",
+    "h": "おまえ",
+    "fr": "tu / toi",
+    "topic": "T6",
+    "section": "準備",
+    "niveau": "B1"
+  },
+  {
+    "k": "引く",
+    "h": "ひく",
+    "fr": "descendre",
+    "topic": "T6",
+    "section": "準備",
+    "niveau": "B1"
+  },
+  {
+    "k": "お礼",
+    "h": "おれい",
+    "fr": "remerciements",
+    "topic": "T6",
+    "section": "準備",
+    "niveau": "B1"
+  },
+  {
+    "k": "オノマトペ",
+    "h": "オノマトペ",
+    "fr": "onomatopée",
+    "topic": "T6",
+    "section": "準備",
+    "niveau": "B1"
+  },
+  {
+    "k": "キョロキョロ",
+    "h": "キョロキョロ",
+    "fr": "regarder de tous côtés",
+    "topic": "T6",
+    "section": "準備",
+    "niveau": "B1"
+  },
+  {
+    "k": "バタン",
+    "h": "バタン",
+    "fr": "clac !",
+    "topic": "T6",
+    "section": "準備",
+    "niveau": "B1"
+  },
+  {
+    "k": "うきうき",
+    "h": "うきうき",
+    "fr": "frétillant (de joie)",
+    "topic": "T6",
+    "section": "準備",
+    "niveau": "B1"
+  },
+  {
+    "k": "ニコニコ",
+    "h": "ニコニコ",
+    "fr": "sourire",
+    "topic": "T6",
+    "section": "準備",
+    "niveau": "B1"
+  },
+  {
+    "k": "あちこち",
+    "h": "あちこち",
+    "fr": "partout",
+    "topic": "T6",
+    "section": "準備",
+    "niveau": "B1"
+  },
+  {
+    "k": "効く",
+    "h": "きく",
+    "fr": "agir",
+    "topic": "T6",
+    "section": "準備",
+    "niveau": "B1"
+  },
+  {
+    "k": "細菌",
+    "h": "さいきん",
+    "fr": "bactérie",
+    "topic": "T6",
+    "section": "準備",
+    "niveau": "B1"
+  },
+  {
+    "k": "ちゃんと",
+    "h": "ちゃんと",
+    "fr": "correctement",
+    "topic": "T6",
+    "section": "準備",
+    "niveau": "B1"
+  },
+  {
+    "k": "抗生剤",
+    "h": "こうせいざい",
+    "fr": "médicament antibiotique",
+    "topic": "T6",
+    "section": "準備",
+    "niveau": "B1"
+  },
+  {
+    "k": "打つ",
+    "h": "うつ",
+    "fr": "injecter",
+    "topic": "T6",
+    "section": "準備",
+    "niveau": "B1"
+  },
+  {
+    "k": "安静にする",
+    "h": "あんせいにする",
+    "fr": "repos",
+    "topic": "T6",
+    "section": "準備",
+    "niveau": "B1"
+  },
+  {
+    "k": "あんた",
+    "h": "あんた",
+    "fr": "tu / toi",
+    "topic": "T6",
+    "section": "準備",
+    "niveau": "B1"
+  },
+  {
+    "k": "看病する",
+    "h": "かんびょうする",
+    "fr": "soigner",
+    "topic": "T6",
+    "section": "準備",
+    "niveau": "B1"
+  },
+  {
+    "k": "人間",
+    "h": "にんげん",
+    "fr": "humain",
+    "topic": "T6",
+    "section": "準備",
+    "niveau": "B1"
+  },
+  {
+    "k": "～筋合はない",
+    "h": "～すじあいはない",
+    "fr": "n'avoir aucune raison de ～",
+    "topic": "T6",
+    "section": "準備",
+    "niveau": "B1"
+  },
+  {
+    "k": "ふざける",
+    "h": "ふざける",
+    "fr": "se moquer",
+    "topic": "T6",
+    "section": "準備",
+    "niveau": "B1"
+  },
+  {
+    "k": "コノヤロー",
+    "h": "コノヤロー",
+    "fr": "vaurienne !",
+    "topic": "T6",
+    "section": "準備",
+    "niveau": "B1"
+  },
+  {
+    "k": "感情",
+    "h": "かんじょう",
+    "fr": "émotion (s)",
+    "topic": "T6",
+    "section": "準備",
+    "niveau": "B1"
+  },
+  {
+    "k": "隠す",
+    "h": "かくす",
+    "fr": "cacher",
+    "topic": "T6",
+    "section": "準備",
+    "niveau": "B1"
+  },
+  {
+    "k": "タイプ",
+    "h": "タイプ",
+    "fr": "type",
+    "topic": "T6",
+    "section": "準備",
+    "niveau": "B1"
+  },
+  {
+    "k": "日本文化センター",
+    "h": "にほんぶんかセンター",
+    "fr": "Centre culturel japonais",
+    "topic": "T6",
+    "section": "PART1",
+    "niveau": "B1"
+  },
+  {
+    "k": "マンガコーナー",
+    "h": "マンガコーナー",
+    "fr": "rayon manga",
+    "topic": "T6",
+    "section": "PART1",
+    "niveau": "B1"
+  },
+  {
+    "k": "表紙",
+    "h": "ひょうし",
+    "fr": "couverture",
+    "topic": "T6",
+    "section": "PART1",
+    "niveau": "B1"
+  },
+  {
+    "k": "想像する",
+    "h": "そうぞうする",
+    "fr": "imaginer",
+    "topic": "T6",
+    "section": "PART1",
+    "niveau": "B1"
+  },
+  {
+    "k": "『鋼の錬金術師』",
+    "h": "はがねのれんきんじゅつし",
+    "fr": "Fullmetal Alchemist",
+    "topic": "T6",
+    "section": "PART1",
+    "niveau": "B1"
+  },
+  {
+    "k": "『デスノート』",
+    "h": "デスノート",
+    "fr": "Death Note",
+    "topic": "T6",
+    "section": "PART1",
+    "niveau": "B1"
+  },
+  {
+    "k": "『のだめカンタービレ』",
+    "h": "のだめカンタービレ",
+    "fr": "Nodame Cantabile",
+    "topic": "T6",
+    "section": "PART1",
+    "niveau": "B1"
+  },
+  {
+    "k": "『ベルサイユのばら』",
+    "h": "ベルサイユのばら",
+    "fr": "Lady Oscar",
+    "topic": "T6",
+    "section": "PART1",
+    "niveau": "B1"
+  },
+  {
+    "k": "すすめる",
+    "h": "すすめる",
+    "fr": "recommander",
+    "topic": "T6",
+    "section": "PART1",
+    "niveau": "B1"
+  },
+  {
+    "k": "登場人物",
+    "h": "とうじょうじんぶつ",
+    "fr": "personnage",
+    "topic": "T6",
+    "section": "PART1",
+    "niveau": "B1"
+  },
+  {
+    "k": "犯人",
+    "h": "はんにん",
+    "fr": "criminel / coupable",
+    "topic": "T6",
+    "section": "PART1",
+    "niveau": "B1"
+  },
+  {
+    "k": "探偵",
+    "h": "たんてい",
+    "fr": "détective / policier",
+    "topic": "T6",
+    "section": "PART1",
+    "niveau": "B1"
+  },
+  {
+    "k": "ストーリー",
+    "h": "ストーリー",
+    "fr": "histoire",
+    "topic": "T6",
+    "section": "PART1",
+    "niveau": "B1"
+  },
+  {
+    "k": "殺す",
+    "h": "ころす",
+    "fr": "tuer",
+    "topic": "T6",
+    "section": "PART1",
+    "niveau": "B1"
+  },
+  {
+    "k": "対決",
+    "h": "たいけつ",
+    "fr": "confrontation",
+    "topic": "T6",
+    "section": "PART1",
+    "niveau": "B1"
+  },
+  {
+    "k": "ピアニスト",
+    "h": "ピアニスト",
+    "fr": "pianiste",
+    "topic": "T6",
+    "section": "PART1",
+    "niveau": "B1"
+  },
+  {
+    "k": "指揮者",
+    "h": "しきしゃ",
+    "fr": "chef d'orchestre",
+    "topic": "T6",
+    "section": "PART1",
+    "niveau": "B1"
+  },
+  {
+    "k": "フランス革命",
+    "h": "フランスかくめい",
+    "fr": "Révolution française",
+    "topic": "T6",
+    "section": "PART1",
+    "niveau": "B1"
+  },
+  {
+    "k": "ドラマ",
+    "h": "ドラマ",
+    "fr": "drame",
+    "topic": "T6",
+    "section": "PART1",
+    "niveau": "B1"
+  },
+  {
+    "k": "幼なじみ",
+    "h": "おさななじみ",
+    "fr": "ami(e) d'enfance",
+    "topic": "T6",
+    "section": "PART1",
+    "niveau": "B1"
+  },
+  {
+    "k": "一種の～",
+    "h": "いっしゅの～",
+    "fr": "une sorte de〜",
+    "topic": "T6",
+    "section": "PART1",
+    "niveau": "B1"
+  },
+  {
+    "k": "元の",
+    "h": "もとの",
+    "fr": "original",
+    "topic": "T6",
+    "section": "PART1",
+    "niveau": "B1"
+  },
+  {
+    "k": "戻る",
+    "h": "もどる",
+    "fr": "retourner",
+    "topic": "T6",
+    "section": "PART1",
+    "niveau": "B1"
+  },
+  {
+    "k": "方法",
+    "h": "ほうほう",
+    "fr": "méthode / moyen",
+    "topic": "T6",
+    "section": "PART1",
+    "niveau": "B1"
+  },
+  {
+    "k": "世界",
+    "h": "せかい",
+    "fr": "monde",
+    "topic": "T6",
+    "section": "PART1",
+    "niveau": "B1"
+  },
+  {
+    "k": "旅する",
+    "h": "たびする",
+    "fr": "partir en voyage",
+    "topic": "T6",
+    "section": "PART1",
+    "niveau": "B1"
+  },
+  {
+    "k": "感動的な",
+    "h": "かんどうてきな",
+    "fr": "émouvant",
+    "topic": "T6",
+    "section": "PART1",
+    "niveau": "B1"
+  },
+  {
+    "k": "ドラマチックな",
+    "h": "ドラマチックな",
+    "fr": "dramatique",
+    "topic": "T6",
+    "section": "PART1",
+    "niveau": "B1"
+  },
+  {
+    "k": "ドキドキする",
+    "h": "ドキドキする",
+    "fr": "avoir le cœur qui bat la chamade",
+    "topic": "T6",
+    "section": "PART1",
+    "niveau": "B1"
+  },
+  {
+    "k": "スケール",
+    "h": "スケール",
+    "fr": "échelle",
+    "topic": "T6",
+    "section": "PART1",
+    "niveau": "B1"
+  },
+  {
+    "k": "魅力",
+    "h": "みりょく",
+    "fr": "charme",
+    "topic": "T6",
+    "section": "PART1",
+    "niveau": "B1"
+  },
+  {
+    "k": "王妃",
+    "h": "おうひ",
+    "fr": "reine",
+    "topic": "T6",
+    "section": "PART1",
+    "niveau": "B1"
+  },
+  {
+    "k": "警察",
+    "h": "けいさつ",
+    "fr": "police",
+    "topic": "T6",
+    "section": "PART1",
+    "niveau": "B1"
+  },
+  {
+    "k": "気づく",
+    "h": "きづく",
+    "fr": "se rendre compte",
+    "topic": "T6",
+    "section": "PART1",
+    "niveau": "B1"
+  },
+  {
+    "k": "才能",
+    "h": "さいのう",
+    "fr": "don / talent",
+    "topic": "T6",
+    "section": "PART1",
+    "niveau": "B1"
+  },
+  {
+    "k": "かっこいい",
+    "h": "かっこいい",
+    "fr": "distingué",
+    "topic": "T6",
+    "section": "PART1",
+    "niveau": "B1"
+  },
+  {
+    "k": "ラブコメ",
+    "h": "ラブコメ",
+    "fr": "comédie romantique",
+    "topic": "T6",
+    "section": "PART1",
+    "niveau": "B1"
+  },
+  {
+    "k": "守る",
+    "h": "まもる",
+    "fr": "protéger",
+    "topic": "T6",
+    "section": "PART1",
+    "niveau": "B1"
+  },
+  {
+    "k": "立場",
+    "h": "たちば",
+    "fr": "place / situation",
+    "topic": "T6",
+    "section": "PART1",
+    "niveau": "B1"
+  },
+  {
+    "k": "フランス",
+    "h": "フランス",
+    "fr": "France",
+    "topic": "T6",
+    "section": "PART1",
+    "niveau": "B1"
+  },
+  {
+    "k": "次々と",
+    "h": "つぎつぎと",
+    "fr": "l'un après l'autre",
+    "topic": "T6",
+    "section": "PART1",
+    "niveau": "B1"
+  },
+  {
+    "k": "キャラクター",
+    "h": "キャラクター",
+    "fr": "personnage",
+    "topic": "T6",
+    "section": "PART1",
+    "niveau": "B1"
+  },
+  {
+    "k": "歴史",
+    "h": "れきし",
+    "fr": "histoire",
+    "topic": "T6",
+    "section": "PART1",
+    "niveau": "B1"
+  },
+  {
+    "k": "恋愛",
+    "h": "れんあい",
+    "fr": "amour",
+    "topic": "T6",
+    "section": "PART1",
+    "niveau": "B1"
+  },
+  {
+    "k": "母親",
+    "h": "ははおや",
+    "fr": "mère",
+    "topic": "T6",
+    "section": "PART1",
+    "niveau": "B1"
+  },
+  {
+    "k": "失敗する",
+    "h": "しっぱいする",
+    "fr": "échouer",
+    "topic": "T6",
+    "section": "PART1",
+    "niveau": "B1"
+  },
+  {
+    "k": "ファンタジー",
+    "h": "ファンタジー",
+    "fr": "fantaisie",
+    "topic": "T6",
+    "section": "PART1",
+    "niveau": "B1"
+  },
+  {
+    "k": "命",
+    "h": "いのち",
+    "fr": "vie",
+    "topic": "T6",
+    "section": "PART1",
+    "niveau": "B1"
+  },
+  {
+    "k": "重さ",
+    "h": "おもさ",
+    "fr": "importance",
+    "topic": "T6",
+    "section": "PART1",
+    "niveau": "B1"
+  },
+  {
+    "k": "深い",
+    "h": "ふかい",
+    "fr": "profond",
+    "topic": "T6",
+    "section": "PART1",
+    "niveau": "B1"
+  },
+  {
+    "k": "テーマ",
+    "h": "テーマ",
+    "fr": "thème / sujet",
+    "topic": "T6",
+    "section": "PART1",
+    "niveau": "B1"
+  },
+  {
+    "k": "失う",
+    "h": "うしなう",
+    "fr": "perdre",
+    "topic": "T6",
+    "section": "PART1",
+    "niveau": "B1"
+  },
+  {
+    "k": "生き返る",
+    "h": "いきかえる",
+    "fr": "ressusciter",
+    "topic": "T6",
+    "section": "PART1",
+    "niveau": "B1"
+  },
+  {
+    "k": "おすすめ",
+    "h": "おすすめ",
+    "fr": "recommandation",
+    "topic": "T6",
+    "section": "PART1",
+    "niveau": "B1"
+  },
+  {
+    "k": "死神",
+    "h": "しにがみ",
+    "fr": "ange de la mort",
+    "topic": "T6",
+    "section": "PART1",
+    "niveau": "B1"
+  },
+  {
+    "k": "主人公",
+    "h": "しゅじんこう",
+    "fr": "personnage principal",
+    "topic": "T6",
+    "section": "PART1",
+    "niveau": "B1"
+  },
+  {
+    "k": "そんなところ",
+    "h": "そんなところ",
+    "fr": "c'est à peu près ça",
+    "topic": "T6",
+    "section": "PART1",
+    "niveau": "B1"
+  },
+  {
+    "k": "オーケストラ",
+    "h": "オーケストラ",
+    "fr": "orchestre",
+    "topic": "T6",
+    "section": "PART1",
+    "niveau": "B1"
+  },
+  {
+    "k": "だらしない",
+    "h": "だらしない",
+    "fr": "négligé(e)",
+    "topic": "T6",
+    "section": "PART1",
+    "niveau": "B1"
+  },
+  {
+    "k": "変な",
+    "h": "へんな",
+    "fr": "étrange",
+    "topic": "T6",
+    "section": "PART1",
+    "niveau": "B1"
+  },
+  {
+    "k": "とにかく",
+    "h": "とにかく",
+    "fr": "en tout cas",
+    "topic": "T6",
+    "section": "PART1",
+    "niveau": "B1"
+  },
+  {
+    "k": "成長する",
+    "h": "せいちょうする",
+    "fr": "grandir / mûrir",
+    "topic": "T6",
+    "section": "PART1",
+    "niveau": "B1"
+  },
+  {
+    "k": "恋",
+    "h": "こい",
+    "fr": "amour",
+    "topic": "T6",
+    "section": "PART1",
+    "niveau": "B1"
+  },
+  {
+    "k": "入門",
+    "h": "にゅうもん",
+    "fr": "introduction",
+    "topic": "T6",
+    "section": "PART1",
+    "niveau": "B1"
+  },
+  {
+    "k": "わりと",
+    "h": "わりと",
+    "fr": "plutôt / relativement",
+    "topic": "T6",
+    "section": "PART1",
+    "niveau": "B1"
+  },
+  {
+    "k": "育てる",
+    "h": "そだてる",
+    "fr": "élever",
+    "topic": "T6",
+    "section": "PART1",
+    "niveau": "B1"
+  },
+  {
+    "k": "超～",
+    "h": "ちょう～",
+    "fr": "super / très",
+    "topic": "T6",
+    "section": "PART1",
+    "niveau": "B1"
+  },
+  {
+    "k": "すてきな",
+    "h": "すてきな",
+    "fr": "merveilleux",
+    "topic": "T6",
+    "section": "PART1",
+    "niveau": "B1"
+  },
+  {
+    "k": "王様",
+    "h": "おうさま",
+    "fr": "roi",
+    "topic": "T6",
+    "section": "PART1",
+    "niveau": "B1"
+  },
+  {
+    "k": "で",
+    "h": "で",
+    "fr": "et",
+    "topic": "T6",
+    "section": "PART1",
+    "niveau": "B1"
+  },
+  {
+    "k": "革命",
+    "h": "かくめい",
+    "fr": "révolution",
+    "topic": "T6",
+    "section": "PART1",
+    "niveau": "B1"
+  },
+  {
+    "k": "進む",
+    "h": "すすむ",
+    "fr": "continuer",
+    "topic": "T6",
+    "section": "PART1",
+    "niveau": "B1"
+  },
+  {
+    "k": "～側",
+    "h": "～がわ",
+    "fr": "côté",
+    "topic": "T6",
+    "section": "PART1",
+    "niveau": "B1"
+  },
+  {
+    "k": "国民",
+    "h": "こくみん",
+    "fr": "peuple",
+    "topic": "T6",
+    "section": "PART1",
+    "niveau": "B1"
+  },
+  {
+    "k": "つく",
+    "h": "つく",
+    "fr": "se ranger du côté de",
+    "topic": "T6",
+    "section": "PART1",
+    "niveau": "B1"
+  },
+  {
+    "k": "最高傑作",
+    "h": "さいこうけっさく",
+    "fr": "chef d'œuvre suprême",
+    "topic": "T6",
+    "section": "PART1",
+    "niveau": "B1"
+  },
+  {
+    "k": "作り変える",
+    "h": "つくりかえる",
+    "fr": "transformer",
+    "topic": "T6",
+    "section": "PART1",
+    "niveau": "B1"
+  },
+  {
+    "k": "魔法",
+    "h": "まほう",
+    "fr": "magie",
+    "topic": "T6",
+    "section": "PART1",
+    "niveau": "B1"
+  },
+  {
+    "k": "～全体",
+    "h": "～ぜんたい",
+    "fr": "tout〜",
+    "topic": "T6",
+    "section": "PART1",
+    "niveau": "B1"
+  },
+  {
+    "k": "設定",
+    "h": "せってい",
+    "fr": "cadre",
+    "topic": "T6",
+    "section": "PART1",
+    "niveau": "B1"
+  },
+  {
+    "k": "ハマる",
+    "h": "ハマる",
+    "fr": "être accro à",
+    "topic": "T6",
+    "section": "PART1",
+    "niveau": "B1"
+  },
+  {
+    "k": "実は",
+    "h": "じつは",
+    "fr": "en fait",
+    "topic": "T6",
+    "section": "PART1",
+    "niveau": "B1"
+  },
+  {
+    "k": "パリ",
+    "h": "パリ",
+    "fr": "Paris",
+    "topic": "T6",
+    "section": "PART2",
+    "niveau": "B1"
+  },
+  {
+    "k": "キャンパス",
+    "h": "キャンパス",
+    "fr": "campus",
+    "topic": "T6",
+    "section": "PART2",
+    "niveau": "B1"
+  },
+  {
+    "k": "話しかける",
+    "h": "はなしかける",
+    "fr": "parler à / adresser la parole à",
+    "topic": "T6",
+    "section": "PART2",
+    "niveau": "B1"
+  },
+  {
+    "k": "フランス",
+    "h": "フランス",
+    "fr": "France",
+    "topic": "T6",
+    "section": "PART2",
+    "niveau": "B1"
+  },
+  {
+    "k": "～学科",
+    "h": "～がっか",
+    "fr": "section〜",
+    "topic": "T6",
+    "section": "PART2",
+    "niveau": "B1"
+  },
+  {
+    "k": "教師",
+    "h": "きょうし",
+    "fr": "professeur",
+    "topic": "T6",
+    "section": "PART2",
+    "niveau": "B1"
+  },
+  {
+    "k": "『ワンピース』",
+    "h": "ワンピース",
+    "fr": "One Piece",
+    "topic": "T6",
+    "section": "PART2",
+    "niveau": "B1"
+  },
+  {
+    "k": "マンガエキスポ",
+    "h": "マンガエキスポ",
+    "fr": "manga expo",
+    "topic": "T6",
+    "section": "PART2",
+    "niveau": "B1"
+  },
+  {
+    "k": "キャラクター",
+    "h": "キャラクター",
+    "fr": "personnage",
+    "topic": "T6",
+    "section": "PART2",
+    "niveau": "B1"
+  },
+  {
+    "k": "海賊",
+    "h": "かいぞく",
+    "fr": "pirate",
+    "topic": "T6",
+    "section": "PART2",
+    "niveau": "B1"
+  },
+  {
+    "k": "仲間",
+    "h": "なかま",
+    "fr": "ami(e)",
+    "topic": "T6",
+    "section": "PART2",
+    "niveau": "B1"
+  },
+  {
+    "k": "世界",
+    "h": "せかい",
+    "fr": "monde",
+    "topic": "T6",
+    "section": "PART2",
+    "niveau": "B1"
+  },
+  {
+    "k": "くり返し",
+    "h": "くりかえし",
+    "fr": "encore",
+    "topic": "T6",
+    "section": "PART2",
+    "niveau": "B1"
+  },
+  {
+    "k": "フランス語",
+    "h": "フランスご",
+    "fr": "français",
+    "topic": "T6",
+    "section": "PART2",
+    "niveau": "B1"
+  },
+  {
+    "k": "翻訳",
+    "h": "ほんやく",
+    "fr": "traduction",
+    "topic": "T6",
+    "section": "PART2",
+    "niveau": "B1"
+  },
+  {
+    "k": "事件",
+    "h": "じけん",
+    "fr": "incident / évènement",
+    "topic": "T6",
+    "section": "PART2",
+    "niveau": "B1"
+  },
+  {
+    "k": "戦い",
+    "h": "たたかい",
+    "fr": "bataille",
+    "topic": "T6",
+    "section": "PART2",
+    "niveau": "B1"
+  },
+  {
+    "k": "～同士",
+    "h": "～どうし",
+    "fr": "entre〜",
+    "topic": "T6",
+    "section": "PART2",
+    "niveau": "B1"
+  },
+  {
+    "k": "友情",
+    "h": "ゆうじょう",
+    "fr": "amitié",
+    "topic": "T6",
+    "section": "PART2",
+    "niveau": "B1"
+  },
+  {
+    "k": "勝つ",
+    "h": "かつ",
+    "fr": "gagner",
+    "topic": "T6",
+    "section": "PART2",
+    "niveau": "B1"
+  },
+  {
+    "k": "感動的な",
+    "h": "かんどうてきな",
+    "fr": "émouvant",
+    "topic": "T6",
+    "section": "PART2",
+    "niveau": "B1"
+  },
+  {
+    "k": "助ける",
+    "h": "たすける",
+    "fr": "secourir",
+    "topic": "T6",
+    "section": "PART2",
+    "niveau": "B1"
+  },
+  {
+    "k": "信じる",
+    "h": "しんじる",
+    "fr": "croire / faire confiance",
+    "topic": "T6",
+    "section": "PART2",
+    "niveau": "B1"
+  },
+  {
+    "k": "感動する",
+    "h": "かんどうする",
+    "fr": "être ému",
+    "topic": "T6",
+    "section": "PART2",
+    "niveau": "B1"
+  },
+  {
+    "k": "～巻",
+    "h": "～かん",
+    "fr": "〜volume(s)",
+    "topic": "T6",
+    "section": "PART2",
+    "niveau": "B1"
+  },
+  {
+    "k": "読み出す",
+    "h": "よみだす",
+    "fr": "commencer à lire",
+    "topic": "T6",
+    "section": "PART2",
+    "niveau": "B1"
+  },
+  {
+    "k": "夢中になる",
+    "h": "むちゅうになる",
+    "fr": "être passionné(e) par",
+    "topic": "T6",
+    "section": "PART2",
+    "niveau": "B1"
+  },
+  {
+    "k": "冒険する",
+    "h": "ぼうけんする",
+    "fr": "s'aventurer / partir à l'aventure",
+    "topic": "T6",
+    "section": "PART2",
+    "niveau": "B1"
+  },
+  {
+    "k": "場面",
+    "h": "ばめん",
+    "fr": "scène",
+    "topic": "T6",
+    "section": "PART2",
+    "niveau": "B1"
+  },
+  {
+    "k": "クリスマス休み",
+    "h": "クリスマスやすみ",
+    "fr": "vacances de Noël",
+    "topic": "T6",
+    "section": "PART2",
+    "niveau": "B1"
+  },
+  {
+    "k": "公開する",
+    "h": "こうかいする",
+    "fr": "ouvrir au public",
+    "topic": "T6",
+    "section": "PART2",
+    "niveau": "B1"
+  },
+  {
+    "k": "ぜったい",
+    "h": "ぜったい",
+    "fr": "absolument",
+    "topic": "T6",
+    "section": "PART2",
+    "niveau": "B1"
+  },
+  {
+    "k": "コスプレ",
+    "h": "コスプレ",
+    "fr": "cosplay",
+    "topic": "T6",
+    "section": "PART2",
+    "niveau": "B1"
+  },
+  {
+    "k": "会場",
+    "h": "かいじょう",
+    "fr": "salle / lieu de l'évènement",
+    "topic": "T6",
+    "section": "PART2",
+    "niveau": "B1"
+  },
+  {
+    "k": "『ドラえもん』",
+    "h": "ドラえもん",
+    "fr": "Doraemon",
+    "topic": "T6",
+    "section": "PART2",
+    "niveau": "B1"
+  },
+  {
+    "k": "『俺物語!!』",
+    "h": "おれものがたり",
+    "fr": "Mon histoire",
+    "topic": "T6",
+    "section": "PART2",
+    "niveau": "B1"
+  },
+  {
+    "k": "『ワンパンマン』",
+    "h": "ワンパンマン",
+    "fr": "One-punch Man",
+    "topic": "T6",
+    "section": "PART2",
+    "niveau": "B1"
+  },
+  {
+    "k": "未来",
+    "h": "みらい",
+    "fr": "futur",
+    "topic": "T6",
+    "section": "PART2",
+    "niveau": "B1"
+  },
+  {
+    "k": "ロボット",
+    "h": "ロボット",
+    "fr": "robot",
+    "topic": "T6",
+    "section": "PART2",
+    "niveau": "B1"
+  },
+  {
+    "k": "ひみつ道具",
+    "h": "ひみつどうぐ",
+    "fr": "gadget secret",
+    "topic": "T6",
+    "section": "PART2",
+    "niveau": "B1"
+  },
+  {
+    "k": "ダメな",
+    "h": "だめな",
+    "fr": "incapable / inutile",
+    "topic": "T6",
+    "section": "PART2",
+    "niveau": "B1"
+  },
+  {
+    "k": "主人公",
+    "h": "しゅじんこう",
+    "fr": "personnage principal",
+    "topic": "T6",
+    "section": "PART2",
+    "niveau": "B1"
+  },
+  {
+    "k": "身長",
+    "h": "しんちょう",
+    "fr": "taille",
+    "topic": "T6",
+    "section": "PART2",
+    "niveau": "B1"
+  },
+  {
+    "k": "体重",
+    "h": "たいじゅう",
+    "fr": "poids",
+    "topic": "T6",
+    "section": "PART2",
+    "niveau": "B1"
+  },
+  {
+    "k": "大男",
+    "h": "おおおとこ",
+    "fr": "homme imposant",
+    "topic": "T6",
+    "section": "PART2",
+    "niveau": "B1"
+  },
+  {
+    "k": "もてる",
+    "h": "もてる",
+    "fr": "avoir du succès",
+    "topic": "T6",
+    "section": "PART2",
+    "niveau": "B1"
+  },
+  {
+    "k": "ある日",
+    "h": "あるひ",
+    "fr": "un jour",
+    "topic": "T6",
+    "section": "PART2",
+    "niveau": "B1"
+  },
+  {
+    "k": "痴漢",
+    "h": "ちかん",
+    "fr": "harcèlement sexuel",
+    "topic": "T6",
+    "section": "PART2",
+    "niveau": "B1"
+  },
+  {
+    "k": "女子高生",
+    "h": "じょしこうせい",
+    "fr": "lycéenne",
+    "topic": "T6",
+    "section": "PART2",
+    "niveau": "B1"
+  },
+  {
+    "k": "きっかけ",
+    "h": "きっかけ",
+    "fr": "occasion",
+    "topic": "T6",
+    "section": "PART2",
+    "niveau": "B1"
+  },
+  {
+    "k": "恋をする",
+    "h": "こいをする",
+    "fr": "tomber amoureux",
+    "topic": "T6",
+    "section": "PART2",
+    "niveau": "B1"
+  },
+  {
+    "k": "ニックネーム",
+    "h": "ニックネーム",
+    "fr": "surnom",
+    "topic": "T6",
+    "section": "PART2",
+    "niveau": "B1"
+  },
+  {
+    "k": "敵",
+    "h": "てき",
+    "fr": "rival / ennemi",
+    "topic": "T6",
+    "section": "PART2",
+    "niveau": "B1"
+  },
+  {
+    "k": "パンチ",
+    "h": "パンチ",
+    "fr": "coup de poing",
+    "topic": "T6",
+    "section": "PART2",
+    "niveau": "B1"
+  },
+  {
+    "k": "一発",
+    "h": "いっぱつ",
+    "fr": "un seul coup",
+    "topic": "T6",
+    "section": "PART2",
+    "niveau": "B1"
+  },
+  {
+    "k": "倒す",
+    "h": "たおす",
+    "fr": "terrasser",
+    "topic": "T6",
+    "section": "PART2",
+    "niveau": "B1"
+  },
+  {
+    "k": "無敵",
+    "h": "むてき",
+    "fr": "invincible",
+    "topic": "T6",
+    "section": "PART2",
+    "niveau": "B1"
+  },
+  {
+    "k": "ヒーロー",
+    "h": "ヒーロー",
+    "fr": "héros",
+    "topic": "T6",
+    "section": "PART2",
+    "niveau": "B1"
+  },
+  {
+    "k": "かっこいい",
+    "h": "かっこいい",
+    "fr": "cool / distingué",
+    "topic": "T6",
+    "section": "PART2",
+    "niveau": "B1"
+  },
+  {
+    "k": "怪人",
+    "h": "かいじん",
+    "fr": "êtres extraordinaires",
+    "topic": "T6",
+    "section": "PART2",
+    "niveau": "B1"
+  },
+  {
+    "k": "戦う",
+    "h": "たたかう",
+    "fr": "bataille",
+    "topic": "T6",
+    "section": "PART2",
+    "niveau": "B1"
+  },
+  {
+    "k": "活躍する",
+    "h": "かつやくする",
+    "fr": "mener un quotidien agité",
+    "topic": "T6",
+    "section": "PART2",
+    "niveau": "B1"
+  },
+  {
+    "k": "そのうち",
+    "h": "そのうち",
+    "fr": "bientôt",
+    "topic": "T6",
+    "section": "PART2",
+    "niveau": "B1"
+  },
+  {
+    "k": "予想する",
+    "h": "よそうする",
+    "fr": "prévoir",
+    "topic": "T6",
+    "section": "PART2",
+    "niveau": "B1"
+  },
+  {
+    "k": "エンディング",
+    "h": "エンディング",
+    "fr": "fin",
+    "topic": "T6",
+    "section": "PART2",
+    "niveau": "B1"
+  },
+  {
+    "k": "ふりがな",
+    "h": "ふりがな",
+    "fr": "furigana (hiragana placés au-dessus des kanji pour en indiquer la lecture)",
+    "topic": "T6",
+    "section": "PART2",
+    "niveau": "B1"
+  },
+  {
+    "k": "歴史",
+    "h": "れきし",
+    "fr": "histoire",
+    "topic": "T6",
+    "section": "PART2",
+    "niveau": "B1"
+  },
+  {
+    "k": "経済",
+    "h": "けいざい",
+    "fr": "économie",
+    "topic": "T6",
+    "section": "PART2",
+    "niveau": "B1"
+  },
+  {
+    "k": "理解する",
+    "h": "りかいする",
+    "fr": "comprendre",
+    "topic": "T6",
+    "section": "PART2",
+    "niveau": "B1"
+  },
+  {
+    "k": "びっくりする",
+    "h": "びっくりする",
+    "fr": "être surpris",
+    "topic": "T6",
+    "section": "PART2",
+    "niveau": "B1"
+  },
+  {
+    "k": "人気が出る",
+    "h": "にんきがでる",
+    "fr": "devenir populaire",
+    "topic": "T6",
+    "section": "PART2",
+    "niveau": "B1"
+  },
+  {
+    "k": "たしかに",
+    "h": "たしかに",
+    "fr": "c'est sûr",
+    "topic": "T6",
+    "section": "PART2",
+    "niveau": "B1"
+  },
+  {
+    "k": "セリフ",
+    "h": "セリフ",
+    "fr": "réplique (s)",
+    "topic": "T6",
+    "section": "PART2",
+    "niveau": "B1"
+  },
+  {
+    "k": "～ばっかり",
+    "h": "～ばっかり",
+    "fr": "rien que〜",
+    "topic": "T6",
+    "section": "PART2",
+    "niveau": "B1"
+  },
+  {
+    "k": "伝える",
+    "h": "つたえる",
+    "fr": "dire / transmettre",
+    "topic": "T6",
+    "section": "PART2",
+    "niveau": "B1"
+  },
+  {
+    "k": "内容",
+    "h": "ないよう",
+    "fr": "contenu",
+    "topic": "T6",
+    "section": "PART2",
+    "niveau": "B1"
+  },
+  {
+    "k": "感想",
+    "h": "かんそう",
+    "fr": "avis",
+    "topic": "T6",
+    "section": "PART2",
+    "niveau": "B1"
+  },
+  {
+    "k": "コメント",
+    "h": "コメント",
+    "fr": "commentaire",
+    "topic": "T6",
+    "section": "PART2",
+    "niveau": "B1"
+  },
+  {
+    "k": "ドキドキする",
+    "h": "ドキドキする",
+    "fr": "avoir le cœur qui bat la chamade",
+    "topic": "T6",
+    "section": "PART2",
+    "niveau": "B1"
+  },
+  {
+    "k": "トナカイ",
+    "h": "トナカイ",
+    "fr": "renne",
+    "topic": "T6",
+    "section": "PART2",
+    "niveau": "B1"
+  },
+  {
+    "k": "あんまり～ない",
+    "h": "あんまり～ない",
+    "fr": "pas beaucoup / pas très",
+    "topic": "T6",
+    "section": "PART2",
+    "niveau": "B1"
+  },
+  {
+    "k": "国際交流基金",
+    "h": "こくさいこうりゅうききん",
+    "fr": "la Fondation du Japon",
+    "topic": "T6",
+    "section": "PART2",
+    "niveau": "B1"
+  },
+  {
+    "k": "酒飲み",
+    "h": "さけのみ",
+    "fr": "gros buveur",
+    "topic": "T6",
+    "section": "PART3",
+    "niveau": "B1"
+  },
+  {
+    "k": "大男",
+    "h": "おおおとこ",
+    "fr": "homme imposant",
+    "topic": "T6",
+    "section": "PART3",
+    "niveau": "B1"
+  },
+  {
+    "k": "物語",
+    "h": "ものがたり",
+    "fr": "histoire / conte",
+    "topic": "T6",
+    "section": "PART3",
+    "niveau": "B1"
+  },
+  {
+    "k": "職場",
+    "h": "しょくば",
+    "fr": "lieu de travail",
+    "topic": "T6",
+    "section": "PART3",
+    "niveau": "B1"
+  },
+  {
+    "k": "同僚",
+    "h": "どうりょう",
+    "fr": "collègue",
+    "topic": "T6",
+    "section": "PART3",
+    "niveau": "B1"
+  },
+  {
+    "k": "話しかける",
+    "h": "はなしかける",
+    "fr": "adresser la parole à",
+    "topic": "T6",
+    "section": "PART3",
+    "niveau": "B1"
+  },
+  {
+    "k": "マンガ好き",
+    "h": "マンガずき",
+    "fr": "fan de manga",
+    "topic": "T6",
+    "section": "PART3",
+    "niveau": "B1"
+  },
+  {
+    "k": "中国古典",
+    "h": "ちゅうごくこてん",
+    "fr": "les classiques chinois",
+    "topic": "T6",
+    "section": "PART3",
+    "niveau": "B1"
+  },
+  {
+    "k": "『水滸伝』",
+    "h": "すいこでん",
+    "fr": "Au bord de l'eau",
+    "topic": "T6",
+    "section": "PART3",
+    "niveau": "B1"
+  },
+  {
+    "k": "ストーリー",
+    "h": "ストーリー",
+    "fr": "histoire",
+    "topic": "T6",
+    "section": "PART3",
+    "niveau": "B1"
+  },
+  {
+    "k": "金持ち",
+    "h": "かねもち",
+    "fr": "riche",
+    "topic": "T6",
+    "section": "PART3",
+    "niveau": "B1"
+  },
+  {
+    "k": "権力者",
+    "h": "けんりょくしゃ",
+    "fr": "dirigeant",
+    "topic": "T6",
+    "section": "PART3",
+    "niveau": "B1"
+  },
+  {
+    "k": "戦う",
+    "h": "たたかう",
+    "fr": "se battre",
+    "topic": "T6",
+    "section": "PART3",
+    "niveau": "B1"
+  },
+  {
+    "k": "飲み屋",
+    "h": "のみや",
+    "fr": "bistrot",
+    "topic": "T6",
+    "section": "PART3",
+    "niveau": "B1"
+  },
+  {
+    "k": "酔っぱらう",
+    "h": "よっぱらう",
+    "fr": "être ivre",
+    "topic": "T6",
+    "section": "PART3",
+    "niveau": "B1"
+  },
+  {
+    "k": "突然",
+    "h": "とつぜん",
+    "fr": "soudain",
+    "topic": "T6",
+    "section": "PART3",
+    "niveau": "B1"
+  },
+  {
+    "k": "虎",
+    "h": "とら",
+    "fr": "tigre",
+    "topic": "T6",
+    "section": "PART3",
+    "niveau": "B1"
+  },
+  {
+    "k": "現れる",
+    "h": "あらわれる",
+    "fr": "apparaître",
+    "topic": "T6",
+    "section": "PART3",
+    "niveau": "B1"
+  },
+  {
+    "k": "退治する",
+    "h": "たいじする",
+    "fr": "terrasser",
+    "topic": "T6",
+    "section": "PART3",
+    "niveau": "B1"
+  },
+  {
+    "k": "ある日",
+    "h": "あるひ",
+    "fr": "un jour",
+    "topic": "T6",
+    "section": "PART3",
+    "niveau": "B1"
+  },
+  {
+    "k": "この先",
+    "h": "このさき",
+    "fr": "plus loin",
+    "topic": "T6",
+    "section": "PART3",
+    "niveau": "B1"
+  },
+  {
+    "k": "人食い虎",
+    "h": "ひとくいとら",
+    "fr": "tigre mangeur d'homme",
+    "topic": "T6",
+    "section": "PART3",
+    "niveau": "B1"
+  },
+  {
+    "k": "ぜったいに",
+    "h": "ぜったいに",
+    "fr": "absolument / surtout",
+    "topic": "T6",
+    "section": "PART3",
+    "niveau": "B1"
+  },
+  {
+    "k": "～たまま",
+    "h": "～たまま",
+    "fr": "toujours〜",
+    "topic": "T6",
+    "section": "PART3",
+    "niveau": "B1"
+  },
+  {
+    "k": "すると",
+    "h": "すると",
+    "fr": "c'est alors que ～",
+    "topic": "T6",
+    "section": "PART3",
+    "niveau": "B1"
+  },
+  {
+    "k": "たった",
+    "h": "たった",
+    "fr": "seulement",
+    "topic": "T6",
+    "section": "PART3",
+    "niveau": "B1"
+  },
+  {
+    "k": "馬乗りになる",
+    "h": "うまのりになる",
+    "fr": "se mettre à cheval sur",
+    "topic": "T6",
+    "section": "PART3",
+    "niveau": "B1"
+  },
+  {
+    "k": "ボカボカ",
+    "h": "ボカボカ",
+    "fr": "à grands coups",
+    "topic": "T6",
+    "section": "PART3",
+    "niveau": "B1"
+  },
+  {
+    "k": "殴る",
+    "h": "なぐる",
+    "fr": "frapper",
+    "topic": "T6",
+    "section": "PART3",
+    "niveau": "B1"
+  },
+  {
+    "k": "タイトル",
+    "h": "タイトル",
+    "fr": "titre",
+    "topic": "T6",
+    "section": "PART3",
+    "niveau": "B1"
+  },
+  {
+    "k": "昔話",
+    "h": "むかしばなし",
+    "fr": "histoire ancienne",
+    "topic": "T6",
+    "section": "PART3",
+    "niveau": "B1"
+  },
+  {
+    "k": "小説",
+    "h": "しょうせつ",
+    "fr": "roman",
+    "topic": "T6",
+    "section": "PART3",
+    "niveau": "B1"
+  },
+  {
+    "k": "～ばかり",
+    "h": "～ばかり",
+    "fr": "rien que〜",
+    "topic": "T6",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "文学作品",
+    "h": "ぶんがくさくひん",
+    "fr": "œuvre littéraire",
+    "topic": "T6",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "相談サイト",
+    "h": "そうだんサイト",
+    "fr": "forum de discussion",
+    "topic": "T6",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "悩める母",
+    "h": "なやめるはは",
+    "fr": "Une maman inquiète",
+    "topic": "T6",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "投稿する",
+    "h": "とうこうする",
+    "fr": "poster (un commentaire)",
+    "topic": "T6",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "娘",
+    "h": "むすめ",
+    "fr": "fille",
+    "topic": "T6",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "いまだに",
+    "h": "いまだに",
+    "fr": "encore maintenant",
+    "topic": "T6",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "読書",
+    "h": "どくしょ",
+    "fr": "lecture",
+    "topic": "T6",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "もともと",
+    "h": "もともと",
+    "fr": "depuis toujours",
+    "topic": "T6",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "文学",
+    "h": "ぶんがく",
+    "fr": "littérature",
+    "topic": "T6",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "比べる",
+    "h": "くらべる",
+    "fr": "comparer",
+    "topic": "T6",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "内容",
+    "h": "ないよう",
+    "fr": "contenu",
+    "topic": "T6",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "浅い",
+    "h": "あさい",
+    "fr": "superficiel",
+    "topic": "T6",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "絵",
+    "h": "え",
+    "fr": "image / dessin",
+    "topic": "T6",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "想像力",
+    "h": "そうぞうりょく",
+    "fr": "imagination",
+    "topic": "T6",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "貧しい",
+    "h": "まずしい",
+    "fr": "pauvre",
+    "topic": "T6",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "夏休み",
+    "h": "なつやすみ",
+    "fr": "vacances d'été",
+    "topic": "T6",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "漱石",
+    "h": "そうせき",
+    "fr": "Sôseki",
+    "topic": "T6",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "『こころ』",
+    "h": "こころ",
+    "fr": "Le pauvre cœur des hommes",
+    "topic": "T6",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "宿題",
+    "h": "しゅくだい",
+    "fr": "devoir",
+    "topic": "T6",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "マンガ版",
+    "h": "マンガばん",
+    "fr": "l'édition manga",
+    "topic": "T6",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "このまま",
+    "h": "このまま",
+    "fr": "si cela continue",
+    "topic": "T6",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "まともな",
+    "h": "まともな",
+    "fr": "sérieux",
+    "topic": "T6",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "文章",
+    "h": "ぶんしょう",
+    "fr": "texte",
+    "topic": "T6",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "人間",
+    "h": "にんげん",
+    "fr": "humain",
+    "topic": "T6",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "心配な",
+    "h": "しんぱいな",
+    "fr": "inquiet (-ète)",
+    "topic": "T6",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "コメント",
+    "h": "コメント",
+    "fr": "commentaire",
+    "topic": "T6",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "タイトル",
+    "h": "タイトル",
+    "fr": "titre",
+    "topic": "T6",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "投稿者",
+    "h": "とうこうしゃ",
+    "fr": "contributeur",
+    "topic": "T6",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "更新時間",
+    "h": "こうしんじかん",
+    "fr": "heure de mise à jour",
+    "topic": "T6",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "通りすがり",
+    "h": "とおりすがり",
+    "fr": "Le passant",
+    "topic": "T6",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "実際に",
+    "h": "じっさいに",
+    "fr": "en fait",
+    "topic": "T6",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "例えば",
+    "h": "たとえば",
+    "fr": "par exemple",
+    "topic": "T6",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "手塚治虫",
+    "h": "てづかおさむ",
+    "fr": "Osamu Tezuka",
+    "topic": "T6",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "『火の鳥』",
+    "h": "ひのとり",
+    "fr": "Phénix, l'oiseau de feu",
+    "topic": "T6",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "～に劣らぬ",
+    "h": "～におとらぬ",
+    "fr": "〜n'a rien à envier à〜",
+    "topic": "T6",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "深い",
+    "h": "ふかい",
+    "fr": "profond",
+    "topic": "T6",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "批判する",
+    "h": "ひはんする",
+    "fr": "critiquer",
+    "topic": "T6",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "漫画",
+    "h": "まんが",
+    "fr": "manga",
+    "topic": "T6",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "笑う",
+    "h": "わらう",
+    "fr": "rire",
+    "topic": "T6",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "頭のいい",
+    "h": "あたまのいい",
+    "fr": "intelligent",
+    "topic": "T6",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "小説",
+    "h": "しょうせつ",
+    "fr": "roman",
+    "topic": "T6",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "今や",
+    "h": "いまや",
+    "fr": "maintenant",
+    "topic": "T6",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "日本史",
+    "h": "にほんし",
+    "fr": "histoire japonaise",
+    "topic": "T6",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "ビジネスマナー",
+    "h": "ビジネスマナー",
+    "fr": "savoir-vivre en entreprise",
+    "topic": "T6",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "相対性理論",
+    "h": "そうたいせいりろん",
+    "fr": "théorie de la relativité",
+    "topic": "T6",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "読解力",
+    "h": "どっかいりょく",
+    "fr": "capacité de lecture",
+    "topic": "T6",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "それほど～ない",
+    "h": "それほど～ない",
+    "fr": "ce n'est pas si〜",
+    "topic": "T6",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "必要",
+    "h": "ひつよう",
+    "fr": "nécessaire",
+    "topic": "T6",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "時代",
+    "h": "じだい",
+    "fr": "ère / époque",
+    "topic": "T6",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "村上春樹",
+    "h": "むらかみはるき",
+    "fr": "Haruki Murakami",
+    "topic": "T6",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "話題",
+    "h": "わだい",
+    "fr": "populaire",
+    "topic": "T6",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "さりげなく",
+    "h": "さりげなく",
+    "fr": "naturellement",
+    "topic": "T6",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "リビング",
+    "h": "リビング",
+    "fr": "salon",
+    "topic": "T6",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "置く",
+    "h": "おく",
+    "fr": "poser",
+    "topic": "T6",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "面白い",
+    "h": "おもしろい",
+    "fr": "intéressant",
+    "topic": "T6",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "すすめる",
+    "h": "すすめる",
+    "fr": "recommander",
+    "topic": "T6",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "違う",
+    "h": "ちがう",
+    "fr": "être différent",
+    "topic": "T6",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "幅広い",
+    "h": "はばひろい",
+    "fr": "une large gamme de",
+    "topic": "T6",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "世代",
+    "h": "せだい",
+    "fr": "génération",
+    "topic": "T6",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "対象",
+    "h": "たいしょう",
+    "fr": "cible",
+    "topic": "T6",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "ジャンル",
+    "h": "ジャンル",
+    "fr": "genre",
+    "topic": "T6",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "成人",
+    "h": "せいじん",
+    "fr": "adulte",
+    "topic": "T6",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "～向け",
+    "h": "～むけ",
+    "fr": "destiné à / pour〜",
+    "topic": "T6",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "映画",
+    "h": "えいが",
+    "fr": "film",
+    "topic": "T6",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "表現",
+    "h": "ひょうげん",
+    "fr": "expression",
+    "topic": "T6",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "しかた",
+    "h": "しかた",
+    "fr": "style",
+    "topic": "T6",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "他の",
+    "h": "ほかの",
+    "fr": "autre",
+    "topic": "T6",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "メディア",
+    "h": "メディア",
+    "fr": "média",
+    "topic": "T6",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "劣る",
+    "h": "おとる",
+    "fr": "être inférieur à",
+    "topic": "T6",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "考え",
+    "h": "かんがえ",
+    "fr": "idée",
+    "topic": "T6",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "～自体",
+    "h": "～じたい",
+    "fr": "〜en soi",
+    "topic": "T6",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "間違っている",
+    "h": "まちがっている",
+    "fr": "avoir tort / se tromper",
+    "topic": "T6",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "投稿",
+    "h": "とうこう",
+    "fr": "post / contribution",
+    "topic": "T6",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "予想する",
+    "h": "よそうする",
+    "fr": "prévoir",
+    "topic": "T6",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "～とはかぎらない",
+    "h": "～とはかぎらない",
+    "fr": "ne se limite pas à〜",
+    "topic": "T6",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "プロ",
+    "h": "プロ",
+    "fr": "pro / professionnel",
+    "topic": "T6",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "マンガ家",
+    "h": "マンガか",
+    "fr": "dessinateur de manga",
+    "topic": "T6",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "描く",
+    "h": "かく",
+    "fr": "dessiner",
+    "topic": "T6",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "作品",
+    "h": "さくひん",
+    "fr": "œuvre",
+    "topic": "T6",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "大ヒットする",
+    "h": "だいヒットする",
+    "fr": "remporter un grand succès",
+    "topic": "T6",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "例外",
+    "h": "れいがい",
+    "fr": "exception",
+    "topic": "T6",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "値段",
+    "h": "ねだん",
+    "fr": "prix",
+    "topic": "T6",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "夢中になる",
+    "h": "むちゅうになる",
+    "fr": "être passionné par",
+    "topic": "T6",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "ちっとも～ない",
+    "h": "ちっとも～ない",
+    "fr": "ne～pas du tout",
+    "topic": "T6",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "悩める母",
+    "h": "なやめるはは",
+    "fr": "Une mère inquiète",
+    "topic": "T6",
+    "section": "PART5",
+    "niveau": "B1"
+  },
+  {
+    "k": "投稿",
+    "h": "とうこう",
+    "fr": "post / contribution",
+    "topic": "T6",
+    "section": "PART5",
+    "niveau": "B1"
+  },
+  {
+    "k": "コメント",
+    "h": "コメント",
+    "fr": "commentaire",
+    "topic": "T6",
+    "section": "PART5",
+    "niveau": "B1"
+  },
+  {
+    "k": "意見",
+    "h": "いけん",
+    "fr": "opinion",
+    "topic": "T6",
+    "section": "PART5",
+    "niveau": "B1"
+  },
+  {
+    "k": "～以外",
+    "h": "～いがい",
+    "fr": "sauf〜",
+    "topic": "T6",
+    "section": "PART5",
+    "niveau": "B1"
+  },
+  {
+    "k": "読書",
+    "h": "どくしょ",
+    "fr": "lecture",
+    "topic": "T6",
+    "section": "PART5",
+    "niveau": "B1"
+  },
+  {
+    "k": "文学作品",
+    "h": "ぶんがくさくひん",
+    "fr": "œuvre littéraire",
+    "topic": "T6",
+    "section": "PART5",
+    "niveau": "B1"
+  },
+  {
+    "k": "内容",
+    "h": "ないよう",
+    "fr": "contenu",
+    "topic": "T6",
+    "section": "PART5",
+    "niveau": "B1"
+  },
+  {
+    "k": "浅い",
+    "h": "あさい",
+    "fr": "superficiel",
+    "topic": "T6",
+    "section": "PART5",
+    "niveau": "B1"
+  },
+  {
+    "k": "～ばかり",
+    "h": "～ばかり",
+    "fr": "rien que〜",
+    "topic": "T6",
+    "section": "PART5",
+    "niveau": "B1"
+  },
+  {
+    "k": "想像力",
+    "h": "そうぞうりょく",
+    "fr": "imagination",
+    "topic": "T6",
+    "section": "PART5",
+    "niveau": "B1"
+  },
+  {
+    "k": "貧しい",
+    "h": "まずしい",
+    "fr": "pauvre",
+    "topic": "T6",
+    "section": "PART5",
+    "niveau": "B1"
+  },
+  {
+    "k": "文学",
+    "h": "ぶんがく",
+    "fr": "littérature",
+    "topic": "T6",
+    "section": "PART5",
+    "niveau": "B1"
+  },
+  {
+    "k": "マンガ版",
+    "h": "マンガばん",
+    "fr": "l'édition manga",
+    "topic": "T6",
+    "section": "PART5",
+    "niveau": "B1"
+  },
+  {
+    "k": "文章",
+    "h": "ぶんしょう",
+    "fr": "texte",
+    "topic": "T6",
+    "section": "PART5",
+    "niveau": "B1"
+  },
+  {
+    "k": "娘",
+    "h": "むすめ",
+    "fr": "fille",
+    "topic": "T6",
+    "section": "PART5",
+    "niveau": "B1"
+  },
+  {
+    "k": "ハンドルネーム",
+    "h": "ハンドルネーム",
+    "fr": "nom d'utilisateur",
+    "topic": "T6",
+    "section": "PART5",
+    "niveau": "B1"
+  },
+  {
+    "k": "タイトル",
+    "h": "タイトル",
+    "fr": "titre",
+    "topic": "T6",
+    "section": "PART5",
+    "niveau": "B1"
+  },
+  {
+    "k": "～文字",
+    "h": "～もじ",
+    "fr": "〜caractère",
+    "topic": "T6",
+    "section": "PART5",
+    "niveau": "B1"
+  },
+  {
+    "k": "～以内",
+    "h": "～いない",
+    "fr": "en moins de〜",
+    "topic": "T6",
+    "section": "PART5",
+    "niveau": "B1"
+  },
+  {
+    "k": "本文",
+    "h": "ほんぶん",
+    "fr": "texte",
+    "topic": "T6",
+    "section": "PART5",
+    "niveau": "B1"
+  },
+  {
+    "k": "投稿する",
+    "h": "とうこうする",
+    "fr": "poster (un commentaire)",
+    "topic": "T6",
+    "section": "PART5",
+    "niveau": "B1"
+  },
+  {
+    "k": "ベストアンサー",
+    "h": "ベストアンサー",
+    "fr": "meilleure réponse",
+    "topic": "T6",
+    "section": "PART5",
+    "niveau": "B1"
+  },
+  {
+    "k": "『進撃の巨人』",
+    "h": "しんげきのきょじん",
+    "fr": "L'Attaque des Titans",
+    "topic": "T6",
+    "section": "教室の外へ",
+    "niveau": "B1"
+  },
+  {
+    "k": "この間",
+    "h": "このあいだ",
+    "fr": "l'autre jour",
+    "topic": "T6",
+    "section": "教室の外へ",
+    "niveau": "B1"
+  },
+  {
+    "k": "コスプレ",
+    "h": "コスプレ",
+    "fr": "cosplay",
+    "topic": "T6",
+    "section": "教室の外へ",
+    "niveau": "B1"
+  },
+  {
+    "k": "衣装",
+    "h": "いしょう",
+    "fr": "costume / déguisement",
+    "topic": "T6",
+    "section": "教室の外へ",
+    "niveau": "B1"
+  },
+  {
+    "k": "第～巻",
+    "h": "だい～かん",
+    "fr": "volume〜",
+    "topic": "T6",
+    "section": "教室の外へ",
+    "niveau": "B1"
+  },
+  {
+    "k": "立ち読み",
+    "h": "たちよみ",
+    "fr": "lire debout",
+    "topic": "T6",
+    "section": "教室の外へ",
+    "niveau": "B1"
+  },
+  {
+    "k": "クリックする",
+    "h": "クリックする",
+    "fr": "cliquer",
+    "topic": "T6",
+    "section": "教室の外へ",
+    "niveau": "B1"
+  },
+  {
+    "k": "第～話",
+    "h": "だい～わ",
+    "fr": "épisode〜 (épisode 1, épisode 2, etc.)",
+    "topic": "T6",
+    "section": "教室の外へ",
+    "niveau": "B1"
+  },
+  {
+    "k": "挑戦する",
+    "h": "ちょうせんする",
+    "fr": "tenter de",
+    "topic": "T6",
+    "section": "教室の外へ",
+    "niveau": "B1"
+  },
+  {
+    "k": "知り合い",
+    "h": "しりあい",
+    "fr": "connaissance",
+    "topic": "T6",
+    "section": "教室の外へ",
+    "niveau": "B1"
+  },
+  {
+    "k": "ファン",
+    "h": "ファン",
+    "fr": "fan / admirateur",
+    "topic": "T6",
+    "section": "教室の外へ",
+    "niveau": "B1"
+  },
+  {
+    "k": "おすすめ",
+    "h": "おすすめ",
+    "fr": "recommandation",
+    "topic": "T6",
+    "section": "教室の外へ",
+    "niveau": "B1"
+  },
+  {
+    "k": "本屋",
+    "h": "ほんや",
+    "fr": "librairie",
+    "topic": "T6",
+    "section": "教室の外へ",
+    "niveau": "B1"
+  },
+  {
+    "k": "電気製品",
+    "h": "でんきせいひん",
+    "fr": "appareil électrique",
+    "topic": "T8",
+    "section": "準備",
+    "niveau": "B1"
+  },
+  {
+    "k": "商品",
+    "h": "しょうひん",
+    "fr": "article / marchandise",
+    "topic": "T8",
+    "section": "準備",
+    "niveau": "B1"
+  },
+  {
+    "k": "広告",
+    "h": "こうこく",
+    "fr": "publicité",
+    "topic": "T8",
+    "section": "準備",
+    "niveau": "B1"
+  },
+  {
+    "k": "ロボット",
+    "h": "ロボット",
+    "fr": "robot",
+    "topic": "T8",
+    "section": "準備",
+    "niveau": "B1"
+  },
+  {
+    "k": "（お）湯",
+    "h": "おゆ",
+    "fr": "eau chaude",
+    "topic": "T8",
+    "section": "準備",
+    "niveau": "B1"
+  },
+  {
+    "k": "（お）尻",
+    "h": "おしり",
+    "fr": "fesses",
+    "topic": "T8",
+    "section": "準備",
+    "niveau": "B1"
+  },
+  {
+    "k": "ハイブリッド自動車",
+    "h": "ハイブリッドじどうしゃ",
+    "fr": "voiture hybride",
+    "topic": "T8",
+    "section": "準備",
+    "niveau": "B1"
+  },
+  {
+    "k": "持ち運び",
+    "h": "もちはこび",
+    "fr": "porter / transporter",
+    "topic": "T8",
+    "section": "準備",
+    "niveau": "B1"
+  },
+  {
+    "k": "体重計",
+    "h": "たいじゅうけい",
+    "fr": "balance",
+    "topic": "T8",
+    "section": "準備",
+    "niveau": "B1"
+  },
+  {
+    "k": "羽根",
+    "h": "はね",
+    "fr": "pale (d'une hélice)",
+    "topic": "T8",
+    "section": "準備",
+    "niveau": "B1"
+  },
+  {
+    "k": "扇風機",
+    "h": "せんぷうき",
+    "fr": "ventilateur",
+    "topic": "T8",
+    "section": "準備",
+    "niveau": "B1"
+  },
+  {
+    "k": "音楽プレーヤー",
+    "h": "おんがくプレーヤー",
+    "fr": "lecteur de musique",
+    "topic": "T8",
+    "section": "準備",
+    "niveau": "B1"
+  },
+  {
+    "k": "体重",
+    "h": "たいじゅう",
+    "fr": "poids",
+    "topic": "T8",
+    "section": "準備",
+    "niveau": "B1"
+  },
+  {
+    "k": "気になる",
+    "h": "きになる",
+    "fr": "préoccuper / inquiéter",
+    "topic": "T8",
+    "section": "準備",
+    "niveau": "B1"
+  },
+  {
+    "k": "携帯体重計",
+    "h": "けいたいたいじゅうけい",
+    "fr": "balance portable",
+    "topic": "T8",
+    "section": "準備",
+    "niveau": "B1"
+  },
+  {
+    "k": "助かる",
+    "h": "たすかる",
+    "fr": "être très utile",
+    "topic": "T8",
+    "section": "準備",
+    "niveau": "B1"
+  },
+  {
+    "k": "ただ",
+    "h": "ただ",
+    "fr": "mais",
+    "topic": "T8",
+    "section": "準備",
+    "niveau": "B1"
+  },
+  {
+    "k": "ハイブリッド",
+    "h": "ハイブリッド",
+    "fr": "hybride",
+    "topic": "T8",
+    "section": "準備",
+    "niveau": "B1"
+  },
+  {
+    "k": "水中",
+    "h": "すいちゅう",
+    "fr": "dans l'eau",
+    "topic": "T8",
+    "section": "準備",
+    "niveau": "B1"
+  },
+  {
+    "k": "気に入る",
+    "h": "きにいる",
+    "fr": "aimer",
+    "topic": "T8",
+    "section": "準備",
+    "niveau": "B1"
+  },
+  {
+    "k": "ウォシュレット",
+    "h": "ウォシュレット",
+    "fr": "Washlet",
+    "topic": "T8",
+    "section": "準備",
+    "niveau": "B1"
+  },
+  {
+    "k": "海外",
+    "h": "かいがい",
+    "fr": "à l'étranger",
+    "topic": "T8",
+    "section": "準備",
+    "niveau": "B1"
+  },
+  {
+    "k": "値段",
+    "h": "ねだん",
+    "fr": "prix",
+    "topic": "T8",
+    "section": "準備",
+    "niveau": "B1"
+  },
+  {
+    "k": "デザイン",
+    "h": "デザイン",
+    "fr": "design",
+    "topic": "T8",
+    "section": "準備",
+    "niveau": "B1"
+  },
+  {
+    "k": "必需品",
+    "h": "ひつじゅひん",
+    "fr": "objet indispensable",
+    "topic": "T8",
+    "section": "準備",
+    "niveau": "B1"
+  },
+  {
+    "k": "普及する",
+    "h": "ふきゅうする",
+    "fr": "se populariser",
+    "topic": "T8",
+    "section": "準備",
+    "niveau": "B1"
+  },
+  {
+    "k": "環境",
+    "h": "かんきょう",
+    "fr": "environnement",
+    "topic": "T8",
+    "section": "準備",
+    "niveau": "B1"
+  },
+  {
+    "k": "すでに",
+    "h": "すでに",
+    "fr": "déjà",
+    "topic": "T8",
+    "section": "準備",
+    "niveau": "B1"
+  },
+  {
+    "k": "電子辞書",
+    "h": "でんしじしょ",
+    "fr": "dictionnaire électronique",
+    "topic": "T8",
+    "section": "準備",
+    "niveau": "B1"
+  },
+  {
+    "k": "機能",
+    "h": "きのう",
+    "fr": "fonction",
+    "topic": "T8",
+    "section": "準備",
+    "niveau": "B1"
+  },
+  {
+    "k": "文字サイズ",
+    "h": "もじサイズ",
+    "fr": "taille des caractères",
+    "topic": "T8",
+    "section": "準備",
+    "niveau": "B1"
+  },
+  {
+    "k": "音声",
+    "h": "おんせい",
+    "fr": "son",
+    "topic": "T8",
+    "section": "準備",
+    "niveau": "B1"
+  },
+  {
+    "k": "動画",
+    "h": "どうが",
+    "fr": "vidéo",
+    "topic": "T8",
+    "section": "準備",
+    "niveau": "B1"
+  },
+  {
+    "k": "手書き",
+    "h": "てがき",
+    "fr": "écriture manuscrite",
+    "topic": "T8",
+    "section": "準備",
+    "niveau": "B1"
+  },
+  {
+    "k": "～入力",
+    "h": "～にゅうりょく",
+    "fr": "saisie〜",
+    "topic": "T8",
+    "section": "準備",
+    "niveau": "B1"
+  },
+  {
+    "k": "メニュー",
+    "h": "メニュー",
+    "fr": "menu",
+    "topic": "T8",
+    "section": "準備",
+    "niveau": "B1"
+  },
+  {
+    "k": "多言語対応",
+    "h": "たげんごたいおう",
+    "fr": "multilingue",
+    "topic": "T8",
+    "section": "準備",
+    "niveau": "B1"
+  },
+  {
+    "k": "フルカラー",
+    "h": "フルカラー",
+    "fr": "en couleurs",
+    "topic": "T8",
+    "section": "準備",
+    "niveau": "B1"
+  },
+  {
+    "k": "WI-fi",
+    "h": "ワイファイ",
+    "fr": "wi-fi",
+    "topic": "T8",
+    "section": "準備",
+    "niveau": "B1"
+  },
+  {
+    "k": "接続する",
+    "h": "せつぞくする",
+    "fr": "connecter",
+    "topic": "T8",
+    "section": "準備",
+    "niveau": "B1"
+  },
+  {
+    "k": "スマホ",
+    "h": "スマホ",
+    "fr": "smartphone",
+    "topic": "T8",
+    "section": "PART1",
+    "niveau": "B1"
+  },
+  {
+    "k": "～なし",
+    "h": "～なし",
+    "fr": "sans〜",
+    "topic": "T8",
+    "section": "PART1",
+    "niveau": "B1"
+  },
+  {
+    "k": "携帯",
+    "h": "けいたい",
+    "fr": "portable",
+    "topic": "T8",
+    "section": "PART1",
+    "niveau": "B1"
+  },
+  {
+    "k": "機能",
+    "h": "きのう",
+    "fr": "fonction",
+    "topic": "T8",
+    "section": "PART1",
+    "niveau": "B1"
+  },
+  {
+    "k": "約束",
+    "h": "やくそく",
+    "fr": "rendez-vous",
+    "topic": "T8",
+    "section": "PART1",
+    "niveau": "B1"
+  },
+  {
+    "k": "遅れる",
+    "h": "おくれる",
+    "fr": "être en retard",
+    "topic": "T8",
+    "section": "PART1",
+    "niveau": "B1"
+  },
+  {
+    "k": "やっと",
+    "h": "やっと",
+    "fr": "enfin",
+    "topic": "T8",
+    "section": "PART1",
+    "niveau": "B1"
+  },
+  {
+    "k": "メッセージ",
+    "h": "メッセージ",
+    "fr": "message",
+    "topic": "T8",
+    "section": "PART1",
+    "niveau": "B1"
+  },
+  {
+    "k": "メール",
+    "h": "メール",
+    "fr": "e-mail",
+    "topic": "T8",
+    "section": "PART1",
+    "niveau": "B1"
+  },
+  {
+    "k": "辞書を引く",
+    "h": "じしょをひく",
+    "fr": "consulter un dictionnaire",
+    "topic": "T8",
+    "section": "PART1",
+    "niveau": "B1"
+  },
+  {
+    "k": "あいづちを打つ",
+    "h": "あいづちをうつ",
+    "fr": "réagir pour ponctuer la conversation",
+    "topic": "T8",
+    "section": "PART1",
+    "niveau": "B1"
+  },
+  {
+    "k": "Google Map",
+    "h": "グーグルマップ",
+    "fr": "Google Map",
+    "topic": "T8",
+    "section": "PART1",
+    "niveau": "B1"
+  },
+  {
+    "k": "描く",
+    "h": "かく",
+    "fr": "dessiner",
+    "topic": "T8",
+    "section": "PART1",
+    "niveau": "B1"
+  },
+  {
+    "k": "ネット",
+    "h": "ネット",
+    "fr": "Net",
+    "topic": "T8",
+    "section": "PART1",
+    "niveau": "B1"
+  },
+  {
+    "k": "～関係",
+    "h": "～かんけい",
+    "fr": "lié à～",
+    "topic": "T8",
+    "section": "PART1",
+    "niveau": "B1"
+  },
+  {
+    "k": "パソコン",
+    "h": "パソコン",
+    "fr": "ordinateur",
+    "topic": "T8",
+    "section": "PART1",
+    "niveau": "B1"
+  },
+  {
+    "k": "アプリ",
+    "h": "アプリ",
+    "fr": "appli / application",
+    "topic": "T8",
+    "section": "PART1",
+    "niveau": "B1"
+  },
+  {
+    "k": "手軽に",
+    "h": "てがるに",
+    "fr": "simplement",
+    "topic": "T8",
+    "section": "PART1",
+    "niveau": "B1"
+  },
+  {
+    "k": "持ち歩く",
+    "h": "もちあるく",
+    "fr": "emporter avec soi",
+    "topic": "T8",
+    "section": "PART1",
+    "niveau": "B1"
+  },
+  {
+    "k": "変な",
+    "h": "へんな",
+    "fr": "bizarre",
+    "topic": "T8",
+    "section": "PART1",
+    "niveau": "B1"
+  },
+  {
+    "k": "世の中",
+    "h": "よのなか",
+    "fr": "les temps qui courent",
+    "topic": "T8",
+    "section": "PART1",
+    "niveau": "B1"
+  },
+  {
+    "k": "ちゃんと",
+    "h": "ちゃんと",
+    "fr": "correctement",
+    "topic": "T8",
+    "section": "PART1",
+    "niveau": "B1"
+  },
+  {
+    "k": "もともと",
+    "h": "もともと",
+    "fr": "de nature",
+    "topic": "T8",
+    "section": "PART1",
+    "niveau": "B1"
+  },
+  {
+    "k": "おれ",
+    "h": "おれ",
+    "fr": "je / moi",
+    "topic": "T8",
+    "section": "PART1",
+    "niveau": "B1"
+  },
+  {
+    "k": "方向音痴",
+    "h": "ほうこうおんち",
+    "fr": "ne pas avoir le sens de l'orientation",
+    "topic": "T8",
+    "section": "PART1",
+    "niveau": "B1"
+  },
+  {
+    "k": "方向",
+    "h": "ほうこう",
+    "fr": "direction",
+    "topic": "T8",
+    "section": "PART1",
+    "niveau": "B1"
+  },
+  {
+    "k": "進む",
+    "h": "すすむ",
+    "fr": "aller / se diriger vers",
+    "topic": "T8",
+    "section": "PART1",
+    "niveau": "B1"
+  },
+  {
+    "k": "必需品",
+    "h": "ひつじゅひん",
+    "fr": "objet indispensable",
+    "topic": "T8",
+    "section": "PART1",
+    "niveau": "B1"
+  },
+  {
+    "k": "とりあえず",
+    "h": "とりあえず",
+    "fr": "pour commencer",
+    "topic": "T8",
+    "section": "PART1",
+    "niveau": "B1"
+  },
+  {
+    "k": "乾杯する",
+    "h": "かんぱいする",
+    "fr": "porter un toast",
+    "topic": "T8",
+    "section": "PART1",
+    "niveau": "B1"
+  },
+  {
+    "k": "乾杯",
+    "h": "かんぱい",
+    "fr": "santé !",
+    "topic": "T8",
+    "section": "PART1",
+    "niveau": "B1"
+  },
+  {
+    "k": "そう言えば",
+    "h": "そういえば",
+    "fr": "au fait, ～",
+    "topic": "T8",
+    "section": "PART1",
+    "niveau": "B1"
+  },
+  {
+    "k": "回数",
+    "h": "かいすう",
+    "fr": "fréquence",
+    "topic": "T8",
+    "section": "PART1",
+    "niveau": "B1"
+  },
+  {
+    "k": "減る",
+    "h": "へる",
+    "fr": "diminuer",
+    "topic": "T8",
+    "section": "PART1",
+    "niveau": "B1"
+  },
+  {
+    "k": "レポート",
+    "h": "レポート",
+    "fr": "rapport",
+    "topic": "T8",
+    "section": "PART1",
+    "niveau": "B1"
+  },
+  {
+    "k": "Google",
+    "h": "グーグル",
+    "fr": "Google",
+    "topic": "T8",
+    "section": "PART1",
+    "niveau": "B1"
+  },
+  {
+    "k": "この間",
+    "h": "このあいだ",
+    "fr": "l'autre jour",
+    "topic": "T8",
+    "section": "PART1",
+    "niveau": "B1"
+  },
+  {
+    "k": "ドラゴンフルーツ",
+    "h": "ドラゴンフルーツ",
+    "fr": "pitaya / fruit du dragon",
+    "topic": "T8",
+    "section": "PART1",
+    "niveau": "B1"
+  },
+  {
+    "k": "くだらない",
+    "h": "くだらない",
+    "fr": "inutile",
+    "topic": "T8",
+    "section": "PART1",
+    "niveau": "B1"
+  },
+  {
+    "k": "意外に",
+    "h": "いがいに",
+    "fr": "étonnamment",
+    "topic": "T8",
+    "section": "PART1",
+    "niveau": "B1"
+  },
+  {
+    "k": "単語",
+    "h": "たんご",
+    "fr": "vocabulaire / mot",
+    "topic": "T8",
+    "section": "PART1",
+    "niveau": "B1"
+  },
+  {
+    "k": "～なくてすむ",
+    "h": "～なくてすむ",
+    "fr": "se débrouiller sans〜",
+    "topic": "T8",
+    "section": "PART1",
+    "niveau": "B1"
+  },
+  {
+    "k": "ありがたい",
+    "h": "ありがたい",
+    "fr": "reconnaissant",
+    "topic": "T8",
+    "section": "PART1",
+    "niveau": "B1"
+  },
+  {
+    "k": "～のたびに",
+    "h": "～のたびに",
+    "fr": "à chaque ～",
+    "topic": "T8",
+    "section": "PART1",
+    "niveau": "B1"
+  },
+  {
+    "k": "ネットにあげる",
+    "h": "ネットにあげる",
+    "fr": "poster sur Internet",
+    "topic": "T8",
+    "section": "PART1",
+    "niveau": "B1"
+  },
+  {
+    "k": "くせがつく",
+    "h": "くせがつく",
+    "fr": "prendre une mauvaise habitude",
+    "topic": "T8",
+    "section": "PART1",
+    "niveau": "B1"
+  },
+  {
+    "k": "僕",
+    "h": "ぼく",
+    "fr": "je / moi",
+    "topic": "T8",
+    "section": "PART1",
+    "niveau": "B1"
+  },
+  {
+    "k": "別に",
+    "h": "べつに",
+    "fr": "spécialement",
+    "topic": "T8",
+    "section": "PART1",
+    "niveau": "B1"
+  },
+  {
+    "k": "十分な",
+    "h": "じゅうぶんな",
+    "fr": "assez / suffisant",
+    "topic": "T8",
+    "section": "PART1",
+    "niveau": "B1"
+  },
+  {
+    "k": "一応",
+    "h": "いちおう",
+    "fr": "de toute façon",
+    "topic": "T8",
+    "section": "PART1",
+    "niveau": "B1"
+  },
+  {
+    "k": "たいした～ない",
+    "h": "たいした～ない",
+    "fr": "pas vraiment～ / pas très～",
+    "topic": "T8",
+    "section": "PART1",
+    "niveau": "B1"
+  },
+  {
+    "k": "用",
+    "h": "よう",
+    "fr": "quelque chose à faire",
+    "topic": "T8",
+    "section": "PART1",
+    "niveau": "B1"
+  },
+  {
+    "k": "お互い",
+    "h": "おたがい",
+    "fr": "l'un l'autre",
+    "topic": "T8",
+    "section": "PART1",
+    "niveau": "B1"
+  },
+  {
+    "k": "～ばっかり",
+    "h": "～ばっかり",
+    "fr": "rien que〜",
+    "topic": "T8",
+    "section": "PART1",
+    "niveau": "B1"
+  },
+  {
+    "k": "電子辞書",
+    "h": "でんしじしょ",
+    "fr": "dictionnaire électronique",
+    "topic": "T8",
+    "section": "PART2",
+    "niveau": "B1"
+  },
+  {
+    "k": "ショッピングサイト",
+    "h": "ショッピングサイト",
+    "fr": "site de vente en ligne",
+    "topic": "T8",
+    "section": "PART2",
+    "niveau": "B1"
+  },
+  {
+    "k": "品物",
+    "h": "しなもの",
+    "fr": "article / produit",
+    "topic": "T8",
+    "section": "PART2",
+    "niveau": "B1"
+  },
+  {
+    "k": "教授",
+    "h": "きょうじゅ",
+    "fr": "professeur des universités",
+    "topic": "T8",
+    "section": "PART2",
+    "niveau": "B1"
+  },
+  {
+    "k": "研究室",
+    "h": "けんきゅうしつ",
+    "fr": "bureau d'un professeur",
+    "topic": "T8",
+    "section": "PART2",
+    "niveau": "B1"
+  },
+  {
+    "k": "話しかける",
+    "h": "はなしかける",
+    "fr": "adresser la parole à",
+    "topic": "T8",
+    "section": "PART2",
+    "niveau": "B1"
+  },
+  {
+    "k": "イタリア",
+    "h": "イタリア",
+    "fr": "Italie",
+    "topic": "T8",
+    "section": "PART2",
+    "niveau": "B1"
+  },
+  {
+    "k": "ローマ",
+    "h": "ローマ",
+    "fr": "Rome",
+    "topic": "T8",
+    "section": "PART2",
+    "niveau": "B1"
+  },
+  {
+    "k": "～学科",
+    "h": "～がっか",
+    "fr": "UFR de～",
+    "topic": "T8",
+    "section": "PART2",
+    "niveau": "B1"
+  },
+  {
+    "k": "専門",
+    "h": "せんもん",
+    "fr": "spécialité",
+    "topic": "T8",
+    "section": "PART2",
+    "niveau": "B1"
+  },
+  {
+    "k": "文学",
+    "h": "ぶんがく",
+    "fr": "littérature",
+    "topic": "T8",
+    "section": "PART2",
+    "niveau": "B1"
+  },
+  {
+    "k": "留学生",
+    "h": "りゅうがくせい",
+    "fr": "étudiant étranger",
+    "topic": "T8",
+    "section": "PART2",
+    "niveau": "B1"
+  },
+  {
+    "k": "アシスタント",
+    "h": "アシスタント",
+    "fr": "assistant (-e)",
+    "topic": "T8",
+    "section": "PART2",
+    "niveau": "B1"
+  },
+  {
+    "k": "スマホ",
+    "h": "スマホ",
+    "fr": "smartphone",
+    "topic": "T8",
+    "section": "PART2",
+    "niveau": "B1"
+  },
+  {
+    "k": "無料アプリ",
+    "h": "むりょうアプリ",
+    "fr": "appli / application",
+    "topic": "T8",
+    "section": "PART2",
+    "niveau": "B1"
+  },
+  {
+    "k": "単語集",
+    "h": "たんごしゅう",
+    "fr": "glossaire",
+    "topic": "T8",
+    "section": "PART2",
+    "niveau": "B1"
+  },
+  {
+    "k": "～ばかり",
+    "h": "～ばかり",
+    "fr": "rien que〜",
+    "topic": "T8",
+    "section": "PART2",
+    "niveau": "B1"
+  },
+  {
+    "k": "僕",
+    "h": "ぼく",
+    "fr": "je / moi",
+    "topic": "T8",
+    "section": "PART2",
+    "niveau": "B1"
+  },
+  {
+    "k": "役に立つ",
+    "h": "やくにたつ",
+    "fr": "être utile",
+    "topic": "T8",
+    "section": "PART2",
+    "niveau": "B1"
+  },
+  {
+    "k": "本格的な",
+    "h": "ほんかくてきな",
+    "fr": "authentique",
+    "topic": "T8",
+    "section": "PART2",
+    "niveau": "B1"
+  },
+  {
+    "k": "会話集",
+    "h": "かいわしゅう",
+    "fr": "guide de conversation",
+    "topic": "T8",
+    "section": "PART2",
+    "niveau": "B1"
+  },
+  {
+    "k": "ちゃんとした",
+    "h": "ちゃんとした",
+    "fr": "correct / bien",
+    "topic": "T8",
+    "section": "PART2",
+    "niveau": "B1"
+  },
+  {
+    "k": "学習者",
+    "h": "がくしゅうしゃ",
+    "fr": "apprenant (d'une langue)",
+    "topic": "T8",
+    "section": "PART2",
+    "niveau": "B1"
+  },
+  {
+    "k": "～用",
+    "h": "～よう",
+    "fr": "pour〜",
+    "topic": "T8",
+    "section": "PART2",
+    "niveau": "B1"
+  },
+  {
+    "k": "基本的に",
+    "h": "きほんてきに",
+    "fr": "en principe",
+    "topic": "T8",
+    "section": "PART2",
+    "niveau": "B1"
+  },
+  {
+    "k": "～向け",
+    "h": "～むけ",
+    "fr": "destiné à / pour〜",
+    "topic": "T8",
+    "section": "PART2",
+    "niveau": "B1"
+  },
+  {
+    "k": "しょうがない",
+    "h": "しょうがない",
+    "fr": "On n'y peut rien.",
+    "topic": "T8",
+    "section": "PART2",
+    "niveau": "B1"
+  },
+  {
+    "k": "ほら",
+    "h": "ほら",
+    "fr": "tenez ! / regardez !",
+    "topic": "T8",
+    "section": "PART2",
+    "niveau": "B1"
+  },
+  {
+    "k": "部首",
+    "h": "ぶしゅ",
+    "fr": "clé (d'un kanji)",
+    "topic": "T8",
+    "section": "PART2",
+    "niveau": "B1"
+  },
+  {
+    "k": "画数",
+    "h": "かくすう",
+    "fr": "nombre de traits",
+    "topic": "T8",
+    "section": "PART2",
+    "niveau": "B1"
+  },
+  {
+    "k": "手書き入力",
+    "h": "てがきにゅうりょく",
+    "fr": "saisie par écriture manuscrite",
+    "topic": "T8",
+    "section": "PART2",
+    "niveau": "B1"
+  },
+  {
+    "k": "対応する",
+    "h": "たいおうする",
+    "fr": "permettre / accepter",
+    "topic": "T8",
+    "section": "PART2",
+    "niveau": "B1"
+  },
+  {
+    "k": "アクセント",
+    "h": "アクセント",
+    "fr": "accent",
+    "topic": "T8",
+    "section": "PART2",
+    "niveau": "B1"
+  },
+  {
+    "k": "飴",
+    "h": "あめ",
+    "fr": "bonbon",
+    "topic": "T8",
+    "section": "PART2",
+    "niveau": "B1"
+  },
+  {
+    "k": "単語",
+    "h": "たんご",
+    "fr": "vocabulaire / mot",
+    "topic": "T8",
+    "section": "PART2",
+    "niveau": "B1"
+  },
+  {
+    "k": "自然な",
+    "h": "しぜんな",
+    "fr": "naturel",
+    "topic": "T8",
+    "section": "PART2",
+    "niveau": "B1"
+  },
+  {
+    "k": "発音する",
+    "h": "はつおんする",
+    "fr": "prononcer",
+    "topic": "T8",
+    "section": "PART2",
+    "niveau": "B1"
+  },
+  {
+    "k": "ネット",
+    "h": "ネット",
+    "fr": "Net",
+    "topic": "T8",
+    "section": "PART2",
+    "niveau": "B1"
+  },
+  {
+    "k": "アクセント辞典",
+    "h": "アクセントじてん",
+    "fr": "dictionnaire d'accentuation",
+    "topic": "T8",
+    "section": "PART2",
+    "niveau": "B1"
+  },
+  {
+    "k": "音声",
+    "h": "おんせい",
+    "fr": "son / voix",
+    "topic": "T8",
+    "section": "PART2",
+    "niveau": "B1"
+  },
+  {
+    "k": "イタリア語",
+    "h": "イタリアご",
+    "fr": "italien",
+    "topic": "T8",
+    "section": "PART2",
+    "niveau": "B1"
+  },
+  {
+    "k": "学会",
+    "h": "がっかい",
+    "fr": "société savante",
+    "topic": "T8",
+    "section": "PART2",
+    "niveau": "B1"
+  },
+  {
+    "k": "出席する",
+    "h": "しゅっせきする",
+    "fr": "être présent",
+    "topic": "T8",
+    "section": "PART2",
+    "niveau": "B1"
+  },
+  {
+    "k": "モデル",
+    "h": "モデル",
+    "fr": "modèle",
+    "topic": "T8",
+    "section": "PART2",
+    "niveau": "B1"
+  },
+  {
+    "k": "ショップ",
+    "h": "ショップ",
+    "fr": "magasin",
+    "topic": "T8",
+    "section": "PART2",
+    "niveau": "B1"
+  },
+  {
+    "k": "迷う",
+    "h": "まよう",
+    "fr": "ne savoir que faire",
+    "topic": "T8",
+    "section": "PART2",
+    "niveau": "B1"
+  },
+  {
+    "k": "カード番号",
+    "h": "カードばんごう",
+    "fr": "numéro de carte",
+    "topic": "T8",
+    "section": "PART2",
+    "niveau": "B1"
+  },
+  {
+    "k": "エラー",
+    "h": "エラー",
+    "fr": "erreur",
+    "topic": "T8",
+    "section": "PART2",
+    "niveau": "B1"
+  },
+  {
+    "k": "クレジットカード",
+    "h": "クレジットカード",
+    "fr": "carte de crédit",
+    "topic": "T8",
+    "section": "PART2",
+    "niveau": "B1"
+  },
+  {
+    "k": "DVD",
+    "h": "ディーブイディー",
+    "fr": "DVD",
+    "topic": "T8",
+    "section": "PART2",
+    "niveau": "B1"
+  },
+  {
+    "k": "画面",
+    "h": "がめん",
+    "fr": "écran",
+    "topic": "T8",
+    "section": "PART2",
+    "niveau": "B1"
+  },
+  {
+    "k": "できるだけ",
+    "h": "できるだけ",
+    "fr": "autant que possible",
+    "topic": "T8",
+    "section": "PART2",
+    "niveau": "B1"
+  },
+  {
+    "k": "壁",
+    "h": "かべ",
+    "fr": "mur",
+    "topic": "T8",
+    "section": "PART2",
+    "niveau": "B1"
+  },
+  {
+    "k": "掛ける",
+    "h": "かける",
+    "fr": "accrocher",
+    "topic": "T8",
+    "section": "PART2",
+    "niveau": "B1"
+  },
+  {
+    "k": "つなぐ",
+    "h": "つなぐ",
+    "fr": "connecter",
+    "topic": "T8",
+    "section": "PART2",
+    "niveau": "B1"
+  },
+  {
+    "k": "WEB",
+    "h": "ウェブ",
+    "fr": "le web",
+    "topic": "T8",
+    "section": "PART2",
+    "niveau": "B1"
+  },
+  {
+    "k": "映す",
+    "h": "うつす",
+    "fr": "diffuser / afficher",
+    "topic": "T8",
+    "section": "PART2",
+    "niveau": "B1"
+  },
+  {
+    "k": "イラスト",
+    "h": "イラスト",
+    "fr": "illustration",
+    "topic": "T8",
+    "section": "PART2",
+    "niveau": "B1"
+  },
+  {
+    "k": "～によって",
+    "h": "～によって",
+    "fr": "en fonction de〜",
+    "topic": "T8",
+    "section": "PART2",
+    "niveau": "B1"
+  },
+  {
+    "k": "仲がいい",
+    "h": "なかがいい",
+    "fr": "(ami) proche",
+    "topic": "T8",
+    "section": "PART2",
+    "niveau": "B1"
+  },
+  {
+    "k": "なめる",
+    "h": "なめる",
+    "fr": "sucer",
+    "topic": "T8",
+    "section": "PART2",
+    "niveau": "B1"
+  },
+  {
+    "k": "端",
+    "h": "はし",
+    "fr": "bord",
+    "topic": "T8",
+    "section": "PART2",
+    "niveau": "B1"
+  },
+  {
+    "k": "区別する",
+    "h": "くべつする",
+    "fr": "distinguer",
+    "topic": "T8",
+    "section": "PART2",
+    "niveau": "B1"
+  },
+  {
+    "k": "条件",
+    "h": "じょうけん",
+    "fr": "condition / critère",
+    "topic": "T8",
+    "section": "PART2",
+    "niveau": "B1"
+  },
+  {
+    "k": "くわしい",
+    "h": "くわしい",
+    "fr": "qui connaît bien",
+    "topic": "T8",
+    "section": "PART2",
+    "niveau": "B1"
+  },
+  {
+    "k": "知り合い",
+    "h": "しりあい",
+    "fr": "connaissance / relation",
+    "topic": "T8",
+    "section": "PART2",
+    "niveau": "B1"
+  },
+  {
+    "k": "相談する",
+    "h": "そうだんする",
+    "fr": "demander conseil",
+    "topic": "T8",
+    "section": "PART2",
+    "niveau": "B1"
+  },
+  {
+    "k": "希望",
+    "h": "きぼう",
+    "fr": "souhait",
+    "topic": "T8",
+    "section": "PART2",
+    "niveau": "B1"
+  },
+  {
+    "k": "くわしく",
+    "h": "くわしく",
+    "fr": "de manière détaillée",
+    "topic": "T8",
+    "section": "PART2",
+    "niveau": "B1"
+  },
+  {
+    "k": "電気製品",
+    "h": "でんきせいひん",
+    "fr": "appareil électrique",
+    "topic": "T8",
+    "section": "PART2",
+    "niveau": "B1"
+  },
+  {
+    "k": "応対する",
+    "h": "おうたいする",
+    "fr": "s'occuper de / renseigner",
+    "topic": "T8",
+    "section": "PART2",
+    "niveau": "B1"
+  },
+  {
+    "k": "製品",
+    "h": "せいひん",
+    "fr": "produit / appareil",
+    "topic": "T8",
+    "section": "PART2",
+    "niveau": "B1"
+  },
+  {
+    "k": "発音",
+    "h": "はつおん",
+    "fr": "prononciation",
+    "topic": "T8",
+    "section": "PART2",
+    "niveau": "B1"
+  },
+  {
+    "k": "だいたい",
+    "h": "だいたい",
+    "fr": "la plupart",
+    "topic": "T8",
+    "section": "PART2",
+    "niveau": "B1"
+  },
+  {
+    "k": "実際に",
+    "h": "じっさいに",
+    "fr": "réellement / par soi-même",
+    "topic": "T8",
+    "section": "PART2",
+    "niveau": "B1"
+  },
+  {
+    "k": "風景",
+    "h": "ふうけい",
+    "fr": "paysage",
+    "topic": "T8",
+    "section": "PART2",
+    "niveau": "B1"
+  },
+  {
+    "k": "夜景",
+    "h": "やけい",
+    "fr": "paysage de nuit",
+    "topic": "T8",
+    "section": "PART2",
+    "niveau": "B1"
+  },
+  {
+    "k": "濡れる",
+    "h": "ぬれる",
+    "fr": "être mouillé",
+    "topic": "T8",
+    "section": "PART2",
+    "niveau": "B1"
+  },
+  {
+    "k": "防水加工",
+    "h": "ぼうすいかこう",
+    "fr": "traitement imperméabilisant",
+    "topic": "T8",
+    "section": "PART2",
+    "niveau": "B1"
+  },
+  {
+    "k": "オフィス",
+    "h": "オフィス",
+    "fr": "bureau",
+    "topic": "T8",
+    "section": "PART3",
+    "niveau": "B1"
+  },
+  {
+    "k": "携帯",
+    "h": "けいたい",
+    "fr": "portable",
+    "topic": "T8",
+    "section": "PART3",
+    "niveau": "B1"
+  },
+  {
+    "k": "見つかる",
+    "h": "みつかる",
+    "fr": "être trouvé",
+    "topic": "T8",
+    "section": "PART3",
+    "niveau": "B1"
+  },
+  {
+    "k": "そう言えば",
+    "h": "そういえば",
+    "fr": "à ce propos",
+    "topic": "T8",
+    "section": "PART3",
+    "niveau": "B1"
+  },
+  {
+    "k": "探し物探知機",
+    "h": "さがしものたんちき",
+    "fr": "localisateur d'objets perdus",
+    "topic": "T8",
+    "section": "PART3",
+    "niveau": "B1"
+  },
+  {
+    "k": "親機",
+    "h": "おやき",
+    "fr": "base / émetteur",
+    "topic": "T8",
+    "section": "PART3",
+    "niveau": "B1"
+  },
+  {
+    "k": "なくす",
+    "h": "なくす",
+    "fr": "perdre",
+    "topic": "T8",
+    "section": "PART3",
+    "niveau": "B1"
+  },
+  {
+    "k": "機能",
+    "h": "きのう",
+    "fr": "fonction",
+    "topic": "T8",
+    "section": "PART3",
+    "niveau": "B1"
+  },
+  {
+    "k": "場所",
+    "h": "ばしょ",
+    "fr": "lieu",
+    "topic": "T8",
+    "section": "PART3",
+    "niveau": "B1"
+  },
+  {
+    "k": "子機",
+    "h": "こき",
+    "fr": "élément secondaire / récepteur",
+    "topic": "T8",
+    "section": "PART3",
+    "niveau": "B1"
+  },
+  {
+    "k": "鳴る",
+    "h": "なる",
+    "fr": "sonner",
+    "topic": "T8",
+    "section": "PART3",
+    "niveau": "B1"
+  },
+  {
+    "k": "しょっちゅう",
+    "h": "しょっちゅう",
+    "fr": "toujours",
+    "topic": "T8",
+    "section": "PART3",
+    "niveau": "B1"
+  },
+  {
+    "k": "パニック",
+    "h": "パニック",
+    "fr": "panique",
+    "topic": "T8",
+    "section": "PART3",
+    "niveau": "B1"
+  },
+  {
+    "k": "コイン",
+    "h": "コイン",
+    "fr": "pièce de monnaie",
+    "topic": "T8",
+    "section": "PART3",
+    "niveau": "B1"
+  },
+  {
+    "k": "変化",
+    "h": "へんか",
+    "fr": "changement",
+    "topic": "T8",
+    "section": "PART3",
+    "niveau": "B1"
+  },
+  {
+    "k": "すすめる",
+    "h": "すすめる",
+    "fr": "recommander",
+    "topic": "T8",
+    "section": "PART3",
+    "niveau": "B1"
+  },
+  {
+    "k": "思い浮かぶ",
+    "h": "おもいうかぶ",
+    "fr": "venir à l'esprit",
+    "topic": "T8",
+    "section": "PART3",
+    "niveau": "B1"
+  },
+  {
+    "k": "ヒントにする",
+    "h": "ヒントにする",
+    "fr": "s'inspirer de",
+    "topic": "T8",
+    "section": "PART3",
+    "niveau": "B1"
+  },
+  {
+    "k": "ドラえもん",
+    "h": "ドラえもん",
+    "fr": "Doraemon",
+    "topic": "T8",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "夢",
+    "h": "ゆめ",
+    "fr": "rêve",
+    "topic": "T8",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "かなえる",
+    "h": "かなえる",
+    "fr": "réaliser",
+    "topic": "T8",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "タイムマシン",
+    "h": "タイムマシン",
+    "fr": "machine à voyager dans le temps",
+    "topic": "T8",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "歴史",
+    "h": "れきし",
+    "fr": "histoire",
+    "topic": "T8",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "時代",
+    "h": "じだい",
+    "fr": "époque",
+    "topic": "T8",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "記事",
+    "h": "きじ",
+    "fr": "article",
+    "topic": "T8",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "アンケート",
+    "h": "アンケート",
+    "fr": "sondage",
+    "topic": "T8",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "結果",
+    "h": "けっか",
+    "fr": "résultat",
+    "topic": "T8",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "欲しい",
+    "h": "ほしい",
+    "fr": "vouloir",
+    "topic": "T8",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "道具",
+    "h": "どうぐ",
+    "fr": "gadget",
+    "topic": "T8",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "大人",
+    "h": "おとな",
+    "fr": "adulte",
+    "topic": "T8",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "愛される",
+    "h": "あいされる",
+    "fr": "être aimé",
+    "topic": "T8",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "理由",
+    "h": "りゆう",
+    "fr": "raison",
+    "topic": "T8",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "未来",
+    "h": "みらい",
+    "fr": "futur",
+    "topic": "T8",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "叶える",
+    "h": "かなえる",
+    "fr": "réaliser",
+    "topic": "T8",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "秘密道具",
+    "h": "ひみつどうぐ",
+    "fr": "gadget secret",
+    "topic": "T8",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "一度",
+    "h": "いちど",
+    "fr": "une fois",
+    "topic": "T8",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "今回",
+    "h": "こんかい",
+    "fr": "cette fois",
+    "topic": "T8",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "ウェブアンケート",
+    "h": "ウェブアンケート",
+    "fr": "Internet",
+    "topic": "T8",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "行う",
+    "h": "おこなう",
+    "fr": "organiser",
+    "topic": "T8",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "ベスト3",
+    "h": "ベストスリー",
+    "fr": "les trois meilleurs",
+    "topic": "T8",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "発表する",
+    "h": "はっぴょうする",
+    "fr": "présenter",
+    "topic": "T8",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "～位",
+    "h": "～い",
+    "fr": "〜place",
+    "topic": "T8",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "栄えある",
+    "h": "はえある",
+    "fr": "glorieux (-se)",
+    "topic": "T8",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "第～位",
+    "h": "だい～い",
+    "fr": "〜place",
+    "topic": "T8",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "輝く",
+    "h": "かがやく",
+    "fr": "briller",
+    "topic": "T8",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "自由に",
+    "h": "じゆうに",
+    "fr": "librement",
+    "topic": "T8",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "場所",
+    "h": "ばしょ",
+    "fr": "lieu",
+    "topic": "T8",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "移動する",
+    "h": "いどうする",
+    "fr": "se déplacer",
+    "topic": "T8",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "開ける",
+    "h": "あける",
+    "fr": "ouvrir",
+    "topic": "T8",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "目的地",
+    "h": "もくてきち",
+    "fr": "destination",
+    "topic": "T8",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "世界",
+    "h": "せかい",
+    "fr": "monde",
+    "topic": "T8",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "旅行する",
+    "h": "りょこうする",
+    "fr": "partir en voyage",
+    "topic": "T8",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "通勤",
+    "h": "つうきん",
+    "fr": "trajet pour aller au travail",
+    "topic": "T8",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "楽な",
+    "h": "らくな",
+    "fr": "facile",
+    "topic": "T8",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "過去",
+    "h": "かこ",
+    "fr": "(le) passé",
+    "topic": "T8",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "昔",
+    "h": "むかし",
+    "fr": "autrefois",
+    "topic": "T8",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "エジプト",
+    "h": "エジプト",
+    "fr": "Egypte",
+    "topic": "T8",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "ピラミッド",
+    "h": "ピラミッド",
+    "fr": "pyramide",
+    "topic": "T8",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "宝くじ",
+    "h": "たからくじ",
+    "fr": "loterie",
+    "topic": "T8",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "番号",
+    "h": "ばんごう",
+    "fr": "numéro",
+    "topic": "T8",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "メモする",
+    "h": "メモする",
+    "fr": "prendre des notes",
+    "topic": "T8",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "自分",
+    "h": "じぶん",
+    "fr": "soi",
+    "topic": "T8",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "会う",
+    "h": "あう",
+    "fr": "rencontrer",
+    "topic": "T8",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "アドバイスする",
+    "h": "アドバイスする",
+    "fr": "donner un conseil",
+    "topic": "T8",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "回答",
+    "h": "かいとう",
+    "fr": "réponse",
+    "topic": "T8",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "頭",
+    "h": "あたま",
+    "fr": "tête",
+    "topic": "T8",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "飛ぶ",
+    "h": "とぶ",
+    "fr": "voler",
+    "topic": "T8",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "最も",
+    "h": "もっとも",
+    "fr": "le plus",
+    "topic": "T8",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "ポピュラーな",
+    "h": "ポピュラーな",
+    "fr": "connu / qui a du succès",
+    "topic": "T8",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "ポケット",
+    "h": "ポケット",
+    "fr": "poche",
+    "topic": "T8",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "買い物",
+    "h": "かいもの",
+    "fr": "courses",
+    "topic": "T8",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "便利な",
+    "h": "べんりな",
+    "fr": "pratique",
+    "topic": "T8",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "受ける",
+    "h": "うける",
+    "fr": "être apprécié / avoir du succès",
+    "topic": "T8",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "～に向かって",
+    "h": "～にむかって",
+    "fr": "en direction de ～",
+    "topic": "T8",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "想像",
+    "h": "そうぞう",
+    "fr": "imagination",
+    "topic": "T8",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "実現する",
+    "h": "じつげんする",
+    "fr": "réaliser",
+    "topic": "T8",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "試験",
+    "h": "しけん",
+    "fr": "examen",
+    "topic": "T8",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "自動的に",
+    "h": "じどうてきに",
+    "fr": "automatiquement",
+    "topic": "T8",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "正解",
+    "h": "せいかい",
+    "fr": "bonne réponse",
+    "topic": "T8",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "日記",
+    "h": "にっき",
+    "fr": "journal intime",
+    "topic": "T8",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "その通りに",
+    "h": "そのとおりに",
+    "fr": "exactement de cette façon",
+    "topic": "T8",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "現実",
+    "h": "げんじつ",
+    "fr": "réalité",
+    "topic": "T8",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "多様な",
+    "h": "たような",
+    "fr": "varié",
+    "topic": "T8",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "回答を寄せる",
+    "h": "かいとうをよせる",
+    "fr": "recevoir des réponses",
+    "topic": "T8",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "回答者",
+    "h": "かいとうしゃ",
+    "fr": "personne interrogée",
+    "topic": "T8",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "～代",
+    "h": "～だい",
+    "fr": "~taine (la vingtaine, la cinquantaine, etc.)",
+    "topic": "T8",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "男女",
+    "h": "だんじょ",
+    "fr": "hommes et femmes",
+    "topic": "T8",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "～名",
+    "h": "～めい",
+    "fr": "～personne(s) (suffixe pour compter)",
+    "topic": "T8",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "回答する",
+    "h": "かいとうする",
+    "fr": "réponse",
+    "topic": "T8",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "夢のある",
+    "h": "ゆめのある",
+    "fr": "onirique / fantaisiste",
+    "topic": "T8",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "手軽な",
+    "h": "てがるな",
+    "fr": "commodité",
+    "topic": "T8",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "現実的な",
+    "h": "げんじつてきな",
+    "fr": "réaliste",
+    "topic": "T8",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "さまざまな",
+    "h": "さまざまな",
+    "fr": "divers",
+    "topic": "T8",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "役に立つ",
+    "h": "やくにたつ",
+    "fr": "être utile",
+    "topic": "T8",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "都会",
+    "h": "とかい",
+    "fr": "ville",
+    "topic": "T8",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "出勤する",
+    "h": "しゅっきんする",
+    "fr": "aller travailler",
+    "topic": "T8",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "様子",
+    "h": "ようす",
+    "fr": "apparence",
+    "topic": "T8",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "～年後",
+    "h": "～ねんご",
+    "fr": "dans〜ans",
+    "topic": "T8",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "オリンピック",
+    "h": "オリンピック",
+    "fr": "Jeux Olympiques",
+    "topic": "T8",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "魔法",
+    "h": "まほう",
+    "fr": "magie",
+    "topic": "T8",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "デートする",
+    "h": "デートする",
+    "fr": "faire une sortie en amoureux",
+    "topic": "T8",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "～以外",
+    "h": "～いがい",
+    "fr": "sauf〜",
+    "topic": "T8",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "注目する",
+    "h": "ちゅうもくする",
+    "fr": "prêter attention à",
+    "topic": "T8",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "ヒットする",
+    "h": "ヒットする",
+    "fr": "remporter un succès",
+    "topic": "T8",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "商品",
+    "h": "しょうひん",
+    "fr": "article / marchandise",
+    "topic": "T8",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "掃除ロボット",
+    "h": "そうじロボット",
+    "fr": "aspirateur robot",
+    "topic": "T8",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "人間",
+    "h": "にんげん",
+    "fr": "humain",
+    "topic": "T8",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "最大",
+    "h": "さいだい",
+    "fr": "le (la) plus grand (-e)",
+    "topic": "T8",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "発明",
+    "h": "はつめい",
+    "fr": "invention / découverte",
+    "topic": "T8",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "ホール",
+    "h": "ホール",
+    "fr": "salle / hall",
+    "topic": "T8",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "大型",
+    "h": "おおがた",
+    "fr": "de grande taille",
+    "topic": "T8",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "小型",
+    "h": "こがた",
+    "fr": "de petite taille",
+    "topic": "T8",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "スマホ",
+    "h": "スマホ",
+    "fr": "smartphone",
+    "topic": "T8",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "得意な",
+    "h": "とくいな",
+    "fr": "habile",
+    "topic": "T8",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "電子辞書",
+    "h": "でんしじしょ",
+    "fr": "dictionnaire électronique",
+    "topic": "T8",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "相談する",
+    "h": "そうだんする",
+    "fr": "demander conseil",
+    "topic": "T8",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "翻訳する",
+    "h": "ほんやくする",
+    "fr": "traduire",
+    "topic": "T8",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "機械",
+    "h": "きかい",
+    "fr": "machine",
+    "topic": "T8",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "世界中",
+    "h": "せかいじゅう",
+    "fr": "dans le monde entier",
+    "topic": "T8",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "コミュニティサイト",
+    "h": "コミュニティサイト",
+    "fr": "site communautaire",
+    "topic": "T8",
+    "section": "PART5",
+    "niveau": "B1"
+  },
+  {
+    "k": "掲示板",
+    "h": "けいじばん",
+    "fr": "forum",
+    "topic": "T8",
+    "section": "PART5",
+    "niveau": "B1"
+  },
+  {
+    "k": "商品",
+    "h": "しょうひん",
+    "fr": "article / marchandise",
+    "topic": "T8",
+    "section": "PART5",
+    "niveau": "B1"
+  },
+  {
+    "k": "家電製品",
+    "h": "かでんせいひん",
+    "fr": "appareil électroménager",
+    "topic": "T8",
+    "section": "PART5",
+    "niveau": "B1"
+  },
+  {
+    "k": "炊飯器",
+    "h": "すいはんき",
+    "fr": "cuiseur à riz",
+    "topic": "T8",
+    "section": "PART5",
+    "niveau": "B1"
+  },
+  {
+    "k": "できるだけ",
+    "h": "できるだけ",
+    "fr": "autant que possible",
+    "topic": "T8",
+    "section": "PART5",
+    "niveau": "B1"
+  },
+  {
+    "k": "機能",
+    "h": "きのう",
+    "fr": "fonction",
+    "topic": "T8",
+    "section": "PART5",
+    "niveau": "B1"
+  },
+  {
+    "k": "タイマー",
+    "h": "タイマー",
+    "fr": "minuteur",
+    "topic": "T8",
+    "section": "PART5",
+    "niveau": "B1"
+  },
+  {
+    "k": "早炊き",
+    "h": "はやだき",
+    "fr": "cuisson rapide",
+    "topic": "T8",
+    "section": "PART5",
+    "niveau": "B1"
+  },
+  {
+    "k": "（お）かゆ",
+    "h": "おかゆ",
+    "fr": "bouillie de riz",
+    "topic": "T8",
+    "section": "PART5",
+    "niveau": "B1"
+  },
+  {
+    "k": "炊く",
+    "h": "たく",
+    "fr": "cuire",
+    "topic": "T8",
+    "section": "PART5",
+    "niveau": "B1"
+  },
+  {
+    "k": "～人家族",
+    "h": "～にんかぞく",
+    "fr": "famille de〜personnes",
+    "topic": "T8",
+    "section": "PART5",
+    "niveau": "B1"
+  },
+  {
+    "k": "大きめ",
+    "h": "おおきめ",
+    "fr": "plutôt grand",
+    "topic": "T8",
+    "section": "PART5",
+    "niveau": "B1"
+  },
+  {
+    "k": "～以内",
+    "h": "～いない",
+    "fr": "au maximum〜/ dans la limite de〜",
+    "topic": "T8",
+    "section": "PART5",
+    "niveau": "B1"
+  },
+  {
+    "k": "場所",
+    "h": "ばしょ",
+    "fr": "lieu",
+    "topic": "T8",
+    "section": "PART5",
+    "niveau": "B1"
+  },
+  {
+    "k": "受け取る",
+    "h": "うけとる",
+    "fr": "recevoir / prendre",
+    "topic": "T8",
+    "section": "PART5",
+    "niveau": "B1"
+  },
+  {
+    "k": "タイトル",
+    "h": "タイトル",
+    "fr": "titre",
+    "topic": "T8",
+    "section": "PART5",
+    "niveau": "B1"
+  },
+  {
+    "k": "本文",
+    "h": "ほんぶん",
+    "fr": "texte / corps du texte",
+    "topic": "T8",
+    "section": "PART5",
+    "niveau": "B1"
+  },
+  {
+    "k": "投稿する",
+    "h": "とうこうする",
+    "fr": "poster (un commentaire)",
+    "topic": "T8",
+    "section": "PART5",
+    "niveau": "B1"
+  },
+  {
+    "k": "マニュアル",
+    "h": "マニュアル",
+    "fr": "notice / mode d'emploi",
+    "topic": "T8",
+    "section": "教室の外へ",
+    "niveau": "B1"
+  },
+  {
+    "k": "ショッピングサイト",
+    "h": "ショッピングサイト",
+    "fr": "site de vente en ligne",
+    "topic": "T8",
+    "section": "教室の外へ",
+    "niveau": "B1"
+  },
+  {
+    "k": "人気がある",
+    "h": "にんきがある",
+    "fr": "être populaire",
+    "topic": "T8",
+    "section": "教室の外へ",
+    "niveau": "B1"
+  },
+  {
+    "k": "興味がある",
+    "h": "きょうみがある",
+    "fr": "être intéressé",
+    "topic": "T8",
+    "section": "教室の外へ",
+    "niveau": "B1"
+  },
+  {
+    "k": "商品",
+    "h": "しょうひん",
+    "fr": "article / marchandise",
+    "topic": "T8",
+    "section": "教室の外へ",
+    "niveau": "B1"
+  },
+  {
+    "k": "アイデア",
+    "h": "アイデア",
+    "fr": "idée",
+    "topic": "T8",
+    "section": "教室の外へ",
+    "niveau": "B1"
+  },
+  {
+    "k": "交換する",
+    "h": "こうかんする",
+    "fr": "échanger",
+    "topic": "T8",
+    "section": "教室の外へ",
+    "niveau": "B1"
+  },
+  {
+    "k": "電気製品",
+    "h": "でんきせいひん",
+    "fr": "appareil électrique",
+    "topic": "T8",
+    "section": "教室の外へ",
+    "niveau": "B1"
+  },
+  {
+    "k": "日本製品",
+    "h": "にほんせいひん",
+    "fr": "appareil japonais",
+    "topic": "T8",
+    "section": "教室の外へ",
+    "niveau": "B1"
+  },
+  {
+    "k": "カタログ",
+    "h": "カタログ",
+    "fr": "catalogue",
+    "topic": "T8",
+    "section": "教室の外へ",
+    "niveau": "B1"
   }
 ];
