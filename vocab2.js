@@ -34375,5 +34375,3173 @@ const VOCAB = [
     "topic": "T8",
     "section": "教室の外へ",
     "niveau": "B1"
+  },
+  {
+    "k": "伝統的な",
+    "h": "でんとうてきな",
+    "fr": "traditionnel (-e)",
+    "topic": "T9",
+    "section": "準備",
+    "niveau": "B1"
+  },
+  {
+    "k": "祭り",
+    "h": "まつり",
+    "fr": "festival (fête folklorique)",
+    "topic": "T9",
+    "section": "準備",
+    "niveau": "B1"
+  },
+  {
+    "k": "行事",
+    "h": "ぎょうじ",
+    "fr": "cérémonie / célébration / évènement",
+    "topic": "T9",
+    "section": "準備",
+    "niveau": "B1"
+  },
+  {
+    "k": "ポスター",
+    "h": "ポスター",
+    "fr": "affiche",
+    "topic": "T9",
+    "section": "準備",
+    "niveau": "B1"
+  },
+  {
+    "k": "踊る",
+    "h": "おどる",
+    "fr": "danser",
+    "topic": "T9",
+    "section": "準備",
+    "niveau": "B1"
+  },
+  {
+    "k": "植物",
+    "h": "しょくぶつ",
+    "fr": "végétation",
+    "topic": "T9",
+    "section": "準備",
+    "niveau": "B1"
+  },
+  {
+    "k": "飾り",
+    "h": "かざり",
+    "fr": "décoration / ornement",
+    "topic": "T9",
+    "section": "準備",
+    "niveau": "B1"
+  },
+  {
+    "k": "宗教",
+    "h": "しゅうきょう",
+    "fr": "religion",
+    "topic": "T9",
+    "section": "準備",
+    "niveau": "B1"
+  },
+  {
+    "k": "関係する",
+    "h": "かんけいする",
+    "fr": "être lié à",
+    "topic": "T9",
+    "section": "準備",
+    "niveau": "B1"
+  },
+  {
+    "k": "歴史",
+    "h": "れきし",
+    "fr": "histoire",
+    "topic": "T9",
+    "section": "準備",
+    "niveau": "B1"
+  },
+  {
+    "k": "昔",
+    "h": "むかし",
+    "fr": "autrefois",
+    "topic": "T9",
+    "section": "準備",
+    "niveau": "B1"
+  },
+  {
+    "k": "できごと",
+    "h": "できごと",
+    "fr": "évènement",
+    "topic": "T9",
+    "section": "準備",
+    "niveau": "B1"
+  },
+  {
+    "k": "町内",
+    "h": "ちょうない",
+    "fr": "quartier",
+    "topic": "T9",
+    "section": "準備",
+    "niveau": "B1"
+  },
+  {
+    "k": "夏祭り",
+    "h": "なつまつり",
+    "fr": "festival d'été",
+    "topic": "T9",
+    "section": "準備",
+    "niveau": "B1"
+  },
+  {
+    "k": "浴衣",
+    "h": "ゆかた",
+    "fr": "kimono d'été en coton",
+    "topic": "T9",
+    "section": "準備",
+    "niveau": "B1"
+  },
+  {
+    "k": "盆踊り",
+    "h": "ぼんおどり",
+    "fr": "danse du Bon",
+    "topic": "T9",
+    "section": "準備",
+    "niveau": "B1"
+  },
+  {
+    "k": "地元",
+    "h": "じもと",
+    "fr": "local (-e)",
+    "topic": "T9",
+    "section": "準備",
+    "niveau": "B1"
+  },
+  {
+    "k": "仲間",
+    "h": "なかま",
+    "fr": "ami (-e) / camarade",
+    "topic": "T9",
+    "section": "準備",
+    "niveau": "B1"
+  },
+  {
+    "k": "神輿",
+    "h": "みこし",
+    "fr": "sanctuaire portatif",
+    "topic": "T9",
+    "section": "準備",
+    "niveau": "B1"
+  },
+  {
+    "k": "年中行事",
+    "h": "ねんちゅうぎょうじ",
+    "fr": "cérémonie annuelle",
+    "topic": "T9",
+    "section": "準備",
+    "niveau": "B1"
+  },
+  {
+    "k": "山車",
+    "h": "だし",
+    "fr": "char",
+    "topic": "T9",
+    "section": "準備",
+    "niveau": "B1"
+  },
+  {
+    "k": "神社",
+    "h": "じんじゃ",
+    "fr": "sanctuaire",
+    "topic": "T9",
+    "section": "準備",
+    "niveau": "B1"
+  },
+  {
+    "k": "縁日",
+    "h": "えんにち",
+    "fr": "En-nichi (jours de célébration)",
+    "topic": "T9",
+    "section": "準備",
+    "niveau": "B1"
+  },
+  {
+    "k": "屋台",
+    "h": "やたい",
+    "fr": "stand",
+    "topic": "T9",
+    "section": "準備",
+    "niveau": "B1"
+  },
+  {
+    "k": "焼きそば",
+    "h": "やきそば",
+    "fr": "yakisoba (nouilles sautées)",
+    "topic": "T9",
+    "section": "準備",
+    "niveau": "B1"
+  },
+  {
+    "k": "かき氷",
+    "h": "かきごおり",
+    "fr": "glace pilée",
+    "topic": "T9",
+    "section": "準備",
+    "niveau": "B1"
+  },
+  {
+    "k": "田舎",
+    "h": "いなか",
+    "fr": "ville natale",
+    "topic": "T9",
+    "section": "準備",
+    "niveau": "B1"
+  },
+  {
+    "k": "仙台",
+    "h": "せんだい",
+    "fr": "Sendai",
+    "topic": "T9",
+    "section": "準備",
+    "niveau": "B1"
+  },
+  {
+    "k": "七夕祭り",
+    "h": "たなばたまつり",
+    "fr": "Fête des étoiles",
+    "topic": "T9",
+    "section": "準備",
+    "niveau": "B1"
+  },
+  {
+    "k": "なつかしい",
+    "h": "なつかしい",
+    "fr": "nostalgique",
+    "topic": "T9",
+    "section": "準備",
+    "niveau": "B1"
+  },
+  {
+    "k": "かつぐ",
+    "h": "かつぐ",
+    "fr": "porter (sur l'épaule)",
+    "topic": "T9",
+    "section": "準備",
+    "niveau": "B1"
+  },
+  {
+    "k": "ひく",
+    "h": "ひく",
+    "fr": "tirer",
+    "topic": "T9",
+    "section": "準備",
+    "niveau": "B1"
+  },
+  {
+    "k": "思い出",
+    "h": "おもいで",
+    "fr": "souvenir",
+    "topic": "T9",
+    "section": "準備",
+    "niveau": "B1"
+  },
+  {
+    "k": "衣装",
+    "h": "いしょう",
+    "fr": "costume",
+    "topic": "T9",
+    "section": "準備",
+    "niveau": "B1"
+  },
+  {
+    "k": "かっこいい",
+    "h": "かっこいい",
+    "fr": "cool / distingué",
+    "topic": "T9",
+    "section": "準備",
+    "niveau": "B1"
+  },
+  {
+    "k": "色っぽい",
+    "h": "いろっぽい",
+    "fr": "séduisant",
+    "topic": "T9",
+    "section": "準備",
+    "niveau": "B1"
+  },
+  {
+    "k": "カラフルな",
+    "h": "カラフルな",
+    "fr": "coloré",
+    "topic": "T9",
+    "section": "準備",
+    "niveau": "B1"
+  },
+  {
+    "k": "粋な",
+    "h": "いきな",
+    "fr": "élégant / raffiné",
+    "topic": "T9",
+    "section": "準備",
+    "niveau": "B1"
+  },
+  {
+    "k": "派手な",
+    "h": "はでな",
+    "fr": "extravagant",
+    "topic": "T9",
+    "section": "準備",
+    "niveau": "B1"
+  },
+  {
+    "k": "変わっている",
+    "h": "かわっている",
+    "fr": "inhabituel / particulier",
+    "topic": "T9",
+    "section": "準備",
+    "niveau": "B1"
+  },
+  {
+    "k": "各地",
+    "h": "かくち",
+    "fr": "chaque région",
+    "topic": "T9",
+    "section": "PART1",
+    "niveau": "B1"
+  },
+  {
+    "k": "行事",
+    "h": "ぎょうじ",
+    "fr": "cérémonie / célébration / évènement",
+    "topic": "T9",
+    "section": "PART1",
+    "niveau": "B1"
+  },
+  {
+    "k": "紹介する",
+    "h": "しょうかいする",
+    "fr": "présenter",
+    "topic": "T9",
+    "section": "PART1",
+    "niveau": "B1"
+  },
+  {
+    "k": "金沢百万石まつり",
+    "h": "かなざわひゃくまんごくまつり",
+    "fr": "Festival Hyakumankoku de Kanazawa",
+    "topic": "T9",
+    "section": "PART1",
+    "niveau": "B1"
+  },
+  {
+    "k": "ほおずき市",
+    "h": "ほおずきいち",
+    "fr": "marché aux lanternes (plante du genre physalis)",
+    "topic": "T9",
+    "section": "PART1",
+    "niveau": "B1"
+  },
+  {
+    "k": "ねぶた祭り",
+    "h": "ねぶたまつり",
+    "fr": "Festival de Nebuta",
+    "topic": "T9",
+    "section": "PART1",
+    "niveau": "B1"
+  },
+  {
+    "k": "うらじゃ",
+    "h": "うらじゃ",
+    "fr": "Festival d'Uraja",
+    "topic": "T9",
+    "section": "PART1",
+    "niveau": "B1"
+  },
+  {
+    "k": "週末",
+    "h": "しゅうまつ",
+    "fr": "week-end",
+    "topic": "T9",
+    "section": "PART1",
+    "niveau": "B1"
+  },
+  {
+    "k": "金沢（市）",
+    "h": "かなざわ",
+    "fr": "Kanazawa",
+    "topic": "T9",
+    "section": "PART1",
+    "niveau": "B1"
+  },
+  {
+    "k": "石川（県）",
+    "h": "いしかわ",
+    "fr": "Ishikawa",
+    "topic": "T9",
+    "section": "PART1",
+    "niveau": "B1"
+  },
+  {
+    "k": "岡山（県）",
+    "h": "おかやま",
+    "fr": "Okayama",
+    "topic": "T9",
+    "section": "PART1",
+    "niveau": "B1"
+  },
+  {
+    "k": "青森（県）",
+    "h": "あおもり",
+    "fr": "Aomori",
+    "topic": "T9",
+    "section": "PART1",
+    "niveau": "B1"
+  },
+  {
+    "k": "浅草",
+    "h": "あさくさ",
+    "fr": "Asakusa",
+    "topic": "T9",
+    "section": "PART1",
+    "niveau": "B1"
+  },
+  {
+    "k": "東京（都）",
+    "h": "とうきょう",
+    "fr": "Tokyo",
+    "topic": "T9",
+    "section": "PART1",
+    "niveau": "B1"
+  },
+  {
+    "k": "百万石行列",
+    "h": "ひゃくまんごくぎょうれつ",
+    "fr": "Parade de Hyakumankoku",
+    "topic": "T9",
+    "section": "PART1",
+    "niveau": "B1"
+  },
+  {
+    "k": "ハネト",
+    "h": "ハネト",
+    "fr": "Haneto",
+    "topic": "T9",
+    "section": "PART1",
+    "niveau": "B1"
+  },
+  {
+    "k": "化粧",
+    "h": "けしょう",
+    "fr": "maquillage",
+    "topic": "T9",
+    "section": "PART1",
+    "niveau": "B1"
+  },
+  {
+    "k": "お参り",
+    "h": "おまいり",
+    "fr": "se rendre au sanctuaire ou au temple",
+    "topic": "T9",
+    "section": "PART1",
+    "niveau": "B1"
+  },
+  {
+    "k": "ねぶた",
+    "h": "ねぶた",
+    "fr": "char de Nebuta",
+    "topic": "T9",
+    "section": "PART1",
+    "niveau": "B1"
+  },
+  {
+    "k": "前田利家（公）",
+    "h": "まえだとしいえ",
+    "fr": "Maeda Toshi-ie",
+    "topic": "T9",
+    "section": "PART1",
+    "niveau": "B1"
+  },
+  {
+    "k": "ほおずき",
+    "h": "ほおずき",
+    "fr": "lanterne (plante du genre physalis)",
+    "topic": "T9",
+    "section": "PART1",
+    "niveau": "B1"
+  },
+  {
+    "k": "若者",
+    "h": "わかもの",
+    "fr": "jeune",
+    "topic": "T9",
+    "section": "PART1",
+    "niveau": "B1"
+  },
+  {
+    "k": "グループ",
+    "h": "グループ",
+    "fr": "groupe",
+    "topic": "T9",
+    "section": "PART1",
+    "niveau": "B1"
+  },
+  {
+    "k": "レポーター",
+    "h": "レポーター",
+    "fr": "reporter (journaliste)",
+    "topic": "T9",
+    "section": "PART1",
+    "niveau": "B1"
+  },
+  {
+    "k": "前後",
+    "h": "ぜんご",
+    "fr": "devant et derrière / avant et après",
+    "topic": "T9",
+    "section": "PART1",
+    "niveau": "B1"
+  },
+  {
+    "k": "基礎",
+    "h": "きそ",
+    "fr": "fondations",
+    "topic": "T9",
+    "section": "PART1",
+    "niveau": "B1"
+  },
+  {
+    "k": "武将",
+    "h": "ぶしょう",
+    "fr": "commandant (militaire)",
+    "topic": "T9",
+    "section": "PART1",
+    "niveau": "B1"
+  },
+  {
+    "k": "記念する",
+    "h": "きねんする",
+    "fr": "commémorer",
+    "topic": "T9",
+    "section": "PART1",
+    "niveau": "B1"
+  },
+  {
+    "k": "～感じになる",
+    "h": "～かんじになる",
+    "fr": "avoir l'impression que ～",
+    "topic": "T9",
+    "section": "PART1",
+    "niveau": "B1"
+  },
+  {
+    "k": "まさに",
+    "h": "まさに",
+    "fr": "C'est vraiment ～",
+    "topic": "T9",
+    "section": "PART1",
+    "niveau": "B1"
+  },
+  {
+    "k": "東北三大祭り",
+    "h": "とうほくさんだいまつり",
+    "fr": "les trois grands festivals du Tôhoku",
+    "topic": "T9",
+    "section": "PART1",
+    "niveau": "B1"
+  },
+  {
+    "k": "～もの～",
+    "h": "～もの",
+    "fr": "jusqu'à〜",
+    "topic": "T9",
+    "section": "PART1",
+    "niveau": "B1"
+  },
+  {
+    "k": "うら",
+    "h": "うら",
+    "fr": "Ura",
+    "topic": "T9",
+    "section": "PART1",
+    "niveau": "B1"
+  },
+  {
+    "k": "鬼",
+    "h": "おに",
+    "fr": "démon",
+    "topic": "T9",
+    "section": "PART1",
+    "niveau": "B1"
+  },
+  {
+    "k": "実は",
+    "h": "じつは",
+    "fr": "en fait",
+    "topic": "T9",
+    "section": "PART1",
+    "niveau": "B1"
+  },
+  {
+    "k": "伝わる",
+    "h": "つたわる",
+    "fr": "transmettre",
+    "topic": "T9",
+    "section": "PART1",
+    "niveau": "B1"
+  },
+  {
+    "k": "『桃太郎』",
+    "h": "ももたろう",
+    "fr": "Momotarô, l'enfant pêche",
+    "topic": "T9",
+    "section": "PART1",
+    "niveau": "B1"
+  },
+  {
+    "k": "伝説",
+    "h": "でんせつ",
+    "fr": "légende",
+    "topic": "T9",
+    "section": "PART1",
+    "niveau": "B1"
+  },
+  {
+    "k": "もと",
+    "h": "もと",
+    "fr": "source",
+    "topic": "T9",
+    "section": "PART1",
+    "niveau": "B1"
+  },
+  {
+    "k": "入城する",
+    "h": "にゅうじょうする",
+    "fr": "faire une entrée triomphale dans une ville ou une forteresse",
+    "topic": "T9",
+    "section": "PART1",
+    "niveau": "B1"
+  },
+  {
+    "k": "戦後",
+    "h": "せんご",
+    "fr": "après la seconde guerre mondiale",
+    "topic": "T9",
+    "section": "PART1",
+    "niveau": "B1"
+  },
+  {
+    "k": "メイン",
+    "h": "メイン",
+    "fr": "principal évènement",
+    "topic": "T9",
+    "section": "PART1",
+    "niveau": "B1"
+  },
+  {
+    "k": "パレード",
+    "h": "パレード",
+    "fr": "défilé",
+    "topic": "T9",
+    "section": "PART1",
+    "niveau": "B1"
+  },
+  {
+    "k": "侍",
+    "h": "さむらい",
+    "fr": "guerrier samourai",
+    "topic": "T9",
+    "section": "PART1",
+    "niveau": "B1"
+  },
+  {
+    "k": "行列",
+    "h": "ぎょうれつ",
+    "fr": "file",
+    "topic": "T9",
+    "section": "PART1",
+    "niveau": "B1"
+  },
+  {
+    "k": "主役",
+    "h": "しゅやく",
+    "fr": "rôle principal",
+    "topic": "T9",
+    "section": "PART1",
+    "niveau": "B1"
+  },
+  {
+    "k": "俳優",
+    "h": "はいゆう",
+    "fr": "acteur",
+    "topic": "T9",
+    "section": "PART1",
+    "niveau": "B1"
+  },
+  {
+    "k": "浅草寺",
+    "h": "せんそうじ",
+    "fr": "Temple Sensôji",
+    "topic": "T9",
+    "section": "PART1",
+    "niveau": "B1"
+  },
+  {
+    "k": "お参りする",
+    "h": "おまいりする",
+    "fr": "aller prier au sanctuaire shintô",
+    "topic": "T9",
+    "section": "PART1",
+    "niveau": "B1"
+  },
+  {
+    "k": "四万六千日",
+    "h": "しまんろくせんにち",
+    "fr": "quarante six mille jours",
+    "topic": "T9",
+    "section": "PART1",
+    "niveau": "B1"
+  },
+  {
+    "k": "～分",
+    "h": "～ぶん",
+    "fr": "part / quantité",
+    "topic": "T9",
+    "section": "PART1",
+    "niveau": "B1"
+  },
+  {
+    "k": "効果",
+    "h": "こうか",
+    "fr": "effet",
+    "topic": "T9",
+    "section": "PART1",
+    "niveau": "B1"
+  },
+  {
+    "k": "露店",
+    "h": "ろてん",
+    "fr": "stand / boutique de rue",
+    "topic": "T9",
+    "section": "PART1",
+    "niveau": "B1"
+  },
+  {
+    "k": "訪れる",
+    "h": "おとずれる",
+    "fr": "visiter",
+    "topic": "T9",
+    "section": "PART1",
+    "niveau": "B1"
+  },
+  {
+    "k": "人形型",
+    "h": "にんぎょうがた",
+    "fr": "en forme de personnages / de poupées",
+    "topic": "T9",
+    "section": "PART1",
+    "niveau": "B1"
+  },
+  {
+    "k": "山車",
+    "h": "だし",
+    "fr": "char",
+    "topic": "T9",
+    "section": "PART1",
+    "niveau": "B1"
+  },
+  {
+    "k": "踊り手",
+    "h": "おどりて",
+    "fr": "danseur",
+    "topic": "T9",
+    "section": "PART1",
+    "niveau": "B1"
+  },
+  {
+    "k": "かけ声をかける",
+    "h": "かけごえをかける",
+    "fr": "crier",
+    "topic": "T9",
+    "section": "PART1",
+    "niveau": "B1"
+  },
+  {
+    "k": "衣装",
+    "h": "いしょう",
+    "fr": "costume",
+    "topic": "T9",
+    "section": "PART1",
+    "niveau": "B1"
+  },
+  {
+    "k": "オリジナル",
+    "h": "オリジナル",
+    "fr": "original",
+    "topic": "T9",
+    "section": "PART1",
+    "niveau": "B1"
+  },
+  {
+    "k": "踊り",
+    "h": "おどり",
+    "fr": "danse",
+    "topic": "T9",
+    "section": "PART1",
+    "niveau": "B1"
+  },
+  {
+    "k": "歴史",
+    "h": "れきし",
+    "fr": "histoire",
+    "topic": "T9",
+    "section": "PART1",
+    "niveau": "B1"
+  },
+  {
+    "k": "浅い",
+    "h": "あさい",
+    "fr": "court (-e) / récent (-e)",
+    "topic": "T9",
+    "section": "PART1",
+    "niveau": "B1"
+  },
+  {
+    "k": "わりと",
+    "h": "わりと",
+    "fr": "relativement",
+    "topic": "T9",
+    "section": "PART1",
+    "niveau": "B1"
+  },
+  {
+    "k": "それにしても",
+    "h": "それにしても",
+    "fr": "tout de même",
+    "topic": "T9",
+    "section": "PART1",
+    "niveau": "B1"
+  },
+  {
+    "k": "音楽隊",
+    "h": "おんがくたい",
+    "fr": "groupes de musiciens",
+    "topic": "T9",
+    "section": "PART1",
+    "niveau": "B1"
+  },
+  {
+    "k": "獅子舞",
+    "h": "ししまい",
+    "fr": "Shishimai (danse des lions)",
+    "topic": "T9",
+    "section": "PART1",
+    "niveau": "B1"
+  },
+  {
+    "k": "加賀鳶",
+    "h": "かがとび",
+    "fr": "Kagatobi",
+    "topic": "T9",
+    "section": "PART1",
+    "niveau": "B1"
+  },
+  {
+    "k": "当時",
+    "h": "とうじ",
+    "fr": "de l'époque",
+    "topic": "T9",
+    "section": "PART1",
+    "niveau": "B1"
+  },
+  {
+    "k": "役",
+    "h": "やく",
+    "fr": "rôle",
+    "topic": "T9",
+    "section": "PART1",
+    "niveau": "B1"
+  },
+  {
+    "k": "よろい",
+    "h": "よろい",
+    "fr": "armure",
+    "topic": "T9",
+    "section": "PART1",
+    "niveau": "B1"
+  },
+  {
+    "k": "馬",
+    "h": "うま",
+    "fr": "cheval",
+    "topic": "T9",
+    "section": "PART1",
+    "niveau": "B1"
+  },
+  {
+    "k": "またがる",
+    "h": "またがる",
+    "fr": "monter (à cheval)",
+    "topic": "T9",
+    "section": "PART1",
+    "niveau": "B1"
+  },
+  {
+    "k": "姿",
+    "h": "すがた",
+    "fr": "apparence",
+    "topic": "T9",
+    "section": "PART1",
+    "niveau": "B1"
+  },
+  {
+    "k": "人気を集める",
+    "h": "にんきをあつめる",
+    "fr": "être très populaire",
+    "topic": "T9",
+    "section": "PART1",
+    "niveau": "B1"
+  },
+  {
+    "k": "縁日",
+    "h": "えんにち",
+    "fr": "En-nichi (jours de célébration)",
+    "topic": "T9",
+    "section": "PART1",
+    "niveau": "B1"
+  },
+  {
+    "k": "屋台",
+    "h": "やたい",
+    "fr": "stand",
+    "topic": "T9",
+    "section": "PART1",
+    "niveau": "B1"
+  },
+  {
+    "k": "風物詩",
+    "h": "ふうぶつし",
+    "fr": "Un incontournable (quelque chose dont la simple évocation fait penser à une saison)",
+    "topic": "T9",
+    "section": "PART1",
+    "niveau": "B1"
+  },
+  {
+    "k": "巨大な",
+    "h": "きょだいな",
+    "fr": "énorme",
+    "topic": "T9",
+    "section": "PART1",
+    "niveau": "B1"
+  },
+  {
+    "k": "幅",
+    "h": "はば",
+    "fr": "largeur",
+    "topic": "T9",
+    "section": "PART1",
+    "niveau": "B1"
+  },
+  {
+    "k": "高さ",
+    "h": "たかさ",
+    "fr": "hauteur",
+    "topic": "T9",
+    "section": "PART1",
+    "niveau": "B1"
+  },
+  {
+    "k": "暗闇",
+    "h": "くらやみ",
+    "fr": "ténèbres",
+    "topic": "T9",
+    "section": "PART1",
+    "niveau": "B1"
+  },
+  {
+    "k": "光る",
+    "h": "ひかる",
+    "fr": "briller",
+    "topic": "T9",
+    "section": "PART1",
+    "niveau": "B1"
+  },
+  {
+    "k": "お囃子",
+    "h": "おはやし",
+    "fr": "musique traditionnelle jouée pendant les festivals",
+    "topic": "T9",
+    "section": "PART1",
+    "niveau": "B1"
+  },
+  {
+    "k": "～に乗って",
+    "h": "～にのって",
+    "fr": "être entraîné par〜/ suivre (la musique)",
+    "topic": "T9",
+    "section": "PART1",
+    "niveau": "B1"
+  },
+  {
+    "k": "レンタルする",
+    "h": "レンタルする",
+    "fr": "louer",
+    "topic": "T9",
+    "section": "PART1",
+    "niveau": "B1"
+  },
+  {
+    "k": "参加する",
+    "h": "さんかする",
+    "fr": "participer",
+    "topic": "T9",
+    "section": "PART1",
+    "niveau": "B1"
+  },
+  {
+    "k": "～にちなんだ",
+    "h": "～にちなんだ",
+    "fr": "nommé d'après〜",
+    "topic": "T9",
+    "section": "PART1",
+    "niveau": "B1"
+  },
+  {
+    "k": "第一～",
+    "h": "だいいち",
+    "fr": "le premier du 〜",
+    "topic": "T9",
+    "section": "PART1",
+    "niveau": "B1"
+  },
+  {
+    "k": "前日",
+    "h": "ぜんじつ",
+    "fr": "jour précédent / veille",
+    "topic": "T9",
+    "section": "PART1",
+    "niveau": "B1"
+  },
+  {
+    "k": "～市内",
+    "h": "～しない",
+    "fr": "dans la ville de～",
+    "topic": "T9",
+    "section": "PART1",
+    "niveau": "B1"
+  },
+  {
+    "k": "特徴",
+    "h": "とくちょう",
+    "fr": "particularité",
+    "topic": "T9",
+    "section": "PART1",
+    "niveau": "B1"
+  },
+  {
+    "k": "意外に",
+    "h": "いがいに",
+    "fr": "étonnamment",
+    "topic": "T9",
+    "section": "PART1",
+    "niveau": "B1"
+  },
+  {
+    "k": "ダンス",
+    "h": "ダンス",
+    "fr": "danse (occidentale)",
+    "topic": "T9",
+    "section": "PART1",
+    "niveau": "B1"
+  },
+  {
+    "k": "盛り上がる",
+    "h": "もりあがる",
+    "fr": "s'animer",
+    "topic": "T9",
+    "section": "PART1",
+    "niveau": "B1"
+  },
+  {
+    "k": "踊る",
+    "h": "おどる",
+    "fr": "danser",
+    "topic": "T9",
+    "section": "PART2",
+    "niveau": "B1"
+  },
+  {
+    "k": "実際に",
+    "h": "じっさいに",
+    "fr": "réellement, pour de vrai",
+    "topic": "T9",
+    "section": "PART2",
+    "niveau": "B1"
+  },
+  {
+    "k": "サンパウロ",
+    "h": "サンパウロ",
+    "fr": "Sao Paulo",
+    "topic": "T9",
+    "section": "PART2",
+    "niveau": "B1"
+  },
+  {
+    "k": "日本人街",
+    "h": "にほんじんがい",
+    "fr": "quartier japonais",
+    "topic": "T9",
+    "section": "PART2",
+    "niveau": "B1"
+  },
+  {
+    "k": "居酒屋",
+    "h": "いざかや",
+    "fr": "bistrot japonais",
+    "topic": "T9",
+    "section": "PART2",
+    "niveau": "B1"
+  },
+  {
+    "k": "飲む",
+    "h": "のむ",
+    "fr": "boire",
+    "topic": "T9",
+    "section": "PART2",
+    "niveau": "B1"
+  },
+  {
+    "k": "知り合い",
+    "h": "しりあい",
+    "fr": "connaissance (personne)",
+    "topic": "T9",
+    "section": "PART2",
+    "niveau": "B1"
+  },
+  {
+    "k": "ブラジル",
+    "h": "ブラジル",
+    "fr": "Brésil",
+    "topic": "T9",
+    "section": "PART2",
+    "niveau": "B1"
+  },
+  {
+    "k": "日本文化センター",
+    "h": "にほんぶんかセンター",
+    "fr": "Centre culturel japonais",
+    "topic": "T9",
+    "section": "PART2",
+    "niveau": "B1"
+  },
+  {
+    "k": "日系ブラジル人",
+    "h": "にっけいブラジルじん",
+    "fr": "Brésilien d'origine japonaise",
+    "topic": "T9",
+    "section": "PART2",
+    "niveau": "B1"
+  },
+  {
+    "k": "イベント",
+    "h": "イベント",
+    "fr": "évènement / manifestation",
+    "topic": "T9",
+    "section": "PART2",
+    "niveau": "B1"
+  },
+  {
+    "k": "知り合う",
+    "h": "しりあう",
+    "fr": "faire la connaissance de",
+    "topic": "T9",
+    "section": "PART2",
+    "niveau": "B1"
+  },
+  {
+    "k": "阿波踊り",
+    "h": "あわおどり",
+    "fr": "danse d'Awa",
+    "topic": "T9",
+    "section": "PART2",
+    "niveau": "B1"
+  },
+  {
+    "k": "気に入る",
+    "h": "きにいる",
+    "fr": "aimer",
+    "topic": "T9",
+    "section": "PART2",
+    "niveau": "B1"
+  },
+  {
+    "k": "実は",
+    "h": "じつは",
+    "fr": "en fait",
+    "topic": "T9",
+    "section": "PART2",
+    "niveau": "B1"
+  },
+  {
+    "k": "経験をする",
+    "h": "けいけんをする",
+    "fr": "expérience",
+    "topic": "T9",
+    "section": "PART2",
+    "niveau": "B1"
+  },
+  {
+    "k": "温泉",
+    "h": "おんせん",
+    "fr": "source (s) chaude (s)",
+    "topic": "T9",
+    "section": "PART2",
+    "niveau": "B1"
+  },
+  {
+    "k": "徳島",
+    "h": "とくしま",
+    "fr": "Tokushima",
+    "topic": "T9",
+    "section": "PART2",
+    "niveau": "B1"
+  },
+  {
+    "k": "リオのカーニバル",
+    "h": "リオのカーニバル",
+    "fr": "Carnaval de Rio",
+    "topic": "T9",
+    "section": "PART2",
+    "niveau": "B1"
+  },
+  {
+    "k": "～に負けない",
+    "h": "～にまけない",
+    "fr": "ne pas être moins〜que〜/ ne rien avoir à envier à〜",
+    "topic": "T9",
+    "section": "PART2",
+    "niveau": "B1"
+  },
+  {
+    "k": "プロ",
+    "h": "プロ",
+    "fr": "pro / professionnel",
+    "topic": "T9",
+    "section": "PART2",
+    "niveau": "B1"
+  },
+  {
+    "k": "チーム",
+    "h": "チーム",
+    "fr": "équipe",
+    "topic": "T9",
+    "section": "PART2",
+    "niveau": "B1"
+  },
+  {
+    "k": "踊り",
+    "h": "おどり",
+    "fr": "danse",
+    "topic": "T9",
+    "section": "PART2",
+    "niveau": "B1"
+  },
+  {
+    "k": "レベル",
+    "h": "レベル",
+    "fr": "niveau",
+    "topic": "T9",
+    "section": "PART2",
+    "niveau": "B1"
+  },
+  {
+    "k": "ものすごく",
+    "h": "ものすごく",
+    "fr": "terriblement",
+    "topic": "T9",
+    "section": "PART2",
+    "niveau": "B1"
+  },
+  {
+    "k": "パワフルな",
+    "h": "パワフルな",
+    "fr": "puissant",
+    "topic": "T9",
+    "section": "PART2",
+    "niveau": "B1"
+  },
+  {
+    "k": "パレード",
+    "h": "パレード",
+    "fr": "défilé",
+    "topic": "T9",
+    "section": "PART2",
+    "niveau": "B1"
+  },
+  {
+    "k": "参加する",
+    "h": "さんかする",
+    "fr": "participer",
+    "topic": "T9",
+    "section": "PART2",
+    "niveau": "B1"
+  },
+  {
+    "k": "メイン会場",
+    "h": "メインかいじょう",
+    "fr": "lieu principal de l'évènement",
+    "topic": "T9",
+    "section": "PART2",
+    "niveau": "B1"
+  },
+  {
+    "k": "自由に",
+    "h": "じゆうに",
+    "fr": "librement",
+    "topic": "T9",
+    "section": "PART2",
+    "niveau": "B1"
+  },
+  {
+    "k": "はっぴ",
+    "h": "はっぴ",
+    "fr": "veste happi",
+    "topic": "T9",
+    "section": "PART2",
+    "niveau": "B1"
+  },
+  {
+    "k": "仲間",
+    "h": "なかま",
+    "fr": "ami (-e) / camarades",
+    "topic": "T9",
+    "section": "PART2",
+    "niveau": "B1"
+  },
+  {
+    "k": "～感じになる",
+    "h": "～かんじになる",
+    "fr": "sensation",
+    "topic": "T9",
+    "section": "PART2",
+    "niveau": "B1"
+  },
+  {
+    "k": "雰囲気",
+    "h": "ふんいき",
+    "fr": "ambiance",
+    "topic": "T9",
+    "section": "PART2",
+    "niveau": "B1"
+  },
+  {
+    "k": "同じ阿呆なら踊らにゃ損、損",
+    "h": "おなじあほならおどらにゃそん、そん",
+    "fr": "Puisque nous sommes tous fous, dansons !",
+    "topic": "T9",
+    "section": "PART2",
+    "niveau": "B1"
+  },
+  {
+    "k": "～全体",
+    "h": "～ぜんたい",
+    "fr": "tout〜",
+    "topic": "T9",
+    "section": "PART2",
+    "niveau": "B1"
+  },
+  {
+    "k": "あちこち",
+    "h": "あちこち",
+    "fr": "partout / ça et là",
+    "topic": "T9",
+    "section": "PART2",
+    "niveau": "B1"
+  },
+  {
+    "k": "地元",
+    "h": "じもと",
+    "fr": "local (-e)",
+    "topic": "T9",
+    "section": "PART2",
+    "niveau": "B1"
+  },
+  {
+    "k": "ごちそうになる",
+    "h": "ごちそうになる",
+    "fr": "être régalé / être invité",
+    "topic": "T9",
+    "section": "PART2",
+    "niveau": "B1"
+  },
+  {
+    "k": "いかにも",
+    "h": "いかにも",
+    "fr": "tout à fait",
+    "topic": "T9",
+    "section": "PART2",
+    "niveau": "B1"
+  },
+  {
+    "k": "日本祭り",
+    "h": "にほんまつり",
+    "fr": "festival japonais",
+    "topic": "T9",
+    "section": "PART2",
+    "niveau": "B1"
+  },
+  {
+    "k": "会場",
+    "h": "かいじょう",
+    "fr": "lieu (d'un évènement)",
+    "topic": "T9",
+    "section": "PART2",
+    "niveau": "B1"
+  },
+  {
+    "k": "さっき",
+    "h": "さっき",
+    "fr": "à l'instant",
+    "topic": "T9",
+    "section": "PART2",
+    "niveau": "B1"
+  },
+  {
+    "k": "たい焼き",
+    "h": "たいやき",
+    "fr": "taiyaki",
+    "topic": "T9",
+    "section": "PART2",
+    "niveau": "B1"
+  },
+  {
+    "k": "焼ける",
+    "h": "やける",
+    "fr": "cuire",
+    "topic": "T9",
+    "section": "PART2",
+    "niveau": "B1"
+  },
+  {
+    "k": "太鼓",
+    "h": "たいこ",
+    "fr": "tambour",
+    "topic": "T9",
+    "section": "PART2",
+    "niveau": "B1"
+  },
+  {
+    "k": "お好み焼き",
+    "h": "おこのみやき",
+    "fr": "okonomiyaki",
+    "topic": "T9",
+    "section": "PART2",
+    "niveau": "B1"
+  },
+  {
+    "k": "売れる",
+    "h": "うれる",
+    "fr": "être vendu",
+    "topic": "T9",
+    "section": "PART2",
+    "niveau": "B1"
+  },
+  {
+    "k": "係の人",
+    "h": "かかりのひと",
+    "fr": "personne responsable de",
+    "topic": "T9",
+    "section": "PART2",
+    "niveau": "B1"
+  },
+  {
+    "k": "サイト",
+    "h": "サイト",
+    "fr": "site Internet",
+    "topic": "T9",
+    "section": "PART2",
+    "niveau": "B1"
+  },
+  {
+    "k": "市民広場",
+    "h": "しみんひろば",
+    "fr": "place des citoyens",
+    "topic": "T9",
+    "section": "PART2",
+    "niveau": "B1"
+  },
+  {
+    "k": "サイズ",
+    "h": "サイズ",
+    "fr": "taille",
+    "topic": "T9",
+    "section": "PART2",
+    "niveau": "B1"
+  },
+  {
+    "k": "ステップ",
+    "h": "ステップ",
+    "fr": "pas / étape",
+    "topic": "T9",
+    "section": "PART2",
+    "niveau": "B1"
+  },
+  {
+    "k": "なくなる",
+    "h": "なくなる",
+    "fr": "disparaître / ne plus être là",
+    "topic": "T9",
+    "section": "PART2",
+    "niveau": "B1"
+  },
+  {
+    "k": "片付ける",
+    "h": "かたづける",
+    "fr": "ranger",
+    "topic": "T9",
+    "section": "PART2",
+    "niveau": "B1"
+  },
+  {
+    "k": "教わる",
+    "h": "おそわる",
+    "fr": "apprendre / recevoir un enseignement",
+    "topic": "T9",
+    "section": "PART2",
+    "niveau": "B1"
+  },
+  {
+    "k": "集まる",
+    "h": "あつまる",
+    "fr": "se rassembler",
+    "topic": "T9",
+    "section": "PART2",
+    "niveau": "B1"
+  },
+  {
+    "k": "メール",
+    "h": "メール",
+    "fr": "e-mail",
+    "topic": "T9",
+    "section": "PART2",
+    "niveau": "B1"
+  },
+  {
+    "k": "だいぶ",
+    "h": "だいぶ",
+    "fr": "très / beaucoup",
+    "topic": "T9",
+    "section": "PART2",
+    "niveau": "B1"
+  },
+  {
+    "k": "聞き取る",
+    "h": "ききとる",
+    "fr": "entendre (et comprendre)",
+    "topic": "T9",
+    "section": "PART2",
+    "niveau": "B1"
+  },
+  {
+    "k": "気分",
+    "h": "きぶん",
+    "fr": "sentiment / humeur",
+    "topic": "T9",
+    "section": "PART2",
+    "niveau": "B1"
+  },
+  {
+    "k": "ハイな",
+    "h": "ハイな",
+    "fr": "élevé / excité",
+    "topic": "T9",
+    "section": "PART2",
+    "niveau": "B1"
+  },
+  {
+    "k": "いつのまにか",
+    "h": "いつのまにか",
+    "fr": "sans s'en rendre compte",
+    "topic": "T9",
+    "section": "PART2",
+    "niveau": "B1"
+  },
+  {
+    "k": "眠る",
+    "h": "ねむる",
+    "fr": "s'endormir",
+    "topic": "T9",
+    "section": "PART2",
+    "niveau": "B1"
+  },
+  {
+    "k": "強調する",
+    "h": "きょうちょうする",
+    "fr": "accentuer / insister sur",
+    "topic": "T9",
+    "section": "PART2",
+    "niveau": "B1"
+  },
+  {
+    "k": "フォーマルな",
+    "h": "フォーマルな",
+    "fr": "formel",
+    "topic": "T9",
+    "section": "PART2",
+    "niveau": "B1"
+  },
+  {
+    "k": "インフォーマルな",
+    "h": "インフォーマルな",
+    "fr": "informel",
+    "topic": "T9",
+    "section": "PART2",
+    "niveau": "B1"
+  },
+  {
+    "k": "話しことば",
+    "h": "はなしことば",
+    "fr": "langue parlée",
+    "topic": "T9",
+    "section": "PART2",
+    "niveau": "B1"
+  },
+  {
+    "k": "のばす",
+    "h": "のばす",
+    "fr": "allonger / prolonger",
+    "topic": "T9",
+    "section": "PART2",
+    "niveau": "B1"
+  },
+  {
+    "k": "体験",
+    "h": "たいけん",
+    "fr": "expérience",
+    "topic": "T9",
+    "section": "PART2",
+    "niveau": "B1"
+  },
+  {
+    "k": "感想",
+    "h": "かんそう",
+    "fr": "impression",
+    "topic": "T9",
+    "section": "PART2",
+    "niveau": "B1"
+  },
+  {
+    "k": "コメント",
+    "h": "コメント",
+    "fr": "commentaire",
+    "topic": "T9",
+    "section": "PART2",
+    "niveau": "B1"
+  },
+  {
+    "k": "様子",
+    "h": "ようす",
+    "fr": "apparence",
+    "topic": "T9",
+    "section": "PART2",
+    "niveau": "B1"
+  },
+  {
+    "k": "興味がある",
+    "h": "きょうみがある",
+    "fr": "être intéressé par",
+    "topic": "T9",
+    "section": "PART2",
+    "niveau": "B1"
+  },
+  {
+    "k": "週末",
+    "h": "しゅうまつ",
+    "fr": "week-end",
+    "topic": "T9",
+    "section": "PART2",
+    "niveau": "B1"
+  },
+  {
+    "k": "観光客",
+    "h": "かんこうきゃく",
+    "fr": "touriste",
+    "topic": "T9",
+    "section": "PART2",
+    "niveau": "B1"
+  },
+  {
+    "k": "DVD",
+    "h": "ディーブイディー",
+    "fr": "DVD",
+    "topic": "T9",
+    "section": "PART2",
+    "niveau": "B1"
+  },
+  {
+    "k": "花火",
+    "h": "はなび",
+    "fr": "feu d'artifice",
+    "topic": "T9",
+    "section": "PART2",
+    "niveau": "B1"
+  },
+  {
+    "k": "行列",
+    "h": "ぎょうれつ",
+    "fr": "file d'attente",
+    "topic": "T9",
+    "section": "PART2",
+    "niveau": "B1"
+  },
+  {
+    "k": "なかなか～ない",
+    "h": "なかなか～ない",
+    "fr": "pas très〜",
+    "topic": "T9",
+    "section": "PART2",
+    "niveau": "B1"
+  },
+  {
+    "k": "進む",
+    "h": "すすむ",
+    "fr": "avancer / continuer",
+    "topic": "T9",
+    "section": "PART2",
+    "niveau": "B1"
+  },
+  {
+    "k": "見どころ",
+    "h": "みどころ",
+    "fr": "temps fort",
+    "topic": "T9",
+    "section": "PART3",
+    "niveau": "B1"
+  },
+  {
+    "k": "行事",
+    "h": "ぎょうじ",
+    "fr": "cérémonie / célébration / évènement",
+    "topic": "T9",
+    "section": "PART3",
+    "niveau": "B1"
+  },
+  {
+    "k": "スペイン",
+    "h": "スペイン",
+    "fr": "Espagne",
+    "topic": "T9",
+    "section": "PART3",
+    "niveau": "B1"
+  },
+  {
+    "k": "交流イベント",
+    "h": "こうりゅうイベント",
+    "fr": "évènement d'échanges internationaux",
+    "topic": "T9",
+    "section": "PART3",
+    "niveau": "B1"
+  },
+  {
+    "k": "会場",
+    "h": "かいじょう",
+    "fr": "lieu",
+    "topic": "T9",
+    "section": "PART3",
+    "niveau": "B1"
+  },
+  {
+    "k": "ボランティア",
+    "h": "ボランティア",
+    "fr": "bénévole",
+    "topic": "T9",
+    "section": "PART3",
+    "niveau": "B1"
+  },
+  {
+    "k": "スタッフ",
+    "h": "スタッフ",
+    "fr": "personnel",
+    "topic": "T9",
+    "section": "PART3",
+    "niveau": "B1"
+  },
+  {
+    "k": "おすすめ",
+    "h": "おすすめ",
+    "fr": "recommandation",
+    "topic": "T9",
+    "section": "PART3",
+    "niveau": "B1"
+  },
+  {
+    "k": "バレンシア",
+    "h": "バレンシア",
+    "fr": "Valence",
+    "topic": "T9",
+    "section": "PART3",
+    "niveau": "B1"
+  },
+  {
+    "k": "火祭り",
+    "h": "ひまつり",
+    "fr": "festival du feu",
+    "topic": "T9",
+    "section": "PART3",
+    "niveau": "B1"
+  },
+  {
+    "k": "行う",
+    "h": "おこなう",
+    "fr": "organiser",
+    "topic": "T9",
+    "section": "PART3",
+    "niveau": "B1"
+  },
+  {
+    "k": "あちこち",
+    "h": "あちこち",
+    "fr": "partout / ça et là",
+    "topic": "T9",
+    "section": "PART3",
+    "niveau": "B1"
+  },
+  {
+    "k": "飾る",
+    "h": "かざる",
+    "fr": "orner / décorer",
+    "topic": "T9",
+    "section": "PART3",
+    "niveau": "B1"
+  },
+  {
+    "k": "人形",
+    "h": "にんぎょう",
+    "fr": "poupée",
+    "topic": "T9",
+    "section": "PART3",
+    "niveau": "B1"
+  },
+  {
+    "k": "火をつける",
+    "h": "ひをつける",
+    "fr": "allumer (un feu)",
+    "topic": "T9",
+    "section": "PART3",
+    "niveau": "B1"
+  },
+  {
+    "k": "燃やす",
+    "h": "もやす",
+    "fr": "brûler (quelque chose)",
+    "topic": "T9",
+    "section": "PART3",
+    "niveau": "B1"
+  },
+  {
+    "k": "ポイント",
+    "h": "ポイント",
+    "fr": "point (idée)",
+    "topic": "T9",
+    "section": "PART3",
+    "niveau": "B1"
+  },
+  {
+    "k": "ファジャ",
+    "h": "ファジャ",
+    "fr": "fallas",
+    "topic": "T9",
+    "section": "PART3",
+    "niveau": "B1"
+  },
+  {
+    "k": "通り",
+    "h": "とおり",
+    "fr": "rue / avenue",
+    "topic": "T9",
+    "section": "PART3",
+    "niveau": "B1"
+  },
+  {
+    "k": "広場",
+    "h": "ひろば",
+    "fr": "place",
+    "topic": "T9",
+    "section": "PART3",
+    "niveau": "B1"
+  },
+  {
+    "k": "サン・ホセ",
+    "h": "サン・ホセ",
+    "fr": "San José",
+    "topic": "T9",
+    "section": "PART3",
+    "niveau": "B1"
+  },
+  {
+    "k": "燃え上がる",
+    "h": "もえあがる",
+    "fr": "s'enflammer",
+    "topic": "T9",
+    "section": "PART3",
+    "niveau": "B1"
+  },
+  {
+    "k": "印象",
+    "h": "いんしょう",
+    "fr": "impression",
+    "topic": "T9",
+    "section": "PART3",
+    "niveau": "B1"
+  },
+  {
+    "k": "真っ赤な",
+    "h": "まっかな",
+    "fr": "d'un rouge écarlate",
+    "topic": "T9",
+    "section": "PART3",
+    "niveau": "B1"
+  },
+  {
+    "k": "ダイナミックな",
+    "h": "ダイナミックな",
+    "fr": "dynamique",
+    "topic": "T9",
+    "section": "PART3",
+    "niveau": "B1"
+  },
+  {
+    "k": "観光客",
+    "h": "かんこうきゃく",
+    "fr": "touriste",
+    "topic": "T9",
+    "section": "PART3",
+    "niveau": "B1"
+  },
+  {
+    "k": "早めに",
+    "h": "はやめに",
+    "fr": "en avance",
+    "topic": "T9",
+    "section": "PART3",
+    "niveau": "B1"
+  },
+  {
+    "k": "予約する",
+    "h": "よやくする",
+    "fr": "réserver",
+    "topic": "T9",
+    "section": "PART3",
+    "niveau": "B1"
+  },
+  {
+    "k": "～から～にかけて",
+    "h": "～から～にかけて",
+    "fr": "de〜à〜",
+    "topic": "T9",
+    "section": "PART3",
+    "niveau": "B1"
+  },
+  {
+    "k": "～以上",
+    "h": "～いじょう",
+    "fr": "plus de〜",
+    "topic": "T9",
+    "section": "PART3",
+    "niveau": "B1"
+  },
+  {
+    "k": "政治家",
+    "h": "せいじか",
+    "fr": "homme (femme) politique",
+    "topic": "T9",
+    "section": "PART3",
+    "niveau": "B1"
+  },
+  {
+    "k": "スポーツ選手",
+    "h": "スポーツせんしゅ",
+    "fr": "athlète / sportif",
+    "topic": "T9",
+    "section": "PART3",
+    "niveau": "B1"
+  },
+  {
+    "k": "何百個",
+    "h": "なんびゃっこ",
+    "fr": "plusieurs centaines",
+    "topic": "T9",
+    "section": "PART3",
+    "niveau": "B1"
+  },
+  {
+    "k": "感動的な",
+    "h": "かんどうてきな",
+    "fr": "émouvant",
+    "topic": "T9",
+    "section": "PART3",
+    "niveau": "B1"
+  },
+  {
+    "k": "ただ",
+    "h": "ただ",
+    "fr": "mais",
+    "topic": "T9",
+    "section": "PART3",
+    "niveau": "B1"
+  },
+  {
+    "k": "パンフレット",
+    "h": "パンフレット",
+    "fr": "brochure / dépliant",
+    "topic": "T9",
+    "section": "PART3",
+    "niveau": "B1"
+  },
+  {
+    "k": "クリスマス",
+    "h": "クリスマス",
+    "fr": "Noël",
+    "topic": "T9",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "地域",
+    "h": "ちいき",
+    "fr": "région",
+    "topic": "T9",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "行事",
+    "h": "ぎょうじ",
+    "fr": "cérémonie / célébration / évènement",
+    "topic": "T9",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "参加する",
+    "h": "さんかする",
+    "fr": "participer",
+    "topic": "T9",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "驚く",
+    "h": "おどろく",
+    "fr": "être surpris",
+    "topic": "T9",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "感心する",
+    "h": "かんしんする",
+    "fr": "admirer",
+    "topic": "T9",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "アメリカ人",
+    "h": "アメリカじん",
+    "fr": "Américain (-e)",
+    "topic": "T9",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "ブログ",
+    "h": "ブログ",
+    "fr": "blog",
+    "topic": "T9",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "段落",
+    "h": "だんらく",
+    "fr": "paragraphe",
+    "topic": "T9",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "ダーリン",
+    "h": "ダーリン",
+    "fr": "chéri (-e)",
+    "topic": "T9",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "実家",
+    "h": "じっか",
+    "fr": "la maison de ses parents, de son enfance",
+    "topic": "T9",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "体験",
+    "h": "たいけん",
+    "fr": "expérience",
+    "topic": "T9",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "全体",
+    "h": "ぜんたい",
+    "fr": "tout, la totalité",
+    "topic": "T9",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "印象",
+    "h": "いんしょう",
+    "fr": "impression",
+    "topic": "T9",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "むかえる",
+    "h": "むかえる",
+    "fr": "accueillir / recevoir",
+    "topic": "T9",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "ケンタッキー州",
+    "h": "ケンタッキーしゅう",
+    "fr": "État du Kentucky",
+    "topic": "T9",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "田舎",
+    "h": "いなか",
+    "fr": "campagne",
+    "topic": "T9",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "しっかり",
+    "h": "しっかり",
+    "fr": "fermement",
+    "topic": "T9",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "伝統的な",
+    "h": "でんとうてきな",
+    "fr": "traditionnel (-e)",
+    "topic": "T9",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "巨大な",
+    "h": "きょだいな",
+    "fr": "énorme",
+    "topic": "T9",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "クリスマスツリー",
+    "h": "クリスマスツリー",
+    "fr": "sapin de Noël",
+    "topic": "T9",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "オーナメント",
+    "h": "オーナメント",
+    "fr": "ornement / décoration",
+    "topic": "T9",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "飾る",
+    "h": "かざる",
+    "fr": "orner / décorer",
+    "topic": "T9",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "以前",
+    "h": "いぜん",
+    "fr": "avant",
+    "topic": "T9",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "山中湖",
+    "h": "やまなかこ",
+    "fr": "Lac Yamanaka",
+    "topic": "T9",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "ミュージアム",
+    "h": "ミュージアム",
+    "fr": "musée",
+    "topic": "T9",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "風景",
+    "h": "ふうけい",
+    "fr": "paysage",
+    "topic": "T9",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "～とそっくり",
+    "h": "～とそっくり",
+    "fr": "exactement comme",
+    "topic": "T9",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "博物館レベル",
+    "h": "はくぶつかんレベル",
+    "fr": "du niveau d'un musée",
+    "topic": "T9",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "で",
+    "h": "で",
+    "fr": "et ensuite",
+    "topic": "T9",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "イブ",
+    "h": "イブ",
+    "fr": "Réveillon",
+    "topic": "T9",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "夜",
+    "h": "よる",
+    "fr": "soir / nuit",
+    "topic": "T9",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "ツリー",
+    "h": "ツリー",
+    "fr": "arbre",
+    "topic": "T9",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "根元",
+    "h": "ねもと",
+    "fr": "pied de l'arbre",
+    "topic": "T9",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "置く",
+    "h": "おく",
+    "fr": "poser",
+    "topic": "T9",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "実は",
+    "h": "じつは",
+    "fr": "en fait",
+    "topic": "T9",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "自分",
+    "h": "じぶん",
+    "fr": "soi",
+    "topic": "T9",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "～の分",
+    "h": "～のぶん",
+    "fr": "part (ex: sa part)",
+    "topic": "T9",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "集める",
+    "h": "あつめる",
+    "fr": "rassembler",
+    "topic": "T9",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "勝手に",
+    "h": "かってに",
+    "fr": "à sa guise",
+    "topic": "T9",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "許す",
+    "h": "ゆるす",
+    "fr": "permettre",
+    "topic": "T9",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "順番に",
+    "h": "じゅんばんに",
+    "fr": "en ordre de",
+    "topic": "T9",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "必ず",
+    "h": "かならず",
+    "fr": "certainement",
+    "topic": "T9",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "コメント",
+    "h": "コメント",
+    "fr": "commentaire",
+    "topic": "T9",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "次の",
+    "h": "つぎの",
+    "fr": "suivant",
+    "topic": "T9",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "すてきな",
+    "h": "すてきな",
+    "fr": "ravissant, merveilleux",
+    "topic": "T9",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "赤い",
+    "h": "あかい",
+    "fr": "rouge",
+    "topic": "T9",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "セーター",
+    "h": "セーター",
+    "fr": "pull-over",
+    "topic": "T9",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "ヨーロッパ",
+    "h": "ヨーロッパ",
+    "fr": "Europe",
+    "topic": "T9",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "旅行する",
+    "h": "りょこうする",
+    "fr": "partir en voyage",
+    "topic": "T9",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "君",
+    "h": "きみ",
+    "fr": "tu / toi",
+    "topic": "T9",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "似合う",
+    "h": "にあう",
+    "fr": "convenir / bien aller à",
+    "topic": "T9",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "スキー",
+    "h": "スキー",
+    "fr": "ski",
+    "topic": "T9",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "着る",
+    "h": "きる",
+    "fr": "porter",
+    "topic": "T9",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "気に入る",
+    "h": "きにいる",
+    "fr": "aimer",
+    "topic": "T9",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "変わった",
+    "h": "かわった",
+    "fr": "étrange / particulier",
+    "topic": "T9",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "～らしい",
+    "h": "～らしい",
+    "fr": "être comme / ressembler à〜 (ex : ça te ressemble bien)",
+    "topic": "T9",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "英語",
+    "h": "えいご",
+    "fr": "anglais",
+    "topic": "T9",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "苦手な",
+    "h": "にがてな",
+    "fr": "ne pas aimer / ne pas être doué",
+    "topic": "T9",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "続く",
+    "h": "つづく",
+    "fr": "continuer",
+    "topic": "T9",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "終わる",
+    "h": "おわる",
+    "fr": "finir / terminer",
+    "topic": "T9",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "親戚",
+    "h": "しんせき",
+    "fr": "parents / famille",
+    "topic": "T9",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "集まる",
+    "h": "あつまる",
+    "fr": "se rassembler",
+    "topic": "T9",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "それぞれ",
+    "h": "それぞれ",
+    "fr": "chaque",
+    "topic": "T9",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "プレゼントする",
+    "h": "プレゼントする",
+    "fr": "offrir un cadeau",
+    "topic": "T9",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "×（かける）",
+    "h": "かける",
+    "fr": "multiplier",
+    "topic": "T9",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "～個",
+    "h": "～こ",
+    "fr": "suffixe pour compter les petits objets",
+    "topic": "T9",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "おそろしく",
+    "h": "おそろしく",
+    "fr": "au point de faire peur",
+    "topic": "T9",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "半分",
+    "h": "はんぶん",
+    "fr": "moitié",
+    "topic": "T9",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "ふける",
+    "h": "ふける",
+    "fr": "se faire tard",
+    "topic": "T9",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "寝る",
+    "h": "ねる",
+    "fr": "dormir",
+    "topic": "T9",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "解散",
+    "h": "かいさん",
+    "fr": "dispersion",
+    "topic": "T9",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "朝",
+    "h": "あさ",
+    "fr": "matin",
+    "topic": "T9",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "続き",
+    "h": "つづき",
+    "fr": "suite",
+    "topic": "T9",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "始まる",
+    "h": "はじまる",
+    "fr": "commencer",
+    "topic": "T9",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "増える",
+    "h": "ふえる",
+    "fr": "augmenter",
+    "topic": "T9",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "サンタ",
+    "h": "サンタ",
+    "fr": "Père Noël",
+    "topic": "T9",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "～以上",
+    "h": "～いじょう",
+    "fr": "plus de〜",
+    "topic": "T9",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "交換",
+    "h": "こうかん",
+    "fr": "échange",
+    "topic": "T9",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "マラソン",
+    "h": "マラソン",
+    "fr": "marathon",
+    "topic": "T9",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "果てしなく",
+    "h": "はてしなく",
+    "fr": "sans fin",
+    "topic": "T9",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "ルール",
+    "h": "ルール",
+    "fr": "règle",
+    "topic": "T9",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "具体的に",
+    "h": "ぐたいてきに",
+    "fr": "concrètement",
+    "topic": "T9",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "女性的な",
+    "h": "じょせいてきな",
+    "fr": "féminin",
+    "topic": "T9",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "男性的な",
+    "h": "だんせいてきな",
+    "fr": "masculin",
+    "topic": "T9",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "登場人物",
+    "h": "とうじょうじんぶつ",
+    "fr": "personnage (s)",
+    "topic": "T9",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "役割",
+    "h": "やくわり",
+    "fr": "rôle / fonction",
+    "topic": "T9",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "キャラクター",
+    "h": "キャラクター",
+    "fr": "personnage",
+    "topic": "T9",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "性別",
+    "h": "せいべつ",
+    "fr": "sexe (féminin ou masculin)",
+    "topic": "T9",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "年齢",
+    "h": "ねんれい",
+    "fr": "âge",
+    "topic": "T9",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "性格",
+    "h": "せいかく",
+    "fr": "caractère",
+    "topic": "T9",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "職業",
+    "h": "しょくぎょう",
+    "fr": "profession",
+    "topic": "T9",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "社会階層",
+    "h": "しゃかいかいそう",
+    "fr": "classe sociale",
+    "topic": "T9",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "強調する",
+    "h": "きょうちょうする",
+    "fr": "accentuer",
+    "topic": "T9",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "特別な",
+    "h": "とくべつな",
+    "fr": "spécial, particulier",
+    "topic": "T9",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "注目する",
+    "h": "ちゅうもくする",
+    "fr": "prêter attention à",
+    "topic": "T9",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "イメージする",
+    "h": "イメージする",
+    "fr": "visualiser",
+    "topic": "T9",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "昔",
+    "h": "むかし",
+    "fr": "autrefois",
+    "topic": "T9",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "パレード",
+    "h": "パレード",
+    "fr": "défilé",
+    "topic": "T9",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "結局",
+    "h": "けっきょく",
+    "fr": "finalement",
+    "topic": "T9",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "（お）祭り",
+    "h": "おまつり",
+    "fr": "festival (fête folklorique)",
+    "topic": "T9",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "花火大会",
+    "h": "はなびたいかい",
+    "fr": "feu d'artifice",
+    "topic": "T9",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "混んでいる",
+    "h": "こんでいる",
+    "fr": "être bondé, très fréquenté",
+    "topic": "T9",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "なので",
+    "h": "なので",
+    "fr": "donc",
+    "topic": "T9",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "連れて行く",
+    "h": "つれていく",
+    "fr": "emmener",
+    "topic": "T9",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "こわがる",
+    "h": "こわがる",
+    "fr": "avoir peur",
+    "topic": "T9",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "しかも",
+    "h": "しかも",
+    "fr": "en plus",
+    "topic": "T9",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "サンタクロース",
+    "h": "サンタクロース",
+    "fr": "Père Noël",
+    "topic": "T9",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "こうして",
+    "h": "こうして",
+    "fr": "ainsi",
+    "topic": "T9",
+    "section": "PART4",
+    "niveau": "B1"
+  },
+  {
+    "k": "体験",
+    "h": "たいけん",
+    "fr": "expérience",
+    "topic": "T9",
+    "section": "PART5",
+    "niveau": "B1"
+  },
+  {
+    "k": "行事",
+    "h": "ぎょうじ",
+    "fr": "cérémonie / célébration / évènement",
+    "topic": "T9",
+    "section": "PART5",
+    "niveau": "B1"
+  },
+  {
+    "k": "感想",
+    "h": "かんそう",
+    "fr": "impression",
+    "topic": "T9",
+    "section": "PART5",
+    "niveau": "B1"
+  },
+  {
+    "k": "書き込み",
+    "h": "かきこみ",
+    "fr": "inscrire / compléter",
+    "topic": "T9",
+    "section": "PART5",
+    "niveau": "B1"
+  },
+  {
+    "k": "近況",
+    "h": "きんきょう",
+    "fr": "dernières nouvelles",
+    "topic": "T9",
+    "section": "PART5",
+    "niveau": "B1"
+  },
+  {
+    "k": "旅行",
+    "h": "りょこう",
+    "fr": "voyage",
+    "topic": "T9",
+    "section": "PART5",
+    "niveau": "B1"
+  },
+  {
+    "k": "日記",
+    "h": "にっき",
+    "fr": "journal intime",
+    "topic": "T9",
+    "section": "PART5",
+    "niveau": "B1"
+  },
+  {
+    "k": "その6",
+    "h": "そのろく",
+    "fr": "partie 6",
+    "topic": "T9",
+    "section": "PART5",
+    "niveau": "B1"
+  },
+  {
+    "k": "徳島",
+    "h": "とくしま",
+    "fr": "Tokushima",
+    "topic": "T9",
+    "section": "PART5",
+    "niveau": "B1"
+  },
+  {
+    "k": "阿波踊り",
+    "h": "あわおどり",
+    "fr": "danse d'Awa",
+    "topic": "T9",
+    "section": "PART5",
+    "niveau": "B1"
+  },
+  {
+    "k": "踊る",
+    "h": "おどる",
+    "fr": "danser",
+    "topic": "T9",
+    "section": "PART5",
+    "niveau": "B1"
+  },
+  {
+    "k": "参加する",
+    "h": "さんかする",
+    "fr": "participer",
+    "topic": "T9",
+    "section": "PART5",
+    "niveau": "B1"
+  },
+  {
+    "k": "はっぴ",
+    "h": "はっぴ",
+    "fr": "veste happi",
+    "topic": "T9",
+    "section": "PART5",
+    "niveau": "B1"
+  },
+  {
+    "k": "貸す",
+    "h": "かす",
+    "fr": "prêter à",
+    "topic": "T9",
+    "section": "PART5",
+    "niveau": "B1"
+  },
+  {
+    "k": "教える",
+    "h": "おしえる",
+    "fr": "enseigner",
+    "topic": "T9",
+    "section": "PART5",
+    "niveau": "B1"
+  },
+  {
+    "k": "挑戦する",
+    "h": "ちょうせんする",
+    "fr": "tenter de / essayer",
+    "topic": "T9",
+    "section": "PART5",
+    "niveau": "B1"
+  },
+  {
+    "k": "不思議な",
+    "h": "ふしぎな",
+    "fr": "mystérieux",
+    "topic": "T9",
+    "section": "PART5",
+    "niveau": "B1"
+  },
+  {
+    "k": "パワー",
+    "h": "パワー",
+    "fr": "pouvoir",
+    "topic": "T9",
+    "section": "PART5",
+    "niveau": "B1"
+  },
+  {
+    "k": "最高",
+    "h": "さいこう",
+    "fr": "le (la) meilleur (-e)",
+    "topic": "T9",
+    "section": "PART5",
+    "niveau": "B1"
+  },
+  {
+    "k": "楽しい",
+    "h": "たのしい",
+    "fr": "amusant",
+    "topic": "T9",
+    "section": "PART5",
+    "niveau": "B1"
+  },
+  {
+    "k": "本当に",
+    "h": "ほんとうに",
+    "fr": "vraiment",
+    "topic": "T9",
+    "section": "PART5",
+    "niveau": "B1"
+  },
+  {
+    "k": "経験",
+    "h": "けいけん",
+    "fr": "expérience",
+    "topic": "T9",
+    "section": "PART5",
+    "niveau": "B1"
+  },
+  {
+    "k": "プロ",
+    "h": "プロ",
+    "fr": "pro / professionnel",
+    "topic": "T9",
+    "section": "PART5",
+    "niveau": "B1"
+  },
+  {
+    "k": "踊り",
+    "h": "おどり",
+    "fr": "danse",
+    "topic": "T9",
+    "section": "PART5",
+    "niveau": "B1"
+  },
+  {
+    "k": "感動する",
+    "h": "かんどうする",
+    "fr": "être ému",
+    "topic": "T9",
+    "section": "PART5",
+    "niveau": "B1"
+  },
+  {
+    "k": "一緒に",
+    "h": "いっしょに",
+    "fr": "ensemble",
+    "topic": "T9",
+    "section": "PART5",
+    "niveau": "B1"
+  },
+  {
+    "k": "～なきゃだめ",
+    "h": "～なきゃだめ",
+    "fr": "il faut〜",
+    "topic": "T9",
+    "section": "PART5",
+    "niveau": "B1"
+  },
+  {
+    "k": "Facebook",
+    "h": "フェイスブック",
+    "fr": "Facebook",
+    "topic": "T9",
+    "section": "教室の外へ",
+    "niveau": "B1"
+  },
+  {
+    "k": "載せる",
+    "h": "のせる",
+    "fr": "mettre sur",
+    "topic": "T9",
+    "section": "教室の外へ",
+    "niveau": "B1"
+  },
+  {
+    "k": "行事",
+    "h": "ぎょうじ",
+    "fr": "cérémonie / célébration / évènement",
+    "topic": "T9",
+    "section": "教室の外へ",
+    "niveau": "B1"
+  },
+  {
+    "k": "感想",
+    "h": "かんそう",
+    "fr": "impression",
+    "topic": "T9",
+    "section": "教室の外へ",
+    "niveau": "B1"
+  },
+  {
+    "k": "ブログ",
+    "h": "ブログ",
+    "fr": "blog",
+    "topic": "T9",
+    "section": "教室の外へ",
+    "niveau": "B1"
+  },
+  {
+    "k": "～に関係する",
+    "h": "～にかんけいする",
+    "fr": "être lié à",
+    "topic": "T9",
+    "section": "教室の外へ",
+    "niveau": "B1"
+  },
+  {
+    "k": "イベント",
+    "h": "イベント",
+    "fr": "évènement",
+    "topic": "T9",
+    "section": "教室の外へ",
+    "niveau": "B1"
+  },
+  {
+    "k": "行う",
+    "h": "おこなう",
+    "fr": "avoir lieu / organiser",
+    "topic": "T9",
+    "section": "教室の外へ",
+    "niveau": "B1"
   }
 ];
