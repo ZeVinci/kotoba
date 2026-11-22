@@ -342,7 +342,7 @@
 
     <div class="perso-body">
       <p class="perso-stats" id="perso-stats"></p>
-      <p class="perso-note">Tout reste sur ton appareil — rien n'est envoyé en ligne. Ces mots apparaissent sous le niveau <b>Perso</b> dans la liste et la révision.</p>
+      <p class="perso-note">Tout reste sur ton appareil — rien n'est envoyé en ligne, sauf si tu actives la sauvegarde automatique GitHub (en bas de cet écran). Ces mots apparaissent sous le niveau <b>Perso</b> dans la liste et la révision.</p>
 
       <!-- Ajout manuel -->
       <section class="perso-section">
@@ -381,6 +381,28 @@
           <button class="perso-btn" id="perso-import">↑ Importer (JSON)</button>
         </div>
         <input type="file" id="perso-import-input" accept="application/json,.json" hidden>
+      </section>
+
+      <!-- Sauvegarde automatique GitHub -->
+      <section class="perso-section" id="sync-section">
+        <h3 class="perso-h">Sauvegarde automatique (GitHub)</h3>
+        <div id="sync-off">
+          <p class="perso-hint">Sauvegarde automatiquement tes mots perso, tes favoris et ton historique dans un dépôt GitHub <b>privé</b>. Le jeton reste uniquement sur ce téléphone.</p>
+          <div class="perso-form">
+            <input class="perso-input" id="sync-repo" placeholder="Dépôt — ex. vincent/kotoba-sauvegarde" autocomplete="off" autocapitalize="off" spellcheck="false">
+            <input class="perso-input" id="sync-token" type="password" placeholder="Jeton d'accès (github_pat_…)" autocomplete="off" autocapitalize="off" spellcheck="false">
+            <button class="perso-btn primary" id="sync-enable">Activer la sauvegarde</button>
+          </div>
+        </div>
+        <div id="sync-on" style="display:none">
+          <p class="sync-status" id="sync-status"></p>
+          <div class="perso-btn-row">
+            <button class="perso-btn" id="sync-now">↑ Sauvegarder maintenant</button>
+            <button class="perso-btn" id="sync-restore">↓ Restaurer depuis GitHub</button>
+          </div>
+          <button class="sync-off-btn" id="sync-disable">Désactiver (oublier le jeton sur ce téléphone)</button>
+        </div>
+        <p class="perso-hint" id="storage-status"></p>
       </section>
 
       <!-- Liste éditable -->
@@ -455,6 +477,12 @@
       <section class="help-block">
         <h3 class="help-h">Sauvegarde & partage</h3>
         <p><span class="hl">↓ Exporter (JSON)</span> télécharge toute ta liste perso dans un fichier. <span class="hl">↑ Importer (JSON)</span> la recharge — pratique pour passer d'un téléphone à un autre, ou partager ta liste avec quelqu'un.</p>
+      </section>
+
+      <section class="help-block">
+        <h3 class="help-h">Sauvegarde automatique (GitHub)</h3>
+        <p>Une fois activée, l'app envoie <b>sauvegarde.json</b> (mots perso, favoris, historique, réglages) dans ton dépôt GitHub privé, quelques secondes après chaque modification et à la fin de chaque révision. Hors connexion, l'envoi est repris automatiquement plus tard.</p>
+        <p>Sur un nouveau téléphone : saisis le même dépôt et le même jeton, puis accepte la restauration. <span class="hl">↓ Restaurer depuis GitHub</span> recharge la dernière sauvegarde à tout moment. Chaque envoi est un commit : les versions précédentes restent consultables sur GitHub.</p>
       </section>
 
     </div>

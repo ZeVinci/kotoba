@@ -847,3 +847,15 @@ html, body {
 .hist-empty { text-align: center; color: var(--smoke); font-size: 0.85rem; padding: 30px 10px; line-height: 1.5; }
 .hist-tag.dim { opacity: 0.55; }
 .hist-tag.more { background: rgba(255,255,255,0.12); color: var(--paper); }
+
+/* ============ SAUVEGARDE GITHUB ============ */
+.sync-status { font-size: 0.85rem; line-height: 1.45; color: var(--paper); margin-bottom: 10px; }
+.sync-status .ok   { color: #5fd38d; }
+.sync-status .warn { color: #ff9f6b; }
+.sync-status .busy { color: var(--gold); }
+.sync-status small { display: block; color: var(--smoke); font-size: 0.75rem; margin-top: 2px; }
+.sync-off-btn {
+  margin-top: 10px; background: none; border: none; cursor: pointer;
+  color: var(--smoke); font-family: var(--font-ui); font-size: 0.75rem;
+  text-decoration: underline; text-underline-offset: 3px; padding: 4px 0;
+}

@@ -26,6 +26,7 @@ function loadFavs() {
 function saveFavs() {
   try { localStorage.setItem(FAV_KEY, JSON.stringify([...favs])); }
   catch (e) {}
+  syncMarkDirty();
 }
 function isFav(w) { return favs.has(wordId(w)); }
 function toggleFav(w) {
@@ -72,6 +73,7 @@ function loadPerso() {
 function savePerso() {
   try { localStorage.setItem(PERSO_KEY, JSON.stringify(persoWords)); }
   catch (e) { alert('Impossible d\'enregistrer le vocabulaire perso (stockage plein ?).'); }
+  syncMarkDirty();
 }
 
 // Normalise / valide une entrée perso ; renvoie null si k, h ou fr manque.
@@ -1008,6 +1010,7 @@ function loadHistory() {
 function saveHistory(arr) {
   if (arr.length > HIST_MAX) arr = arr.slice(arr.length - HIST_MAX);
   try { localStorage.setItem(HIST_KEY, JSON.stringify(arr)); } catch (e) {}
+  syncMarkDirty();
 }
 
 // Les mots perso forment un seul thème « Perso » ; les autres : Niveau + Topic.
@@ -1309,6 +1312,336 @@ on('hist-body', 'click', function(e) {
   }
 });
 
+// ============ SAUVEGARDE AUTOMATIQUE (GitHub) ============
+// Envoie sauvegarde.json (perso + favoris + historique + réglages) dans un
+// dépôt GitHub privé, via l'API « contents ». Le jeton n'est stocké que dans
+// le localStorage de cet appareil.
+// - Après chaque modification : marquée « à sauvegarder » (persistant), envoi
+//   groupé quelques secondes plus tard.
+// - Échec (hors ligne, jeton expiré…) : nouvel essai au retour du réseau et
+//   au prochain lancement.
+// NB : `var` + fonctions (hissées) car syncMarkDirty() peut être appelée
+// pendant le chargement, avant que cette section ne soit exécutée.
+var SYNC_CFG_KEY   = 'kotoba-sync';
+var SYNC_DIRTY_KEY = 'kotoba-sync-dirty';
+var SYNC_FILE      = 'sauvegarde.json';
+var SYNC_DELAY_MS  = 5000;
+var syncTimer = null;
+var syncBusy = false;
+var syncAgain = false;
+
+function syncLoadCfg() {
+  try { return JSON.parse(localStorage.getItem('kotoba-sync') || 'null'); } catch (e) { return null; }
+}
+function syncSaveCfg(cfg) {
+  try {
+    if (cfg) localStorage.setItem('kotoba-sync', JSON.stringify(cfg));
+    else localStorage.removeItem('kotoba-sync');
+  } catch (e) {}
+}
+function syncPatchCfg(patch) {
+  var cfg = syncLoadCfg(); if (!cfg) return null;
+  Object.keys(patch).forEach(function(k) { cfg[k] = patch[k]; });
+  syncSaveCfg(cfg); return cfg;
+}
+
+function syncMarkDirty() {
+  try { localStorage.setItem('kotoba-sync-dirty', '1'); } catch (e) {}
+  if (!syncLoadCfg()) return;
+  clearTimeout(syncTimer);
+  syncTimer = setTimeout(syncBackup, 5000);
+}
+
+// --- Contenu de la sauvegarde ---
+function syncReadJSON(key, dflt) {
+  try { var v = JSON.parse(localStorage.getItem(key) || 'null'); return v == null ? dflt : v; }
+  catch (e) { return dflt; }
+}
+function syncPayload() {
+  return {
+    perso: persoWords,
+    favoris: [...favs],
+    historique: loadHistory(),
+    reglages: syncReadJSON(SETTINGS_KEY, null)
+  };
+}
+// Empreinte simple (évite un commit si rien n'a changé)
+function syncHash(str) {
+  var h = 5381;
+  for (var i = 0; i < str.length; i++) h = ((h << 5) + h + str.charCodeAt(i)) | 0;
+  return str.length + ':' + (h >>> 0).toString(36);
+}
+function b64utf8(str) {
+  var bytes = new TextEncoder().encode(str), bin = '';
+  for (var i = 0; i < bytes.length; i += 0x8000) {
+    bin += String.fromCharCode.apply(null, bytes.subarray(i, i + 0x8000));
+  }
+  return btoa(bin);
+}
+
+// --- API GitHub ---
+function ghRequest(cfg, path, opts) {
+  opts = opts || {};
+  var headers = {
+    'Authorization': 'Bearer ' + cfg.token,
+    'Accept': opts.accept || 'application/vnd.github+json',
+    'X-GitHub-Api-Version': '2022-11-28'
+  };
+  if (opts.body) headers['Content-Type'] = 'application/json';
+  return fetch('https://api.github.com/repos/' + cfg.repo + path, {
+    method: opts.method || 'GET', headers: headers,
+    body: opts.body ? JSON.stringify(opts.body) : undefined,
+    cache: 'no-store'
+  });
+}
+function ghError(status) {
+  if (status === 401) return 'jeton refusé ou expiré';
+  if (status === 403) return 'accès refusé — le jeton doit avoir « Contents : Read and write » sur ce dépôt';
+  if (status === 404) return 'dépôt introuvable — vérifie son nom et l\'accès du jeton';
+  if (status === 409 || status === 422) return 'conflit de version, nouvel essai';
+  return 'erreur GitHub ' + status;
+}
+function ghFail(status) { var e = new Error(ghError(status)); e.status = status; return e; }
+
+// SHA actuel du fichier (null s'il n'existe pas encore)
+function ghGetSha(cfg) {
+  return ghRequest(cfg, '/contents/' + SYNC_FILE).then(function(r) {
+    if (r.status === 404) return null;
+    if (!r.ok) throw ghFail(r.status);
+    return r.json().then(function(j) { return j.sha; });
+  });
+}
+// Contenu de la sauvegarde distante (null s'il n'y en a pas)
+function ghReadBackup(cfg) {
+  return ghRequest(cfg, '/contents/' + SYNC_FILE, { accept: 'application/vnd.github.raw+json' })
+    .then(function(r) {
+      if (r.status === 404) return null;
+      if (!r.ok) throw ghFail(r.status);
+      return r.text().then(function(t) { return JSON.parse(t); });
+    });
+}
+function ghWrite(cfg, content, sha) {
+  var now = new Date();
+  var body = {
+    message: 'Sauvegarde Kotoba — ' + now.toLocaleDateString('fr-FR') + ' ' + fmtTime(now.getTime()),
+    content: b64utf8(content)
+  };
+  if (sha) body.sha = sha;
+  return ghRequest(cfg, '/contents/' + SYNC_FILE, { method: 'PUT', body: body }).then(function(r) {
+    if (!r.ok) throw ghFail(r.status);
+    return r.json().then(function(j) { return j.content && j.content.sha; });
+  });
+}
+
+// --- Sauvegarde ---
+function syncBackup(force) {
+  clearTimeout(syncTimer); syncTimer = null;
+  var cfg = syncLoadCfg();
+  if (!cfg) return Promise.resolve(false);
+  if (syncBusy) { syncAgain = true; return Promise.resolve(false); }
+  var data = syncPayload();
+  var hash = syncHash(JSON.stringify(data));
+  if (!force && hash === cfg.hash) {
+    try { localStorage.removeItem(SYNC_DIRTY_KEY); } catch (e) {}
+    return Promise.resolve(true);
+  }
+  data = Object.assign({ app: 'kotoba', format: 1, date: new Date().toISOString() }, data);
+  var content = JSON.stringify(data, null, 1);
+  syncBusy = true; syncRenderStatus('busy');
+
+  function attempt(sha, retry) {
+    return ghWrite(cfg, content, sha).catch(function(err) {
+      // SHA périmé (fichier modifié ailleurs) → on relit le SHA et on réessaie une fois
+      if (retry && (err.status === 409 || err.status === 422)) {
+        return ghGetSha(cfg).then(function(s) { return attempt(s, false); });
+      }
+      throw err;
+    });
+  }
+  var shaP = cfg.sha ? Promise.resolve(cfg.sha) : ghGetSha(cfg);
+  return shaP.then(function(sha) { return attempt(sha, true); })
+    .then(function(newSha) {
+      syncPatchCfg({ sha: newSha, hash: hash, lastOk: Date.now(), lastErr: null });
+      try { localStorage.removeItem(SYNC_DIRTY_KEY); } catch (e) {}
+      return true;
+    })
+    .catch(function(err) {
+      var msg = (err && err.status) ? err.message : 'pas de connexion';
+      syncPatchCfg({ lastErr: msg, lastErrAt: Date.now() });
+      if (err && (err.status === 409 || err.status === 422)) syncPatchCfg({ sha: null });
+      return false;
+    })
+    .then(function(ok) {
+      syncBusy = false; syncRenderStatus();
+      if (syncAgain) { syncAgain = false; syncMarkDirty(); }
+      return ok;
+    });
+}
+
+// --- Restauration ---
+function syncApplyBackup(data) {
+  persoWords = dedupePerso(Array.isArray(data.perso) ? data.perso : []);
+  favs = new Set(Array.isArray(data.favoris) ? data.favoris : []);
+  try {
+    localStorage.setItem(PERSO_KEY, JSON.stringify(persoWords));
+    localStorage.setItem(FAV_KEY, JSON.stringify([...favs]));
+    localStorage.setItem(HIST_KEY, JSON.stringify(Array.isArray(data.historique) ? data.historique : []));
+    if (data.reglages) localStorage.setItem(SETTINGS_KEY, JSON.stringify(data.reglages));
+  } catch (e) { alert('Restauration incomplète : stockage plein ?'); }
+  rebuildVocab();
+  loadSettings();
+  renderPersoScreen();
+  // Le contenu local = la sauvegarde : rien à renvoyer
+  syncPatchCfg({ hash: syncHash(JSON.stringify(syncPayload())) });
+  try { localStorage.removeItem(SYNC_DIRTY_KEY); } catch (e) {}
+}
+function syncDescribe(data) {
+  var d = data.date ? new Date(data.date) : null;
+  return (d ? 'Sauvegarde du ' + d.toLocaleDateString('fr-FR') + ' à ' + fmtTime(d.getTime()) + ' :\n' : '') +
+    '• ' + (data.perso || []).length + ' mot(s) perso\n' +
+    '• ' + (data.favoris || []).length + ' favori(s)\n' +
+    '• ' + (data.historique || []).length + ' session(s) d\'historique';
+}
+function syncRestore() {
+  var cfg = syncLoadCfg(); if (!cfg) return;
+  syncRenderStatus('busy');
+  ghReadBackup(cfg).then(function(data) {
+    syncRenderStatus();
+    if (!data) { alert('Aucune sauvegarde trouvée dans ce dépôt.'); return; }
+    if (data.app !== 'kotoba') { alert('Le fichier ' + SYNC_FILE + ' de ce dépôt n\'est pas une sauvegarde Kotoba.'); return; }
+    if (!confirm(syncDescribe(data) + '\n\nRestaurer ? Cela REMPLACE les mots perso, favoris et historique de ce téléphone.')) return;
+    syncApplyBackup(data);
+    alert('Restauration terminée.');
+  }).catch(function(err) {
+    syncRenderStatus();
+    alert('Restauration impossible : ' + ((err && err.status) ? err.message : 'pas de connexion'));
+  });
+}
+
+// --- Activation / désactivation ---
+function parseRepo(v) {
+  v = (v || '').trim().replace(/\.git$/, '').replace(/\/+$/, '');
+  var m = v.match(/github\.com[/:]([^/\s]+)\/([^/\s]+)/i) || v.match(/^([^/\s]+)\/([^/\s]+)$/);
+  return m ? m[1] + '/' + m[2] : null;
+}
+function syncEnable() {
+  var repo = parseRepo(gv('sync-repo'));
+  var token = gv('sync-token').trim();
+  if (!repo) { alert('Indique le dépôt sous la forme  utilisateur/nom-du-dépôt.'); return; }
+  if (!token) { alert('Colle ton jeton d\'accès GitHub.'); return; }
+  var cfg = { repo: repo, token: token };
+  var btn = document.getElementById('sync-enable');
+  btn.disabled = true; btn.textContent = 'Vérification…';
+  function done() { btn.disabled = false; btn.textContent = 'Activer la sauvegarde'; }
+
+  ghRequest(cfg, '').then(function(r) {
+    if (!r.ok) throw ghFail(r.status);
+    return r.json();
+  }).then(function(info) {
+    if (info && info.private === false &&
+        !confirm('⚠ Ce dépôt est PUBLIC : ta sauvegarde serait visible par tout le monde.\nUtilise plutôt un dépôt privé.\n\nContinuer quand même ?')) {
+      throw null;
+    }
+    return ghReadBackup(cfg);
+  }).then(function(remote) {
+    if (remote && remote.app === 'kotoba') {
+      // Une sauvegarde existe déjà (ex. nouveau téléphone) : on ne l'écrase pas sans demander.
+      if (confirm(syncDescribe(remote) + '\n\nUne sauvegarde existe déjà dans ce dépôt.\nOK = la RESTAURER sur ce téléphone (remplace les données locales).\nAnnuler = autres choix.')) {
+        syncSaveCfg(cfg);
+        syncApplyBackup(remote);
+        syncPatchCfg({ lastOk: Date.now() });
+        alert('Sauvegarde restaurée. La sauvegarde automatique est active.');
+        return;
+      }
+      if (!confirm('REMPLACER la sauvegarde GitHub par les données de ce téléphone ?\n(L\'ancienne version reste récupérable dans l\'historique du dépôt.)')) throw null;
+    }
+    syncSaveCfg(cfg);
+    return syncBackup(true).then(function(ok) {
+      var c = syncLoadCfg();
+      alert(ok ? 'Sauvegarde automatique activée ✓' : 'Activée, mais le premier envoi a échoué : ' + (c && c.lastErr) + '.\nNouvel essai automatique.');
+    });
+  }).catch(function(err) {
+    if (err) alert('Activation impossible : ' + ((err && err.status) ? err.message : 'pas de connexion'));
+  }).then(function() {
+    done();
+    document.getElementById('sync-token').value = '';
+    syncRenderStatus();
+  });
+}
+function syncDisable() {
+  if (!confirm('Désactiver la sauvegarde automatique ?\nLe jeton est effacé de ce téléphone. La sauvegarde reste dans ton dépôt GitHub.')) return;
+  clearTimeout(syncTimer);
+  syncSaveCfg(null);
+  syncRenderStatus();
+}
+
+// --- Affichage de l'état ---
+function syncRenderStatus(state) {
+  var cfg = syncLoadCfg();
+  var off = document.getElementById('sync-off'), onEl = document.getElementById('sync-on');
+  if (!off || !onEl) return;
+  off.style.display = cfg ? 'none' : '';
+  onEl.style.display = cfg ? '' : 'none';
+  if (!cfg) return;
+  var el = document.getElementById('sync-status');
+  var dirty = localStorage.getItem(SYNC_DIRTY_KEY) === '1';
+  var html;
+  if (state === 'busy' || syncBusy) {
+    html = '<span class="busy">⏳ Échange avec GitHub…</span>';
+  } else if (cfg.lastErr && dirty) {
+    html = '<span class="warn">⚠ Dernier essai échoué : ' + esc(cfg.lastErr) + '</span>' +
+           '<small>Nouvel essai automatique au retour du réseau ou au prochain lancement.</small>';
+  } else if (cfg.lastOk) {
+    html = '<span class="ok">✓ Sauvegardé ' + esc(fmtAgo(cfg.lastOk)) + ' à ' + fmtTime(cfg.lastOk) + '</span>' +
+           (dirty ? '<small>Modifications récentes en attente d\'envoi…</small>' : '');
+  } else {
+    html = '<span class="busy">En attente du premier envoi…</span>';
+  }
+  html += '<small>Dépôt : ' + esc(cfg.repo) + ' · fichier ' + SYNC_FILE + '</small>';
+  el.innerHTML = html;
+}
+
+// --- Stockage persistant (le navigateur ne l'efface plus de lui-même) ---
+function initPersistentStorage() {
+  var el = document.getElementById('storage-status');
+  if (!(navigator.storage && navigator.storage.persist)) {
+    if (el) el.textContent = '';
+    return;
+  }
+  navigator.storage.persisted()
+    .then(function(p) { return p || navigator.storage.persist(); })
+    .then(function(p) {
+      if (el) el.textContent = p
+        ? '🔒 Stockage protégé : le navigateur ne l\'effacera pas de lui-même.'
+        : 'Stockage non protégé par ce navigateur — la sauvegarde GitHub est d\'autant plus utile.';
+    })
+    .catch(function() {});
+}
+
+// --- Câblage ---
+on('sync-enable', 'click', syncEnable);
+on('sync-disable', 'click', syncDisable);
+on('sync-now', 'click', function() {
+  syncBackup(true).then(function(ok) {
+    if (!ok) { var c = syncLoadCfg(); if (c) alert('Échec de la sauvegarde : ' + c.lastErr); }
+  });
+});
+on('sync-restore', 'click', syncRestore);
+window.addEventListener('online', function() {
+  if (syncLoadCfg() && localStorage.getItem(SYNC_DIRTY_KEY) === '1') syncBackup();
+});
+// App mise en arrière-plan : envoyer tout de suite ce qui attend
+document.addEventListener('visibilitychange', function() {
+  if (document.visibilityState === 'hidden' && syncTimer) syncBackup();
+});
+initPersistentStorage();
+syncRenderStatus();
+// Au lancement : renvoyer ce qui n'a pas pu l'être
+if (syncLoadCfg() && localStorage.getItem(SYNC_DIRTY_KEY) === '1') {
+  clearTimeout(syncTimer);
+  syncTimer = setTimeout(syncBackup, 3000);
+}
+
 // ============ EVENT DELEGATION ============
 document.addEventListener('click', function(e) {
   var el = e.target.closest('[data-action]');
@@ -1333,6 +1666,7 @@ document.addEventListener('click', function(e) {
     case 'goto-help':  showScreen('help-screen'); break;
     case 'goto-perso':
       renderPersoScreen();
+      syncRenderStatus();
       showScreen('perso-screen');
       break;
     case 'goto-perso-help': showScreen('perso-help-screen'); break;
