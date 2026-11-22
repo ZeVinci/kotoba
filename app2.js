@@ -692,6 +692,7 @@ function startRevise() {
     return;
   }
   reviseMode = document.querySelector('input[name="rev-mode"]:checked').value;
+  currentWord = null;
   scoreGood = scoreTotal = 0;
   updateScore();
   showScreen('revise-game-screen');
@@ -700,8 +701,17 @@ function startRevise() {
 
 // ============ MODE RÉVISION JEU ============
 function nextWord() {
-  currentWord = reviseWords[Math.floor(Math.random() * reviseWords.length)];
+  // Tirage aléatoire, sans retomber sur le mot qui vient de passer
+  // (sauf s'il n'y a qu'un seul mot dans la sélection).
+  var prev = currentWord;
+  var pick, tries = 0;
+  do {
+    pick = reviseWords[Math.floor(Math.random() * reviseWords.length)];
+    tries++;
+  } while (tries < 20 && reviseWords.length > 1 && prev && wordId(pick) === wordId(prev));
+  currentWord = pick;
   revealed = false;
+  updateRevStar();
 
   var pK  = document.getElementById('prompt-k');
   var pH  = document.getElementById('prompt-h');
@@ -733,6 +743,21 @@ function nextWord() {
     aH.textContent  = hira;
   }
 }
+
+// Étoile ☆/★ de la carte de révision : reflète et bascule le favori du mot affiché.
+function updateRevStar() {
+  var btn = document.getElementById('rev-star');
+  if (!btn || !currentWord) return;
+  var on = isFav(currentWord);
+  btn.textContent = on ? '★' : '☆';
+  btn.classList.toggle('on', on);
+  btn.setAttribute('aria-pressed', on ? 'true' : 'false');
+}
+on('rev-star', 'click', function() {
+  if (!currentWord) return;
+  toggleFav(currentWord);
+  updateRevStar();
+});
 
 function revealAnswer() {
   if (revealed) return;
@@ -872,6 +897,85 @@ function renderGramList() {
     wrap.appendChild(section);
   });
 }
+
+// ============ RÉGLAGES MÉMORISÉS ============
+// Filtres + options des écrans Liste et Révision, conservés d'une ouverture à
+// l'autre (localStorage, clé kotoba-reglages). Les valeurs devenues invalides
+// (ex. thème perso supprimé) sont ignorées au chargement.
+const SETTINGS_KEY = 'kotoba-reglages';
+
+function selToJSON(sel) {
+  return { niveau: [...sel.niveau], niveauTopic: [...sel.niveauTopic], section: [...sel.section] };
+}
+
+function selFromJSON(sel, data) {
+  if (!data) return;
+  var niveaux  = new Set(allNiveaux());
+  var topics   = new Set(allNT().map(function(o) { return o.key; }));
+  var sections = new Set(ALL_VOCAB.map(function(v) { return v.section; }));
+  sel.niveau.clear(); sel.niveauTopic.clear(); sel.section.clear();
+  (data.niveau || []).forEach(function(v) { if (niveaux.has(v)) sel.niveau.add(v); });
+  (data.niveauTopic || []).forEach(function(v) {
+    if (topics.has(v) && sel.niveau.has(ntNiveauOf(v))) sel.niveauTopic.add(v);
+  });
+  (data.section || []).forEach(function(v) { if (sections.has(v)) sel.section.add(v); });
+  pruneSections(sel);
+}
+
+function setChecked(id, val) {
+  var el = document.getElementById(id);
+  if (el) el.checked = !!val;
+}
+function isChecked(id) {
+  var el = document.getElementById(id);
+  return !!(el && el.checked);
+}
+
+function saveSettings() {
+  var modeEl = document.querySelector('input[name="rev-mode"]:checked');
+  var s = {
+    rev: {
+      sel: selToJSON(revSel),
+      favOnly: isChecked('rev-fav-only'),
+      lastN: reviseLastN,
+      mode: modeEl ? modeEl.value : 'k-fr'
+    },
+    learn: {
+      sel: selToJSON(learnSel),
+      favOnly: learnFavsOnly,
+      hideJP: isChecked('hide-jp'),
+      hideFR: isChecked('hide-fr')
+    }
+  };
+  try { localStorage.setItem(SETTINGS_KEY, JSON.stringify(s)); } catch (e) {}
+}
+
+function loadSettings() {
+  var s;
+  try { s = JSON.parse(localStorage.getItem(SETTINGS_KEY) || 'null'); } catch (e) { s = null; }
+  if (!s) return;
+  if (s.rev) {
+    selFromJSON(revSel, s.rev.sel);
+    setChecked('rev-fav-only', s.rev.favOnly);
+    if (LAST_N_OPTIONS.indexOf(s.rev.lastN) !== -1) reviseLastN = s.rev.lastN;
+    renderLastChips();
+    var radio = document.querySelector('input[name="rev-mode"][value="' + s.rev.mode + '"]');
+    if (radio) radio.checked = true;
+  }
+  if (s.learn) {
+    selFromJSON(learnSel, s.learn.sel);
+    learnFavsOnly = !!s.learn.favOnly;
+    setChecked('fav-only', learnFavsOnly);
+    setChecked('hide-jp', s.learn.hideJP);
+    setChecked('hide-fr', s.learn.hideFR);
+  }
+}
+loadSettings();
+
+// Sauvegarde après chaque interaction : ces écouteurs, posés sur document en
+// dernier, passent après ceux des puces/cases (phase de remontée).
+document.addEventListener('click', saveSettings);
+document.addEventListener('change', saveSettings);
 
 // ============ EVENT DELEGATION ============
 document.addEventListener('click', function(e) {
