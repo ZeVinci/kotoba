@@ -2404,3 +2404,523 @@ Pour rapporter la volonté d'une tierce personne, on n'utilise pas la constructi
 
 > うちの子、1歳になったんだけど、何でも口に入れたがって、こまるよ。
 > Notre enfant a eu 1 an, il veut tout mettre en bouche, c'est problématique.
+
+
+# Grammaire — B1-1 · Thème 6 · マンガを読もう
+
+---
+
+## 1. これをかぶって行くつもりです。
+*Je compte y aller avec ça sur la tête.*
+
+Pour évoquer quelque chose que l'on projette de faire, on utilise la tournure suivante : **Verbe à la forme du dictionnaire + つもりです**. Inversement, on exprime ce que l'on a décidé de ne pas faire : **Verbe à la forme en－ない + つもりです**.
+
+**① Exemples de la forme affirmative : Verbe (forme du dictionnaire) + つもりです.**
+
+> 来月のマンガエキスポに行くつもりです。
+> J'ai l'intention d'aller à la « Manga Expo » le mois prochain.
+
+> 『鋼の錬金術師』の映画が公開されたら、ぜったい見に行くつもりです。
+> Quand le film de Full Metal Alchemist sortira, je prévois d'aller le voir à coup sûr !
+
+> 今年はチョッパーのコスプレをするつもりです。
+> Cette année, je prévois de faire un cosplay de Chopper.
+
+**② Exemple de la forme négative : Verbe (forme en ない) + つもりです.**
+
+> 来週新しい『ワンピース』の映画が公開されますが、初日は見に行かないつもりです。
+> Le nouveau film de One Piece sort la semaine prochaine, mais je ne compte pas aller le voir le tout premier jour.
+
+---
+
+## 2. 海賊が仲間といっしょに世界を冒険する話です。
+*Ça raconte les aventures de pirates qui parcourent le monde avec leurs amis.*
+
+Lorsque l'on veut résumer simplement le contenu ou l'intrigue d'un manga ou d'un animé, on emploie la construction : **Proposition (forme neutre) + Nom**.
+
+En général, le Nom en question est simplement 話 ou ストーリー (« C'est l'histoire de... »), ou fait référence au genre de l'œuvre (料理マンガ, 侍もの, etc.).
+
+Au sein de la Proposition, le sujet thématique de la description est suivi par **が**, et non は.
+
+**Exemples :**
+
+> 『ワンピース』は、海賊ルフィが仲間と大冒険するマンガです。
+> One Piece, c'est un manga dans lequel le pirate Luffy vit des grandes aventures avec ses amis.
+
+> 『のだめカンタービレ』は、のだめというピアニストが指揮者の千秋と出会い、一緒に成長していくラブコメディです。
+> Nodame Cantabile est une comédie romantique racontant la rencontre entre une pianiste nommée Nodame et Chiaki, un chef d'orchestre, et les progrès qu'ils feront ensemble.
+
+> 『金田一少年の事件簿』は、名探偵の孫、金田一少年が様々な難事件を解決していくストーリーです。
+> Les Enquêtes de Kindaichi est l'histoire du jeune Kindaichi, petit-fils d'un détective célèbre, qui résout des affaires diverses.
+
+> 『デスノート』は、主人公のライトがある日拾った死神のノートを使って、次々に人を殺す話です。
+> Death Note raconte l'histoire de Light, le protagoniste, qui trouve un jour le carnet d'un shinigami [divinité psychopompe] et l'utilise pour tuer en série.
+
+---
+
+## 3. きっと感動するはずです。
+*Ça vous touchera sûrement.*
+
+Lorsque l'on a une raison de penser ou prévoir que les choses se dérouleront très probablement d'une certaine façon, on emploie la tournure **Verbe à la forme neutre + はずだ**.
+
+Ici, elle permet de présenter les émotions que le locuteur est convaincu que ses interlocuteurs ressentiront à la lecture d'un manga.
+
+**Exemples :**
+
+> 『のだめ』はおもしろい話ですから、きっと好きになるはずです。
+> Nodame est une histoire intéressante, ça te plaira sûrement !
+
+> このマンガ、まだあまり知られていませんが、素晴らしい話なのでそのうち人気が出るはずです。
+> Ce manga n'est pas encore très connu, mais l'histoire est magnifique, donc il devrait devenir populaire dans les prochains temps.
+
+> このマンガなら、セリフが少ないし、絵でストーリーがだいたいわかるから、外国人にも読みやすいはずです。
+> Dans ce manga, il y a peu de répliques et on comprend la majeure partie de l'histoire grâce aux dessins, donc il devrait être facile à lire même pour les étrangers.
+
+> 政治や経済の難しい話も、マンガを読めば、楽しく勉強できるはずです。
+> Même les sujets compliqués comme la politique ou l'économie, on doit pouvoir prendre plaisir à les étudier, si c'est par la lecture de mangas.
+
+> 『ベルサイユのばら』はフランス革命が舞台のマンガです。ドラマチックなストーリーなので、歴史やドラマが好きな人なら、ぜったい感動するはずです。
+> La Rose de Versailles est un manga prenant pour scène la Révolution française. Comme c'est une histoire dramatique, les amoureux de l'Histoire ou des tragédies devraient sûrement être emballés.
+
+### • ちょっと長いかもねえ。
+*C'est peut-être un peu long, hein...*
+
+Lorsque l'on souhaite transmettre son opinion ou sa façon de voir les choses sans être catégorique, on peut utiliser la tournure **Verbe à la forme neutre + かも**. Il s'agit d'une version informelle de ～かもしれません (abordé dans la leçon 17 du niveau A2-2).
+
+Lorsque l'on greffe ～かも à un adjectif en な ou à un nom, on enlève le だ final inhérent à la forme neutre de ceux-ci.
+
+**Exemples :**
+
+> A：この漫画、すごくおもしろいですよ。ぜひ読んでみてください。 / B：そう？でも全部日本語でしょ？ちょっと無理かもねえ。
+> A : Ce manga est super intéressant ! Il faut que tu le lises ! / B : Ah bon ? Mais c'est tout en japonais, non ? C'est peut-être pas possible pour moi, hein...
+
+> A：いっしょにマンガエキスポへ行きませんか。 / B：ええ？でもみんなコスプレするんでしょ？ちょっとはずかしいかも・・・。
+> A : Tu veux pas aller à la « Manga Expo » avec moi ? / B : Hein ? Mais tout le monde fait du cosplay, non ? J'aurais trop honte...
+
+---
+
+## 4. マンガ版を読んですませたようです。
+*Apparemment, il s'est contenté de lire la version manga.*
+
+Supposons une situation dans laquelle une action ou un fait particulier est évident et naturel, mais où une autre possibilité est toutefois choisie à la place, tout en étant considérée comme suffisante (à tort ou à raison).
+
+Pour exprimer de telles circonstances, on utilise la tournure **Verbe à la forme en－て + すませる**.
+
+**Exemples :**
+
+> 息子は、夏目漱石の小説『ぼっちゃん』を読まないで、そのマンガ版を読んですませた。
+> Mon fils n'a pas lu le roman Botchan de Natsume Sôseki, mais il a lu la version manga à la place.
+
+> 家にスペースがなくなってきたので、最近は、どうしても欲しい本以外はe-Book版を買ってすませている。
+> La place me manque de plus en plus à la maison, alors en ce moment, à part pour les livres que je veux vraiment, je me contente d'acheter les versions numériques.
+
+> 弟は大学生なのに、難しい歴史や政治を学ばなければいけないときは、だいたいマンガを読んですませている。
+> Mon petit frère est à la fac, mais quand il doit étudier des points difficiles de l'Histoire ou de la politique, il se contente en général de juste lire des mangas sur le sujet.
+
+---
+
+## 5. 手塚治の『火の鳥』など、文学作品に劣らぬ深い内容だと思いますが。
+*Je pense que Phénix, l'oiseau de feu d'Osamu Tezuka, par exemple, a une profondeur de contenu digne d'une œuvre littéraire.*
+
+On utilise cette tournure lors de la description d'un item A, pour exprimer que celui-ci tient la comparaison avec un item B, qu'il est d'aussi bonne qualité que ce dernier. L'item B est généralement accepté comme supérieur à A, mais cette tournure indique que l'on considère A comme lui étant équivalent en de nombreux points.
+
+La phrase se construit ainsi : **[Item B] (nom) + に劣らぬ / に劣らない**.
+
+**Exemples :**
+
+> マンガは内容が浅いという人もいますが、文芸作品に劣らぬ深い内容のマンガもあると思う。
+> Certains disent que le contenu des mangas est superficiel, mais je pense qu'il y en a dont la profondeur n'a rien à envier aux œuvres littéraires.
+
+> 『鋼の錬金術師』は『ワンピース』に劣らないすばらしい作品だ。
+> Full Metal Alchemist est une œuvre remarquable, du même niveau que One Piece.
+
+> 彼のデビュー前の作品も、デビュー後の作品に劣らぬすばらしいストーリーだ。
+> Ses œuvres avant ses débuts sont des histoires n'ayant rien à envier à celles qu'il a sorties par la suite en tant que professionnel.
+
+---
+
+## 6. （マンガを）読まずに娘さんを批判するのはよくないですね。
+*Ce n'est pas bien de critiquer votre fille sans avoir lu (le manga), non ?*
+
+Cette construction possède le même sens que « Verbe en ないで » (« sans [verbe] »), et se rencontre souvent à l'écrit. Ici, elle implique que l'action du verbe en－ずに, qui aurait dû précéder logiquement l'action de la proposition lui faisant suite, a simplement été omise.
+
+Notez que **Verbe en－ず** n'est autre que la forme archaïque de « Verbe en－ない ». Pour la construire, il suffit de remplacer le ない de la forme en－ない par ず.
+
+⚠️ しない fait toutefois figure d'exception : il se transforme en **せず**.
+
+**Exemples :**
+
+> オークションで前からほしいマンガが見つかったので、状態も見ずに買ってしまった。
+> Je suis tombé sur un manga que je voulais depuis longtemps dans une vente aux enchères, et je l'ai acheté sans même regarder son état.
+
+> マンガに夢中になるといつもエンディングが気になって、途中を読まずにエンディングを読んでしまう。
+> Quand je deviens accro à un manga, je veux toujours connaître la fin, et je finis par la lire en sautant le milieu de l'histoire.
+
+> 入場料がかかることを確認せずに、マンガエキスポへ来てしまった。
+> Je suis venu à la « Manga Expo » sans même vérifier s'il y avait des droits d'entrée à payer.
+
+---
+
+## 7. すすめてみたらどうでしょうか。
+*Et si vous essayiez de lui en proposer ?*
+
+Pour faire une suggestion polie et nuancée en réponse au discours de son interlocuteur, on utilise la construction suivante : **Verbe en－た + らどうでしょうか**.
+
+**Exemples :**
+
+> A：息子がマンガばかり読んでいて、本を読まないんです。 / B：そうですか。今度息子さんが好きそうな本を探して、プレゼントしてみたらどうでしょうか。
+> A : Mon fils ne lit que des mangas, il ne lit aucun [vrai] livre ! / B : C'est vrai ? La prochaine fois, qu'est-ce que vous diriez de chercher un livre susceptible de lui plaire et de lui offrir, pour voir ?
+
+> A：娘がマンガエキスポに行くために、高いコスプレの衣装が欲しいと言うんです。 / B：それは困りましたね。一緒に買い物に行って、他のもっと安い衣装をさりげなくすすめてみたらどうでしょうか。
+> A : Pour aller à la « Manga Expo », ma fille dit qu'elle veut un costume de cosplay vraiment cher. / B : Ah, c'est un problème... Qu'est-ce que vous pensez d'aller faire les boutiques avec elle, et de lui en proposer de plus abordables, l'air de rien ?
+
+
+# Grammaire — B1-1 · Thème 8 · 便利な道具
+
+---
+
+## 1. 辞書、買われるんですか？
+*Vous achetez un dictionnaire ?*
+
+Pour s'adresser à quelqu'un que l'on ne connaît pas encore bien ou lorsque l'on souhaite s'exprimer dans un langage respectueux et poli, on utilise le langage de politesse keego. Dans le thème 1, nous avons déjà commencé à aborder le langage honorifique sonkeego, en étudiant ce que l'on a appelé la « forme honorifique 1 », regroupant les formes verbales spéciales et la forme générale « お + V（ます）になります ».
+
+Nous allons étudier ici une autre forme verbale (que nous appellerons **forme honorifique 2**) dont l'emploi pour une action de son interlocuteur permet de faire preuve de respect à l'égard de celui-ci.
+
+Cette nouvelle forme honorifique des verbes se construit de manière rigoureusement identique à la **forme passive** (voir le thème 1 du niveau B1-1 pour le langage honorifique et la forme honorifique 1, et la leçon 13 du niveau A2-2 pour la construction de la forme passive).
+
+**① Groupe 1 : V en－ない sans ない + れる**
+
+On part de la forme en－ない du verbe, puis on remplace simplement le ない final par れる.
+
+> 買う → 買わ ＋ れる（買われる）
+
+> 読む → 読ま ＋ れる（読まれる）
+
+**② Groupe 2 : V en－ます sans ます + られる**
+
+On part de la forme en－ます du verbe, puis on remplace simplement le ます final par られる.
+
+> 食べる → 食べ ＋ られる（食べられる）
+
+> 見る → 見 ＋ られる（見られる）
+
+**③ Groupe 3 :**
+
+> する → される　　来る → 来られる
+
+Remarque : Les verbes n'introduisant aucune action volontaire (わかる…) ou les verbes potentiels (できる…), entre autres, ne s'emploient pas à la forme honorifique 2.
+
+**Exemples :**
+
+> この本、先生も読まれましたか。
+> Sensee, est-ce que vous avez également lu ce livre ?
+
+> 来週の学会、先生も出席されますよね。
+> Sensee, vous serez bien présent(e) au colloque de la semaine prochaine, n'est-ce pas ?
+
+> 部長もiPhone、買われたんですか。
+> (À son (sa) chef(fe) de section) Vous avez aussi acheté un iPhone ?
+
+N.B. : La forme honorifique 2 (en れる) est plus ou moins équivalente à la forme honorifique 1 étudiée dans le thème 1 (générale « お + V（ます）になります » et formes spéciales). Une légère nuance est qu'elle tend à être généralement plus orale et moins formelle que cette dernière. C'est aussi pourquoi elle peut éventuellement s'employer avec des verbes utilisant des katakana (チェックする…), ce que la forme honorifique 1, plus rigide, n'autorise pas.
+
+---
+
+## 2. いいのが出てるようですけど。
+*Apparemment, il y en a un bien qui est sorti.*
+
+La construction **～ようだ** s'utilise pour faire part de quelque chose que l'on a extrapolé en se basant sur ce que l'on a vu, entendu, expérimenté, etc. Elle sous-entend donc un certain degré d'incertitude quant à l'exactitude de l'information.
+
+Comme nous l'avons déjà vu dans le thème 5 du niveau B1-1, on la construit généralement « Forme neutre + ようだ », en gardant à l'esprit les variations dans le cas d'une proposition se terminant par un nom (Nom + の + ようだ) ou par un adjectif en な (Adjectif en な + の + ようだ).
+
+**Exemples (en regardant un dépliant sur des dictionnaires électroniques) :**
+
+> この新しいモデルは、来年の1月から売られるようですよ。
+> Il paraît que ce nouveau modèle va être mis en vente à partir de janvier de l'année prochaine.
+
+> そのモデルより、このモデルの方が便利なコンテンツが多いようですよ。
+> Ce modèle-ci semble proposer plus de contenu utile que celui que vous regardez.
+
+> このモデルは、外国人にとっても使い方がかんたんなようですよ。
+> Apparemment, ce modèle-ci est facile d'utilisation même pour les étrangers.
+
+> いろいろなモデルがありますが、値段はどれも3万円から4万円ぐらいのようですね。
+> Il y a beaucoup de modèles, mais leur prix à tous est situé entre 30000 et 40000 yens environ, apparemment.
+
+N.B. : Nous avons appris dans le thème 5 que ～みたいだ était souvent préféré à ～ようだ, plus formel, à l'oral. Toutefois, les exemples ci-dessus sont, dans le chapitre du manuel, prononcés par une étudiante conseillant son enseignant… Celle-ci, plutôt que d'employer le familier ～みたいだ, opte donc pour le plus poli ～ようだ.
+
+---
+
+## 3. 日本語学習者用の辞書が入っているのって、ないですかねえ？／単語の読み方がわかるやつ。
+*Et avec un dictionnaire intégré pour les apprenants du japonais, il n'y en a pas ? / Un qui donne les lectures des mots de vocabulaire…*
+
+Pour ajouter des explications sur quelque chose qui est déjà apparu précédemment dans la conversation, on peut décrire celle-ci sans répéter son nom à l'aide de la construction : **Proposition (forme neutre) + の / やつ** (voir également la leçon 3 du niveau A2-2).
+
+Ici aussi, un peu d'attention est nécessaire dans le cas où la proposition se termine par un nom (« 名詞 + の », « 名詞 + の + やつ ») ou par un adjectif en な (« ナ形容詞 + な + の／やつ »).
+
+⚠️ ～やつ appartient au langage parlé, et ne s'utilise donc qu'à l'oral avec des connaissances ou des subordonné(e)s, et dans des contextes résolument informels.
+
+**Exemples (en parlant de dictionnaires électroniques de japonais) :**
+
+> 漢字の読み方が簡単に調べられるのを探しているんです。
+> J'en cherche un avec lequel on peut facilement rechercher la lecture des kanji.
+
+> 外国人にも使いやすいのはないでしょうか。
+> Il n'y en a pas qui soit aussi facile à utiliser pour les étrangers ?
+
+> 機能は少なくても、使い方が簡単なのがいいですね。
+> Même s'il n'y a pas beaucoup de fonctions, un simple d'utilisation est bien, hein !
+
+> 2万円ぐらいのがあったら、ほしいんですが。/（親しい相手に話している）2万円ぐらいのやつがあったら、ほしいんだけど。
+> S'il y a, j'en aimerais bien un à 20000 yens environ. / (En parlant avec une connaissance) S'il y en a un à 20000 yens environ je suis preneur(se), mais bon…
+
+### • 手で書いても調べられるのがあったらいいんですが。／イタリア語と日本語の辞書も入ってるのがあればうれしいんですけど。
+*Ce serait bien qu'il y en ait un qui permette de faire une recherche en écrivant à la main… / Je serais content(e) s'il y en avait avec des dictionnaires d'italien et de japonais intégrés…*
+
+Il s'agit d'une tournure permettant d'exprimer l'espoir que quelque chose qui nous aiderait ou arrangerait existe, sans toutefois savoir si c'est le cas. Pour la construire, on ajoute à la suite d'une proposition en **－たら** ou en **－ば** une expression décrivant son espoir, comme **いい** ou **うれしい**, par exemple (voir également les leçons 7 et 16 du niveau A2-2 pour －たら, le thème 2 du niveau A2-B1 pour －ば, et le thème 1 du niveau B1-1 pour la construction similaire « V + といいな »).
+
+**Exemples :**
+
+> アクセントが調べられるアプリがあったらいいですね。
+> Ce serait bien qu'il existe une application permettant de rechercher les accents toniques !
+
+> 外国人の日本語学習者用のいい辞書が売っていればうれしいんですが。
+> J'aimerais bien qu'ils vendent des bons dictionnaires destinés aux étudiants de japonais étrangers…
+
+> （スマホのあるモデルを見ながら）このスマホ、いくらだろう。デザインもいいし、使いやすそうだし、安かったら買いたいなあ。
+> (En regardant un modèle de smartphone) Je me demande combien il coûte, ce smartphone. Le design est bien, il a l'air facile à utiliser… S'il est pas cher, je l'achèterais bien…
+
+---
+
+## 4. 人気の理由の一つは、夢をかなえるひみつ道具だろう。
+*L'une des raisons de sa popularité est sûrement la présence de ses gadgets secrets qui réalisent les rêves.*
+
+**～だろう** est la forme neutre de ～でしょう, et s'emploie pour éviter d'affirmer quelque chose directement. On la rencontre souvent à l'écrit. La structure générale est « Forme neutre + だろう », et, dans le cas d'un nom ou d'un adjectif en な, respectivement « Nom + だろう » et « Adjectif en な (sans le だ) + だろう » (voir aussi le thème 6 du niveau A2-B1).
+
+**Exemples :**
+
+> eブックを使っている人は、あなたの友だちや家族にもいるだろう。
+> Il y a certainement des utilisateurs d'ebook parmi vos amis ou les membres de votre famille.
+
+> 携帯電話やインターネットを使わずに生活するのは難しいだろう。
+> Il est sans aucun doute difficile de vivre au quotidien sans utiliser de téléphone portable ou Internet.
+
+> 子どもたちにソーシャルネットワークの便利なところも危ないところも教えるのは必要だろう。
+> Il est sûrement nécessaire d'apprendre aux enfants les côtés pratiques et les dangers des réseaux sociaux.
+
+> 今年最もヒットした商品は、おそうじロボットだろう。
+> Le produit ayant eu le plus de succès cette année doit probablement être le robot-aspirateur.
+
+---
+
+## 5. 夢のある理由もあれば、現実的な理由も（ある）。
+*Si certaines raisons tiennent du domaine du rêve, il y en a aussi des réalistes.*
+
+On utilise l'expression **Nom + もあれば、Nom + も（ある）**, qui présente deux exemples diamétralement opposés, pour dire que de nombreux cas de figures différents coexistent.
+
+**Exemples :**
+
+> おそうじロボットには、大型のものもあれば、小型のものもある。
+> S'il y a des robots-aspirateurs de grande taille, il y en a aussi des petits.
+
+> ドラえもんの道具には、よく知られている道具もあれば、あまり知られていない道具もある。
+> Certains gadgets de Doraemon sont très célèbres, mais il y en a aussi de moins connus.
+
+> スマホには有料のアプリもあれば、無料のアプリもある。
+> Si certaines applications pour smartphone sont payantes, il y en a aussi des gratuites.
+
+Lorsque les noms donnés en exemple sont des personnes ou des êtres vivants, la tournure devient **～もいれば、～も（いる）**.
+
+> タブレットの方が使いやすいという人もいれば、ノートパソコンの方がいいという人もいる。
+> Certains trouvent les tablettes plus faciles d'utilisation, tandis que d'autres préfèrent les ordinateurs portables.
+
+---
+
+## 6. 「もしも世界が～だったら」
+*« Si le monde était… »*
+
+Cette expression s'emploie pour imaginer une situation qu'on pense impossible en réalité.
+
+Pour la construire, on fait débuter une phrase en ～たら par **もしも**, et l'on présente par cette proposition « もしも～たら » ainsi créée une situation irréaliste. La suite de la phrase évoque alors ce qui adviendrait ou ce que l'on ferait dans ce cas.
+
+Il arrive que もし soit utilisé à la place de もしも, mais le caractère irréaliste est alors moins marqué.
+
+**Exemples :**
+
+> もしもドラえもんの「どこでもドア」があったら、今すぐ日本にいる恋人に会いに行きたい。
+> Si la dokodemodoa de Doraemon existait, j'irais tout de suite retrouver mon amoureux(-se) au Japon.
+
+> もしもうでが8本になったら、いろいろなことが一度にできて、便利だろう。
+> Si j'avais 8 bras, je pourrais faire plein de choses en même temps, ce serait sûrement pratique.
+
+> もしも何でもしてくれるロボットができたら、高くても買おうと思う。
+> Si on inventait un robot capable de tout faire à notre place, même cher, je pense que je l'achèterais.
+
+
+# Grammaire — B1-1 · Thème 9 · 伝統的な祭り
+
+---
+
+## 1. 昨日帰ってきたところなんです。
+*Je suis rentré juste hier, en fait.*
+
+On utilise la tournure **Verbe en－た + ところ** pour mentionner quelque chose que l'on a fait ou qui s'est produit très récemment. Comme elle exprime une action ou une situation qui vient de se terminer, on l'associe souvent à des précisions comme ちょうど（今）(juste (maintenant)), 今 (maintenant) ou さっき (à l'instant), entre autres.
+
+**Exemples :**
+
+> 今仕事が終わったところです。
+> Je viens de terminer le travail.
+
+> ちょうど昼ごはんを作ったところなので、いっしょに食べませんか。
+> Je viens justement de préparer le repas de midi, tu ne veux pas qu'on mange ensemble ?
+
+Il est également possible d'employer cette même construction dans le cas d'une situation que le locuteur ressent comme relativement récente dans le contexte (hier, le mois dernier…).
+
+> 昨日海外旅行から帰ってきたところなんです。
+> Je suis rentré juste hier d'un voyage à l'étranger, en fait.
+
+---
+
+## 2. 踊っているうちに、みんなが仲間っていう感じになりました。
+*En dansant, on s'est tous sentis devenir camarades.*
+
+La tournure **～ているうちに** s'emploie lorsque le locuteur veut dire qu'un changement s'est produit sans qu'il s'en rende compte pendant une autre action. Elle se construit : **Verbe en－て + いるうちに**.
+
+**Exemples :**
+
+> 踊りを見ているうちに、私も踊りたくなってきました。
+> En regardant la danse, j'ai été pris(e) par l'envie de danser moi aussi.
+
+> 花火をしているうちに、けむりでだんだん目が痛くなってきた。
+> Pendant que je lançais des feux d'artifices, avec la fumée, les yeux ont commencé à me faire de plus en plus mal.
+
+> ホテルに帰ってメールを書いているうちに、いつの間にか眠ってしまいました。
+> Je me suis endormi(e) sans m'en rendre compte en écrivant un courriel une fois rentré(e) à l'hôtel.
+
+---
+
+## 3. すごい祭りって聞いていました。
+*J'avais entendu dire que c'était un festival incroyable.*
+
+Pour mentionner quelque chose qui s'était déjà accompli antérieurement à un sujet de discussion situé dans le passé, on utilise la tournure **～ていました**, construite de la façon suivante : Verbe en－て + いた (voir également la leçon 18 du niveau A2-1 et le thème 1 du niveau A2-B1).
+
+**Exemples :**
+
+> 旅行の前にこのお祭りのサイトを見ていましたから、場所はすぐにわかりました。
+> J'avais regardé le site du festival avant de partir, donc j'ai tout de suite trouvé l'endroit.
+
+> フェスティバルの会場に着くと、もうコンサートは始まっていました。
+> Quand je suis arrivé(e) à la salle du festival, le concert avait déjà commencé.
+
+> 盆踊りにはゆかたを着ると聞いていたので、友だちとゆかたを買いに行きました。
+> Comme j'avais entendu dire qu'on portait un yukata pour le bon odori, je suis allé(e) en acheter un avec des amis.
+
+### • 日本料理もたくさん食べたし、温泉にも入りました。
+*J'ai mangé plein de nourriture japonaise, et je me suis baigné(e) dans une source chaude.*
+
+Pour transmettre ses sentiments sur une situation passée en énumérant un certain nombre de raisons, on utilise **～たし** (voir également la leçon 6 du niveau A2-2). Cette tournure se construit **Verbe en－た + し**.
+
+**Exemples :**
+
+> 阿波踊りはとても楽しかったです。会場ではっぴを貸してもらったし、踊りも教えてもらいました。
+> Le awa odori était vraiment super : on m'a prêté un happi sur place, et on m'a aussi appris à danser !
+
+> お祭りでは、いろんな人と日本語でお話できたし、たくさんお酒をごちそうになりました。
+> Au festival, j'ai pu parler en japonais avec plein de gens, et j'ai bu plein d'alcool !
+
+> お祭りの夜店はおもしろかったですよ。綿菓子も買ったし、金魚すくいもしました。
+> Les stands de nuit du festival étaient intéressants : j'ai acheté de la barbe à papa et j'ai fait de la pêche au poisson rouge, aussi !
+
+### • いかにもロナウドさんが好きそうだもんね。
+*C'est vrai que ça a clairement l'air d'être le genre de choses qui te plaisent, Ronaldo-san !*
+
+Pour avancer quelque chose que l'on a extrapolé à partir des apparences, on utilise la tournure **～そうだ** (voir également les leçons 12 du niveau A2-1 et 2 du niveau A2-2).
+
+**① Construction pour les verbes :** On prend la forme en－ます, et on remplace ます par そうだ.
+
+> 雲がぜんぜんないですね。明日は晴れになりそうです。
+> Il n'y a aucun nuage... On dirait qu'il va faire beau demain.
+
+**② Construction pour les adjectifs en い :** On remplace le い final par そうだ.
+
+> テレビで見ていると、阿波踊りは本当に楽しそうだ。
+> D'après ce qu'on en voit à la télé, le awa odori a vraiment l'air amusant !
+
+**③ Construction pour les adjectifs en な :** On remplace le だ final par そうだ.
+
+> 今朝の新聞で見たんですが、ここのお祭りはにぎやかそうですね。
+> Je l'ai vu dans le journal de ce matin, mais le festival d'ici est assez animé, on dirait !
+
+---
+
+## 4. ……。で、これがずっと続くわけです。／というわけで、この「プレゼント交換マラソン」は果てしなく続いたのでした。
+*…. Et c'est pour ça que ça continue depuis. / Et donc, ce « marathon d'échange de cadeaux » a continué à l'infini.*
+
+**① Forme neutre + わけだ**
+
+わけ est un synonyme de 理由, la raison. On peut l'utiliser dans la présente construction, **Forme neutre + わけだ**, pour présenter un résultat découlant directement de la situation évoquée dans la ou les phrases précédente(s).
+
+Il est également possible de faire débuter la phrase se terminant par わけだ par des connecteurs comme それで, で, なので ou だから, par exemple.
+
+**Exemples :**
+
+> 昔、パレードを見るために、3時間も待ったことがあります。それで、お祭りが嫌いになったわけです。
+> Il y a longtemps, j'ai dû attendre 3 heures pour voir la parade. C'est pour ça que j'en suis venu(e) à détester les festivals.
+
+> 花火大会はいつもこんでいて、見に行くのは大変です。なので、私は毎年家のテレビで見るわけです。
+> Les festivals de feux d'artifices sont toujours bondés et c'est assez pénible d'y aller. C'est pour ça que je les regarde à la télé chaque année.
+
+> 故郷のお祭りは、友達に会えるいい機会です。だから、忙しくても、お祭りに行くわけです。
+> Le festival de mon village natal est une bonne occasion de pouvoir voir mes amis. C'est pour ça que, même occupé, j'y vais !
+
+**② というわけで、・・・**
+
+Il est également possible, après avoir expliqué la situation dans les phrases précédentes, de faire débuter la phrase finale par **というわけで、・・・**, avant de conclure par la description du résultat inévitable de ladite situation.
+
+**Exemples :**
+
+> A：この前の花火大会はどうでしたか。 / B：子どもを連れて行ったんですが、子どもが花火の音をこわがって、ずっと泣いていました。というわけで、ぜんぜん楽しめませんでした。
+> A : Comment étaient les feux d'artifices de la dernière fois ? / B : J'y suis allé(e) avec mon enfant, mais il a eu peur du bruit des feux d'artifices et n'a pas arrêté de pleurer. En gros, on n'a pas du tout pu en profiter.
+
+> 去年はフェスティバルの直前にホテルを予約したので、遠くのホテルにとまらなければなりませんでした。というわけで、今年は早めにホテルの予約をしました。
+> L'an dernier, j'ai fait ma réservation au dernier moment avant le festival, et j'ai dû dormir dans un hôtel vraiment éloigné. C'est pour ça que cette année j'ai réservé l'hôtel à l'avance.
+
+> 晴れていても、彼が来ると、いつも雨が降ります。というわけで、彼は「雨男」と呼ばれています。
+> Même quand il fait beau, quand il vient, il se met toujours à pleuvoir ! Du coup, on l'appelle « l'homme de la pluie ».
+
+---
+
+## 5. 親戚が10人集まって、みんながそれぞれにプレゼントしたとしたら……
+*En imaginant qu'une famille de 10 personnes soit rassemblée et qu'ils se fassent chacun des cadeaux…*
+
+Lorsque l'on souhaite évoquer une situation hypothétique ou imaginaire, on utilise dans une première proposition la forme **Verbe en－た + としたら**, que l'on fait suivre d'une seconde proposition présentant ce que l'on ferait ou ce qui adviendrait dans une telle situation : (Proposition 1 avec un verbe en－た + としたら), (Proposition 2).
+
+Il est également possible d'ajouter もし en début de phrase.
+
+**Exemples :**
+
+> 100万円あったとしたら、何を買いますか。
+> Qu'est-ce que tu achèterais si tu avais 1 million de yens ?
+
+> もしあなたがサンタクロースだったとしたら、何をしますか。
+> Si tu étais le Père Noël, qu'est-ce que tu ferais ?
+
+> もしまほうが使えたとしたら、何をしたいですか。
+> Si tu pouvais utiliser la magie, qu'est-ce que tu voudrais faire ?
+
+---
+
+## 6. というわけで、この「プレゼント交換マラソン」は果てしなく続いたのでした。
+*Du coup, ce « marathon d'échange de cadeaux » a continué à l'infini.*
+
+La tournure **～のでした** placée à la fin d'une phrase permet de résumer une anecdote ou une histoire. Elle s'utilise plutôt à l'écrit, et se construit **Verbe en－た + のでした**.
+
+**Exemples :**
+
+> ……。というわけで、２人は祭りから疲れて帰ってきたのでした。
+> (…) C'est pour ça que les deux sont rentré(e)s fatigué(e)s du festival.
+
+> ……。私の日本旅行はこうして終わったのでした。
+> (…) Et mon voyage au Japon s'est terminé comme ça.
+
+> ……。このようにして、火祭りで人形を燃やすようになったのでした。
+> (…) Et c'est comme ça qu'on en est venu à faire brûler des poupées lors du festival du feu.
