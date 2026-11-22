@@ -693,6 +693,7 @@ function startRevise() {
   }
   reviseMode = document.querySelector('input[name="rev-mode"]:checked').value;
   currentWord = null;
+  histBeginSession();
   scoreGood = scoreTotal = 0;
   updateScore();
   showScreen('revise-game-screen');
@@ -769,6 +770,7 @@ function revealAnswer() {
 }
 
 function markAnswer(correct) {
+  histRecordAnswer(currentWord, correct);
   scoreTotal++;
   if (correct) scoreGood++;
   updateScore();
@@ -977,6 +979,336 @@ loadSettings();
 document.addEventListener('click', saveSettings);
 document.addEventListener('change', saveSettings);
 
+// ============ HISTORIQUE DES RÉVISIONS ============
+// Une session = de « Commencer » à ✕. Stockage local uniquement.
+// - kotoba-historique : sessions terminées (les plus récentes en dernier)
+// - kotoba-session-en-cours : session active, sauvegardée à chaque réponse ;
+//   si l'app est fermée sans ✕, elle est versée dans l'historique au
+//   prochain lancement (ou au prochain « Commencer »).
+// Session : { start, end, mode, favOnly, lastN, sel, total, good,
+//             themes: { clé: { n, g } } }   (end = heure de la dernière réponse)
+const HIST_KEY = 'kotoba-historique';
+const HIST_CUR_KEY = 'kotoba-session-en-cours';
+const HIST_MAX = 1000;          // sessions conservées
+const HIST_STALE_DAYS = 14;     // au-delà : date en orange (« à revoir »)
+const HIST_PAGE = 50;           // sessions affichées avant « Afficher plus »
+
+let histSession = null;
+let histTab = 'sessions';
+let histSort = 'oldest';
+let histShown = HIST_PAGE;
+let histOpen = new Set();       // sessions dépliées (par heure de début)
+
+function loadHistory() {
+  try {
+    var arr = JSON.parse(localStorage.getItem(HIST_KEY) || '[]');
+    return Array.isArray(arr) ? arr : [];
+  } catch (e) { return []; }
+}
+function saveHistory(arr) {
+  if (arr.length > HIST_MAX) arr = arr.slice(arr.length - HIST_MAX);
+  try { localStorage.setItem(HIST_KEY, JSON.stringify(arr)); } catch (e) {}
+}
+
+// Les mots perso forment un seul thème « Perso » ; les autres : Niveau + Topic.
+function histThemeKey(w) { return w.niveau === 'Perso' ? 'Perso' : ntKey(w); }
+function histThemeLabel(key) {
+  return key === 'Perso' ? 'Perso' : ntNiveauOf(key) + ' · ' + ntTopicOf(key);
+}
+function histCompareKeys(a, b) {
+  if (a === 'Perso') return 1;
+  if (b === 'Perso') return -1;
+  var na = ntNiveauOf(a), nb = ntNiveauOf(b);
+  if (na !== nb) return na.localeCompare(nb);
+  return ntTopicOf(a).localeCompare(ntTopicOf(b), undefined, { numeric: true });
+}
+
+// Verse la session en cours (si elle contient au moins une carte) dans l'historique.
+function histFlushPending() {
+  var cur = null;
+  try { cur = JSON.parse(localStorage.getItem(HIST_CUR_KEY) || 'null'); } catch (e) {}
+  try { localStorage.removeItem(HIST_CUR_KEY); } catch (e) {}
+  if (cur && cur.total > 0) {
+    var arr = loadHistory();
+    if (!arr.some(function(s) { return s.start === cur.start; })) {
+      arr.push(cur);
+      saveHistory(arr);
+    }
+  }
+}
+
+function histBeginSession() {
+  histFlushPending();
+  histSession = {
+    start: Date.now(), end: Date.now(),
+    mode: reviseMode, favOnly: reviseFavsOnly(), lastN: reviseLastN,
+    sel: selToJSON(revSel),
+    total: 0, good: 0, themes: {}
+  };
+}
+
+function histRecordAnswer(w, correct) {
+  if (!histSession || !w) return;
+  var k = histThemeKey(w);
+  var t = histSession.themes[k] || (histSession.themes[k] = { n: 0, g: 0 });
+  t.n++; histSession.total++;
+  if (correct) { t.g++; histSession.good++; }
+  histSession.end = Date.now();
+  try { localStorage.setItem(HIST_CUR_KEY, JSON.stringify(histSession)); } catch (e) {}
+}
+
+function histEndSession() {
+  histSession = null;
+  histFlushPending();
+}
+
+// Au lancement : récupère une session interrompue (app fermée sans ✕).
+histFlushPending();
+
+// --- Utilitaires d'affichage ---
+function esc(s) {
+  return String(s).replace(/[&<>"']/g, function(c) {
+    return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c];
+  });
+}
+function pctOf(g, n) { return n ? Math.round(g / n * 100) : 0; }
+function pctClass(p) { return p >= 80 ? 'good' : (p >= 60 ? 'mid' : 'low'); }
+function dayStart(t) { var d = new Date(t); d.setHours(0, 0, 0, 0); return d.getTime(); }
+function daysAgo(t) { return Math.round((dayStart(Date.now()) - dayStart(t)) / 86400000); }
+function fmtDayLabel(t) {
+  var d = new Date(t);
+  var opts = { weekday: 'short', day: 'numeric', month: 'short' };
+  if (d.getFullYear() !== new Date().getFullYear()) opts.year = 'numeric';
+  var txt = d.toLocaleDateString('fr-FR', opts);
+  var n = daysAgo(t);
+  return n === 0 ? 'Aujourd\'hui · ' + txt : (n === 1 ? 'Hier · ' + txt : txt);
+}
+function fmtTime(t) {
+  return new Date(t).toLocaleTimeString('fr-FR', { hour: '2-digit', minute: '2-digit' });
+}
+function fmtAgo(t) {
+  var n = daysAgo(t);
+  return n === 0 ? 'aujourd\'hui' : (n === 1 ? 'hier' : 'il y a ' + n + ' j');
+}
+function fmtDuration(s) {
+  var min = Math.round((s.end - s.start) / 60000);
+  return min < 1 ? '< 1 min' : min + ' min';
+}
+var MODE_LABELS = { 'k-fr': '漢 → tout', 'jp-fr': '漢+ひ → FR', 'fr-jp': 'FR → 漢+ひ' };
+
+function tagHTML(key, extra) {
+  return '<span class="hist-tag' + (key === 'Perso' ? ' perso' : '') + (extra || '') + '">' +
+         esc(histThemeLabel(key)) + '</span>';
+}
+function barHTML(p) {
+  return '<div class="bar"><span class="' + pctClass(p) + '" style="width:' + p + '%"></span></div>';
+}
+
+// Description lisible des réglages d'une session
+function histSettingsText(s) {
+  var sel = s.sel || {};
+  var parts = [];
+  var niv = sel.niveau || [], top = sel.niveauTopic || [], sec = sel.section || [];
+  var where = niv.length ? niv.join(', ') : 'tous niveaux';
+  if (top.length) where += ' › ' + top.map(ntTopicOf).join(', ');
+  if (sec.length) where += ' › ' + sec.join(', ');
+  parts.push(where);
+  parts.push(s.lastN ? s.lastN + ' derniers mots' : 'tous les mots');
+  if (s.favOnly) parts.push('favoris seulement');
+  parts.push(MODE_LABELS[s.mode] || s.mode);
+  return 'Réglages : ' + parts.join(' · ');
+}
+
+// --- Rendu ---
+function renderHistory() {
+  var arr = loadHistory();
+  document.querySelectorAll('#hist-seg button').forEach(function(b) {
+    b.classList.toggle('active', b.dataset.tab === histTab);
+  });
+  var summary = document.getElementById('hist-summary');
+  var sessEl = document.getElementById('hist-sessions');
+  var themEl = document.getElementById('hist-themes');
+  summary.style.display = histTab === 'sessions' ? '' : 'none';
+  sessEl.style.display  = histTab === 'sessions' ? '' : 'none';
+  themEl.style.display  = histTab === 'themes' ? '' : 'none';
+  if (histTab === 'sessions') {
+    renderHistSummary(arr);
+    renderHistSessions(arr);
+  } else {
+    renderHistThemes(arr);
+  }
+}
+
+function renderHistSummary(arr) {
+  var today = dayStart(Date.now());
+  var days = [];
+  for (var i = 6; i >= 0; i--) {
+    var d = new Date(today); d.setDate(d.getDate() - i);
+    days.push({ t: d.getTime(), cards: 0 });
+  }
+  var nSess = 0, n = 0, g = 0;
+  arr.forEach(function(s) {
+    var ds = dayStart(s.start);
+    for (var j = 0; j < days.length; j++) {
+      if (days[j].t === ds) { days[j].cards += s.total; nSess++; n += s.total; g += s.good; break; }
+    }
+  });
+  var max = Math.max.apply(null, days.map(function(d) { return d.cards; })) || 1;
+  var p = pctOf(g, n);
+  var pctColor = n ? { good: '#5fd38d', mid: 'var(--gold)', low: '#ff7b6b' }[pctClass(p)] : 'var(--smoke)';
+  var letters = ['D', 'L', 'M', 'M', 'J', 'V', 'S'];
+  var html =
+    '<div class="hist-summary-title">7 derniers jours</div>' +
+    '<div class="hist-stats">' +
+      '<div class="hist-stat"><div class="hist-stat-val">' + nSess + '</div><div class="hist-stat-lbl">sessions</div></div>' +
+      '<div class="hist-stat"><div class="hist-stat-val">' + n + '</div><div class="hist-stat-lbl">cartes</div></div>' +
+      '<div class="hist-stat"><div class="hist-stat-val" style="color:' + pctColor + '">' + (n ? p + ' %' : '—') + '</div><div class="hist-stat-lbl">réussite</div></div>' +
+    '</div><div class="hist-week">';
+  days.forEach(function(d, idx) {
+    var isToday = idx === days.length - 1;
+    var h = d.cards ? Math.max(4, Math.round(d.cards / max * 26)) : 0;
+    html += '<div class="hist-week-day" title="' + d.cards + ' carte(s)">' +
+      '<div class="hist-week-bar' + (d.cards ? '' : ' zero') + '" style="height:' + h + 'px' + (isToday && d.cards ? ';background:var(--gold)' : '') + '"></div>' +
+      '<div class="hist-week-lbl"' + (isToday ? ' style="color:var(--gold)"' : '') + '>' + letters[new Date(d.t).getDay()] + '</div></div>';
+  });
+  html += '</div>';
+  document.getElementById('hist-summary').innerHTML = html;
+}
+
+function renderHistSessions(arr) {
+  var el = document.getElementById('hist-sessions');
+  if (arr.length === 0) {
+    el.innerHTML = '<div class="hist-empty">Aucune révision enregistrée pour l\'instant.<br>Tes prochaines sessions apparaîtront ici.</div>';
+    return;
+  }
+  var list = arr.slice().reverse();
+  var shown = list.slice(0, histShown);
+  var html = '', lastDay = null;
+  shown.forEach(function(s) {
+    var day = dayStart(s.start);
+    if (day !== lastDay) { html += '<div class="hist-day">' + esc(fmtDayLabel(s.start)) + '</div>'; lastDay = day; }
+    var keys = Object.keys(s.themes || {}).sort(histCompareKeys);
+    var tags = keys.slice(0, 3).map(function(k) { return tagHTML(k); }).join('');
+    if (keys.length > 3) tags += '<span class="hist-tag more">+' + (keys.length - 3) + '</span>';
+    var sub = [MODE_LABELS[s.mode] || s.mode];
+    if (s.lastN) sub.push(s.lastN + ' derniers');
+    if (s.favOnly) sub.push('★');
+    sub.push(fmtDuration(s));
+    var p = pctOf(s.good, s.total);
+    var open = histOpen.has(s.start);
+    html += '<div class="hist-sess"><div class="hist-sess-head" data-start="' + s.start + '">' +
+      '<div class="hist-time">' + fmtTime(s.start) + '</div>' +
+      '<div class="hist-main"><div class="hist-tags">' + tags + '</div><div class="hist-sub">' + esc(sub.join(' · ')) + '</div></div>' +
+      '<div class="hist-right"><span class="pct ' + pctClass(p) + '">' + p + ' %</span><span class="hist-cards">' + s.total + ' carte' + (s.total > 1 ? 's' : '') + '</span></div>' +
+      '</div>';
+    if (open) {
+      html += '<div class="hist-detail">';
+      keys.forEach(function(k) {
+        var t = s.themes[k], tp = pctOf(t.g, t.n);
+        html += '<div class="hist-row"><span class="hist-row-name">' + esc(histThemeLabel(k)) + '</span>' + barHTML(tp) +
+                '<span class="hist-row-val">' + t.g + '/' + t.n + ' · ' + tp + ' %</span></div>';
+      });
+      html += '<div class="hist-settings">' + esc(histSettingsText(s)) + '</div></div>';
+    }
+    html += '</div>';
+  });
+  if (list.length > shown.length) {
+    html += '<button type="button" class="fav-btn hist-more" id="hist-more">Afficher plus (' + (list.length - shown.length) + ')</button>';
+  }
+  el.innerHTML = html;
+  el.style.display = 'flex'; el.style.flexDirection = 'column'; el.style.gap = '10px';
+}
+
+function renderHistThemes(arr) {
+  var el = document.getElementById('hist-themes');
+  var agg = {};
+  arr.forEach(function(s) {
+    Object.keys(s.themes || {}).forEach(function(k) {
+      var a = agg[k] || (agg[k] = { key: k, n: 0, g: 0, sessions: 0, last: 0 });
+      a.n += s.themes[k].n; a.g += s.themes[k].g; a.sessions++;
+      if (s.end > a.last) a.last = s.end;
+    });
+  });
+  var done = Object.keys(agg).map(function(k) { return agg[k]; });
+  done.sort(function(a, b) {
+    if (histSort === 'score') return pctOf(a.g, a.n) - pctOf(b.g, b.n);   // les plus faibles d'abord
+    if (histSort === 'cards') return b.n - a.n;
+    return a.last - b.last;                                                // le plus ancien d'abord
+  });
+  // Thèmes jamais révisés (en bas) — seulement pour les niveaux déjà travaillés
+  // (+ Perso), pour ne pas noyer la liste sous toutes les leçons des autres niveaux.
+  var workedNiv = {};
+  done.forEach(function(a) { if (a.key !== 'Perso') workedNiv[ntNiveauOf(a.key)] = true; });
+  var never = allNT().map(function(o) { return o.niveau === 'Perso' ? 'Perso' : o.key; })
+    .filter(function(k, i, a) {
+      return a.indexOf(k) === i && !agg[k] && (k === 'Perso' || workedNiv[ntNiveauOf(k)]);
+    })
+    .sort(histCompareKeys);
+
+  var sorts = [['oldest', 'Le plus ancien'], ['score', 'Score'], ['cards', 'Cartes']];
+  var html = '<div class="sort-row"><span class="sort-lbl">Trier</span>' +
+    sorts.map(function(o) {
+      return '<button type="button" class="chip' + (histSort === o[0] ? ' active' : '') + '" data-sort="' + o[0] + '">' + o[1] + '</button>';
+    }).join('') + '</div>';
+
+  if (done.length === 0 && never.length === 0) {
+    html += '<div class="hist-empty">Aucun thème pour l\'instant.</div>';
+  } else {
+    html += '<div class="theme-list">';
+    done.forEach(function(a) {
+      var p = pctOf(a.g, a.n);
+      var old = daysAgo(a.last) > HIST_STALE_DAYS;
+      html += '<div class="theme-item">' +
+        '<div class="theme-name">' + tagHTML(a.key) + '</div>' +
+        '<div class="theme-when ' + (old ? 'when-old' : 'when-ok') + '">' + fmtAgo(a.last) + '</div>' +
+        '<div class="theme-meta"><span>' + a.n + ' carte' + (a.n > 1 ? 's' : '') + ' · ' + a.sessions + ' session' + (a.sessions > 1 ? 's' : '') + '</span>' +
+        '<div class="theme-score">' + barHTML(p) + '<b>' + p + ' %</b></div></div></div>';
+    });
+    never.forEach(function(k) {
+      html += '<div class="theme-item"><div class="theme-name">' + tagHTML(k, ' dim') + '</div>' +
+              '<div class="theme-when when-never">jamais révisé</div></div>';
+    });
+    html += '</div>';
+  }
+  html += '<div class="hist-foot"><button type="button" class="fav-btn" id="hist-export">↓ Exporter</button>' +
+          '<button type="button" class="fav-btn" id="hist-clear">Effacer l\'historique</button></div>';
+  el.innerHTML = html;
+  el.style.display = 'flex'; el.style.flexDirection = 'column'; el.style.gap = '14px';
+}
+
+function exportHistory() {
+  var blob = new Blob([JSON.stringify(loadHistory(), null, 2)], { type: 'application/json' });
+  var a = document.createElement('a');
+  a.href = URL.createObjectURL(blob);
+  a.download = 'kotoba-historique.json';
+  document.body.appendChild(a); a.click(); a.remove();
+  setTimeout(function() { URL.revokeObjectURL(a.href); }, 1000);
+}
+
+// Interactions de l'écran Historique (délégation sur le conteneur)
+on('hist-body', 'click', function(e) {
+  var t;
+  if ((t = e.target.closest('#hist-seg button'))) {
+    histTab = t.dataset.tab; renderHistory(); return;
+  }
+  if ((t = e.target.closest('[data-sort]'))) {
+    histSort = t.dataset.sort; renderHistory(); return;
+  }
+  if ((t = e.target.closest('.hist-sess-head'))) {
+    var k = Number(t.dataset.start);
+    if (histOpen.has(k)) histOpen.delete(k); else histOpen.add(k);
+    renderHistory(); return;
+  }
+  if (e.target.closest('#hist-more')) { histShown += HIST_PAGE; renderHistory(); return; }
+  if (e.target.closest('#hist-export')) { exportHistory(); return; }
+  if (e.target.closest('#hist-clear')) {
+    var n = loadHistory().length;
+    if (n === 0) return;
+    if (!confirm('Effacer les ' + n + ' session(s) de l\'historique ?\n(Action locale, irréversible.)')) return;
+    saveHistory([]); histOpen.clear(); renderHistory();
+  }
+});
+
 // ============ EVENT DELEGATION ============
 document.addEventListener('click', function(e) {
   var el = e.target.closest('[data-action]');
@@ -1005,7 +1337,8 @@ document.addEventListener('click', function(e) {
       break;
     case 'goto-perso-help': showScreen('perso-help-screen'); break;
     case 'start-revise':  startRevise(); break;
-    case 'stop-revise':   showScreen('home-screen'); break;
+    case 'stop-revise':   histEndSession(); showScreen('home-screen'); break;
+    case 'goto-hist':     renderHistory(); showScreen('hist-screen'); break;
     case 'mark-right':    markAnswer(true);  break;
     case 'mark-wrong':    markAnswer(false); break;
   }

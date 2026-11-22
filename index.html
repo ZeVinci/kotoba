@@ -170,6 +170,25 @@
       </div>
 
       <button class="btn-start" data-action="start-revise">Commencer →</button>
+      <button class="hist-link" data-action="goto-hist">🕘 Historique des révisions</button>
+    </div>
+  </div>
+
+  <!-- ===== HISTORIQUE DES RÉVISIONS ===== -->
+  <div id="hist-screen" class="screen">
+    <div class="top-bar">
+      <button class="back-btn" data-action="goto-revise-setup">←</button>
+      <h2 class="top-title">Historique</h2>
+      <div style="min-width:40px"></div>
+    </div>
+    <div class="hist-body" id="hist-body">
+      <div class="hist-summary" id="hist-summary"></div>
+      <div class="seg" id="hist-seg">
+        <button type="button" data-tab="sessions" class="active">Sessions</button>
+        <button type="button" data-tab="themes">Par thème</button>
+      </div>
+      <div id="hist-sessions"></div>
+      <div id="hist-themes" style="display:none"></div>
     </div>
   </div>
 
@@ -283,6 +302,7 @@
           </li>
           <li>Touche <b>Commencer</b>. Pour chaque carte : touche-la pour révéler la réponse, puis indique <span class="hl">✓ Réussi</span> ou <span class="hl">✕ Raté</span>. Le score se met à jour en haut. La croix <span class="hl">✕</span> arrête la session.</li>
         </ol>
+        <p style="margin-top:10px">Chaque session est enregistrée sur ton téléphone. Le lien <b>🕘 Historique des révisions</b>, sous « Commencer », affiche tes sessions (date, thèmes, cartes, score) et un bilan <b>par thème</b> : date de la dernière révision, total de cartes et score moyen. Les thèmes non révisés depuis plus de 14 jours apparaissent en orange.</p>
       </section>
 
       <section class="help-block">
