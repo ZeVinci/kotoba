@@ -633,17 +633,51 @@ function reviseFavsOnly() {
 
 // Pool de mots à réviser : filtres (Niveau/Topic/Section) PUIS, si demandé,
 // restriction aux favoris (intersection — comme l'écran Liste).
-function revisePool() {
+// « Seulement les n derniers » : 0 = tous. L'ordre de ALL_VOCAB est l'ordre
+// d'ajout (vocab embarqué, puis mots perso dans l'ordre où ils ont été ajoutés),
+// donc les n derniers du pool filtré = les n plus récents.
+var LAST_N_OPTIONS = [0, 25, 50, 100];
+var reviseLastN = 0;
+
+function renderLastChips() {
+  var container = document.getElementById('rev-chips-last');
+  if (!container) return;
+  container.innerHTML = '';
+  LAST_N_OPTIONS.forEach(function(n) {
+    var chip = document.createElement('button');
+    chip.type = 'button';
+    chip.className = 'chip' + (reviseLastN === n ? ' active' : '');
+    chip.textContent = n === 0 ? 'Tous' : String(n);
+    chip.addEventListener('click', function() {
+      reviseLastN = n;
+      renderLastChips();
+      updateRevCount();
+    });
+    container.appendChild(chip);
+  });
+}
+renderLastChips();
+
+// Pool avant la limite « n derniers » (filtres + favoris).
+function reviseFilteredPool() {
   var words = filterVocab(revSel);
   if (reviseFavsOnly()) words = words.filter(isFav);
   return words;
 }
 
+function revisePool() {
+  var words = reviseFilteredPool();
+  if (reviseLastN > 0 && words.length > reviseLastN) words = words.slice(-reviseLastN);
+  return words;
+}
+
 function updateRevCount() {
+  var all  = reviseFilteredPool();
   var pool = revisePool();
   var noun = reviseFavsOnly() ? 'favori(s)' : 'mot(s)';
-  document.getElementById('rev-count').textContent =
-    pool.length + ' ' + noun + ' sélectionné(s)';
+  var txt  = pool.length + ' ' + noun + ' sélectionné(s)';
+  if (pool.length < all.length) txt += ' — les ' + pool.length + ' derniers sur ' + all.length;
+  document.getElementById('rev-count').textContent = txt;
 }
 
 // La case « Favoris seulement » met à jour le compteur en direct.
